@@ -2,9 +2,9 @@
   if (customElements.get('bb-starters-header')) return;
   customElements.define('bb-starters-header', class extends HTMLElement {
     connectedCallback() {
-      const title = this.getAttribute('title') || '';
-      const subtitle = this.getAttribute('subtitle') || '';
-      const label = this.getAttribute('label') || '';
+      const title = this.getAttribute('title') || 'Voor Starters';
+      const subtitle = this.getAttribute('subtitle') || 'Van idee naar je eerste betalende klant';
+      const label = this.getAttribute('label') || 'Startende ondernemers';
       const s = this.attachShadow({mode:'open'});
       s.innerHTML = `
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
