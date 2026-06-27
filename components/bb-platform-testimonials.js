@@ -1,6 +1,6 @@
 (function () {
   if (customElements.get('bb-platform-testimonials')) return;
-  const CDN = 'https://cdn.jsdelivr.net/gh/joerisijstermans/businessbaas-components@main/assets';
+  const CDN = 'https://joerisijstermans.github.io/businessbaas-components/assets';
   class BBPlatformTestimonials extends HTMLElement {
     connectedCallback() {
       const s = this.attachShadow({ mode: 'open' });
