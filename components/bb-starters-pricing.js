@@ -4,7 +4,7 @@
     constructor() { super(); this.attachShadow({ mode: 'open' }); this._yearly = false; }
     connectedCallback() { this.render(); }
     render() {
-      const feats = ['20+ praktische trainingen','AI-coach Nova (24/7)','Slim Ondernemen met AI module','Digitale werkplek','Community & marktplaats','Altijd opzegbaar'];
+      const feats = ['20+ praktische trainingen','AI-coach Nova (24/7)','Slim Ondernemen met AI <span style="font-size:10px;font-weight:700;background:rgba(124,58,237,.18);color:#C4B5FD;padding:2px 8px;border-radius:50px;vertical-align:middle">binnenkort</span>','Digitale werkplek','Community & marktplaats','Altijd opzegbaar'];
       const upsells = ['LIVE events (add-on)','1 op 1 coaching (add-on)'];
       const y = this._yearly;
       this.shadowRoot.innerHTML = `
