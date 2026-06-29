@@ -26,7 +26,6 @@
           .btn-ghost:hover{border-color:#fff;background:rgba(255,255,255,.08)}
           .hero-logos{display:flex;align-items:center;justify-content:center;gap:20px;margin-top:40px;padding-top:32px;border-top:1px solid rgba(255,255,255,.1)}
           .hero-logos span{font-size:12px;color:rgba(255,255,255,.35);font-weight:600;text-transform:uppercase;letter-spacing:.08em}
-          .logo-divider{width:1px;height:20px;background:rgba(255,255,255,.15)}
           .partner-name{font-size:13px;color:rgba(255,255,255,.55);font-weight:600}
 
           /* WHAT-INCLUDED */
@@ -38,7 +37,7 @@
           .feat-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}
           .feat-card{background:#F4F6FA;border-radius:20px;overflow:hidden;transition:transform .25s,box-shadow .25s}
           .feat-card:hover{transform:translateY(-4px);box-shadow:0 12px 36px rgba(13,34,64,.1)}
-          .feat-img{width:100%;height:200px;object-fit:cover;object-position:top;display:block}
+          .feat-img{width:100%;height:260px;object-fit:cover;object-position:top;display:block}
           .feat-body{padding:24px}
           .feat-icon-row{display:flex;align-items:center;gap:10px;margin-bottom:10px}
           .feat-emoji{width:36px;height:36px;border-radius:9px;display:flex;align-items:center;justify-content:center;font-size:1rem;flex-shrink:0}
@@ -87,19 +86,15 @@
         <div class="hero">
           <div class="partner-badge">Onderdeel van Ondernemershub Brunssum</div>
           <h1>Jouw 6 maanden <em>BusinessBaas</em> toegang</h1>
-          <p>Als deelnemer van de Ondernemershub Brunssum is BusinessBaas inbegrepen in jouw traject. Hier werk je alles wat je leert direct uit — in jouw eigen digitale werkplek.</p>
-          <div class="access-pill">✅ <strong>6 maanden toegang inbegrepen</strong> — jouw begeleider kent je licentie toe</div>
+          <p>Als deelnemer van de Ondernemershub Brunssum is BusinessBaas inbegrepen in jouw traject. Hier werk je alles wat je leert direct uit in jouw eigen digitale werkplek.</p>
+          <div class="access-pill">✅ <strong>6 maanden toegang inbegrepen</strong>, jouw begeleider kent je licentie toe</div>
           <div class="hero-btns">
             <a href="https://www.businessbaas.com/het-platform" class="btn-primary">Bekijk het platform →</a>
             <a href="mailto:info@businessbaas.com" class="btn-ghost">Vragen? Neem contact op</a>
           </div>
           <div class="hero-logos">
             <span>Samenwerking</span>
-            <div class="logo-divider"></div>
-            <span class="partner-name">Talent Rocketeers</span>
-            <div class="logo-divider"></div>
             <span class="partner-name">Ondernemershub Brunssum</span>
-            <div class="logo-divider"></div>
             <span class="partner-name">BusinessBaas</span>
           </div>
         </div>
@@ -182,12 +177,12 @@
         <div class="quote-section">
           <div class="quote-inner ob">
             <div class="quote-marks">"</div>
-            <p class="quote-text">Nova voelt als een écht persoon om mee te sparren: ze helpt mijn plannen te structureren en geeft precies de juiste inspiratie wanneer ik vastloop. Bovendien is de prijs-kwaliteitverhouding top: professionele tools, coaching én een actieve community.</p>
+            <p class="quote-text">Die training heeft echt het verschil gemaakt voor mijn bedrijf! Dankzij de praktische en heldere aanpak heb ik mijn niche scherp voor ogen én weet ik hoe ik ze gericht kan aanspreken. Absoluut een aanrader!</p>
             <div class="quote-author">
-              <img class="quote-avatar" src="${CDN}/jorn-prof.jpg" alt="Jorn Gijzen">
+              <img class="quote-avatar" src="${CDN}/loes-prof.png" alt="Loes Kluter">
               <div>
-                <div class="quote-name">Jorn Gijzen</div>
-                <div class="quote-role">Talent Rocketeers · BusinessBaas lid</div>
+                <div class="quote-name">Loes Kluter</div>
+                <div class="quote-role">Kluter Vastgoedpresentatie · BusinessBaas lid</div>
               </div>
             </div>
           </div>
@@ -197,12 +192,12 @@
         <div class="cta">
           <div class="cta-inner ob">
             <h2>Jouw toegang wordt klaargezet</h2>
-            <p>Als deelnemer van de Ondernemershub Brunssum kent jouw begeleider je een BusinessBaas licentie toe. Heb je nog geen toegang ontvangen? Neem contact op met je programmacoördinator of stuur ons een bericht.</p>
+            <p>Interesse in de Ondernemershub Brunssum? Meld je aan via het formulier op de website of neem contact op met jouw coach van Ondernemershub Brunssum.</p>
             <div class="cta-btns">
-              <a href="https://www.businessbaas.com/het-platform" class="cta-btn-w">Bekijk het platform</a>
-              <a href="mailto:info@businessbaas.com" class="cta-btn-g">Neem contact op</a>
+              <a href="https://talentrocketeers.nl/ondernemershub-brunssum/#kennismaken" class="cta-btn-w">Meld je aan</a>
+              <a href="https://www.businessbaas.com/het-platform" class="cta-btn-g">Bekijk het platform</a>
             </div>
-            <p class="cta-note">Toegang wordt toegewezen via Ondernemershub Brunssum · Talent Rocketeers</p>
+            <p class="cta-note">Toegang wordt toegewezen via Ondernemershub Brunssum</p>
           </div>
         </div>`;
 

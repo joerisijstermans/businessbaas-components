@@ -24,7 +24,6 @@
           .btn-ghost:hover{border-color:#fff;background:rgba(255,255,255,.08)}
           .hero-logos{display:flex;align-items:center;justify-content:center;gap:20px;margin-top:40px;padding-top:32px;border-top:1px solid rgba(255,255,255,.1)}
           .hero-logos span{font-size:12px;color:rgba(255,255,255,.35);font-weight:600;text-transform:uppercase;letter-spacing:.08em}
-          .logo-divider{width:1px;height:20px;background:rgba(255,255,255,.15)}
           .partner-name{font-size:13px;color:rgba(255,255,255,.55);font-weight:600}
 
           /* FEATURES */
@@ -36,7 +35,7 @@
           .feat-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}
           .feat-card{background:#fff;border-radius:20px;overflow:hidden;box-shadow:0 4px 20px rgba(13,34,64,.06);transition:transform .25s,box-shadow .25s}
           .feat-card:hover{transform:translateY(-4px);box-shadow:0 12px 36px rgba(13,34,64,.1)}
-          .feat-img{width:100%;height:200px;object-fit:cover;object-position:top;display:block}
+          .feat-img{width:100%;height:260px;object-fit:cover;object-position:top;display:block}
           .feat-body{padding:24px}
           .feat-icon-row{display:flex;align-items:center;gap:10px;margin-bottom:10px}
           .feat-emoji{width:36px;height:36px;border-radius:9px;display:flex;align-items:center;justify-content:center;font-size:1rem;flex-shrink:0}
@@ -82,9 +81,7 @@
           </div>
           <div class="hero-logos">
             <span>In samenwerking met</span>
-            <div class="logo-divider"></div>
             <span class="partner-name">Starterscentrum Limburg</span>
-            <div class="logo-divider"></div>
             <span class="partner-name">BusinessBaas</span>
           </div>
         </div>
@@ -94,7 +91,7 @@
           <div class="inner">
             <div class="section-label ob">Wat je krijgt</div>
             <h2 class="section-title ob">Alles wat je nodig hebt als starter</h2>
-            <p class="section-sub ob">BusinessBaas combineert praktische trainingen, een digitale werkplek, AI-coach Nova en een actieve community — op één plek.</p>
+            <p class="section-sub ob">BusinessBaas combineert praktische trainingen, een digitale werkplek, AI-coach Nova en een actieve community op één plek.</p>
             <div class="feat-grid ob">
               <div class="feat-card">
                 <img class="feat-img" src="${CDN}/training-afbeelding.png" alt="Trainingen">
@@ -117,7 +114,7 @@
                 <div class="feat-body">
                   <div class="feat-icon-row"><div class="feat-emoji" style="background:#F5F3FF">🤖</div><span class="feat-name" style="color:#8B5CF6">AI-Coach Nova</span></div>
                   <h3>Persoonlijke coaching, 24/7 beschikbaar</h3>
-                  <p>Nova kent jóuw situatie en traject. Geen generiek advies, maar begeleiding op maat — ook 's avonds en in het weekend.</p>
+                  <p>Nova kent jóuw situatie en traject. Geen generiek advies, maar begeleiding op maat, ook 's avonds en in het weekend.</p>
                 </div>
               </div>
               <div class="feat-card">
@@ -151,10 +148,10 @@
         <div class="cta">
           <div class="cta-inner ob">
             <h2>Klaar om te beginnen?</h2>
-            <p>Jouw begeleider bij Starterscentrum Limburg kent je een BusinessBaas licentie toe. Neem contact op met jouw begeleider of stuur ons een bericht voor meer informatie.</p>
+            <p>Jouw begeleider bij Starterscentrum Limburg kent je een BusinessBaas licentie toe. Neem contact op met jouw begeleider of stuur een e-mail naar info@starterscentrum.nl voor meer informatie.</p>
             <div class="cta-btns">
               <a href="https://www.businessbaas.com/het-platform" class="cta-btn-w">Bekijk het platform</a>
-              <a href="mailto:info@businessbaas.com" class="cta-btn-g">Neem contact op</a>
+              <a href="mailto:info@starterscentrum.nl" class="cta-btn-g">Mail Starterscentrum Limburg</a>
             </div>
             <p class="cta-note">Toegang wordt toegewezen door Starterscentrum Limburg</p>
           </div>

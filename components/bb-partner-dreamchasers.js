@@ -24,7 +24,6 @@
           .btn-ghost:hover{border-color:#fff;background:rgba(255,255,255,.08)}
           .hero-logos{display:flex;align-items:center;justify-content:center;gap:20px;margin-top:40px;padding-top:32px;border-top:1px solid rgba(255,255,255,.1)}
           .hero-logos span{font-size:12px;color:rgba(255,255,255,.35);font-weight:600;text-transform:uppercase;letter-spacing:.08em}
-          .logo-divider{width:1px;height:20px;background:rgba(255,255,255,.15)}
           .partner-name{font-size:13px;color:rgba(255,255,255,.55);font-weight:600}
 
           /* INTRO */
@@ -48,7 +47,7 @@
           .feat-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}
           .feat-card{background:#fff;border-radius:20px;overflow:hidden;box-shadow:0 4px 20px rgba(13,34,64,.06);transition:transform .25s,box-shadow .25s}
           .feat-card:hover{transform:translateY(-4px);box-shadow:0 12px 36px rgba(13,34,64,.1)}
-          .feat-img{width:100%;height:200px;object-fit:cover;object-position:top;display:block}
+          .feat-img{width:100%;height:260px;object-fit:cover;object-position:top;display:block}
           .feat-body{padding:24px}
           .feat-icon-row{display:flex;align-items:center;gap:10px;margin-bottom:10px}
           .feat-emoji{width:36px;height:36px;border-radius:9px;display:flex;align-items:center;justify-content:center;font-size:1rem;flex-shrink:0}
@@ -94,11 +93,8 @@
           </div>
           <div class="hero-logos">
             <span>In samenwerking met</span>
-            <div class="logo-divider"></div>
             <span class="partner-name">Stichting Dreamchasers</span>
-            <div class="logo-divider"></div>
             <span class="partner-name">Huis van de Toekomst Heerlen</span>
-            <div class="logo-divider"></div>
             <span class="partner-name">BusinessBaas</span>
           </div>
         </div>
@@ -109,7 +105,7 @@
             <div>
               <div class="intro-label ob">Waarom BusinessBaas</div>
               <h2 class="ob">De tools die jouw idee omzetten in een echt bedrijf</h2>
-              <p class="ob">Bij Dreamchasers en Huis van de Toekomst draait het om lef, actie en dromen die werkelijkheid worden. BusinessBaas is de digitale ruggengraat die daarbij hoort — praktisch, betaalbaar en altijd beschikbaar.</p>
+              <p class="ob">Bij Dreamchasers en Huis van de Toekomst draait het om lef, actie en dromen die werkelijkheid worden. BusinessBaas is de digitale ruggengraat die daarbij hoort: praktisch, betaalbaar en altijd beschikbaar.</p>
               <ul class="checklist ob">
                 <li>Van idee naar een helder aanbod, stap voor stap</li>
                 <li>AI-coach Nova die jou begeleidt als je vastloopt</li>
@@ -183,7 +179,7 @@
         <div class="cta">
           <div class="cta-inner ob">
             <h2>De deur naar jouw toekomst staat open</h2>
-            <p>Begin vandaag gratis. Geen creditcard, geen verplichtingen — gewoon starten en zien hoe ver je komt.</p>
+            <p>Meld je gratis aan via de BusinessBaas website. Geen creditcard, geen verplichtingen. Gewoon starten en zien hoe ver je komt.</p>
             <div class="cta-btns">
               <a href="https://www.businessbaas.com/voor-starters" class="cta-btn-w">Start gratis training</a>
               <a href="https://www.businessbaas.com/het-platform" class="cta-btn-g">Bekijk het platform</a>
