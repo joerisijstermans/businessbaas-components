@@ -38,7 +38,7 @@
           .feat-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}
           .feat-card{background:#F4F6FA;border-radius:20px;overflow:hidden;transition:transform .25s,box-shadow .25s}
           .feat-card:hover{transform:translateY(-4px);box-shadow:0 12px 36px rgba(13,34,64,.1)}
-          .feat-img{width:100%;height:200px;object-fit:cover;display:block}
+          .feat-img{width:100%;height:200px;object-fit:cover;object-position:top;display:block}
           .feat-body{padding:24px}
           .feat-icon-row{display:flex;align-items:center;gap:10px;margin-bottom:10px}
           .feat-emoji{width:36px;height:36px;border-radius:9px;display:flex;align-items:center;justify-content:center;font-size:1rem;flex-shrink:0}
@@ -88,10 +88,10 @@
           <div class="partner-badge">Onderdeel van Ondernemershub Brunssum</div>
           <h1>Jouw 6 maanden <em>BusinessBaas</em> toegang</h1>
           <p>Als deelnemer van de Ondernemershub Brunssum is BusinessBaas inbegrepen in jouw traject. Hier werk je alles wat je leert direct uit — in jouw eigen digitale werkplek.</p>
-          <div class="access-pill">✅ <strong>6 maanden toegang inbegrepen</strong> in jouw Ondernemershub Brunssum programma</div>
+          <div class="access-pill">✅ <strong>6 maanden toegang inbegrepen</strong> — jouw begeleider kent je licentie toe</div>
           <div class="hero-btns">
-            <a href="https://www.businessbaas.com/voor-starters" class="btn-primary">Activeer je toegang →</a>
-            <a href="https://www.businessbaas.com/het-platform" class="btn-ghost">Bekijk het platform</a>
+            <a href="https://www.businessbaas.com/het-platform" class="btn-primary">Bekijk het platform →</a>
+            <a href="mailto:info@businessbaas.com" class="btn-ghost">Vragen? Neem contact op</a>
           </div>
           <div class="hero-logos">
             <span>Samenwerking</span>
@@ -196,13 +196,13 @@
         <!-- CTA -->
         <div class="cta">
           <div class="cta-inner ob">
-            <h2>Activeer je toegang vandaag</h2>
-            <p>Als deelnemer van de Ondernemershub Brunssum is BusinessBaas inbegrepen. Activeer je toegang en ga direct aan de slag.</p>
+            <h2>Jouw toegang wordt klaargezet</h2>
+            <p>Als deelnemer van de Ondernemershub Brunssum kent jouw begeleider je een BusinessBaas licentie toe. Heb je nog geen toegang ontvangen? Neem contact op met je programmacoördinator of stuur ons een bericht.</p>
             <div class="cta-btns">
-              <a href="https://www.businessbaas.com/voor-starters" class="cta-btn-w">Activeer je toegang</a>
-              <a href="https://www.businessbaas.com/contact" class="cta-btn-g">Neem contact op</a>
+              <a href="https://www.businessbaas.com/het-platform" class="cta-btn-w">Bekijk het platform</a>
+              <a href="mailto:info@businessbaas.com" class="cta-btn-g">Neem contact op</a>
             </div>
-            <p class="cta-note">Onderdeel van Ondernemershub Brunssum · Talent Rocketeers</p>
+            <p class="cta-note">Toegang wordt toegewezen via Ondernemershub Brunssum · Talent Rocketeers</p>
           </div>
         </div>`;
 

@@ -48,7 +48,7 @@
           .feat-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}
           .feat-card{background:#fff;border-radius:20px;overflow:hidden;box-shadow:0 4px 20px rgba(13,34,64,.06);transition:transform .25s,box-shadow .25s}
           .feat-card:hover{transform:translateY(-4px);box-shadow:0 12px 36px rgba(13,34,64,.1)}
-          .feat-img{width:100%;height:200px;object-fit:cover;display:block}
+          .feat-img{width:100%;height:200px;object-fit:cover;object-position:top;display:block}
           .feat-body{padding:24px}
           .feat-icon-row{display:flex;align-items:center;gap:10px;margin-bottom:10px}
           .feat-emoji{width:36px;height:36px;border-radius:9px;display:flex;align-items:center;justify-content:center;font-size:1rem;flex-shrink:0}

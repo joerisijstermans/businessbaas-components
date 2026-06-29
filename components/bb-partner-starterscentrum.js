@@ -36,7 +36,7 @@
           .feat-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}
           .feat-card{background:#fff;border-radius:20px;overflow:hidden;box-shadow:0 4px 20px rgba(13,34,64,.06);transition:transform .25s,box-shadow .25s}
           .feat-card:hover{transform:translateY(-4px);box-shadow:0 12px 36px rgba(13,34,64,.1)}
-          .feat-img{width:100%;height:200px;object-fit:cover;display:block}
+          .feat-img{width:100%;height:200px;object-fit:cover;object-position:top;display:block}
           .feat-body{padding:24px}
           .feat-icon-row{display:flex;align-items:center;gap:10px;margin-bottom:10px}
           .feat-emoji{width:36px;height:36px;border-radius:9px;display:flex;align-items:center;justify-content:center;font-size:1rem;flex-shrink:0}
@@ -75,10 +75,10 @@
         <div class="hero">
           <div class="partner-badge">Exclusief voor Starterscentrum Limburg deelnemers</div>
           <h1>Jouw digitale ondernemerscoach, <em>altijd bij de hand</em></h1>
-          <p>Als deelnemer van Starterscentrum Limburg krijg je toegang tot BusinessBaas — het complete platform dat je van idee naar eerste betalende klant brengt.</p>
+          <p>Als deelnemer van Starterscentrum Limburg krijg je van jouw begeleider toegang tot BusinessBaas — het complete platform dat je van idee naar eerste betalende klant brengt.</p>
           <div class="hero-btns">
-            <a href="https://www.businessbaas.com/voor-starters" class="btn-primary">Start gratis →</a>
-            <a href="https://www.businessbaas.com/het-platform" class="btn-ghost">Bekijk het platform</a>
+            <a href="https://www.businessbaas.com/het-platform" class="btn-primary">Bekijk het platform →</a>
+            <a href="mailto:info@businessbaas.com" class="btn-ghost">Vragen? Neem contact op</a>
           </div>
           <div class="hero-logos">
             <span>In samenwerking met</span>
@@ -151,12 +151,12 @@
         <div class="cta">
           <div class="cta-inner ob">
             <h2>Klaar om te beginnen?</h2>
-            <p>Start vandaag gratis en ontdek hoe BusinessBaas jou van idee naar eerste klant brengt. Geen creditcard nodig.</p>
+            <p>Jouw begeleider bij Starterscentrum Limburg kent je een BusinessBaas licentie toe. Neem contact op met jouw begeleider of stuur ons een bericht voor meer informatie.</p>
             <div class="cta-btns">
-              <a href="https://www.businessbaas.com/voor-starters" class="cta-btn-w">Start gratis training</a>
-              <a href="https://www.businessbaas.com/het-platform" class="cta-btn-g">Bekijk het platform</a>
+              <a href="https://www.businessbaas.com/het-platform" class="cta-btn-w">Bekijk het platform</a>
+              <a href="mailto:info@businessbaas.com" class="cta-btn-g">Neem contact op</a>
             </div>
-            <p class="cta-note">Speciaal aangeboden via Starterscentrum Limburg</p>
+            <p class="cta-note">Toegang wordt toegewezen door Starterscentrum Limburg</p>
           </div>
         </div>`;
 
