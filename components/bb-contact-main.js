@@ -21,8 +21,7 @@
           textarea{resize:vertical;min-height:130px}
           .btn{width:100%;padding:15px;background:var(--orange);color:#fff;font-size:15.5px;font-weight:700;border-radius:50px;border:none;cursor:pointer;font-family:var(--font);transition:background .22s,transform .22s,box-shadow .22s;margin-top:8px}
           .btn:hover{background:#CC4D00;transform:translateY(-2px);box-shadow:0 10px 28px rgba(232,93,4,.36)}
-          .note{text-align:center;font-size:13px;color:#9CA3AF;margin-top:12px}
-          .success{display:none;text-align:center;padding:40px 20px}
+.success{display:none;text-align:center;padding:40px 20px}
           .success h3{font-size:22px;font-weight:800;color:var(--navy);margin-bottom:10px}
           .success p{font-size:15px;color:#5A6780;line-height:1.65}
           .success .ico{font-size:48px;margin-bottom:16px}
@@ -67,7 +66,6 @@
                 </div>
                 <div class="field"><label for="msg">Bericht</label><textarea id="msg" placeholder="Wat wil je weten of delen?" required></textarea></div>
                 <button type="submit" class="btn">Verstuur bericht</button>
-                <p class="note">✓ We reageren binnen 1 werkdag</p>
               </form>
               <div class="success" id="success">
                 <div class="ico">✅</div>
