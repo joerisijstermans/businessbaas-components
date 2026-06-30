@@ -24,7 +24,7 @@
         <section class="final">
           <div class="final-inner">
             <h2 class="ob">Klaar om te beginnen?<br><em>Start vandaag gratis.</em></h2>
-            <p class="ob">Honderden starters gingen je voor. De volgende stap is simpel: klik op de knop en begin direct met de gratis training. Geen excuses meer — de tijd is nu.</p>
+            <p class="ob">Tientallen starters gingen je voor. De volgende stap is simpel: klik op de knop en begin direct met de gratis training. Geen excuses meer — de tijd is nu.</p>
             <a href="https://www.businessbaas.com/voor-starters" class="final-cta ob">
               Start gratis training
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M4 10H16M16 10L11 5M16 10L11 15" stroke="white" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
