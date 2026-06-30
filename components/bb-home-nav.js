@@ -34,29 +34,29 @@
           @media (max-width: 960px) { nav { padding: 0 20px; height: 64px; } .links, .cta { display: none; } .burger { display: flex; } }
         </style>
         <nav id="nav">
-          <a class="logo" href="/">
+          <a class="logo" href="index.html">
             <svg width="34" height="34" viewBox="0 0 34 34" fill="none"><rect width="34" height="34" rx="8" fill="#0D2240"/><rect x="6" y="19" width="9" height="9" rx="2" fill="#E85D04"/><rect x="19" y="10" width="9" height="18" rx="2" fill="#E85D04" opacity="0.62"/></svg>
             <span class="logo-text">Business<em>Baas</em></span>
           </a>
           <ul class="links">
-            <li><a href="/" class="active">Home</a></li>
-            <li><a href="/voor-starters">Voor Starters</a></li>
-            <li><a href="/voor-partners">Voor Partners</a></li>
-            <li><a href="/het-platform">Het Platform</a></li>
-            <li><a href="/over-ons">Over Ons</a></li>
-            <li><a href="/contact">Contact</a></li>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="starters.html">Voor Starters</a></li>
+            <li><a href="partners.html">Voor Partners</a></li>
+            <li><a href="platform.html">Het Platform</a></li>
+            <li><a href="over-ons.html">Over Ons</a></li>
+            <li><a href="contact.html">Contact</a></li>
           </ul>
-          <a href="/voor-starters" class="cta">Gratis training <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2.5 7H11.5M11.5 7L8 3.5M11.5 7L8 10.5" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          <a href="starters.html" class="cta">Gratis training <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2.5 7H11.5M11.5 7L8 3.5M11.5 7L8 10.5" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
           <button class="burger" id="burger" aria-label="Menu openen"><span></span><span></span><span></span></button>
         </nav>
         <div class="mobile" id="mobile">
-          <a href="/">Home</a>
-          <a href="/voor-starters">Voor Starters</a>
-          <a href="/voor-partners">Voor Partners</a>
-          <a href="/het-platform">Het Platform</a>
-          <a href="/over-ons">Over Ons</a>
-          <a href="/contact">Contact</a>
-          <a href="/voor-starters" class="mob-cta">Gratis training starten →</a>
+          <a href="index.html">Home</a>
+          <a href="starters.html">Voor Starters</a>
+          <a href="partners.html">Voor Partners</a>
+          <a href="platform.html">Het Platform</a>
+          <a href="over-ons.html">Over Ons</a>
+          <a href="contact.html">Contact</a>
+          <a href="starters.html" class="mob-cta">Gratis training starten →</a>
         </div>`;
     }
     _bind() {

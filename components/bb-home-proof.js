@@ -5,17 +5,17 @@
     constructor() { super(); this.attachShadow({ mode: 'open' }); this._cur = 0; }
     connectedCallback() {
       this._t = [
-        { name:'Juurd Beijer', company:'Juurd Beijer Fotografie', quote:'Het heeft mij heel erg uit de comfort zone getrokken om daadwerkelijk nieuwe stappen te zetten. Tijdens het live event heb ik nieuwe mensen ontmoet, contacten gelegd en zelfs een nieuwe klant ontmoet! Kan ik BusinessBaas alleen maar aanraden.', result:'Nieuwe klant via live event', av:`${CDN}/juurd-prof.jpg` },
-        { name:'Sandra Klein', company:'Sandra-Coacht', quote:'Wat een energie en inspiratie op het Businessbaas Live Event! Ik werd getriggerd om in mijn pitch mijn unieke \'ik\' nog duidelijker te laten zien. Grote complimenten aan Joeri en het hele team — ga zo door!', result:'Finalist Limburg Award 2025', av:`${CDN}/sandra-prof.jpg` },
-        { name:'Joyce Bekkers', company:'Kindercoach The Joy', quote:'Het brengt mij meer zelfvertrouwen en zekerheid in mijn startende bedrijf. Met focus en stapsgewijs door de trainingen gaan krijg je meer gevoel dat je bedrijf tot leven komt. Geweldig en een echte aanrader!', result:'Meer zelfvertrouwen als ondernemer', av:`${CDN}/joyce-prof.jpg` },
-        { name:'Stan Vreuls', company:'21x', quote:'Van het uitwerken van je idee tot het binnenhalen van je eerste klanten, je staat er niet alleen voor. Echt een stevige basis om mee te starten!', result:'Stevige basis voor zijn nieuwe bedrijf', av:`${CDN}/stan-prof.jpg` },
-        { name:'Stephan Janssen', company:'Stephan Media', quote:'Via Businessbaas heb ik een goed framework gekregen om mijn onderneming een goede start te geven. De community is iets waar ik veel extra waarde uit haal door met lokale ondernemers te kunnen sparren over problemen waar we tegenaan lopen.', result:'Framework én actieve community', av:`${CDN}/stephan-prof.png` },
-        { name:'Shauna Mols', company:'Mols marketing', quote:'Dankzij BusinessBaas heb ik niet alleen mijn bedrijf vormgegeven, maar ook mezelf opnieuw leren kennen als ondernemer. Dé investering voor elke starter die méér wil dan alleen een goed businessplan.', result:'Stevige basis voor bedrijf én zichzelf', av:`${CDN}/shauna-prof.jpg` },
-        { name:'Jorn Gijzen', company:'Talent Rocketeers', quote:'Nova voelt als een écht persoon om mee te sparren: ze helpt mijn plannen te structureren en geeft precies de juiste inspiratie wanneer ik vastloop. Bovendien is de prijs-kwaliteitverhouding top: professionele tools, coaching én een actieve community.', result:'Stap voor stap opgestart in eigen tempo', av:`${CDN}/jorn-prof.jpg` },
-        { name:'Katharina März', company:'Katharinazorg', quote:'Stap voor stap ga je aan het werk, niets wordt overgeslagen. Joeri kijkt persoonlijk met je mee en je krijgt advies en een fijne uitleg hoe je dingen kan aanpakken. Echt een aanrader voor persoonlijke ontwikkeling en groei!', result:'Persoonlijk advies op maat', av:`${CDN}/katharina-prof.jpg` },
-        { name:'Gijs Kohlen', company:'CitralStudios', quote:'Dankzij BusinessBaas heb ik mijn ondernemersmindset echt kunnen aanscherpen. Het heeft me geholpen om niet alleen naar de groei van mijn bedrijf te kijken, maar ook naar mijn eigen ontwikkeling als ondernemer. Een waardevolle investering die je echt in beweging brengt.', result:'Ondernemersmindset aangescherpt', av:`${CDN}/gijs-prof.jpg` },
-        { name:'Loes Kluter', company:'Kluter Vastgoedpresentatie', quote:'Die training heeft echt het verschil gemaakt voor mijn bedrijf! Dankzij de praktische en heldere aanpak heb ik mijn niche scherp voor ogen én weet ik hoe ik ze gericht kan aanspreken. Absoluut een aanrader!', result:'Niche scherp en gericht aanpakken', av:`${CDN}/loes-prof.png` },
-        { name:'Inge Höper', company:'Kommeshier', quote:'Het baken bij het starten van een bedrijf! Een duidelijke weg, stap voor stap, en helder advies als het even niet zo gaat als je graag zou willen.', result:'Duidelijke weg, stap voor stap', av:`${CDN}/inge-prof.png` },
+        { name:'Juurd Beijer', company:'Juurd Beijer Fotografie', quote:'Het heeft mij heel erg uit de comfort zone getrokken om daadwerkelijk nieuwe stappen te zetten. Tijdens het live event heb ik nieuwe mensen ontmoet, contacten gelegd en zelfs een nieuwe klant ontmoet! Kan ik BusinessBaas alleen maar aanraden.', result:'Nieuwe klant via live event', av:`${CDN}/juurd-prof.jpg`, highlight:'een nieuwe klant ontmoet' },
+        { name:'Sandra Klein', company:'Sandra-Coacht', quote:'Wat een energie en inspiratie op het Businessbaas Live Event! Ik werd getriggerd om in mijn pitch mijn unieke \'ik\' nog duidelijker te laten zien. Grote complimenten aan Joeri en het hele team — ga zo door!', result:'Finalist Limburg Award 2025', av:`${CDN}/sandra-prof.jpg`, highlight:"mijn unieke 'ik' nog duidelijker" },
+        { name:'Joyce Bekkers', company:'Kindercoach The Joy', quote:'Het brengt mij meer zelfvertrouwen en zekerheid in mijn startende bedrijf. Met focus en stapsgewijs door de trainingen gaan krijg je meer gevoel dat je bedrijf tot leven komt. Geweldig en een echte aanrader!', result:'Meer zelfvertrouwen als ondernemer', av:`${CDN}/joyce-prof.jpg`, highlight:'meer zelfvertrouwen en zekerheid' },
+        { name:'Stan Vreuls', company:'21x', quote:'Van het uitwerken van je idee tot het binnenhalen van je eerste klanten, je staat er niet alleen voor. Echt een stevige basis om mee te starten!', result:'Stevige basis voor zijn nieuwe bedrijf', av:`${CDN}/stan-prof.jpg`, highlight:'eerste klanten' },
+        { name:'Stephan Janssen', company:'Stephan Media', quote:'Via Businessbaas heb ik een goed framework gekregen om mijn onderneming een goede start te geven. De community is iets waar ik veel extra waarde uit haal door met lokale ondernemers te kunnen sparren over problemen waar we tegenaan lopen.', result:'Framework én actieve community', av:`${CDN}/stephan-prof.png`, highlight:'veel extra waarde' },
+        { name:'Shauna Mols', company:'Mols marketing', quote:'Dankzij BusinessBaas heb ik niet alleen mijn bedrijf vormgegeven, maar ook mezelf opnieuw leren kennen als ondernemer. Dé investering voor elke starter die méér wil dan alleen een goed businessplan.', result:'Stevige basis voor bedrijf én zichzelf', av:`${CDN}/shauna-prof.jpg`, highlight:'Dé investering voor elke starter' },
+        { name:'Jorn Gijzen', company:'Talent Rocketeers', quote:'Nova voelt als een écht persoon om mee te sparren: ze helpt mijn plannen te structureren en geeft precies de juiste inspiratie wanneer ik vastloop. Bovendien is de prijs-kwaliteitverhouding top: professionele tools, coaching én een actieve community.', result:'Stap voor stap opgestart in eigen tempo', av:`${CDN}/jorn-prof.jpg`, highlight:'prijs-kwaliteitverhouding top' },
+        { name:'Katharina März', company:'Katharinazorg', quote:'Stap voor stap ga je aan het werk, niets wordt overgeslagen. Joeri kijkt persoonlijk met je mee en je krijgt advies en een fijne uitleg hoe je dingen kan aanpakken. Echt een aanrader voor persoonlijke ontwikkeling en groei!', result:'Persoonlijk advies op maat', av:`${CDN}/katharina-prof.jpg`, highlight:'Joeri kijkt persoonlijk met je mee' },
+        { name:'Gijs Kohlen', company:'CitralStudios', quote:'Dankzij BusinessBaas heb ik mijn ondernemersmindset echt kunnen aanscherpen. Het heeft me geholpen om niet alleen naar de groei van mijn bedrijf te kijken, maar ook naar mijn eigen ontwikkeling als ondernemer. Een waardevolle investering die je echt in beweging brengt.', result:'Ondernemersmindset aangescherpt', av:`${CDN}/gijs-prof.jpg`, highlight:'ondernemersmindset echt kunnen aanscherpen' },
+        { name:'Loes Kluter', company:'Kluter Vastgoedpresentatie', quote:'Die training heeft echt het verschil gemaakt voor mijn bedrijf! Dankzij de praktische en heldere aanpak heb ik mijn niche scherp voor ogen én weet ik hoe ik ze gericht kan aanspreken. Absoluut een aanrader!', result:'Niche scherp en gericht aanpakken', av:`${CDN}/loes-prof.png`, highlight:'het verschil gemaakt voor mijn bedrijf' },
+        { name:'Inge Höper', company:'Kommeshier', quote:'Het baken bij het starten van een bedrijf! Een duidelijke weg, stap voor stap, en helder advies als het even niet zo gaat als je graag zou willen.', result:'Duidelijke weg, stap voor stap', av:`${CDN}/inge-prof.png`, highlight:'stap voor stap' },
       ];
       this._n = this._t.length;
       this.render();
@@ -102,6 +102,8 @@
           .sb:hover{background:#CC4D00;transform:translateY(-2px);box-shadow:0 8px 26px rgba(232,93,4,.35);}
           .ob{opacity:0;transform:translateY(22px);transition:opacity .65s ease,transform .65s ease;}
           .ob.show{opacity:1;transform:translateY(0);}
+          mark.hl{background:transparent;color:inherit;border-radius:3px;padding:1px 3px;transition:background .8s ease}
+          .card.hl-ready mark.hl{background:rgba(232,93,4,.18);transition-delay:.4s}
           @media(max-width:960px){section{padding:64px 20px;}.card{flex:0 0 calc((100% - 20px) / 2);}}
           @media(max-width:580px){.card{flex:0 0 100%;}.stats{grid-template-columns:1fr 1fr;}}
           @media(max-width:480px){.stats{grid-template-columns:1fr;}}
@@ -120,8 +122,12 @@
             </div>
             <div class="slider-area ob">
               <div class="track">
-                ${t.map(s => `<div class="card">
-                  <blockquote>${s.quote}</blockquote>
+                ${t.map(s => {
+                  const markedQuote = s.highlight
+                    ? s.quote.replace(s.highlight, `<mark class="hl">${s.highlight}</mark>`)
+                    : s.quote;
+                  return `<div class="card">
+                  <blockquote>${markedQuote}</blockquote>
                   <div>
                     <div class="person">
                       <img src="${s.av}" alt="${s.name}">
@@ -129,7 +135,8 @@
                     </div>
                     <div class="res-tag">✓ ${s.result}</div>
                   </div>
-                </div>`).join('')}
+                </div>`;
+                }).join('')}
               </div>
             </div>
             <div class="nav-row ob">
@@ -138,10 +145,10 @@
               <button class="arr next-btn" aria-label="Volgende"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M7 4L12 9L7 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
             </div>
             <div class="stats">
-              <div class="sc"><div class="sn">25<span>+</span></div><div class="sl2">Actieve leden</div></div>
-              <div class="sc" style="transition-delay:.1s"><div class="sn"><span>€</span>2,30</div><div class="sl2">Per dag coaching</div></div>
-              <div class="sc" style="transition-delay:.2s"><div class="sn">90</div><div class="sl2">Dagen programma</div></div>
-              <div class="sc" style="transition-delay:.3s"><div class="sn">4.9<span>★</span></div><div class="sl2">Google beoordeling</div></div>
+              <div class="sc" data-target="25" data-suffix="+" data-decimals="0"><div class="sn">0<span>+</span></div><div class="sl2">Actieve leden</div></div>
+              <div class="sc" style="transition-delay:.1s" data-target="2.3" data-prefix="€" data-decimals="2"><div class="sn"><span>€</span>0,00</div><div class="sl2">Per dag coaching</div></div>
+              <div class="sc" style="transition-delay:.2s" data-target="90" data-suffix="" data-decimals="0"><div class="sn">0</div><div class="sl2">Dagen programma</div></div>
+              <div class="sc" style="transition-delay:.3s" data-target="4.9" data-suffix="★" data-decimals="1"><div class="sn">0<span>★</span></div><div class="sl2">Google beoordeling</div></div>
             </div>
             <div class="cs ob">
               <p>Jij kunt het volgende <em>succesverhaal</em> zijn</p>
@@ -164,6 +171,50 @@
     _obs() {
       const o = new IntersectionObserver((es) => es.forEach(e => { if (e.isIntersecting) { setTimeout(() => e.target.classList.add('show'), 60); o.unobserve(e.target); } }), { threshold: 0.08 });
       this.shadowRoot.querySelectorAll('.ob,.sc').forEach(el => o.observe(el));
+
+      const sr = this.shadowRoot;
+      const statEls = sr.querySelectorAll('.sc[data-target]');
+      const statObs = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (!entry.isIntersecting) return;
+          statObs.unobserve(entry.target);
+          const el = entry.target;
+          const target = parseFloat(el.dataset.target);
+          const decimals = parseInt(el.dataset.decimals || '0');
+          const prefix = el.dataset.prefix || '';
+          const suffix = el.dataset.suffix || '';
+          const sn = el.querySelector('.sn');
+          if (!sn) return;
+          const dur = 1400;
+          const start = performance.now();
+          (function tick(now) {
+            const p = Math.min((now - start) / dur, 1);
+            const eased = 1 - Math.pow(1 - p, 3);
+            const val = eased * target;
+            const formatted = decimals ? val.toFixed(decimals).replace('.', ',') : Math.floor(val);
+            if (prefix) sn.innerHTML = `<span>${prefix}</span>${formatted}`;
+            else if (suffix) sn.innerHTML = `${formatted}<span>${suffix}</span>`;
+            else sn.textContent = formatted;
+            if (p < 1) requestAnimationFrame(tick);
+          })(performance.now());
+        });
+      }, { threshold: 0.5 });
+      statEls.forEach(el => statObs.observe(el));
+
+      const sliderArea = sr.querySelector('.slider-area');
+      if (sliderArea) {
+        const hlObs = new IntersectionObserver((entries) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              hlObs.unobserve(entry.target);
+              setTimeout(() => {
+                sr.querySelectorAll('.card').forEach(c => c.classList.add('hl-ready'));
+              }, 600);
+            }
+          });
+        }, { threshold: 0.1 });
+        hlObs.observe(sliderArea);
+      }
     }
   }
   customElements.define('bb-home-proof', BBHomeProof);

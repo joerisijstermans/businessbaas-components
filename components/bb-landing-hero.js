@@ -53,11 +53,35 @@
                 <img src="${CDN}/stan-prof.jpg" alt="Stan">
                 <img src="${CDN}/stephan-prof.png" alt="Stephan">
               </div>
-              <div class="strip-text"><strong>25+ starters</strong> gingen je voor<br>Gemiddeld <strong>4.9/5</strong> op Google Reviews</div>
+              <div class="strip-text">
+                <strong><span id="cnt-starters">25</span>+ starters</strong> gingen je voor<br>
+                Gemiddeld <strong><span id="cnt-rating">4.9</span>/5</strong> op Google Reviews
+              </div>
             </div>
           </div>
         </section>`;
-      const obs = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('show'); obs.unobserve(e.target); } }), { threshold: 0.08 });
+
+      function animateCount(el, target, decimals, duration) {
+        if (!el) return;
+        const start = performance.now();
+        (function tick(now) {
+          const p = Math.min((now - start) / duration, 1);
+          const eased = 1 - Math.pow(1 - p, 3);
+          el.textContent = decimals ? (eased * target).toFixed(decimals) : Math.floor(eased * target);
+          if (p < 1) requestAnimationFrame(tick);
+        })(performance.now());
+      }
+
+      const obs = new IntersectionObserver(es => es.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add('show');
+          obs.unobserve(e.target);
+          if (e.target.classList.contains('avatar-strip')) {
+            animateCount(s.getElementById('cnt-starters'), 25, 0, 1400);
+            animateCount(s.getElementById('cnt-rating'), 4.9, 1, 1600);
+          }
+        }
+      }), { threshold: 0.08 });
       s.querySelectorAll('.ob').forEach(el => obs.observe(el));
     }
   }

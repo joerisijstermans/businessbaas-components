@@ -13,6 +13,8 @@
           img{display:block;max-width:100%}
           .ob{opacity:0;transform:translateY(22px);transition:opacity .6s ease,transform .6s ease}
           .ob.show{opacity:1;transform:none}
+          mark.hl{background:transparent;color:inherit;border-radius:3px;padding:1px 3px;transition:background .8s ease}
+          .p-card.ob.show mark.hl{background:rgba(232,93,4,.22);transition-delay:.5s}
 
           /* FEATURES */
           .features{padding:0 24px 80px;background:#F4F6FA}
@@ -85,17 +87,17 @@
             <div class="proof-grid">
               <div class="p-card ob">
                 <div class="p-stars">★★★★★</div>
-                <p class="p-quote">"Echt een stevige basis om mee te starten. Je staat er niet alleen voor."</p>
+                <p class="p-quote">"Echt een stevige basis om mee te starten. <mark class="hl">je staat er niet alleen voor</mark>."</p>
                 <div class="p-person"><img src="${CDN}/stan-prof.jpg" alt="Stan Vreuls"><div><div class="p-name">Stan Vreuls</div><div class="p-role">21x</div></div></div>
               </div>
               <div class="p-card ob" style="transition-delay:.08s">
                 <div class="p-stars">★★★★★</div>
-                <p class="p-quote">"Nova voelt als een écht persoon om mee te sparren. Prijs-kwaliteitverhouding is top."</p>
+                <p class="p-quote">"Nova voelt als een écht persoon om mee te sparren. <mark class="hl">prijs-kwaliteitverhouding is top</mark>."</p>
                 <div class="p-person"><img src="${CDN}/jorn-prof.jpg" alt="Jorn Gijzen"><div><div class="p-name">Jorn Gijzen</div><div class="p-role">Talent Rocketeers</div></div></div>
               </div>
               <div class="p-card ob" style="transition-delay:.16s">
                 <div class="p-stars">★★★★★</div>
-                <p class="p-quote">"Meer zelfvertrouwen en zekerheid. Stapsgewijs werken geeft het gevoel dat je bedrijf tot leven komt."</p>
+                <p class="p-quote">"<mark class="hl">meer zelfvertrouwen en zekerheid</mark>. Stapsgewijs werken geeft het gevoel dat je bedrijf tot leven komt."</p>
                 <div class="p-person"><img src="${CDN}/joyce-prof.jpg" alt="Joyce Bekkers"><div><div class="p-name">Joyce Bekkers</div><div class="p-role">Kindercoach The Joy</div></div></div>
               </div>
             </div>

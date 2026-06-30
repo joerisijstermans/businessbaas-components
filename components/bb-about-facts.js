@@ -47,7 +47,72 @@
             </div>
           </div>
         </section>`;
-      const obs = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) e.target.classList.add('show'); }), { threshold: .1 });
+
+      // Counter targets: keyed by label text for reliable matching
+      const counterTargets = [
+        { label: 'Actieve leden',          target: 25,  decimals: 0, suffix: '<em>+</em>' },
+        { label: 'Trainingen',             target: 20,  decimals: 0, suffix: '<em>+</em>' },
+        { label: 'Gemiddelde beoordeling', target: 4.9, decimals: 1, suffix: '<em>/5</em>' },
+      ];
+
+      const DURATION = 1400; // ms
+
+      function easeOutCubic(t) {
+        return 1 - Math.pow(1 - t, 3);
+      }
+
+      function animateCounter(vEl, target, decimals, suffix) {
+        const start = performance.now();
+        function tick(now) {
+          const elapsed = now - start;
+          const progress = Math.min(elapsed / DURATION, 1);
+          const eased = easeOutCubic(progress);
+          const current = eased * target;
+          const formatted = decimals > 0
+            ? current.toFixed(decimals).replace('.', ',')
+            : Math.floor(current).toString();
+          vEl.innerHTML = formatted + suffix;
+          if (progress < 1) {
+            requestAnimationFrame(tick);
+          } else {
+            // Ensure final value is exact
+            const finalFormatted = decimals > 0
+              ? target.toFixed(decimals).replace('.', ',')
+              : target.toString();
+            vEl.innerHTML = finalFormatted + suffix;
+          }
+        }
+        requestAnimationFrame(tick);
+      }
+
+      let countersRun = false;
+
+      function runCounters() {
+        if (countersRun) return;
+        countersRun = true;
+        const facts = s.querySelectorAll('.facts .fact');
+        facts.forEach(fact => {
+          const lEl = fact.querySelector('.l');
+          const vEl = fact.querySelector('.v');
+          if (!lEl || !vEl) return;
+          const labelText = lEl.textContent.trim();
+          const cfg = counterTargets.find(c => c.label === labelText);
+          if (!cfg) return;
+          animateCounter(vEl, cfg.target, cfg.decimals, cfg.suffix);
+        });
+      }
+
+      // General scroll-in observer for .ob elements
+      const obs = new IntersectionObserver(es => es.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add('show');
+          // When the facts grid becomes visible, trigger counters
+          if (e.target.classList.contains('facts')) {
+            runCounters();
+          }
+        }
+      }), { threshold: .1 });
+
       s.querySelectorAll('.ob').forEach(el => obs.observe(el));
     }
   }
