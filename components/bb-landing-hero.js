@@ -17,9 +17,13 @@
           .hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 65% 40%,rgba(232,93,4,.15) 0%,transparent 60%);pointer-events:none}
           .hero-inner{max-width:780px;margin:0 auto;position:relative;z-index:2}
           .hero-badge{display:inline-flex;align-items:center;gap:8px;padding:6px 16px;margin-bottom:28px;background:rgba(232,93,4,.2);border:1px solid rgba(232,93,4,.3);border-radius:50px;font-size:12px;font-weight:700;color:rgba(255,255,255,.85);text-transform:uppercase;letter-spacing:.09em}
-          h1{font-size:clamp(34px,6vw,68px);font-weight:900;color:#fff;line-height:1.05;letter-spacing:-.035em;margin-bottom:22px}
+          h1{font-size:clamp(32px,5.5vw,64px);font-weight:900;color:#fff;line-height:1.07;letter-spacing:-.035em;margin-bottom:24px}
           h1 em{font-style:normal;color:#E85D04}
-          .hero-sub{font-size:clamp(16px,2.2vw,20px);color:rgba(255,255,255,.65);line-height:1.65;max-width:580px;margin:0 auto 40px}
+          .hero-sub{font-size:clamp(16px,2.2vw,19px);color:rgba(255,255,255,.65);line-height:1.7;max-width:600px;margin:0 auto 40px}
+          .hero-sub strong{color:rgba(255,255,255,.9);font-weight:600}
+          .hero-checks{display:flex;flex-direction:column;align-items:center;gap:8px;margin-bottom:36px}
+          .hero-check{display:flex;align-items:center;gap:9px;font-size:14px;color:rgba(255,255,255,.75)}
+          .hero-check::before{content:'✓';width:18px;height:18px;border-radius:50%;background:rgba(232,93,4,.25);color:#E85D04;font-size:11px;font-weight:900;display:flex;align-items:center;justify-content:center;flex-shrink:0}
           .hero-cta-wrap{display:flex;flex-direction:column;align-items:center;gap:12px}
           .btn-primary{display:inline-flex;align-items:center;gap:10px;padding:17px 36px;background:#E85D04;color:#fff;font-size:17px;font-weight:700;border-radius:50px;transition:background .22s,transform .22s,box-shadow .22s}
           .btn-primary:hover{background:#CC4D00;transform:translateY(-2px);box-shadow:0 14px 36px rgba(232,93,4,.4)}
@@ -34,15 +38,20 @@
         </style>
         <section class="hero">
           <div class="hero-inner">
-            <div class="hero-badge ob">Gratis starten — geen creditcard nodig</div>
-            <h1 class="ob">Van idee naar<br><em>eerste klant</em></h1>
-            <p class="hero-sub ob">BusinessBaas begeleidt jou stap voor stap van ondernemer-in-wording naar een bedrijf dat écht klanten aantrekt — met 20+ praktische trainingen, AI-coach Nova en een community van starters die precies begrijpen wat jij doormaakt.</p>
+            <div class="hero-badge ob">🎓 Gratis training — vandaag nog starten</div>
+            <h1 class="ob">Jouw eerste betalende klant —<br><em>in 48 uur</em></h1>
+            <p class="hero-sub ob">De drie concrete stappen die het verschil maken voor startende ondernemers. Direct toepasbaar, geen theorie. <strong>Spreek binnen 48 uur je eerste potentiële klant.</strong></p>
+            <div class="hero-checks ob">
+              <span class="hero-check">Stap 1 — Wie is jouw ideale klant? (in 10 minuten helder)</span>
+              <span class="hero-check">Stap 2 — Schrijf één krachtig bericht dat mensen niet negeren</span>
+              <span class="hero-check">Stap 3 — Stuur het naar 10 mensen en plan je eerste gesprek</span>
+            </div>
             <div class="hero-cta-wrap ob">
               <a href="https://www.businessbaas.com/voor-starters" class="btn-primary">
-                Start gratis training
+                Vraag de gratis training aan
                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M3.5 9H14.5M14.5 9L10 4.5M14.5 9L10 13.5" stroke="white" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
               </a>
-              <span class="hero-note">Gratis beginnen · <strong>€69/mnd</strong> als je verderlid wilt</span>
+              <span class="hero-note">100% gratis · Geen creditcard · <strong>Direct toegang</strong></span>
             </div>
             <div class="avatar-strip ob">
               <div class="avatars">

@@ -87,13 +87,14 @@
         nameEl.textContent = v.name + ' · ' + v.city;
         actionEl.textContent = v.msg;
         popup.classList.add('show');
-        hideTimer = setTimeout(hide, 4000);
+        hideTimer = setTimeout(hide, 7000);
       }
 
       function hide() {
         popup.classList.remove('show');
         if (!dismissed) {
-          nextTimer = setTimeout(show, 8000);
+          const delay = 12000 + Math.random() * 10000; // 12–22 seconds random
+          nextTimer = setTimeout(show, delay);
         }
       }
 
