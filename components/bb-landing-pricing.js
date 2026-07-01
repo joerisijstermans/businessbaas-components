@@ -52,7 +52,7 @@
                 <li><span>Community &amp; marktplaats</span></li>
                 <li><span>Altijd opzegbaar</span></li>
               </ul>
-              <a href="https://www.businessbaas.com/voor-starters" class="plan-cta">
+              <a href="https://www.businessbaas.com/gratis-training" class="plan-cta" onclick="event.preventDefault();window.openTrainingLightbox&&window.openTrainingLightbox();">
                 Start gratis training
                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M3.5 9H14.5M14.5 9L10 4.5M14.5 9L10 13.5" stroke="white" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
               </a>

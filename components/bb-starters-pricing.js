@@ -71,7 +71,7 @@
                 <div class="price-sub">= €2,30 per dag</div>
                 ${y?'':'<div class="save-pill">Geen jaarcontract</div>'}
                 <ul>${feats.map(f=>`<li>${f}</li>`).join('')}${upsells.map(f=>`<li class="up">${f}</li>`).join('')}</ul>
-                <a href="#" class="${y?'btn-s':'btn-p'}">Maandelijks starten</a>
+                <a href="https://buy.stripe.com/dRm5kE8F4cIO8B65DGeZ202" class="${y?'btn-s':'btn-p'}">Maandelijks starten</a>
               </div>
               <div class="card${y?' featured':''}">
                 ${y?'<div class="best">Meest gekozen</div>':''}
@@ -80,7 +80,7 @@
                 <div class="price-sub">= €1,90 per dag</div>
                 ${y?'<div class="save-pill">2 maanden gratis t.o.v. maandelijks</div>':''}
                 <ul>${feats.map(f=>`<li>${f}</li>`).join('')}${upsells.map(f=>`<li class="up">${f}</li>`).join('')}</ul>
-                <a href="#" class="${y?'btn-p':'btn-s'}">Jaarlijks starten</a>
+                <a href="https://buy.stripe.com/dRm5kE8F4cIO8B65DGeZ202" class="${y?'btn-p':'btn-s'}">Jaarlijks starten</a>
               </div>
             </div>
             <div class="insight ob"><p>"De vraag is niet: kan ik €69 missen? De vraag is: kan ik nog 6 maanden zonder klanten?"</p></div>

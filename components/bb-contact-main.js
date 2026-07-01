@@ -81,12 +81,12 @@
                 <div class="cta-card navy">
                   <h4>Ben je starter?</h4>
                   <p>Bekijk de gratis training en ontdek of BusinessBaas bij jou past.</p>
-                  <a href="starters.html" class="cta-link">Gratis training starten →</a>
+                  <a href="https://www.businessbaas.com/gratis-training" class="cta-link" onclick="event.preventDefault();window.openTrainingLightbox&&window.openTrainingLightbox();">Gratis training starten →</a>
                 </div>
                 <div class="cta-card outline">
                   <h4>Ben je organisatie of coach?</h4>
                   <p>Plan een gratis demo en ontdek hoe jij BusinessBaas kunt inzetten.</p>
-                  <a href="partners.html" class="cta-link">Demo aanvragen →</a>
+                  <a href="https://www.businessbaas.com/voor-partners" class="cta-link">Demo aanvragen →</a>
                 </div>
               </div>
             </div>

@@ -53,7 +53,7 @@
               ${items.map((it,i)=>`<div class="item" data-delay="${i*120}"><span class="bar" style="background:${it.color};"></span><div class="num" style="color:${it.color};">${it.num}</div><h3>${it.title}</h3><p>${it.desc}</p><span class="oc" style="color:${it.color};">${it.outcome}</span></div>`).join('')}
             </div>
             <div class="cr ob">
-              <a href="/voor-starters" class="btn">Gratis starten <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+              <a href="https://www.businessbaas.com/gratis-training" class="btn" onclick="event.preventDefault();window.openTrainingLightbox&&window.openTrainingLightbox();">Gratis starten <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
               <p class="disc">Geen creditcard nodig · Direct toegang</p>
             </div>
           </div>

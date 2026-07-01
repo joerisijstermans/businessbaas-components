@@ -55,7 +55,7 @@
               <div class="left ob">
                 <h2>Drie stappen naar je <em>eerste klant</em></h2>
                 <p>Een bewezen aanpak die je van idee naar eerste betalende klant brengt. Elke week een concrete stap vooruit, met de juiste begeleiding op het juiste moment.</p>
-                <a href="/voor-starters" class="cta">Start vandaag gratis <svg width="15" height="15" viewBox="0 0 15 15" fill="none"><path d="M3 7.5H12M12 7.5L8.5 4M12 7.5L8.5 11" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+                <a href="https://www.businessbaas.com/gratis-training" class="cta" onclick="event.preventDefault();window.openTrainingLightbox&&window.openTrainingLightbox();">Start vandaag gratis <svg width="15" height="15" viewBox="0 0 15 15" fill="none"><path d="M3 7.5H12M12 7.5L8.5 4M12 7.5L8.5 11" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
               </div>
               <div class="steps">
                 ${steps.map((s,i)=>`<div class="step" style="transition-delay:${i*120}ms;"><div class="sl"><div class="sn" style="background:${s.color};">${s.num}</div><div class="sline" style="background:linear-gradient(to bottom,${s.color}55,transparent);"></div></div><div class="sb"><h3>${s.title}</h3><p>${s.desc}</p><span class="oc" style="background:${s.color}15;color:${s.color};">→ ${s.outcome}</span></div></div>`).join('')}
@@ -71,7 +71,7 @@
                 <div class="tln"></div>
                 <div class="tlit"><div class="tld"></div><span class="tll">Digitale werkplek</span></div>
               </div>
-              <a href="/voor-starters" class="tlc">Start gratis training →</a>
+              <a href="https://www.businessbaas.com/gratis-training" class="tlc" onclick="event.preventDefault();window.openTrainingLightbox&&window.openTrainingLightbox();">Start gratis training →</a>
             </div>
           </div>
         </section>`;

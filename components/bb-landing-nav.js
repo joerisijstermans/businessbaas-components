@@ -26,7 +26,7 @@
             </svg>
             <span class="logo-text">Business<em>Baas</em></span>
           </div>
-          <a href="https://www.businessbaas.com/voor-starters" class="topbar-cta">
+          <a href="https://www.businessbaas.com/gratis-training" class="topbar-cta" onclick="event.preventDefault();window.openTrainingLightbox&&window.openTrainingLightbox();">
             Start gratis training
             <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2.5 7H11.5M11.5 7L8 3.5M11.5 7L8 10.5" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </a>

@@ -29,7 +29,7 @@
             <p class="sub ob">Snel antwoord op de meest gestelde vragen.</p>
             <div class="items ob">
               <div class="item"><div class="iq">Hoe snel krijg ik antwoord?</div><div class="ia">Binnen 1 werkdag via e-mail op <a href="mailto:info@businessbaas.com">info@businessbaas.com</a>.</div></div>
-              <div class="item"><div class="iq">Ik wil partner worden, wat zijn de mogelijkheden?</div><div class="ia">Stuur ons een bericht via het formulier of bekijk de <a href="partners.html">partnerspagina</a>. We plannen graag een gratis kennismaking.</div></div>
+              <div class="item"><div class="iq">Ik wil partner worden, wat zijn de mogelijkheden?</div><div class="ia">Stuur ons een bericht via het formulier of bekijk de <a href="https://www.businessbaas.com/voor-partners">partnerspagina</a>. We plannen graag een gratis kennismaking.</div></div>
               <div class="item"><div class="iq">Ik heb technische vragen over het platform.</div><div class="ia">Stuur een e-mail naar <a href="mailto:info@businessbaas.com">info@businessbaas.com</a> met een omschrijving van je vraag. We helpen je snel verder.</div></div>
             </div>
           </div>

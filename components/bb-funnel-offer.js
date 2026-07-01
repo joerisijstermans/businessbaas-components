@@ -120,7 +120,7 @@
                 <li><span>Community &amp; marktplaats</span></li>
                 <li><span>Maandelijks opzegbaar</span></li>
               </ul>
-              <a href="https://www.businessbaas.com/voor-starters" class="cta-btn">
+              <a href="https://buy.stripe.com/dRm5kE8F4cIO8B65DGeZ202" class="cta-btn">
                 Ja, ik wil volledige toegang
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M4 10H16M16 10L11 5M16 10L11 15" stroke="white" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
               </a>

@@ -30,7 +30,7 @@
               <h2 class="ob">Samen sterker voor starters</h2>
               <p class="ob">BusinessBaas werkt samen met organisaties die dagelijks in contact staan met startende ondernemers: gemeenten, hogescholen, starterscentra en begeleiders. Samen bereiken we meer starters en bieden we betere ondersteuning.</p>
               <p class="ob">Werkt jouw organisatie ook met starters? Neem dan een kijkje bij onze partnerpagina of neem contact met ons op.</p>
-              <a class="cta-link ob" href="partners.html">Bekijk partnermogelijkheden →</a>
+              <a class="cta-link ob" href="https://www.businessbaas.com/voor-partners">Bekijk partnermogelijkheden →</a>
             </div>
             <div class="partner-card ob" style="transition-delay:.1s">
               <div style="font-size:1.8rem;margin-bottom:16px">🤝</div>

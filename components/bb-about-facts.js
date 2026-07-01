@@ -34,7 +34,7 @@
               <h2 class="ob">BusinessBaas <em>in cijfers</em></h2>
               <p class="ob">Van een idee in Echt, Limburg tot een erkend platform voor starters door heel Nederland, dit zijn de feiten.</p>
               <div class="links ob">
-                <a class="link-btn primary" href="starters.html#pricing">Probeer gratis</a>
+                <a class="link-btn primary" href="https://buy.stripe.com/dRm5kE8F4cIO8B65DGeZ202">Probeer gratis</a>
                 <a class="link-btn ghost" href="succesverhalen.html">Lees succesverhalen</a>
               </div>
             </div>

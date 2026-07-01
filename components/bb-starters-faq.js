@@ -51,7 +51,7 @@
           <div class="inner">
             <div class="hd ob"><div class="lbl">Veelgestelde vragen</div><h2>Alles wat je wilt weten</h2><p>Geen verrassingen achteraf.</p></div>
             <div class="faq ob">${faqs.map((f,i)=>`<div class="qi${i===0?' open':''}"><div class="qh"><span class="qt">${f.q}</span><span class="ico"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M7 2V12M2 7H12" stroke="#0D2240" stroke-width="2" stroke-linecap="round"/></svg></span></div><div class="qa"><p>${f.a}</p></div></div>`).join('')}</div>
-            <div class="bot ob"><p>Nog een vraag? <a href="contact.html">Neem contact op</a>, we helpen je graag.</p></div>
+            <div class="bot ob"><p>Nog een vraag? <a href="https://www.businessbaas.com/contact">Neem contact op</a>, we helpen je graag.</p></div>
           </div>
         </section>`;
     }

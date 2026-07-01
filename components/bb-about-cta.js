@@ -25,8 +25,8 @@
             <h2 class="ob">Sluit je aan bij onze community</h2>
             <p class="ob">Begin met de gratis training en ontdek hoe BusinessBaas jou van idee naar eerste klant brengt. Geen creditcard, geen verplichtingen.</p>
             <div class="btns ob">
-              <a class="btn-w" href="starters.html">Start gratis training</a>
-              <a class="btn-g" href="contact.html">Neem contact op</a>
+              <a class="btn-w" href="https://www.businessbaas.com/gratis-training" onclick="event.preventDefault();window.openTrainingLightbox&&window.openTrainingLightbox();">Start gratis training</a>
+              <a class="btn-g" href="https://www.businessbaas.com/contact">Neem contact op</a>
             </div>
           </div>
         </section>`;
