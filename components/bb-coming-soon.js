@@ -1,3 +1,4 @@
+/* v3 */
 (function () {
   if (customElements.get('bb-coming-soon')) return;
   const CDN = 'https://joerisijstermans.github.io/businessbaas-components/assets';
