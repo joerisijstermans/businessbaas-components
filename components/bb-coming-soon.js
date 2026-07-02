@@ -11,15 +11,15 @@
           :host{display:block;font-family:'Inter',-apple-system,sans-serif}
           a{color:inherit;text-decoration:none}
           .wrap{background:#0D2240;padding:120px 24px;text-align:center}
-          .logo{margin-bottom:48px}
-          .logo img{height:36px;width:auto}
           .badge{display:inline-flex;align-items:center;gap:8px;padding:6px 16px;background:rgba(232,93,4,.18);border:1px solid rgba(232,93,4,.3);border-radius:50px;font-size:12px;font-weight:700;color:rgba(232,93,4,.9);text-transform:uppercase;letter-spacing:.1em;margin-bottom:28px}
           .dot{width:6px;height:6px;border-radius:50%;background:#E85D04;display:inline-block;animation:pulse 1.8s ease-in-out infinite;flex-shrink:0}
           @keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
           h1{font-size:clamp(30px,5vw,58px);font-weight:900;color:#fff;line-height:1.08;letter-spacing:-.03em;margin-bottom:20px}
           h1 em{font-style:normal;color:#E85D04}
-          .sub{font-size:17px;color:rgba(255,255,255,.55);line-height:1.7;max-width:500px;margin:0 auto 48px}
+          .sub{font-size:17px;color:rgba(255,255,255,.55);line-height:1.7;max-width:520px;margin:0 auto 48px}
           .sub strong{color:rgba(255,255,255,.8);font-weight:600}
+          .member-note{font-size:14px;color:rgba(255,255,255,.35);margin-top:-32px;margin-bottom:48px}
+          .member-note a{color:rgba(232,93,4,.8);text-decoration:underline;text-underline-offset:3px}
           .feats{display:flex;justify-content:center;gap:24px;flex-wrap:wrap;margin-bottom:48px}
           .feat{display:flex;flex-direction:column;align-items:center;gap:8px}
           .fi{width:48px;height:48px;border-radius:12px;background:rgba(232,93,4,.15);border:1px solid rgba(232,93,4,.2);display:flex;align-items:center;justify-content:center;font-size:20px}
@@ -34,15 +34,13 @@
           .copy{font-size:12px;color:rgba(255,255,255,.18)}
         </style>
         <div class="wrap">
-          <div class="logo">
-            <img src="${CDN}/beeldmerk-tot.png" alt="BusinessBaas">
-          </div>
           <div class="badge">
             <span class="dot"></span>
-            We zijn live aan het bouwen
+            BusinessBaas 2.0 in ontwikkeling
           </div>
-          <h1>Iets groots<br>is onderweg<em>.</em></h1>
-          <p class="sub">Het nieuwe BusinessBaas platform — met <strong>trainingen, AI-coach Nova en een community</strong> — landt binnenkort.</p>
+          <h1>We bouwen aan<br>versie <em>2.0</em><em>.</em></h1>
+          <p class="sub">BusinessBaas wordt groter, slimmer en beter — met <strong>verbeterde trainingen, AI-coach Nova en een volledig nieuwe community</strong>. We zijn er bijna.</p>
+          <p class="member-note">Al lid? <a href="https://www.businessbaas.com" target="_blank">Je kunt gewoon blijven inloggen en alles gebruiken →</a></p>
           <div class="feats">
             <div class="feat"><div class="fi">🎓</div><span class="fl">Trainingen</span></div>
             <div class="feat"><div class="fi">🤖</div><span class="fl">AI-coach Nova</span></div>
