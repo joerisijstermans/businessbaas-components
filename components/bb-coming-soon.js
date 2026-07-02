@@ -1,7 +1,7 @@
 /* v3 */
 (function () {
   if (customElements.get('bb-coming-soon')) return;
-  const CDN = 'https://joerisijstermans.github.io/businessbaas-components/assets';
+  const CDN = 'https://cdn.jsdelivr.net/gh/joerisijstermans/businessbaas-components@main/assets';
   class BBComingSoon extends HTMLElement {
     connectedCallback() {
       const s = this.attachShadow({ mode: 'open' });
