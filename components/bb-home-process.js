@@ -2,7 +2,18 @@
   if (customElements.get('bb-home-process')) return;
   class BBHomeProcess extends HTMLElement {
     constructor() { super(); this.attachShadow({ mode: 'open' }); }
-    connectedCallback() { this.render(); this._obs(); }
+    connectedCallback() {
+      this.render();
+      this._obs();
+      this.shadowRoot.querySelectorAll('[data-lightbox]').forEach(function(el) {
+        el.addEventListener('click', function(e) {
+          if (window.openTrainingLightbox) {
+            e.preventDefault();
+            window.openTrainingLightbox();
+          }
+        });
+      });
+    }
     render() {
       const steps = [
         { num:'01', title:'Krijg richting', desc:'Ontdek welke stappen écht belangrijk zijn voor jouw situatie. Niet alles tegelijk, maar de juiste dingen op het juiste moment. Je begint met een helder beeld van je doelgroep en aanbod.', outcome:'Week 1–4: Strategie & fundament', color:'#E85D04' },
@@ -55,7 +66,7 @@
               <div class="left ob">
                 <h2>Drie stappen naar je <em>eerste klant</em></h2>
                 <p>Een bewezen aanpak die je van idee naar eerste betalende klant brengt. Elke week een concrete stap vooruit, met de juiste begeleiding op het juiste moment.</p>
-                <a href="https://www.businessbaas.com/gratis-training" class="cta" onclick="event.preventDefault();window.openTrainingLightbox&&window.openTrainingLightbox();">Start vandaag gratis <svg width="15" height="15" viewBox="0 0 15 15" fill="none"><path d="M3 7.5H12M12 7.5L8.5 4M12 7.5L8.5 11" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+                <a href="https://www.businessbaas.com/voor-starters" class="cta" data-lightbox>Start vandaag gratis <svg width="15" height="15" viewBox="0 0 15 15" fill="none"><path d="M3 7.5H12M12 7.5L8.5 4M12 7.5L8.5 11" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
               </div>
               <div class="steps">
                 ${steps.map((s,i)=>`<div class="step" style="transition-delay:${i*120}ms;"><div class="sl"><div class="sn" style="background:${s.color};">${s.num}</div><div class="sline" style="background:linear-gradient(to bottom,${s.color}55,transparent);"></div></div><div class="sb"><h3>${s.title}</h3><p>${s.desc}</p><span class="oc" style="background:${s.color}15;color:${s.color};">→ ${s.outcome}</span></div></div>`).join('')}
@@ -71,7 +82,7 @@
                 <div class="tln"></div>
                 <div class="tlit"><div class="tld"></div><span class="tll">Digitale werkplek</span></div>
               </div>
-              <a href="https://www.businessbaas.com/gratis-training" class="tlc" onclick="event.preventDefault();window.openTrainingLightbox&&window.openTrainingLightbox();">Start gratis training →</a>
+              <a href="https://www.businessbaas.com/voor-starters" class="tlc" data-lightbox>Start gratis training →</a>
             </div>
           </div>
         </section>`;

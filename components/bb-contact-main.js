@@ -2,7 +2,19 @@
   if (customElements.get('bb-contact-main')) return;
   class BBContactMain extends HTMLElement {
     constructor() { super(); this.attachShadow({ mode: 'open' }); }
-    connectedCallback() { this.render(); this._bind(); this._obs(); }
+    connectedCallback() {
+      this.render();
+      this._bind();
+      this._obs();
+      this.shadowRoot.querySelectorAll('[data-lightbox]').forEach(function(el) {
+        el.addEventListener('click', function(e) {
+          if (window.openTrainingLightbox) {
+            e.preventDefault();
+            window.openTrainingLightbox();
+          }
+        });
+      });
+    }
     render() {
       this.shadowRoot.innerHTML = `
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -81,7 +93,7 @@
                 <div class="cta-card navy">
                   <h4>Ben je starter?</h4>
                   <p>Bekijk de gratis training en ontdek of BusinessBaas bij jou past.</p>
-                  <a href="https://www.businessbaas.com/gratis-training" class="cta-link" onclick="event.preventDefault();window.openTrainingLightbox&&window.openTrainingLightbox();">Gratis training starten →</a>
+                  <a href="https://www.businessbaas.com/voor-starters" class="cta-link" data-lightbox>Gratis training starten →</a>
                 </div>
                 <div class="cta-card outline">
                   <h4>Ben je organisatie of coach?</h4>

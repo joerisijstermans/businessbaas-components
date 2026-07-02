@@ -2,7 +2,17 @@
   if (customElements.get('bb-starters-training')) return;
   class BBStartersTraining extends HTMLElement {
     constructor() { super(); this.attachShadow({ mode: 'open' }); }
-    connectedCallback() { this.render(); }
+    connectedCallback() {
+      this.render();
+      this.shadowRoot.querySelectorAll('[data-lightbox]').forEach(function(el) {
+        el.addEventListener('click', function(e) {
+          if (window.openTrainingLightbox) {
+            e.preventDefault();
+            window.openTrainingLightbox();
+          }
+        });
+      });
+    }
     render() {
       this.shadowRoot.innerHTML = `
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700;800&display=swap" rel="stylesheet">
@@ -28,7 +38,7 @@
                 <p>Ontdek de drie stappen die het verschil maken, geen creditcard nodig</p>
               </div>
             </div>
-            <a href="https://www.businessbaas.com/gratis-training" class="btn" onclick="event.preventDefault();window.openTrainingLightbox&&window.openTrainingLightbox();">Start gratis <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2.5 7H11.5M11.5 7L8 3.5M11.5 7L8 10.5" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+            <a href="https://www.businessbaas.com/voor-starters" class="btn" data-lightbox>Start gratis <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2.5 7H11.5M11.5 7L8 3.5M11.5 7L8 10.5" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
           </div>
         </div>`;
     }

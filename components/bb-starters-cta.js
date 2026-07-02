@@ -2,7 +2,18 @@
   if (customElements.get('bb-starters-cta')) return;
   class BBStartersCta extends HTMLElement {
     constructor() { super(); this.attachShadow({ mode: 'open' }); }
-    connectedCallback() { this.render(); this._obs(); }
+    connectedCallback() {
+      this.render();
+      this._obs();
+      this.shadowRoot.querySelectorAll('[data-lightbox]').forEach(function(el) {
+        el.addEventListener('click', function(e) {
+          if (window.openTrainingLightbox) {
+            e.preventDefault();
+            window.openTrainingLightbox();
+          }
+        });
+      });
+    }
     render() {
       this.shadowRoot.innerHTML = `
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800;900&display=swap" rel="stylesheet">
@@ -29,7 +40,7 @@
             <div class="badge ob">🎓 Gratis Training</div>
             <h2 class="ob">Jouw eerste betalende<br>klant wacht op jou</h2>
             <p class="sub ob">Start vandaag gratis en ontdek <strong>de drie stappen die het verschil maken</strong>.</p>
-            <a href="https://www.businessbaas.com/gratis-training" class="btn ob" onclick="event.preventDefault();window.openTrainingLightbox&&window.openTrainingLightbox();">Gratis training starten <svg width="17" height="17" viewBox="0 0 17 17" fill="none"><path d="M3 8.5H14M14 8.5L9.5 4M14 8.5L9.5 13" stroke="#E85D04" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+            <a href="https://www.businessbaas.com/voor-starters" class="btn ob" data-lightbox>Gratis training starten <svg width="17" height="17" viewBox="0 0 17 17" fill="none"><path d="M3 8.5H14M14 8.5L9.5 4M14 8.5L9.5 13" stroke="#E85D04" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
             <div class="disc ob"><span>Geen creditcard nodig</span><span>Direct toegang</span><span>Altijd opzegbaar</span></div>
           </div>
         </section>`;

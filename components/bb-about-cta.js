@@ -25,13 +25,21 @@
             <h2 class="ob">Sluit je aan bij onze community</h2>
             <p class="ob">Begin met de gratis training en ontdek hoe BusinessBaas jou van idee naar eerste klant brengt. Geen creditcard, geen verplichtingen.</p>
             <div class="btns ob">
-              <a class="btn-w" href="https://www.businessbaas.com/gratis-training" onclick="event.preventDefault();window.openTrainingLightbox&&window.openTrainingLightbox();">Start gratis training</a>
+              <a class="btn-w" href="https://www.businessbaas.com/voor-starters" data-lightbox>Start gratis training</a>
               <a class="btn-g" href="https://www.businessbaas.com/contact">Neem contact op</a>
             </div>
           </div>
         </section>`;
       const obs = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) e.target.classList.add('show'); }), { threshold: .15 });
       s.querySelectorAll('.ob').forEach(el => obs.observe(el));
+      s.querySelectorAll('[data-lightbox]').forEach(function(el) {
+        el.addEventListener('click', function(e) {
+          if (window.openTrainingLightbox) {
+            e.preventDefault();
+            window.openTrainingLightbox();
+          }
+        });
+      });
     }
   }
   customElements.define('bb-about-cta', BBAboutCta);

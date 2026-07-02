@@ -2,7 +2,18 @@
   if (customElements.get('bb-home-why')) return;
   class BBHomeWhy extends HTMLElement {
     constructor() { super(); this.attachShadow({ mode: 'open' }); }
-    connectedCallback() { this.render(); this._obs(); }
+    connectedCallback() {
+      this.render();
+      this._obs();
+      this.shadowRoot.querySelectorAll('[data-lightbox]').forEach(function(el) {
+        el.addEventListener('click', function(e) {
+          if (window.openTrainingLightbox) {
+            e.preventDefault();
+            window.openTrainingLightbox();
+          }
+        });
+      });
+    }
     render() {
       const items = [
         { num:'01', title:'Helder stappenplan', desc:'Geen losse tips of tegenstrijdige adviezen meer. Je volgt een bewezen 90-daags traject dat je precies vertelt wat je wanneer moet doen, stap voor stap richting je eerste klant.', outcome:'Van chaos naar overzicht', color:'#E85D04' },
@@ -53,7 +64,7 @@
               ${items.map((it,i)=>`<div class="item" data-delay="${i*120}"><span class="bar" style="background:${it.color};"></span><div class="num" style="color:${it.color};">${it.num}</div><h3>${it.title}</h3><p>${it.desc}</p><span class="oc" style="color:${it.color};">${it.outcome}</span></div>`).join('')}
             </div>
             <div class="cr ob">
-              <a href="https://www.businessbaas.com/gratis-training" class="btn" onclick="event.preventDefault();window.openTrainingLightbox&&window.openTrainingLightbox();">Gratis starten <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+              <a href="https://www.businessbaas.com/voor-starters" class="btn" data-lightbox>Gratis starten <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
               <p class="disc">Geen creditcard nodig · Direct toegang</p>
             </div>
           </div>

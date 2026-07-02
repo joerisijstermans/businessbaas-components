@@ -47,7 +47,7 @@
               <span class="hero-check">Stap 3 — Stuur het naar 10 mensen en plan je eerste gesprek</span>
             </div>
             <div class="hero-cta-wrap ob">
-              <a href="https://www.businessbaas.com/gratis-training" class="btn-primary" onclick="event.preventDefault();window.openTrainingLightbox&&window.openTrainingLightbox();">
+              <a href="https://www.businessbaas.com/voor-starters" class="btn-primary" data-lightbox>
                 Vraag de gratis training aan
                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M3.5 9H14.5M14.5 9L10 4.5M14.5 9L10 13.5" stroke="white" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
               </a>
@@ -92,6 +92,14 @@
         }
       }), { threshold: 0.08 });
       s.querySelectorAll('.ob').forEach(el => obs.observe(el));
+      s.querySelectorAll('[data-lightbox]').forEach(function(el) {
+        el.addEventListener('click', function(e) {
+          if (window.openTrainingLightbox) {
+            e.preventDefault();
+            window.openTrainingLightbox();
+          }
+        });
+      });
     }
   }
   customElements.define('bb-landing-hero', BBLandingHero);

@@ -2,7 +2,18 @@
   if (customElements.get('bb-home-nav')) return;
   class BBHomeNav extends HTMLElement {
     constructor() { super(); this.attachShadow({ mode: 'open' }); this._open = false; }
-    connectedCallback() { this.render(); this._bind(); }
+    connectedCallback() {
+      this.render();
+      this._bind();
+      this.shadowRoot.querySelectorAll('[data-lightbox]').forEach(function(el) {
+        el.addEventListener('click', function(e) {
+          if (window.openTrainingLightbox) {
+            e.preventDefault();
+            window.openTrainingLightbox();
+          }
+        });
+      });
+    }
     render() {
       this.shadowRoot.innerHTML = `
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -46,7 +57,7 @@
             <li><a href="https://www.businessbaas.com/over-ons">Over Ons</a></li>
             <li><a href="https://www.businessbaas.com/contact">Contact</a></li>
           </ul>
-          <a href="https://www.businessbaas.com/gratis-training" class="cta" onclick="event.preventDefault();window.openTrainingLightbox&&window.openTrainingLightbox();">Gratis training <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2.5 7H11.5M11.5 7L8 3.5M11.5 7L8 10.5" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          <a href="https://www.businessbaas.com/voor-starters" class="cta" data-lightbox>Gratis training <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2.5 7H11.5M11.5 7L8 3.5M11.5 7L8 10.5" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
           <button class="burger" id="burger" aria-label="Menu openen"><span></span><span></span><span></span></button>
         </nav>
         <div class="mobile" id="mobile">
@@ -56,7 +67,7 @@
           <a href="https://www.businessbaas.com/het-platform">Het Platform</a>
           <a href="https://www.businessbaas.com/over-ons">Over Ons</a>
           <a href="https://www.businessbaas.com/contact">Contact</a>
-          <a href="https://www.businessbaas.com/gratis-training" class="mob-cta" onclick="event.preventDefault();window.openTrainingLightbox&&window.openTrainingLightbox();">Gratis training starten →</a>
+          <a href="https://www.businessbaas.com/voor-starters" class="mob-cta" data-lightbox>Gratis training starten →</a>
         </div>`;
     }
     _bind() {

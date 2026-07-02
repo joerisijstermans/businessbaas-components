@@ -3,7 +3,17 @@
   const CDN = 'https://joerisijstermans.github.io/businessbaas-components/assets';
   class BBHomeFooter extends HTMLElement {
     constructor() { super(); this.attachShadow({ mode: 'open' }); }
-    connectedCallback() { this.render(); }
+    connectedCallback() {
+      this.render();
+      this.shadowRoot.querySelectorAll('[data-lightbox]').forEach(function(el) {
+        el.addEventListener('click', function(e) {
+          if (window.openTrainingLightbox) {
+            e.preventDefault();
+            window.openTrainingLightbox();
+          }
+        });
+      });
+    }
     render() {
       this.shadowRoot.innerHTML = `
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -42,7 +52,7 @@
                   <img src="${CDN}/beeldmerk-tot.png" alt="BusinessBaas">
                 </a>
                 <p class="bd">Van idee naar eerste betalende klanten. Het compleet ondernemersplatform voor startende ondernemers.</p>
-                <a href="https://www.businessbaas.com/gratis-training" class="bc" onclick="event.preventDefault();window.openTrainingLightbox&&window.openTrainingLightbox();">Gratis training starten →</a>
+                <a href="https://www.businessbaas.com/voor-starters" class="bc" data-lightbox>Gratis training starten →</a>
               </div>
               <div class="col"><h4>Platform</h4><ul>
                 <li><a href="https://www.businessbaas.com/het-platform">Het Platform</a></li>
@@ -54,7 +64,7 @@
               </ul></div>
               <div class="col"><h4>Voor Starters</h4><ul>
                 <li><a href="https://www.businessbaas.com/voor-starters">Voor Starters</a></li>
-                <li><a href="https://www.businessbaas.com/gratis-training" onclick="event.preventDefault();window.openTrainingLightbox&&window.openTrainingLightbox();">Gratis Training</a></li>
+                <li><a href="https://www.businessbaas.com/voor-starters" data-lightbox>Gratis Training</a></li>
                 <li><a href="https://www.businessbaas.com/over-ons">Over Ons</a></li>
                 <li><a href="https://www.businessbaas.com/contact">Contact</a></li>
               </ul></div>
