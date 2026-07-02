@@ -37,11 +37,11 @@
         <div class="wrap">
           <div class="badge">
             <span class="dot"></span>
-            BusinessBaas 2.0 in ontwikkeling
+            We blijven in ontwikkeling
           </div>
-          <h1>We bouwen aan<br>versie <em>2.0</em><em>.</em></h1>
+          <h1>We bouwen aan<br><em>BusinessBaas 2.0</em><em>.</em></h1>
           <p class="sub">BusinessBaas wordt groter, slimmer en beter — met <strong>verbeterde trainingen, AI-coach Nova en een volledig nieuwe community</strong>. We zijn er bijna.</p>
-          <p class="member-note">Al lid? <a href="https://www.businessbaas.com" target="_blank">Je kunt gewoon blijven inloggen en alles gebruiken →</a></p>
+          <p class="member-note">Al lid? Je kunt gewoon blijven inloggen en alles gebruiken.</p>
           <div class="feats">
             <div class="feat"><div class="fi">🎓</div><span class="fl">Trainingen</span></div>
             <div class="feat"><div class="fi">🤖</div><span class="fl">AI-coach Nova</span></div>
