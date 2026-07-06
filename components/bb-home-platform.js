@@ -142,10 +142,8 @@
       el.innerHTML = `<div class="panel active"><div class="pt"><div class="f-out" style="background:${f.color}22;color:${f.color};">${f.icon} ${f.outcome}</div><h3>${f.title}</h3><p>${f.desc}</p><ul class="pts">${f.points.map(p=>`<li><span class="ck" style="background:${p.startsWith('🚀')?'#7C3AED':f.color};">${p.startsWith('🚀')?'→':'✓'}</span>${p}</li>`).join('')}</ul><a href="https://www.businessbaas.com/voor-starters" class="pcta" style="background:${f.color};" data-lightbox>Gratis training <svg width="15" height="15" viewBox="0 0 15 15" fill="none"><path d="M3 7.5H12M12 7.5L8.5 4M12 7.5L8.5 11" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div><div class="pv"><img src="${f.photo}" alt="${f.label}" style="width:100%;height:auto;border-radius:20px;display:block;object-fit:cover;max-height:480px;box-shadow:0 20px 56px rgba(13,34,64,.16);" /></div></div>`;
       el.querySelectorAll('[data-lightbox]').forEach(function(btn) {
         btn.addEventListener('click', function(e) {
-          if (window.openTrainingLightbox) {
-            e.preventDefault();
-            window.openTrainingLightbox();
-          }
+          e.preventDefault();
+          window.parent.postMessage({ action: 'openLightbox', lightbox: 'Gratis training' }, '*');
         });
       });
     }

@@ -192,10 +192,8 @@
       s.querySelectorAll('.ob').forEach(el => obs.observe(el));
       s.querySelectorAll('[data-lightbox]').forEach(function(el) {
         el.addEventListener('click', function(e) {
-          if (window.openTrainingLightbox) {
-            e.preventDefault();
-            window.openTrainingLightbox();
-          }
+          e.preventDefault();
+          window.parent.postMessage({ action: 'openLightbox', lightbox: 'Gratis training' }, '*');
         });
       });
     }
