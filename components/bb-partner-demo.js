@@ -1,7 +1,7 @@
 (function () {
   if (customElements.get('bb-partner-demo')) return;
 
-  const WEB3_KEY = 'JOUW_WEB3FORMS_KEY'; // → vervang dit: web3forms.com → vul email in → key per mail
+  const WEB3_KEY = 'e725eb57-1af1-45a5-87a9-ff25ad540eb0';
 
   class BBPartnerDemo extends HTMLElement {
     connectedCallback() {
