@@ -8,46 +8,51 @@
         <style>
           *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
           :host{display:block;font-family:'Inter',-apple-system,sans-serif}
-          .wrap{background:#0D2240;padding:40px 24px 56px;text-align:center}
+          .wrap{background:#0D2240;padding:48px 24px 64px}
           .inner{max-width:520px;margin:0 auto}
-          .label{font-size:11px;font-weight:700;color:rgba(255,255,255,.35);text-transform:uppercase;letter-spacing:.12em;margin-bottom:20px}
-          .items{display:flex;flex-direction:column;gap:14px;margin-bottom:36px;text-align:left}
-          .item{display:flex;align-items:flex-start;gap:14px}
-          .icon{width:36px;height:36px;border-radius:10px;background:rgba(232,93,4,.15);border:1px solid rgba(232,93,4,.2);display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:16px}
-          .text strong{display:block;font-size:15px;font-weight:700;color:#fff;margin-bottom:2px}
-          .text span{font-size:13px;color:rgba(255,255,255,.45);line-height:1.5}
-          .divider{width:40px;height:2px;background:rgba(255,255,255,.08);border-radius:2px;margin:0 auto 28px}
-          .proof{font-size:14px;color:rgba(255,255,255,.4);line-height:1.6}
-          .proof strong{color:rgba(255,255,255,.75);font-weight:700}
+          .label{font-size:11px;font-weight:700;color:rgba(255,255,255,.3);text-transform:uppercase;letter-spacing:.12em;text-align:center;margin-bottom:32px}
+          .steps{display:flex;flex-direction:column;gap:0}
+          .step{display:flex;align-items:flex-start;gap:20px;padding:20px 0;border-bottom:1px solid rgba(255,255,255,.06)}
+          .step:last-child{border-bottom:none}
+          .num{width:36px;height:36px;border-radius:10px;background:rgba(232,93,4,.18);border:1px solid rgba(232,93,4,.28);display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:800;color:#E85D04;flex-shrink:0;margin-top:2px}
+          .body strong{display:block;font-size:15px;font-weight:700;color:#fff;margin-bottom:4px;line-height:1.3}
+          .body span{font-size:13px;color:rgba(255,255,255,.45);line-height:1.55}
+          .tag{display:inline-flex;align-items:center;gap:5px;margin-top:7px;padding:3px 10px;background:rgba(232,93,4,.12);border:1px solid rgba(232,93,4,.2);border-radius:50px;font-size:11px;font-weight:700;color:rgba(232,93,4,.85);letter-spacing:.04em}
+          .proof{margin-top:36px;padding:20px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:14px;text-align:center}
+          .proof-text{font-size:14px;color:rgba(255,255,255,.45);line-height:1.6}
+          .proof-text strong{color:rgba(255,255,255,.75);font-weight:700}
         </style>
         <div class="wrap">
           <div class="inner">
             <p class="label">Wat je krijgt na aanmelding</p>
-            <div class="items">
-              <div class="item">
-                <div class="icon">🎯</div>
-                <div class="text">
-                  <strong>De 3 stappen naar je eerste klant</strong>
-                  <span>Concreet, direct toepasbaar — geen theorie maar actie.</span>
+            <div class="steps">
+              <div class="step">
+                <div class="num">1</div>
+                <div class="body">
+                  <strong>Drie stappen naar je eerste klant</strong>
+                  <span>Geen vage theorie — concrete acties die je direct kunt uitvoeren om klanten te vinden.</span>
                 </div>
               </div>
-              <div class="item">
-                <div class="icon">📋</div>
-                <div class="text">
-                  <strong>Templates & oefeningen</strong>
-                  <span>Download en gebruik direct. Geen blanco pagina meer.</span>
+              <div class="step">
+                <div class="num">2</div>
+                <div class="body">
+                  <strong>In de actiestand — resultaat binnen 48 uur</strong>
+                  <span>De training is kort, gericht en afgestemd op snelle resultaten. Je wacht niet, je doet.</span>
+                  <span class="tag">⚡ Direct toepasbaar</span>
                 </div>
               </div>
-              <div class="item">
-                <div class="icon">🤝</div>
-                <div class="text">
-                  <strong>Toegang tot de BusinessBaas community</strong>
-                  <span>Stel vragen, deel voortgang en leer van andere starters.</span>
+              <div class="step">
+                <div class="num">3</div>
+                <div class="body">
+                  <strong>Geen fake webinar — een echte on-demand training</strong>
+                  <span>Geen inlogmoment, geen 'live' opname. Jij kijkt wanneer het jou uitkomt.</span>
+                  <span class="tag">✓ Altijd beschikbaar</span>
                 </div>
               </div>
             </div>
-            <div class="divider"></div>
-            <p class="proof">Sluit je aan bij <strong>tientallen starters</strong> die al begonnen zijn.<br>Geen verplichting — je kunt altijd stoppen.</p>
+            <div class="proof">
+              <p class="proof-text">Sluit je aan bij <strong>tientallen starters</strong> die al begonnen zijn.<br>Geen verplichting — je kunt altijd stoppen.</p>
+            </div>
           </div>
         </div>`;
     }
