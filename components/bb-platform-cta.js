@@ -25,19 +25,13 @@
             <h2 class="ob">Klaar om te starten?</h2>
             <p class="ob">Begin met de gratis training en ontdek hoe BusinessBaas jou van idee naar eerste klant brengt. Geen creditcard, geen verplichtingen.</p>
             <div class="btns ob">
-              <a class="btn-w" href="https://www.businessbaas.com/voor-starters" data-lightbox>Start gratis training</a>
+              <a class="btn-w" href="https://www.businessbaas.com/gratis-training" target="_top" data-lightbox>Start gratis training</a>
               <a class="btn-g" href="https://www.businessbaas.com/contact">Stel een vraag</a>
             </div>
           </div>
         </section>`;
       const obs = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) e.target.classList.add('show'); }), { threshold: .15 });
       s.querySelectorAll('.ob').forEach(el => obs.observe(el));
-      s.querySelectorAll('[data-lightbox]').forEach(function(el) {
-        el.addEventListener('click', function(e) {
-          e.preventDefault();
-          window.parent.postMessage({ action: 'openLightbox', lightbox: 'Gratis training' }, '*');
-        });
-      });
     }
   }
   customElements.define('bb-platform-cta', BBPlatformCta);

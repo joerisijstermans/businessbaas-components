@@ -5,12 +5,6 @@
     constructor() { super(); this.attachShadow({ mode: 'open' }); }
     connectedCallback() {
       this.render();
-      this.shadowRoot.querySelectorAll('[data-lightbox]').forEach(function(el) {
-        el.addEventListener('click', function(e) {
-          e.preventDefault();
-          window.parent.postMessage({ action: 'openLightbox', lightbox: 'Gratis training' }, '*');
-        });
-      });
     }
     render() {
       this.shadowRoot.innerHTML = `
@@ -50,7 +44,7 @@
                   <img src="${CDN}/beeldmerk-tot.png" alt="BusinessBaas">
                 </a>
                 <p class="bd">Van idee naar eerste betalende klanten. Het compleet ondernemersplatform voor startende ondernemers.</p>
-                <a href="https://www.businessbaas.com/voor-starters" class="bc" data-lightbox>Gratis training starten →</a>
+                <a href="https://www.businessbaas.com/gratis-training" class="bc" target="_top" data-lightbox>Gratis training starten →</a>
               </div>
               <div class="col"><h4>Platform</h4><ul>
                 <li><a href="https://www.businessbaas.com/het-platform">Het Platform</a></li>
@@ -62,7 +56,7 @@
               </ul></div>
               <div class="col"><h4>Voor Starters</h4><ul>
                 <li><a href="https://www.businessbaas.com/voor-starters">Voor Starters</a></li>
-                <li><a href="https://www.businessbaas.com/voor-starters" data-lightbox>Gratis Training</a></li>
+                <li><a href="https://www.businessbaas.com/gratis-training" target="_top" data-lightbox>Gratis Training</a></li>
                 <li><a href="https://www.businessbaas.com/over-ons">Over Ons</a></li>
                 <li><a href="https://www.businessbaas.com/contact">Contact</a></li>
               </ul></div>

@@ -88,7 +88,7 @@
           <h1>Zet jouw droom om in een <em>echte onderneming</em></h1>
           <p>Als deelnemer van Dreamchasers of Huis van de Toekomst krijg je toegang tot BusinessBaas — met stap-voor-stap trainingen, AI-coach Nova en een community van gelijkgestemde starters.</p>
           <div class="hero-btns">
-            <a href="https://www.businessbaas.com/voor-starters" class="btn-primary" data-lightbox>Start gratis →</a>
+            <a href="https://www.businessbaas.com/gratis-training" class="btn-primary" target="_top" data-lightbox>Start gratis →</a>
             <a href="https://www.businessbaas.com/het-platform" class="btn-ghost">Bekijk het platform</a>
           </div>
           <div class="hero-logos">
@@ -181,7 +181,7 @@
             <h2>De deur naar jouw toekomst staat open</h2>
             <p>Meld je gratis aan via de BusinessBaas website. Geen creditcard, geen verplichtingen. Gewoon starten en zien hoe ver je komt.</p>
             <div class="cta-btns">
-              <a href="https://www.businessbaas.com/voor-starters" class="cta-btn-w" data-lightbox>Start gratis training</a>
+              <a href="https://www.businessbaas.com/gratis-training" class="cta-btn-w" target="_top" data-lightbox>Start gratis training</a>
               <a href="https://www.businessbaas.com/het-platform" class="cta-btn-g">Bekijk het platform</a>
             </div>
             <p class="cta-note">Aangeboden via Dreamchasers & Huis van de Toekomst Heerlen</p>
@@ -190,12 +190,6 @@
 
       const obs = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) e.target.classList.add('show'); }), { threshold: .1 });
       s.querySelectorAll('.ob').forEach(el => obs.observe(el));
-      s.querySelectorAll('[data-lightbox]').forEach(function(el) {
-        el.addEventListener('click', function(e) {
-          e.preventDefault();
-          window.parent.postMessage({ action: 'openLightbox', lightbox: 'Gratis training' }, '*');
-        });
-      });
     }
   }
   customElements.define('bb-partner-dreamchasers', BBPartnerDreamchasers);

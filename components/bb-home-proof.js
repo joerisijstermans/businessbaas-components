@@ -21,12 +21,6 @@
       this.render();
       this._bind();
       this._obs();
-      this.shadowRoot.querySelectorAll('[data-lightbox]').forEach(function(el) {
-        el.addEventListener('click', function(e) {
-          e.preventDefault();
-          window.parent.postMessage({ action: 'openLightbox', lightbox: 'Gratis training' }, '*');
-        });
-      });
     }
     _vis() { return window.innerWidth >= 960 ? 3 : window.innerWidth >= 580 ? 2 : 1; }
     _pages() { return Math.ceil(this._n / this._vis()); }
@@ -158,7 +152,7 @@
             </div>
             <div class="cs ob">
               <p>Jij kunt het volgende <em>succesverhaal</em> zijn</p>
-              <a href="https://www.businessbaas.com/voor-starters" class="sb" data-lightbox>Start jouw gratis training <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+              <a href="https://www.businessbaas.com/gratis-training" class="sb" target="_top" data-lightbox>Start jouw gratis training <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
             </div>
           </div>
         </section>`;

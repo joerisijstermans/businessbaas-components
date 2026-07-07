@@ -46,19 +46,13 @@
               <span class="pill">✓ LIVE events</span>
               <span class="pill">✓ Marktplaats</span>
             </div>
-            <a class="btn ob" href="https://www.businessbaas.com/voor-starters" data-lightbox>Start gratis training</a>
+            <a class="btn ob" href="https://www.businessbaas.com/gratis-training" target="_top" data-lightbox>Start gratis training</a>
             <p class="direct ob">Al overtuigd? <a href="https://buy.stripe.com/dRm5kE8F4cIO8B65DGeZ202">Direct lid worden →</a></p>
             <p class="footnote ob">✓ Geen verborgen kosten &nbsp;·&nbsp; ✓ Direct toegang &nbsp;·&nbsp; ✓ Altijd opzegbaar</p>
           </div>
         </section>`;
       const obs = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) e.target.classList.add('show'); }), { threshold: .12 });
       s.querySelectorAll('.ob').forEach(el => obs.observe(el));
-      s.querySelectorAll('[data-lightbox]').forEach(function(el) {
-        el.addEventListener('click', function(e) {
-          e.preventDefault();
-          window.parent.postMessage({ action: 'openLightbox', lightbox: 'Gratis training' }, '*');
-        });
-      });
     }
   }
   customElements.define('bb-platform-pricing', BBPlatformPricing);

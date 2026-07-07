@@ -6,12 +6,6 @@
       this.render();
       this._bind();
       this._obs();
-      this.shadowRoot.querySelectorAll('[data-lightbox]').forEach(function(el) {
-        el.addEventListener('click', function(e) {
-          e.preventDefault();
-          window.parent.postMessage({ action: 'openLightbox', lightbox: 'Gratis training' }, '*');
-        });
-      });
     }
     render() {
       this.shadowRoot.innerHTML = `
@@ -91,7 +85,7 @@
                 <div class="cta-card navy">
                   <h4>Ben je starter?</h4>
                   <p>Bekijk de gratis training en ontdek of BusinessBaas bij jou past.</p>
-                  <a href="https://www.businessbaas.com/voor-starters" class="cta-link" data-lightbox>Gratis training starten →</a>
+                  <a href="https://www.businessbaas.com/gratis-training" class="cta-link" target="_top" data-lightbox>Gratis training starten →</a>
                 </div>
                 <div class="cta-card outline">
                   <h4>Ben je organisatie of coach?</h4>

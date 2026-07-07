@@ -52,7 +52,7 @@
                 <li><span>Community &amp; marktplaats</span></li>
                 <li><span>Altijd opzegbaar</span></li>
               </ul>
-              <a href="https://www.businessbaas.com/voor-starters" class="plan-cta" data-lightbox>
+              <a href="https://www.businessbaas.com/gratis-training" class="plan-cta" target="_top" data-lightbox>
                 Start gratis training
                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M3.5 9H14.5M14.5 9L10 4.5M14.5 9L10 13.5" stroke="white" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
               </a>
@@ -62,12 +62,6 @@
         </section>`;
       const obs = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('show'); obs.unobserve(e.target); } }), { threshold: 0.08 });
       s.querySelectorAll('.ob').forEach(el => obs.observe(el));
-      s.querySelectorAll('[data-lightbox]').forEach(function(el) {
-        el.addEventListener('click', function(e) {
-          e.preventDefault();
-          window.parent.postMessage({ action: 'openLightbox', lightbox: 'Gratis training' }, '*');
-        });
-      });
     }
   }
   customElements.define('bb-landing-pricing', BBLandingPricing);

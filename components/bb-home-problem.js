@@ -5,12 +5,6 @@
     connectedCallback() {
       this.render();
       this._obs();
-      this.shadowRoot.querySelectorAll('[data-lightbox]').forEach(function(el) {
-        el.addEventListener('click', function(e) {
-          e.preventDefault();
-          window.parent.postMessage({ action: 'openLightbox', lightbox: 'Gratis training' }, '*');
-        });
-      });
     }
     render() {
       const problems = [
@@ -63,7 +57,7 @@
                 <p>BusinessBaas helpt je van <em>ideeën naar uitvoering</em>.</p>
                 <span>Kort. Krachtig.</span>
               </div>
-              <a href="https://www.businessbaas.com/voor-starters" class="rc" data-lightbox>Ontdek hoe het werkt <svg width="15" height="15" viewBox="0 0 15 15" fill="none"><path d="M3 7.5H12M12 7.5L8.5 4M12 7.5L8.5 11" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+              <a href="https://www.businessbaas.com/gratis-training" class="rc" target="_top" data-lightbox>Ontdek hoe het werkt <svg width="15" height="15" viewBox="0 0 15 15" fill="none"><path d="M3 7.5H12M12 7.5L8.5 4M12 7.5L8.5 11" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
             </div>
           </div>
         </section>`;
