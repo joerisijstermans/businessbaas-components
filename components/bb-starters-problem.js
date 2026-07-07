@@ -46,7 +46,7 @@
             <div class="grid ob">${items.map(i=>`<div class="item"><div class="ico">${i.icon}</div><div><div class="it">${i.t}</div><div class="id">${i.d}</div></div></div>`).join('')}</div>
             <div class="res ob">
               <div class="rt"><p>BusinessBaas geeft je structuur,<br>begeleiding en <em>tools</em> om die stap wél te zetten.</p><span>Van idee naar eerste klant, in jouw tempo</span></div>
-              <a href="#gratis-training" class="rc">Gratis starten <svg width="15" height="15" viewBox="0 0 15 15" fill="none"><path d="M3 7.5H12M12 7.5L8.5 4M12 7.5L8.5 11" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+              <a href="https://www.businessbaas.com/gratis-training-aanvragen" class="rc" target="_top" data-lightbox>Gratis starten <svg width="15" height="15" viewBox="0 0 15 15" fill="none"><path d="M3 7.5H12M12 7.5L8.5 4M12 7.5L8.5 11" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
             </div>
           </div>
         </section>`;

@@ -40,7 +40,7 @@
             <div class="ob"><span class="lbl">Hoe het werkt</span></div>
             <div class="hdr ob"><h2>Drie stappen naar je eerste klant</h2><p>Een bewezen aanpak die je van idee naar omzet brengt.</p></div>
             <div class="steps ob">${steps.map(s=>`<div class="step"><div class="num">${s.n}</div><div class="st">${s.t}</div><div class="sd">${s.d}</div></div>`).join('')}</div>
-            <div class="cta-wrap ob"><a href="#gratis-training" class="btn">Begin met stap 1, gratis <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div>
+            <div class="cta-wrap ob"><a href="https://www.businessbaas.com/gratis-training-aanvragen" class="btn" target="_top" data-lightbox>Begin met stap 1, gratis <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div>
           </div>
         </section>`;
     }
