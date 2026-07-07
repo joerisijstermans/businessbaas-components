@@ -4,20 +4,36 @@
     connectedCallback() {
       const s = this.attachShadow({ mode: 'open' });
       const STRIPE_MAAND = 'https://buy.stripe.com/dRm5kE8F4cIO8B65DGeZ202';
-      const STRIPE_JAAR  = 'https://buy.stripe.com/dRm5kE8F4cIO8B65DGeZ202';
-      const feats = [
-        ['Alle trainingen', 'Praktische videolessen in je eigen tempo'],
-        ['Nova AI-assistent', 'Jouw AI-coach voor vragen en feedback, 24/7'],
-        ['Digitale werkplek', 'Jouw dashboard om je business bij te houden'],
-        ['Community', 'Stel vragen en leer van andere starters'],
-        ['LIVE events', 'Maandelijkse sessies met Joeri en gastexperts'],
-        ['Marktplaats', 'Vind klanten of samenwerkingspartners'],
-      ];
-      const featHtml = feats.map(([t, d]) => `
+      const STRIPE_JAAR  = 'https://buy.stripe.com/aFabJ22gG8sy9Fa1nqeZ200';
+      const featHtml = `
         <li class="feat">
           <div class="chk"><svg width="11" height="9" viewBox="0 0 11 9" fill="none"><path d="M1 4.5L3.8 7.5L10 1" stroke="#E85D04" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
-          <div><strong>${t}</strong><span>${d}</span></div>
-        </li>`).join('');
+          <div><strong>20+ praktische trainingen</strong><span>Videolessen die je in je eigen tempo volgt</span></div>
+        </li>
+        <li class="feat">
+          <div class="chk"><svg width="11" height="9" viewBox="0 0 11 9" fill="none"><path d="M1 4.5L3.8 7.5L10 1" stroke="#E85D04" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <div><strong>Digitale werkplek</strong><span>Jouw dashboard om je business bij te houden</span></div>
+        </li>
+        <li class="feat">
+          <div class="chk"><svg width="11" height="9" viewBox="0 0 11 9" fill="none"><path d="M1 4.5L3.8 7.5L10 1" stroke="#E85D04" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <div><strong>AI-coach Nova (24/7)</strong><span>Jouw persoonlijke AI-coach voor vragen en feedback</span></div>
+        </li>
+        <li class="feat feat-soon">
+          <div class="chk chk-soon"><svg width="11" height="9" viewBox="0 0 11 9" fill="none"><path d="M1 4.5L3.8 7.5L10 1" stroke="#7C3AED" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <div><strong>Slim Ondernemen met AI <span class="soon-pill">binnenkort</span></strong><span>AI-module voor slimmere beslissingen en snellere groei</span></div>
+        </li>
+        <li class="feat">
+          <div class="chk"><svg width="11" height="9" viewBox="0 0 11 9" fill="none"><path d="M1 4.5L3.8 7.5L10 1" stroke="#E85D04" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <div><strong>Community &amp; marktplaats</strong><span>Stel vragen, deel voortgang en vind samenwerkingspartners</span></div>
+        </li>
+        <li class="feat feat-addon">
+          <div class="chk chk-addon">↗</div>
+          <div><strong>LIVE events</strong><span>Maandelijkse sessies met Joeri en gastexperts</span></div>
+        </li>
+        <li class="feat feat-addon">
+          <div class="chk chk-addon">↗</div>
+          <div><strong>1 op 1 coaching</strong><span>Persoonlijke begeleiding op maat</span></div>
+        </li>`;
       s.innerHTML = `
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
         <style>
@@ -51,6 +67,12 @@
           .chk{width:22px;height:22px;border-radius:6px;background:rgba(232,93,4,.1);display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:2px}
           .feat strong{display:block;font-size:13.5px;font-weight:700;color:#0D2240;margin-bottom:1px}
           .feat span{font-size:12px;color:#9CA3AF;line-height:1.45}
+          .feat-soon strong{color:#6D28D9}
+          .chk-soon{background:rgba(124,58,237,.1)}
+          .soon-pill{font-size:10px;font-weight:700;background:rgba(124,58,237,.15);color:#7C3AED;padding:2px 7px;border-radius:50px;vertical-align:middle;margin-left:4px}
+          .feat-addon strong{color:#6B7280}
+          .feat-addon span{color:#B0B8C8}
+          .chk-addon{background:#F3F4F6;color:#9CA3AF;font-size:11px;font-weight:700;display:flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:6px;flex-shrink:0;margin-top:2px}
           .fn{font-size:12px;color:#9CA3AF;text-align:center;line-height:1.7}
           .bottom-note{text-align:center;font-size:13.5px;color:#6B7280;line-height:1.6}
           .bottom-note strong{color:#0D2240}
