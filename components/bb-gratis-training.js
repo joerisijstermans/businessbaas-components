@@ -23,6 +23,7 @@
           .arrow{margin-top:24px}
           .arrow svg{animation:bounce 1.6s ease-in-out infinite}
           @keyframes bounce{0%,100%{transform:translateY(0)}50%{transform:translateY(6px)}}
+          .form-hint{margin-top:14px;font-size:13.5px;font-weight:600;color:rgba(255,255,255,.45)}
         </style>
         <div class="wrap">
           <div class="inner">
@@ -36,6 +37,7 @@
             </div>
             <div class="arrow">
               <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><path d="M14 6v16M14 22l-6-6M14 22l6-6" stroke="rgba(255,255,255,.3)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <p class="form-hint">Vul hieronder je gegevens in en start direct</p>
             </div>
           </div>
         </div>`;

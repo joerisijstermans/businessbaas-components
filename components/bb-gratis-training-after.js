@@ -17,7 +17,6 @@
           .num{width:36px;height:36px;border-radius:10px;background:rgba(232,93,4,.18);border:1px solid rgba(232,93,4,.28);display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:800;color:#E85D04;flex-shrink:0;margin-top:2px}
           .body strong{display:block;font-size:15px;font-weight:700;color:#fff;margin-bottom:4px;line-height:1.3}
           .body span{font-size:13px;color:rgba(255,255,255,.45);line-height:1.55}
-          .tag{display:inline-flex;align-items:center;gap:5px;margin-top:7px;padding:3px 10px;background:rgba(232,93,4,.12);border:1px solid rgba(232,93,4,.2);border-radius:50px;font-size:11px;font-weight:700;color:rgba(232,93,4,.85);letter-spacing:.04em}
           .proof{margin-top:36px;padding:20px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:14px;text-align:center}
           .proof-text{font-size:14px;color:rgba(255,255,255,.45);line-height:1.6}
           .proof-text strong{color:rgba(255,255,255,.75);font-weight:700}
@@ -36,17 +35,15 @@
               <div class="step">
                 <div class="num">2</div>
                 <div class="body">
-                  <strong>In de actiestand — resultaat binnen 48 uur</strong>
+                  <strong>In de actiestand, resultaat binnen 48 uur</strong>
                   <span>De training is kort, gericht en afgestemd op snelle resultaten. Je wacht niet, je doet.</span>
-                  <span class="tag">⚡ Direct toepasbaar</span>
                 </div>
               </div>
               <div class="step">
                 <div class="num">3</div>
                 <div class="body">
-                  <strong>Geen fake webinar — een echte on-demand training</strong>
+                  <strong>Geen fake webinar, maar een echte on-demand training</strong>
                   <span>Geen inlogmoment, geen 'live' opname. Jij kijkt wanneer het jou uitkomt.</span>
-                  <span class="tag">✓ Altijd beschikbaar</span>
                 </div>
               </div>
             </div>
