@@ -4,8 +4,8 @@
     constructor() { super(); this.attachShadow({ mode: 'open' }); this._yearly = false; }
     connectedCallback() { this.render(); }
     render() {
-      const feats = ['20+ praktische trainingen','AI-coach Nova (24/7)','Slim Ondernemen met AI <span style="font-size:10px;font-weight:700;background:rgba(124,58,237,.18);color:#C4B5FD;padding:2px 8px;border-radius:50px;vertical-align:middle">binnenkort</span>','Digitale werkplek','Community & marktplaats','Altijd opzegbaar'];
-      const upsells = ['LIVE events (add-on)','1 op 1 coaching (add-on)'];
+      const feats = ['20+ praktische trainingen','Digitale werkplek','AI-coach Nova (24/7)','Slim Ondernemen met AI <span style="font-size:10px;font-weight:700;background:rgba(124,58,237,.18);color:#C4B5FD;padding:2px 8px;border-radius:50px;vertical-align:middle">binnenkort</span>','Community & marktplaats'];
+      const upsells = ['LIVE events','1 op 1 coaching'];
       const y = this._yearly;
       this.shadowRoot.innerHTML = `
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
@@ -84,7 +84,7 @@
               </div>
             </div>
             <div class="insight ob"><p>"De vraag is niet: kan ik €69 missen? De vraag is: kan ik nog 6 maanden zonder klanten?"</p></div>
-            <div class="disc ob"><span>Geen verborgen kosten</span><span>Direct toegang</span><span>Altijd opzegbaar</span></div>
+            <div class="disc ob"><span>Geen verborgen kosten</span><span>Direct toegang</span><span>Maand: maandelijks opzegbaar</span><span>Jaar: jaarcontract, daarna maandelijks opzegbaar</span></div>
           </div>
         </section>`;
       this._positionSlider();

@@ -12,7 +12,7 @@
         </li>
         <li class="feat">
           <div class="chk"><svg width="11" height="9" viewBox="0 0 11 9" fill="none"><path d="M1 4.5L3.8 7.5L10 1" stroke="#E85D04" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
-          <div><strong>Digitale werkplek</strong><span>Jouw dashboard om je business bij te houden</span></div>
+          <div><strong>Digitale werkplek</strong><span>Jouw digitale werkplek waarin je je businessplan vorm geeft</span></div>
         </li>
         <li class="feat">
           <div class="chk"><svg width="11" height="9" viewBox="0 0 11 9" fill="none"><path d="M1 4.5L3.8 7.5L10 1" stroke="#E85D04" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
@@ -28,7 +28,7 @@
         </li>
         <li class="feat feat-addon">
           <div class="chk chk-addon">↗</div>
-          <div><strong>LIVE events</strong><span>Maandelijkse sessies met Joeri en gastexperts</span></div>
+          <div><strong>LIVE events</strong><span>Live events waar leden elkaar ontmoeten — met inspirerende mini-talks, opdrachten en ruimte om te netwerken</span></div>
         </li>
         <li class="feat feat-addon">
           <div class="chk chk-addon">↗</div>
@@ -121,7 +121,7 @@
                 <div class="divider"></div>
                 <ul class="feats">${featHtml}</ul>
                 <div class="divider" style="margin-top:20px"></div>
-                <p class="fn">✓ Maandelijks verlengbaar &nbsp;·&nbsp; ✓ Altijd opzegbaar</p>
+                <p class="fn">✓ Jaarcontract &nbsp;·&nbsp; ✓ Daarna maandelijks opzegbaar</p>
               </div>
 
             </div>
