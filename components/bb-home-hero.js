@@ -82,7 +82,7 @@
               <span class="accent-line" id="acc">Wij begeleiden je.</span>
               <p class="sub" id="sub">BusinessBaas geeft je de structuur, begeleiding en tools om echt vooruit te komen: van strategie tot je eerste omzet.</p>
               <div class="ctas" id="ctas">
-                <a href="https://www.businessbaas.com/gratis-training" class="btn-p" target="_top" data-lightbox>Gratis training <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+                <a href="https://www.businessbaas.com/gratis-training-aanvragen" class="btn-p" target="_top" data-lightbox>Gratis training <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
                 <a href="https://www.businessbaas.com/het-platform" class="btn-s"><span class="play-icon"><svg width="10" height="12" viewBox="0 0 10 12" fill="none"><path d="M1 1L9 6L1 11V1Z" fill="#0D2240"/></svg></span>Bekijk hoe het werkt</a>
               </div>
               <p class="disclaimer" id="disc">✓ Geen verborgen kosten &nbsp;&nbsp; ✓ Direct toegang &nbsp;&nbsp; ✓ Altijd opzegbaar</p>

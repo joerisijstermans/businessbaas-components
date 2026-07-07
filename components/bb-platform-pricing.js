@@ -46,7 +46,7 @@
               <span class="pill">✓ LIVE events</span>
               <span class="pill">✓ Marktplaats</span>
             </div>
-            <a class="btn ob" href="https://www.businessbaas.com/gratis-training" target="_top" data-lightbox>Start gratis training</a>
+            <a class="btn ob" href="https://www.businessbaas.com/gratis-training-aanvragen" target="_top" data-lightbox>Start gratis training</a>
             <p class="direct ob">Al overtuigd? <a href="https://buy.stripe.com/dRm5kE8F4cIO8B65DGeZ202">Direct lid worden →</a></p>
             <p class="footnote ob">✓ Geen verborgen kosten &nbsp;·&nbsp; ✓ Direct toegang &nbsp;·&nbsp; ✓ Altijd opzegbaar</p>
           </div>

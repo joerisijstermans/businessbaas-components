@@ -49,7 +49,7 @@
             <li><a href="https://www.businessbaas.com/over-ons">Over Ons</a></li>
             <li><a href="https://www.businessbaas.com/contact">Contact</a></li>
           </ul>
-          <a href="https://www.businessbaas.com/gratis-training" class="cta" target="_top" data-lightbox>Gratis training <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2.5 7H11.5M11.5 7L8 3.5M11.5 7L8 10.5" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          <a href="https://www.businessbaas.com/gratis-training-aanvragen" class="cta" target="_top" data-lightbox>Gratis training <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2.5 7H11.5M11.5 7L8 3.5M11.5 7L8 10.5" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
           <button class="burger" id="burger" aria-label="Menu openen"><span></span><span></span><span></span></button>
         </nav>
         <div class="mobile" id="mobile">
@@ -59,7 +59,7 @@
           <a href="https://www.businessbaas.com/het-platform">Het Platform</a>
           <a href="https://www.businessbaas.com/over-ons">Over Ons</a>
           <a href="https://www.businessbaas.com/contact">Contact</a>
-          <a href="https://www.businessbaas.com/gratis-training" class="mob-cta" target="_top" data-lightbox>Gratis training starten →</a>
+          <a href="https://www.businessbaas.com/gratis-training-aanvragen" class="mob-cta" target="_top" data-lightbox>Gratis training starten →</a>
         </div>`;
     }
     _bind() {
