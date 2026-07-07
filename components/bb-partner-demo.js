@@ -84,7 +84,7 @@
                 </div>
                 <div class="fg">
                   <label for="organisatie">Organisatie *</label>
-                  <input type="text" id="organisatie" name="organisatie" placeholder="Gemeente Maastricht" required>
+                  <input type="text" id="organisatie" name="organisatie" placeholder="Naam van je organisatie" required>
                 </div>
                 <div class="fg">
                   <label for="email">E-mailadres *</label>
@@ -160,8 +160,7 @@
           const res  = await fetch('https://api.web3forms.com/submit', { method: 'POST', body });
           const json = await res.json();
           if (json.success) {
-            form.style.display = 'none';
-            ok.style.display = 'block';
+            window.top.location.href = 'https://www.businessbaas.com/bedankt-partner';
           } else {
             throw new Error(json.message || 'unknown');
           }
