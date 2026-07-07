@@ -20,6 +20,9 @@
           .checks{display:flex;flex-wrap:wrap;justify-content:center;gap:8px 20px}
           .check{display:flex;align-items:center;gap:6px;font-size:13px;font-weight:600;color:rgba(255,255,255,.6)}
           .check::before{content:'✓';color:#E85D04;font-weight:900}
+          .arrow{margin-top:24px}
+          .arrow svg{animation:bounce 1.6s ease-in-out infinite}
+          @keyframes bounce{0%,100%{transform:translateY(0)}50%{transform:translateY(6px)}}
         </style>
         <div class="wrap">
           <div class="inner">
@@ -30,6 +33,9 @@
               <span class="check">Direct toegang</span>
               <span class="check">Geen creditcard</span>
               <span class="check">Altijd beschikbaar</span>
+            </div>
+            <div class="arrow">
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><path d="M14 6v16M14 22l-6-6M14 22l6-6" stroke="rgba(255,255,255,.3)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
             </div>
           </div>
         </div>`;
