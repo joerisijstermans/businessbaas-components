@@ -93,7 +93,7 @@
           .sc{background:#fff;padding:28px 20px;text-align:center;opacity:0;transform:translateY(14px);transition:all .6s ease;}
           .sc.show{opacity:1;transform:translateY(0);}
           .sn{font-size:36px;font-weight:900;color:var(--navy);letter-spacing:-.03em;}
-          .sn span{color:var(--orange);}
+          .sn span{color:var(--navy);}
           .sl2{font-size:11px;font-weight:600;color:#9CA3AF;text-transform:uppercase;letter-spacing:.06em;margin-top:6px;}
           .cs{text-align:center;margin-top:52px;}
           .cs p{font-size:20px;font-weight:700;color:var(--navy);margin-bottom:18px;}
@@ -146,7 +146,7 @@
             </div>
             <div class="stats">
               <div class="sc" data-target="25" data-suffix="+" data-decimals="0"><div class="sn">0<span>+</span></div><div class="sl2">Actieve leden</div></div>
-              <div class="sc" style="transition-delay:.1s" data-target="2.3" data-prefix="€" data-decimals="2"><div class="sn"><span>€</span>0,00</div><div class="sl2">Per dag coaching</div></div>
+              <div class="sc" style="transition-delay:.1s" data-target="20" data-suffix="+" data-decimals="0"><div class="sn">0<span>+</span></div><div class="sl2">Praktische trainingen</div></div>
               <div class="sc" style="transition-delay:.2s" data-target="90" data-suffix="" data-decimals="0"><div class="sn">0</div><div class="sl2">Dagen programma</div></div>
               <div class="sc" style="transition-delay:.3s" data-target="4.9" data-suffix="★" data-decimals="1"><div class="sn">0<span>★</span></div><div class="sl2">Google beoordeling</div></div>
             </div>

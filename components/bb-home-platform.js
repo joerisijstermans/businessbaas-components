@@ -9,7 +9,7 @@
           icon: '📚', label: 'Trainingen',
           outcome: 'Structuur & richting',
           title: 'Weet precies wat je wanneer moet doen',
-          desc: '17+ praktische trainingen die je door de beginfase leiden. Alleen wat nu relevant is, geen overweldigende theorie, geen eindeloos zoeken.',
+          desc: '20+ praktische trainingen die je door de beginfase leiden. Alleen wat nu relevant is, geen overweldigende theorie, geen eindeloos zoeken.',
           points: ['Van idee naar een helder, verkopend aanbod', 'Positionering die de juiste klanten aantrekt', 'Sales & acquisitie stap voor stap', 'Direct actie na elke les'],
           color: '#E85D04',
           photo: `${CDN}/training-afbeelding.png`
@@ -27,7 +27,7 @@
           icon: '🤖', label: 'AI-Coach Nova',
           outcome: 'Begeleiding 24/7',
           title: 'Persoonlijke coaching, geen chatbot',
-          desc: 'Nova is niet zomaar een AI-assistent. Ze kent jóuw trainingen en jóuw situatie, en benadert je ultra-persoonlijk. Dat is iets wezenlijk anders dan ChatGPT. Toegankelijk voor minder dan €2,30 per dag.',
+          desc: 'Nova is niet zomaar een AI-assistent. Ze kent jóuw trainingen en jóuw situatie, en benadert je ultra-persoonlijk. Dat is iets wezenlijk anders dan ChatGPT. Volledig inbegrepen in het abonnement, geen extra kosten.',
           points: ['Ultra-persoonlijk, afgestemd op jóuw traject', 'Altijd beschikbaar, ook \'s avonds en in het weekend', 'Advies op jouw situatie, niet op een standaard vraag', 'Gebouwd op alle BusinessBaas trainingen'],
           color: '#8B5CF6',
           photo: `${CDN}/nova-afbeelding.png`
@@ -45,7 +45,7 @@
           icon: '🛒', label: 'Marktplaats',
           outcome: 'Eerste opdrachten',
           title: 'Vind je eerste klanten dichter bij huis',
-          desc: 'Via onze WhatsApp-community deel je jouw aanbod met mede-ondernemers. Al diverse leden hebben via BusinessBaas opdrachten bij elkaar gevonden. Zo maakte Juurd professionele foto\'s voor Inge nadat ze elkaar in de community ontmoetten.',
+          desc: 'Via onze WhatsApp-community deel je jouw aanbod met mede-ondernemers. Al diverse leden hebben via BusinessBaas opdrachten bij elkaar gevonden.',
           points: ['Deel je aanbod in de WhatsApp-community', 'Klanten vinden via mede-ondernemers', 'Members helpen members', 'Echte opdrachten, echte relaties'],
           color: '#10B981',
           photo: `${CDN}/marktplaats-afbeelding.jpg`

@@ -9,7 +9,7 @@
     render() {
       const items = [
         { num:'01', title:'Helder stappenplan', desc:'Geen losse tips of tegenstrijdige adviezen meer. Je volgt een bewezen 90-daags traject dat je precies vertelt wat je wanneer moet doen, stap voor stap richting je eerste klant.', outcome:'Van chaos naar overzicht', color:'#E85D04' },
-        { num:'02', title:'Begeleiding die bij je past', desc:'Je staat er niet alleen voor. AI-coach Nova geeft persoonlijk feedback op jouw situatie, altijd beschikbaar. Professionele coaching voor minder dan €2 per dag, toegankelijk voor elke starter.', outcome:'Nooit meer vastlopen', color:'#3B82F6' },
+        { num:'02', title:'Begeleiding die bij je past', desc:'Je staat er niet alleen voor. AI-coach Nova geeft persoonlijk feedback op jouw situatie, altijd beschikbaar. Professionele coaching inbegrepen bij je abonnement.', outcome:'Nooit meer vastlopen', color:'#3B82F6' },
         { num:'03', title:'Actie, geen theorie', desc:'Elke training heeft directe opdrachten die je uitvoert in je werkplek. Je leert niet passief, je bouwt tegelijkertijd aan je echte bedrijf. Na 90 dagen heb je resultaat, niet alleen kennis.', outcome:'Van idee naar eerste klanten', color:'#10B981' },
       ];
       this.shadowRoot.innerHTML = `

@@ -66,13 +66,13 @@
             </div>
             <div class="tl ob">
               <div class="tli">
-                <div class="tlit"><div class="tld"></div><span class="tll">17+ praktische trainingen</span></div>
+                <div class="tlit"><div class="tld"></div><span class="tll">20+ trainingen</span></div>
+                <div class="tln"></div>
+                <div class="tlit"><div class="tld"></div><span class="tll">Digitale werkplek</span></div>
                 <div class="tln"></div>
                 <div class="tlit"><div class="tld"></div><span class="tll">AI-Coach Nova 24/7</span></div>
                 <div class="tln"></div>
                 <div class="tlit"><div class="tld"></div><span class="tll">Community & LIVE events</span></div>
-                <div class="tln"></div>
-                <div class="tlit"><div class="tld"></div><span class="tll">Digitale werkplek</span></div>
               </div>
               <a href="https://www.businessbaas.com/gratis-training-aanvragen" class="tlc" target="_top" data-lightbox>Start gratis training →</a>
             </div>

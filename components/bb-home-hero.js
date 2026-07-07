@@ -64,11 +64,8 @@
           .fc-2-fill { height: 100%; width: 65%; background: linear-gradient(90deg, var(--orange), #FF9954); border-radius: 3px; }
           .fc-3 { bottom: 32px; right: -28px; width: 204px; transform: translateY(12px); }
           .fc-3.show { opacity: 1; transform: translateY(0); }
-          .fc-3-val { font-size: 15px; font-weight: 800; color: var(--navy); margin-bottom: 12px; }
-          .fc-3-avs { display: flex; }
-          .fc-3-av { width: 26px; height: 26px; border-radius: 50%; border: 2px solid #fff; object-fit: cover; margin-left: -6px; }
-          .fc-3-av:first-child { margin-left: 0; }
-          .fc-3-more { width: 26px; height: 26px; border-radius: 50%; background: #F3F4F6; margin-left: -6px; font-size: 9px; font-weight: 700; color: #6B7280; display: flex; align-items: center; justify-content: center; border: 2px solid #fff; }
+          .fc-3-val { font-size: 14px; font-weight: 700; color: var(--navy); display: flex; align-items: center; gap: 8px; }
+          .fc-3-icon { width: 22px; height: 22px; border-radius: 50%; background: rgba(232,93,4,.12); display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
           @media (max-width: 960px) { .hero { padding: 0 20px; } .inner { grid-template-columns: 1fr; gap: 48px; padding: 100px 0 60px; } .right { height: 420px; } .fc-1 { right: 0; } .fc-3 { right: 0; } }
           @media (max-width: 580px) { .inner { padding: 88px 0 48px; } h1 { font-size: clamp(34px,9vw,48px); } .right { height: 320px; } .fc-2 { display: none; } .fc-1 { right: -4px; } .fc-3 { right: -4px; } }
         </style>
@@ -83,7 +80,7 @@
               <p class="sub" id="sub">BusinessBaas geeft je de structuur, begeleiding en tools om echt vooruit te komen: van strategie tot je eerste omzet.</p>
               <div class="ctas" id="ctas">
                 <a href="https://www.businessbaas.com/gratis-training-aanvragen" class="btn-p" target="_top" data-lightbox>Gratis training <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
-                <a href="https://www.businessbaas.com/het-platform" class="btn-s"><span class="play-icon"><svg width="10" height="12" viewBox="0 0 10 12" fill="none"><path d="M1 1L9 6L1 11V1Z" fill="#0D2240"/></svg></span>Bekijk hoe het werkt</a>
+                <a href="https://www.businessbaas.com/het-platform" class="btn-s">Bekijk hoe het werkt</a>
               </div>
               <p class="disclaimer" id="disc">✓ Geen verborgen kosten &nbsp;&nbsp; ✓ Direct toegang &nbsp;&nbsp; ✓ Altijd opzegbaar</p>
               <div class="sp" id="sp">
@@ -113,12 +110,9 @@
               </div>
               <div class="fc fc-3" id="fc3">
                 <div class="fc-lbl">Doel</div>
-                <div class="fc-3-val">Eerste klanten</div>
-                <div class="fc-3-avs">
-                  <img class="fc-3-av" src="https://cdn.jsdelivr.net/gh/joerisijstermans/businessbaas-components@main/assets/joyce-prof.jpg" alt="">
-                  <img class="fc-3-av" src="https://cdn.jsdelivr.net/gh/joerisijstermans/businessbaas-components@main/assets/stan-prof.jpg" alt="">
-                  <img class="fc-3-av" src="https://cdn.jsdelivr.net/gh/joerisijstermans/businessbaas-components@main/assets/jorn-prof.jpg" alt="">
-                  <div class="fc-3-more">+22</div>
+                <div class="fc-3-val">
+                  <span class="fc-3-icon"><svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M5 1L6.18 3.64L9 4.09L7 6.08L7.45 9L5 7.64L2.55 9L3 6.08L1 4.09L3.82 3.64Z" fill="#E85D04"/></svg></span>
+                  Eerste klanten
                 </div>
               </div>
             </div>
