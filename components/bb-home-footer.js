@@ -56,15 +56,13 @@
               </ul></div>
               <div class="col"><h4>Voor Starters</h4><ul>
                 <li><a href="https://www.businessbaas.com/voor-starters">Voor Starters</a></li>
-                <li><a href="https://www.businessbaas.com/gratis-training-aanvragen" target="_top" data-lightbox>Gratis Training</a></li>
+                <li><a href="https://www.businessbaas.com/gratis-training-aanvragen" target="_top">Gratis Training</a></li>
+                <li><a href="https://www.businessbaas.com/prijzen">Prijzen</a></li>
                 <li><a href="https://www.businessbaas.com/over-ons">Over Ons</a></li>
                 <li><a href="https://www.businessbaas.com/contact">Contact</a></li>
               </ul></div>
               <div class="col"><h4>Voor Partners</h4><ul>
                 <li><a href="https://www.businessbaas.com/voor-partners">Partnerplatform</a></li>
-                <li><a href="https://www.businessbaas.com/starterscentrum-limburg">Starterscentrum Limburg</a></li>
-                <li><a href="https://www.businessbaas.com/dreamchasers">Dreamchasers</a></li>
-                <li><a href="https://www.businessbaas.com/ondernemershub-brunssem">Ondernemershub Brunssem</a></li>
                 <li><a href="mailto:info@businessbaas.com">info@businessbaas.com</a></li>
               </ul></div>
             </div>

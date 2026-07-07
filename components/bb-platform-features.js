@@ -88,7 +88,8 @@
           .visual-content{width:100%;height:100%;animation:fadeSlide .35s ease}
           .visual-content img{width:100%;height:420px;object-fit:cover;display:block}
           @keyframes fadeSlide{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
-          @media(max-width:900px){.layout{grid-template-columns:1fr}.visual-panel{position:static;order:-1}.visual-content img{height:260px}}
+          @media(max-width:900px){.layout{grid-template-columns:1fr}.visual-panel{position:static;order:-1}.visual-box{min-height:auto}.visual-content img{height:240px}}
+          @media(max-width:480px){.visual-content img{height:200px}}
           .ob{opacity:0;transform:translateY(22px);transition:opacity .55s ease,transform .55s ease}
           .ob.show{opacity:1;transform:none}
         </style>

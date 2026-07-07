@@ -22,9 +22,10 @@
           .btn-primary:hover{background:#CC4D00;transform:translateY(-2px);box-shadow:0 12px 32px rgba(232,93,4,.4)}
           .btn-ghost{padding:15px 36px;border:2px solid rgba(255,255,255,.3);color:#fff;font-size:15px;font-weight:600;border-radius:50px;text-decoration:none;transition:all .2s;display:inline-block}
           .btn-ghost:hover{border-color:#fff;background:rgba(255,255,255,.08)}
-          .hero-logos{display:flex;align-items:center;justify-content:center;gap:20px;margin-top:40px;padding-top:32px;border-top:1px solid rgba(255,255,255,.1)}
-          .hero-logos span{font-size:12px;color:rgba(255,255,255,.35);font-weight:600;text-transform:uppercase;letter-spacing:.08em}
-          .partner-name{font-size:13px;color:rgba(255,255,255,.55);font-weight:600}
+          .hero-logos{display:flex;align-items:center;justify-content:center;gap:12px;flex-wrap:wrap;margin-top:40px;padding-top:32px;border-top:1px solid rgba(255,255,255,.1)}
+          .hl-label{font-size:12px;color:rgba(255,255,255,.35);font-weight:600;text-transform:uppercase;letter-spacing:.08em}
+          .hl-sep{color:rgba(255,255,255,.2);font-size:14px}
+          .hl-name{font-size:13px;color:rgba(255,255,255,.55);font-weight:600}
 
           /* FEATURES */
           .features{padding:88px 24px;background:#F4F6FA}
@@ -80,9 +81,9 @@
             <a href="mailto:info@businessbaas.com" class="btn-ghost">Vragen? Neem contact op</a>
           </div>
           <div class="hero-logos">
-            <span>In samenwerking met</span>
-            <span class="partner-name">Starterscentrum Limburg</span>
-            <span class="partner-name">BusinessBaas</span>
+            <span class="hl-label">In samenwerking met</span>
+            <span class="hl-sep">|</span>
+            <span class="hl-name">Starterscentrum Limburg</span>
           </div>
         </div>
 
