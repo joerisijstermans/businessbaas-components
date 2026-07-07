@@ -28,11 +28,11 @@
         </li>
         <li class="feat feat-addon">
           <div class="chk chk-addon">↗</div>
-          <div><strong>LIVE events</strong><span>Live events waar leden elkaar ontmoeten — met inspirerende mini-talks, opdrachten en ruimte om te netwerken</span></div>
+          <div><strong>LIVE events <span class="addon-pill">add-on</span></strong><span>Live events waar leden elkaar ontmoeten — met inspirerende mini-talks, opdrachten en ruimte om te netwerken</span></div>
         </li>
         <li class="feat feat-addon">
           <div class="chk chk-addon">↗</div>
-          <div><strong>1 op 1 coaching</strong><span>Persoonlijke begeleiding op maat</span></div>
+          <div><strong>1 op 1 coaching <span class="addon-pill">add-on</span></strong><span>Persoonlijke begeleiding op maat</span></div>
         </li>`;
       s.innerHTML = `
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -73,6 +73,7 @@
           .feat-addon strong{color:#6B7280}
           .feat-addon span{color:#B0B8C8}
           .chk-addon{background:#F3F4F6;color:#9CA3AF;font-size:11px;font-weight:700;display:flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:6px;flex-shrink:0;margin-top:2px}
+          .addon-pill{font-size:10px;font-weight:700;background:rgba(232,93,4,.12);color:#B84800;padding:2px 7px;border-radius:50px;vertical-align:middle;margin-left:4px}
           .fn{font-size:12px;color:#9CA3AF;text-align:center;line-height:1.7}
           .bottom-note{text-align:center;font-size:13.5px;color:#6B7280;line-height:1.6}
           .bottom-note strong{color:#0D2240}

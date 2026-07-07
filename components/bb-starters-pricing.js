@@ -5,7 +5,7 @@
     connectedCallback() { this.render(); }
     render() {
       const feats = ['20+ praktische trainingen','Digitale werkplek','AI-coach Nova (24/7)','Slim Ondernemen met AI <span style="font-size:10px;font-weight:700;background:rgba(124,58,237,.18);color:#C4B5FD;padding:2px 8px;border-radius:50px;vertical-align:middle">binnenkort</span>','Community & marktplaats'];
-      const upsells = ['LIVE events','1 op 1 coaching'];
+      const upsells = ['LIVE events<span class="addon-pill">add-on</span>','1 op 1 coaching<span class="addon-pill">add-on</span>'];
       const y = this._yearly;
       this.shadowRoot.innerHTML = `
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
@@ -39,6 +39,7 @@
           li::before{content:'✓';font-weight:800;color:var(--orange);flex-shrink:0;}
           li.up{color:rgba(255,255,255,.4);}
           li.up::before{content:'↗';color:rgba(232,93,4,.5);}
+          .addon-pill{font-size:10px;font-weight:700;background:rgba(232,93,4,.18);color:rgba(232,93,4,.8);padding:2px 7px;border-radius:50px;vertical-align:middle;margin-left:5px}
           .btn-p{display:block;text-align:center;padding:15px 24px;background:var(--orange);color:#fff;font-size:15px;font-weight:700;border-radius:50px;text-decoration:none;transition:background .22s,transform .22s,box-shadow .22s;font-family:var(--font);}
           .btn-p:hover{background:#CC4D00;transform:translateY(-2px);box-shadow:0 10px 28px rgba(232,93,4,.4);}
           .btn-s{display:block;text-align:center;padding:15px 24px;background:transparent;color:rgba(255,255,255,.75);font-size:15px;font-weight:600;border:1.5px solid rgba(255,255,255,.18);border-radius:50px;text-decoration:none;transition:border-color .22s,background .22s;font-family:var(--font);}
@@ -84,7 +85,7 @@
               </div>
             </div>
             <div class="insight ob"><p>"De vraag is niet: kan ik €69 missen? De vraag is: kan ik nog 6 maanden zonder klanten?"</p></div>
-            <div class="disc ob"><span>Geen verborgen kosten</span><span>Direct toegang</span><span>Maand: maandelijks opzegbaar</span><span>Jaar: jaarcontract, daarna maandelijks opzegbaar</span></div>
+            <div class="disc ob"><span>Geen verborgen kosten</span><span>Direct toegang</span><span>Altijd opzegbaar</span></div>
           </div>
         </section>`;
       this._positionSlider();

@@ -64,7 +64,7 @@
         },
         {
           q: 'Zijn er nog andere kosten naast het abonnement?',
-          a: 'Nee. Alle features, trainingen, Nova AI-assistent, community en LIVE events zijn inbegrepen in één prijs. Geen add-ons, geen verrassingen.'
+          a: 'Bijna alles zit in één prijs: trainingen, Nova AI-assistent, digitale werkplek, community en marktplaats. Er zijn twee add-ons die je los kunt afnemen: <strong>LIVE events tickets</strong> (leden krijgen altijd voorrang in de pre-sale) en <strong>1 op 1 coaching</strong>. Alles andere is volledig inbegrepen.'
         },
         {
           q: 'Hoe werkt de betaling?',
