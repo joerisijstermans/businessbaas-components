@@ -81,8 +81,12 @@
           .dots{display:flex;gap:7px;align-items:center;flex:1;}
           .dot{width:8px;height:8px;border-radius:50%;background:rgba(13,34,64,.15);border:none;cursor:pointer;padding:0;transition:all .25s;}
           .dot.on{background:var(--orange);width:22px;border-radius:4px;}
-          .award-wrap{text-align:center;margin-top:40px;}
-          .award{display:inline-flex;align-items:center;gap:8px;padding:10px 22px;background:rgba(13,34,64,.06);border-radius:50px;font-size:13px;font-weight:700;color:var(--navy);}
+          .award-wrap{text-align:center;margin-top:44px;}
+          .award{display:inline-flex;align-items:center;gap:14px;padding:16px 32px;background:var(--navy);border:2px solid rgba(232,93,4,.45);border-radius:60px;box-shadow:0 6px 24px rgba(13,34,64,.18),0 0 0 6px rgba(232,93,4,.07);}
+          .award-trophy{font-size:28px;line-height:1;flex-shrink:0;}
+          .award-txt{text-align:left;}
+          .award-top{font-size:11px;font-weight:700;color:rgba(232,93,4,.9);text-transform:uppercase;letter-spacing:.10em;margin-bottom:3px;}
+          .award-name{font-size:16px;font-weight:800;color:#fff;line-height:1;}
           .ob{opacity:0;transform:translateY(22px);transition:opacity .65s ease,transform .65s ease;}
           .ob.show{opacity:1;transform:translateY(0);}
           mark.hl{background:transparent;color:inherit;border-radius:3px;padding:1px 3px;transition:background .8s ease}
@@ -109,7 +113,7 @@
               <div class="dots" id="dots"></div>
               <button class="arr next-btn" aria-label="Volgende"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M7 4L12 9L7 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
             </div>
-            <div class="award-wrap ob"><div class="award">🏆 Finalist Limburg Awards 2025</div></div>
+            <div class="award-wrap ob"><div class="award"><span class="award-trophy">🏆</span><div class="award-txt"><div class="award-top">Finalist</div><div class="award-name">Limburg Awards 2025</div></div></div></div>
           </div>
         </section>`;
     }
