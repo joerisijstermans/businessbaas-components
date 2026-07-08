@@ -16,21 +16,12 @@
           .label { display: inline-flex; align-items: center; gap: 8px; padding: 6px 16px; background: rgba(232,93,4,0.2); border: 1px solid rgba(232,93,4,0.3); border-radius: 50px; font-size: 11px; font-weight: 700; color: rgba(255,255,255,0.85); text-transform: uppercase; letter-spacing: .09em; margin-bottom: 22px; }
           h1 { font-size: clamp(30px, 4.5vw, 52px); font-weight: 900; color: #fff; line-height: 1.08; letter-spacing: -.03em; margin-bottom: 14px; }
           p { font-size: 17px; color: rgba(255,255,255,0.6); line-height: 1.65; max-width: 540px; margin: 0 auto; }
-          .btns { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin-top: 32px; }
-          .btn-p { padding: 14px 32px; background: #E85D04; color: #fff; font-size: 15px; font-weight: 700; border-radius: 50px; text-decoration: none; transition: all .2s; font-family: 'Inter', sans-serif; }
-          .btn-p:hover { background: #CC4D00; transform: translateY(-2px); box-shadow: 0 10px 28px rgba(232,93,4,.4); }
-          .btn-g { padding: 14px 32px; border: 2px solid rgba(255,255,255,.25); color: rgba(255,255,255,.8); font-size: 15px; font-weight: 600; border-radius: 50px; text-decoration: none; transition: all .2s; font-family: 'Inter', sans-serif; }
-          .btn-g:hover { border-color: rgba(255,255,255,.55); background: rgba(255,255,255,.07); }
-          @media (max-width: 600px) { .ph { padding: 56px 20px 52px; } .btn-p, .btn-g { padding: 13px 24px; font-size: 14px; } }
+          @media (max-width: 600px) { .ph { padding: 56px 20px 48px; } }
         </style>
         <div class="ph">
           ${label ? `<div class="label">${label}</div>` : ''}
           <h1>${title}</h1>
           ${subtitle ? `<p>${subtitle}</p>` : ''}
-          <div class="btns">
-            <a class="btn-p" href="https://www.businessbaas.com/gratis-training-aanvragen" target="_top">Start gratis →</a>
-            <a class="btn-g" href="https://www.businessbaas.com/het-platform" target="_top">Bekijk het platform</a>
-          </div>
         </div>`;
     }
   });
