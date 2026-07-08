@@ -41,7 +41,6 @@
             <div class="disc ob">
               <span>Geen creditcard nodig</span>
               <span>Direct toegang</span>
-              <span>Altijd opzegbaar</span>
             </div>
           </div>
         </section>`;

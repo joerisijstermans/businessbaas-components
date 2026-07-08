@@ -60,7 +60,7 @@
                 </div>
                 <div class="ctas">
                   <a href="https://www.businessbaas.com/partner-demo" class="bm">Demo aanvragen <svg width="15" height="15" viewBox="0 0 15 15" fill="none"><path d="M3 7.5H12M12 7.5L8.5 4M12 7.5L8.5 11" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
-                  <a href="https://www.businessbaas.com/het-platform" class="bg">Meer informatie</a>
+                  <a href="https://www.businessbaas.com/voor-partners" class="bg">Meer informatie</a>
                 </div>
               </div>
               <div class="right">
