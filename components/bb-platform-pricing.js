@@ -17,8 +17,7 @@
           h2{font-size:clamp(1.8rem,4vw,2.8rem);font-weight:900;color:#fff;letter-spacing:-.03em;margin-bottom:16px;line-height:1.2}
           .price-big{font-size:clamp(3rem,8vw,5rem);font-weight:900;color:#fff;letter-spacing:-.04em;line-height:1;margin:24px 0 8px}
           .price-big span{color:#E85D04}
-          .price-note{font-size:1rem;color:rgba(255,255,255,.6);margin-bottom:8px}
-          .price-alt{font-size:.85rem;color:rgba(255,255,255,.35);margin-bottom:36px}
+          .price-note{font-size:1rem;color:rgba(255,255,255,.6);margin-bottom:36px}
           .includes{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin-bottom:40px}
           .pill{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);border-radius:50px;padding:5px 13px;font-size:.8rem;color:rgba(255,255,255,.8);font-weight:500}
           .btn{background:#E85D04;color:#fff;padding:18px 48px;border-radius:50px;font-size:1.05rem;font-weight:700;text-decoration:none;display:inline-block;transition:background .2s,transform .2s;font-family:'Inter',sans-serif}
@@ -37,7 +36,6 @@
             <h2 class="ob">Alles voor minder dan een kop koffie per dag</h2>
             <div class="price-big ob">€1,90</div>
             <div class="price-note ob">per dag, bij jaarlijks betalen</div>
-            <div class="price-alt ob">of €69 per maand</div>
             <div class="includes ob">
               <span class="pill">✓ Alle trainingen</span>
               <span class="pill">✓ Nova AI-assistent</span>

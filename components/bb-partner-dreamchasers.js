@@ -110,7 +110,7 @@
                 <li>Van idee naar een helder aanbod, stap voor stap</li>
                 <li>AI-coach Nova die jou begeleidt als je vastloopt</li>
                 <li>Een community van starters die begrijpen wat jij doormaakt</li>
-                <li>Toegankelijk voor minder dan €2,30 per dag</li>
+                <li>Inbegrepen bij het abonnement — geen extra kosten</li>
               </ul>
             </div>
             <img class="intro-img ob" src="${CDN}/training-afbeelding.png" alt="BusinessBaas platform" style="transition-delay:.1s">
