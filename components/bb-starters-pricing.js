@@ -51,12 +51,15 @@
           .disc span::before{content:'✓';font-weight:700;color:#22C55E;}
           .ob{opacity:0;transform:translateY(22px);transition:opacity .65s ease,transform .65s ease;}
           .ob.show{opacity:1;transform:translateY(0);}
+          .gratis-link{text-align:center;margin-top:16px;font-size:13px;color:rgba(255,255,255,.35);}
+          .gratis-link a{color:rgba(255,255,255,.55);text-decoration:none;font-weight:600;transition:color .2s;}
+          .gratis-link a:hover{color:rgba(255,255,255,.85);}
           @media(max-width:640px){.cards{grid-template-columns:1fr;}section{padding:64px 20px;}}
         </style>
         <section id="pricing">
           <div class="inner">
             <span class="lbl ob">Investering</span>
-            <div class="hdr ob"><h2>Alles voor minder dan een kop koffie per dag</h2><p>Alles inbegrepen. Geen verborgen kosten. Altijd opzegbaar.</p></div>
+            <div class="hdr ob"><h2>Alles voor minder dan een kop koffie per dag</h2><p>Alles inbegrepen. Geen verborgen kosten. Per maand opzegbaar.</p></div>
             <div class="toggle-wrap ob">
               <div class="toggle" id="tgl">
                 <div class="tog-slider" id="slider"></div>
@@ -85,7 +88,8 @@
               </div>
             </div>
             <div class="insight ob"><p>"De vraag is niet: kan ik €69 missen? De vraag is: kan ik nog 6 maanden zonder klanten?"</p></div>
-            <div class="disc ob"><span>Geen verborgen kosten</span><span>Direct toegang</span><span>Altijd opzegbaar</span></div>
+            <div class="disc ob"><span>Geen verborgen kosten</span><span>Direct toegang</span><span>Geen creditcard nodig</span></div>
+            <p class="gratis-link ob">Nog niet zeker? <a href="https://www.businessbaas.com/gratis-training-aanvragen" target="_top">Begin gratis met onze gratis training →</a></p>
           </div>
         </section>`;
       this._positionSlider();
