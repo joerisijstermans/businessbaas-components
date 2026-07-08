@@ -7,7 +7,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
         <style>
           *{box-sizing:border-box;margin:0;padding:0}
-          :host{display:block}
+          :host{display:none}
           section{padding:80px 24px;background:#fff;font-family:'Inter',sans-serif}
           .inner{max-width:1180px;margin:0 auto;display:grid;grid-template-columns:1fr 1.4fr;gap:72px;align-items:center}
           .left .lbl{font-size:.8rem;font-weight:700;color:#E85D04;letter-spacing:.12em;text-transform:uppercase;margin-bottom:14px}

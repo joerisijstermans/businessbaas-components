@@ -44,7 +44,7 @@
           <div class="inner">
             <div class="lbl ob">Trainingen</div>
             <h2 class="ob">Twee modules + Kickstart Challenge</h2>
-            <p class="sub ob">17 praktische trainingen verdeeld over twee modules, plus een Kickstart Challenge om direct in actie te komen. Alles in jouw eigen tempo.</p>
+            <p class="sub ob">20+ praktische trainingen verdeeld over twee modules, plus een Kickstart Challenge om direct in actie te komen. Alles in jouw eigen tempo.</p>
             <div class="grid">
               <div class="mod ob">
                 <div class="mod-head navy">
