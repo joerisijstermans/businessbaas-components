@@ -1,5 +1,6 @@
 (function () {
   if (customElements.get('bb-platform-cta')) return;
+  /* This section is merged into bb-platform-pricing. Hidden to avoid duplication. */
   class BBPlatformCta extends HTMLElement {
     connectedCallback() {
       const s = this.attachShadow({ mode: 'open' });
@@ -7,7 +8,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
         <style>
           *{box-sizing:border-box;margin:0;padding:0}
-          :host{display:block}
+          :host{display:none}
           section{padding:88px 24px;background:#0D2240;font-family:'Inter',sans-serif;text-align:center;position:relative;overflow:hidden}
           section::before{content:'';position:absolute;inset:0;background:radial-gradient(circle at 70% 40%,rgba(232,93,4,.12) 0%,transparent 55%);pointer-events:none}
           .inner{max-width:640px;margin:0 auto}

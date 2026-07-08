@@ -24,7 +24,7 @@
           title: 'Persoonlijke coaching, geen chatbot',
           desc: 'Nova is niet zomaar een AI-assistent. Ze kent jóuw trainingen en jóuw situatie, en benadert je ultra-persoonlijk. Dat is iets wezenlijk anders dan ChatGPT. Inbegrepen bij je abonnement, zonder extra kosten.',
           points: ['Ultra-persoonlijk, afgestemd op jóuw traject', 'Altijd beschikbaar, ook \'s avonds en in het weekend', 'Advies op jouw situatie, niet op een standaard vraag', 'Gebouwd op alle BusinessBaas trainingen'],
-          photo: `${CDN}/nova-afbeelding.png`
+          photo: `${CDN}/nova-afbeelding.png?v=2`
         },
         {
           icon: '✨', label: 'Slim met AI', color: '#7C3AED', badge: 'binnenkort',
@@ -34,17 +34,17 @@
           photo: `${CDN}/ai-tools-afbeelding.png`
         },
         {
-          icon: '🛒', label: 'Marktplaats', color: '#10B981',
-          title: 'Vind je eerste klanten dichter bij huis',
-          desc: 'Via onze WhatsApp-community deel je jouw aanbod met mede-ondernemers. Al diverse leden hebben via BusinessBaas opdrachten bij elkaar gevonden.',
-          points: ['Deel je aanbod in de WhatsApp-community', 'Klanten vinden via mede-ondernemers', 'Members helpen members', 'Echte opdrachten, echte relaties'],
+          icon: '🛒', label: 'Community & Marktplaats', color: '#10B981',
+          title: 'Vind klanten via de WhatsApp-community en marktplaats',
+          desc: 'In onze actieve WhatsApp-community spar je met mede-starters en deel je jouw aanbod. De geïntegreerde marktplaats maakt het vinden van eerste klanten concreet en laagdrempelig.',
+          points: ['WhatsApp-community van gelijkgestemde starters', 'Jouw aanbod zichtbaar voor alle leden', 'Members helpen members aan opdrachten', 'Echte klanten, echte relaties — dicht bij huis'],
           photo: `${CDN}/marktplaats-afbeelding.jpg`
         },
         {
-          icon: '🤝', label: 'Community', color: '#F59E0B', badge: 'add-on',
-          title: 'Ondernemen samen met mensen die het begrijpen',
-          desc: 'Een actieve community van gelijkgestemde starters. Spar over uitdagingen, test ideeën en bouw aan je netwerk. Plus: live events waar je echte klanten kunt ontmoeten.',
-          points: ['Online netwerk van startende ondernemers', 'Test je ideeën veilig en krijg feedback', 'BusinessBaas LIVE events', 'Sparringspartners die jou begrijpen'],
+          icon: '🎤', label: 'LIVE Events', color: '#F59E0B', badge: 'add-on',
+          title: 'Ondernemen leer je écht door mensen te ontmoeten',
+          desc: 'Bij LIVE events komen BusinessBaas-leden fysiek samen. Netwerken, workshops, ideeën uitwisselen, elkaar helpen groeien. We doen het samen — en dat merk je.',
+          points: ['Offline events voor leden', 'Netwerken en workshops in één', 'Ideeën toetsen bij échte ondernemers', 'Pre-sale toegang voor leden'],
           photo: `${CDN}/community-afbeelding.png`
         },
         {

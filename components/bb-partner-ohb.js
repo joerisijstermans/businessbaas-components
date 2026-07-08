@@ -126,7 +126,7 @@
                 <img class="feat-img" src="${CDN}/training-afbeelding.png" alt="Trainingen">
                 <div class="feat-body">
                   <div class="feat-icon-row"><div class="feat-emoji" style="background:#FFF3EB">📚</div><span class="feat-name" style="color:#E85D04">Trainingen</span></div>
-                  <h3>17+ trainingen, altijd beschikbaar</h3>
+                  <h3>20+ trainingen, altijd beschikbaar</h3>
                   <p>Verdiep wat je hebt geleerd of ontdek nieuwe onderwerpen in je eigen tempo. Trainingen blijven 6 maanden toegankelijk.</p>
                 </div>
               </div>

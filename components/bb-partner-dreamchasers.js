@@ -129,7 +129,7 @@
                 <div class="feat-body">
                   <div class="feat-icon-row"><div class="feat-emoji" style="background:#FFF3EB">📚</div><span class="feat-name" style="color:#E85D04">Trainingen</span></div>
                   <h3>Praktische trainingen die echt werken</h3>
-                  <p>17+ korte trainingen die je direct toepast. Van jouw aanbod bepalen tot je eerste klant binnenhalen.</p>
+                  <p>20+ korte trainingen die je direct toepast. Van jouw aanbod bepalen tot je eerste klant binnenhalen.</p>
                 </div>
               </div>
               <div class="feat-card">

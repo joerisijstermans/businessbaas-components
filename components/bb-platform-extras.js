@@ -8,56 +8,54 @@
         <style>
           *{box-sizing:border-box;margin:0;padding:0}
           :host{display:block}
-          section{padding:80px 24px;background:#F4F6FA;font-family:'Inter',sans-serif}
-          .inner{max-width:1180px;margin:0 auto}
-          .top{text-align:center;margin-bottom:48px}
-          .lbl{font-size:.8rem;font-weight:700;color:#E85D04;letter-spacing:.12em;text-transform:uppercase;margin-bottom:12px}
-          h2{font-size:clamp(1.6rem,3.5vw,2.4rem);font-weight:900;color:#0D2240;letter-spacing:-.03em;line-height:1.15;margin-bottom:12px}
-          .sub{font-size:1rem;color:#5A6780;line-height:1.65;max-width:480px;margin:0 auto}
-          .row{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
-          .card{background:#fff;border-radius:20px;padding:36px 28px;border:1px solid rgba(13,34,64,.07);display:flex;flex-direction:column;gap:16px;transition:transform .25s ease,box-shadow .25s ease}
-          .card:hover{transform:translateY(-4px);box-shadow:0 12px 32px rgba(13,34,64,.10)}
-          .card-icon{width:56px;height:56px;border-radius:16px;display:flex;align-items:center;justify-content:center;font-size:1.5rem;flex-shrink:0}
-          .card-body{flex:1}
-          .card-title{font-size:1.05rem;font-weight:800;color:#0D2240;margin-bottom:8px;line-height:1.25}
-          .card-desc{font-size:.88rem;color:#5A6780;line-height:1.65}
-          .card-tag{display:inline-flex;align-items:center;gap:5px;padding:4px 12px;border-radius:50px;font-size:.72rem;font-weight:700;align-self:flex-start;margin-top:4px}
+          section{padding:80px 24px;background:#fff;font-family:'Inter',sans-serif}
+          .inner{max-width:1180px;margin:0 auto;display:grid;grid-template-columns:1fr 1.4fr;gap:72px;align-items:center}
+          .left .lbl{font-size:.8rem;font-weight:700;color:#E85D04;letter-spacing:.12em;text-transform:uppercase;margin-bottom:14px}
+          .left h2{font-size:clamp(1.6rem,3.2vw,2.4rem);font-weight:900;color:#0D2240;letter-spacing:-.03em;line-height:1.15;margin-bottom:16px}
+          .left p{font-size:1rem;color:#5A6780;line-height:1.7}
+          .right{display:flex;flex-direction:column}
+          .row{display:flex;align-items:flex-start;gap:20px;padding:28px 0;border-bottom:1px solid rgba(13,34,64,.07)}
+          .row:first-child{padding-top:0}
+          .row:last-child{border-bottom:none;padding-bottom:0}
+          .ico{width:48px;height:48px;border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:1.3rem;flex-shrink:0;margin-top:2px}
+          .body{flex:1}
+          .rtitle{display:flex;align-items:center;gap:8px;margin-bottom:6px}
+          .rtitle h3{font-size:1rem;font-weight:800;color:#0D2240;line-height:1.2}
+          .pill-addon{padding:2px 8px;background:rgba(232,93,4,.12);color:#E85D04;font-size:.65rem;font-weight:700;border-radius:50px;white-space:nowrap;flex-shrink:0}
+          .rdesc{font-size:.875rem;color:#5A6780;line-height:1.65}
           .ob{opacity:0;transform:translateY(22px);transition:opacity .55s ease,transform .55s ease}
           .ob.show{opacity:1;transform:none}
-          @media(max-width:768px){.row{grid-template-columns:1fr 1fr}}
-          @media(max-width:520px){.row{grid-template-columns:1fr}section{padding:60px 20px}}
+          @media(max-width:860px){.inner{grid-template-columns:1fr;gap:40px}}
+          @media(max-width:520px){section{padding:60px 20px}}
         </style>
         <section>
           <div class="inner">
-            <div class="top ob">
+            <div class="left ob">
               <div class="lbl">Ook inbegrepen</div>
               <h2>Meer dan trainingen en tools</h2>
-              <p class="sub">Naast de trainingen, Nova en je digitale werkplek krijg je toegang tot community, marktplaats en live events.</p>
+              <p>Naast de trainingen, Nova en je digitale werkplek krijg je direct toegang tot community, marktplaats en live events.</p>
             </div>
-            <div class="row">
-              <div class="card ob" style="transition-delay:0ms">
-                <div class="card-icon" style="background:rgba(245,158,11,.12)">🤝</div>
-                <div class="card-body">
-                  <div class="card-title">Community</div>
-                  <p class="card-desc">Een actieve groep gelijkgestemde starters. Spar over uitdagingen, test ideeën en bouw aan je netwerk.</p>
+            <div class="right">
+              <div class="row ob" style="transition-delay:60ms">
+                <div class="ico" style="background:rgba(245,158,11,.12)">🤝</div>
+                <div class="body">
+                  <div class="rtitle"><h3>Community & Marktplaats</h3></div>
+                  <p class="rdesc">Een actieve WhatsApp-community van gelijkgestemde starters, met een geïntegreerde marktplaats om je aanbod zichtbaar te maken en eerste klanten te vinden.</p>
                 </div>
-                <span class="card-tag" style="background:rgba(245,158,11,.12);color:#D97706">Altijd toegankelijk</span>
               </div>
-              <div class="card ob" style="transition-delay:80ms">
-                <div class="card-icon" style="background:rgba(16,185,129,.12)">🛒</div>
-                <div class="card-body">
-                  <div class="card-title">Marktplaats</div>
-                  <p class="card-desc">Zet jezelf in de spotlights en vind klanten via de B2B-marktplaats voor BusinessBaas-leden.</p>
+              <div class="row ob" style="transition-delay:140ms">
+                <div class="ico" style="background:rgba(16,185,129,.12)">🛒</div>
+                <div class="body">
+                  <div class="rtitle"><h3>B2B Marktplaats</h3></div>
+                  <p class="rdesc">Zet jezelf in de spotlights en vind opdrachten via onze leden-marktplaats. Members helpen members — ook als je nog maar net gestart bent.</p>
                 </div>
-                <span class="card-tag" style="background:rgba(16,185,129,.12);color:#059669">Klanten vinden</span>
               </div>
-              <div class="card ob" style="transition-delay:160ms">
-                <div class="card-icon" style="background:rgba(232,93,4,.12)">🎤</div>
-                <div class="card-body">
-                  <div class="card-title">LIVE Events</div>
-                  <p class="card-desc">Exclusieve offline events, mini-talks en netwerkmomenten. Tickets beschikbaar als add-on voor leden.</p>
+              <div class="row ob" style="transition-delay:220ms">
+                <div class="ico" style="background:rgba(232,93,4,.12)">🎤</div>
+                <div class="body">
+                  <div class="rtitle"><h3>LIVE Events</h3><span class="pill-addon">add-on</span></div>
+                  <p class="rdesc">Exclusieve offline events: netwerken, workshops en ideeën uitwisselen met echte ondernemers. Tickets beschikbaar als add-on, met pre-sale toegang voor leden.</p>
                 </div>
-                <span class="card-tag" style="background:rgba(232,93,4,.12);color:#E85D04">add-on</span>
               </div>
             </div>
           </div>

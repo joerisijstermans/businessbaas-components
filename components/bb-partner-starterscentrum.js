@@ -99,7 +99,7 @@
                 <div class="feat-body">
                   <div class="feat-icon-row"><div class="feat-emoji" style="background:#FFF3EB">📚</div><span class="feat-name" style="color:#E85D04">Trainingen</span></div>
                   <h3>Weet precies wat je wanneer moet doen</h3>
-                  <p>17+ praktische trainingen door de beginfase. Alleen wat nu relevant is, direct toepasbaar.</p>
+                  <p>20+ praktische trainingen door de beginfase. Alleen wat nu relevant is, direct toepasbaar.</p>
                 </div>
               </div>
               <div class="feat-card">
