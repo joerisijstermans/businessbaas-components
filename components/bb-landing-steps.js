@@ -35,20 +35,20 @@
             <div class="steps-head ob">
               <div class="steps-label">De 3 stappen</div>
               <h2>Zo spreek je in 48 uur<br>je eerste <em>potentiële klant</em></h2>
-              <p class="steps-sub">Concreet, direct toepasbaar — geen vage theorie. Dit zijn de drie stappen uit de gratis training.</p>
+              <p class="steps-sub">Concreet, direct toepasbaar. Geen vage theorie. Dit zijn de drie stappen uit de gratis training.</p>
             </div>
             <div class="step-row">
               <div class="step ob">
                 <div class="step-num">1</div>
                 <span class="step-time">⏱ 10 minuten</span>
                 <h3>Bepaal wie jouw ideale klant is</h3>
-                <p>Niet iedereen is jouw klant. In tien minuten maak je scherp wie je écht moet benaderen — zodat elk bericht raak is.</p>
+                <p>Niet iedereen is jouw klant. In tien minuten maak je scherp wie je écht moet benaderen, zodat elk bericht raak is.</p>
               </div>
               <div class="step ob" style="transition-delay:.12s">
                 <div class="step-num">2</div>
                 <span class="step-time">⏱ 15 minuten</span>
                 <h3>Schrijf één krachtig bericht</h3>
-                <p>Geen verkooppraatje, maar een eerlijk en direct bericht dat aansluit op hun echte behoefte. Je schrijft het nu — één keer.</p>
+                <p>Geen verkooppraatje, maar een eerlijk en direct bericht dat aansluit op hun echte behoefte. Je schrijft het nu, één keer.</p>
               </div>
               <div class="step ob" style="transition-delay:.24s">
                 <div class="step-num">3</div>
@@ -58,7 +58,7 @@
               </div>
             </div>
             <div class="steps-result ob">
-              <p>Resultaat: binnen <strong>48 uur</strong> spreek je je eerste potentiële klant — ook als je nog geen netwerk of ervaring hebt.</p>
+              <p>Resultaat: binnen <strong>48 uur</strong> spreek je je eerste potentiële klant, ook als je nog geen netwerk of ervaring hebt.</p>
             </div>
           </div>
         </section>`;

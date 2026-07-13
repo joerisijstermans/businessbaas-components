@@ -29,7 +29,7 @@
                 <div class="num">1</div>
                 <div class="body">
                   <strong>Drie stappen naar je eerste klant</strong>
-                  <span>Geen vage theorie — concrete acties die je direct kunt uitvoeren om klanten te vinden.</span>
+                  <span>Geen vage theorie, concrete acties die je direct kunt uitvoeren om klanten te vinden.</span>
                 </div>
               </div>
               <div class="step">
@@ -48,7 +48,7 @@
               </div>
             </div>
             <div class="proof">
-              <p class="proof-text">Sluit je aan bij <strong>tientallen starters</strong> die al begonnen zijn.<br>Geen verplichting — je kunt altijd stoppen.</p>
+              <p class="proof-text">Sluit je aan bij <strong>tientallen starters</strong> die al begonnen zijn.<br>Geen verplichting, je kunt altijd stoppen.</p>
             </div>
           </div>
         </div>`;

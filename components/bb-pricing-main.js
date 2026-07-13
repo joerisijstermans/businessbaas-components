@@ -28,7 +28,7 @@
         </li>
         <li class="feat feat-addon">
           <div class="chk chk-addon">↗</div>
-          <div><strong>LIVE events <span class="addon-pill">add-on</span></strong><span>Live events waar leden elkaar ontmoeten — met inspirerende mini-talks, opdrachten en ruimte om te netwerken</span></div>
+          <div><strong>LIVE events <span class="addon-pill">add-on</span></strong><span>Live events waar leden elkaar ontmoeten, met inspirerende mini-talks, opdrachten en ruimte om te netwerken</span></div>
         </li>
         <li class="feat feat-addon">
           <div class="chk chk-addon">↗</div>

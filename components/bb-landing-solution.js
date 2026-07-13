@@ -31,9 +31,9 @@
             <h2 class="ob">Alles wat je nodig hebt<br><em>op één plek</em></h2>
             <p class="solution-sub ob">Geen losse tools, geen dure coaches. BusinessBaas bundelt trainingen, AI-begeleiding, een werkplek en een community in één betaalbaar platform.</p>
             <div class="feat-grid">
-              <div class="feat-card ob"><div class="feat-icon">🎓</div><h3>20+ Praktische trainingen</h3><p>Van doelgroepbepaling tot salesgesprek — de modules zijn kort, concreet en direct toepasbaar. Jij werkt in jouw tempo, maar je werkt wél.</p></div>
+              <div class="feat-card ob"><div class="feat-icon">🎓</div><h3>20+ Praktische trainingen</h3><p>Van doelgroepbepaling tot salesgesprek. De modules zijn kort, concreet en direct toepasbaar. Jij werkt in jouw tempo, maar je werkt wél.</p></div>
               <div class="feat-card ob" style="transition-delay:.1s"><div class="feat-icon">🤖</div><h3>Nova, jouw AI-coach</h3><p>Altijd beschikbaar, nooit oordelend. Nova helpt je vastgelopen plannen vlottrekken, feedback geven op je teksten en antwoorden geven op de vragen die je googelt maar niet durft te stellen.</p></div>
-              <div class="feat-card ob" style="transition-delay:.2s"><div class="feat-icon">🗂️</div><h3>Digitale werkplek</h3><p>Jouw ondernemersplan, je doelgroep, je pitches en je voortgang — allemaal op één overzichtelijke plek. Geen losse notitieblokken meer.</p></div>
+              <div class="feat-card ob" style="transition-delay:.2s"><div class="feat-icon">🗂️</div><h3>Digitale werkplek</h3><p>Jouw ondernemersplan, je doelgroep, je pitches en je voortgang, allemaal op één overzichtelijke plek. Geen losse notitieblokken meer.</p></div>
               <div class="feat-card ob" style="transition-delay:.3s"><div class="feat-icon">🤝</div><h3>Community &amp; marktplaats</h3><p>Ondernemers die precies begrijpen wat jij doormaakt. Spar over klanten, wissel kennis uit en vind je eerste opdrachten via de interne marktplaats.</p></div>
             </div>
           </div>

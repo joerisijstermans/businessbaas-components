@@ -66,8 +66,8 @@
           .fc-3.show { opacity: 1; transform: translateY(0); }
           .fc-3-val { font-size: 14px; font-weight: 700; color: var(--navy); display: flex; align-items: center; gap: 8px; }
           .fc-3-icon { width: 22px; height: 22px; border-radius: 50%; background: rgba(232,93,4,.12); display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
-          @media (max-width: 960px) { .hero { padding: 0 20px; } .inner { grid-template-columns: 1fr; gap: 48px; padding: 100px 0 60px; } .right { height: 420px; } .fc-1 { right: 0; } .fc-3 { right: 0; } }
-          @media (max-width: 580px) { .inner { padding: 88px 0 48px; } h1 { font-size: clamp(34px,9vw,48px); } .right { height: 320px; } .fc-2 { display: none; } .fc-1 { right: -4px; } .fc-3 { right: -4px; } }
+          @media (max-width: 960px) { .hero { padding: 0 20px; } .inner { grid-template-columns: 1fr; gap: 48px; padding: 100px 0 60px; } .right { height: 420px; width: 75%; } .fc-1 { top: 16px; right: -80px; width: 185px; } .fc-3 { bottom: 16px; right: -80px; width: 175px; } }
+          @media (max-width: 580px) { .inner { padding: 88px 0 48px; } h1 { font-size: clamp(34px,9vw,48px); } .right { height: 300px; width: 75%; } .fc-2 { display: none; } .fc-1 { top: 12px; right: -75px; width: 175px; } .fc-3 { bottom: 12px; right: -75px; width: 165px; } }
         </style>
         <section class="hero" role="banner">
           <div class="blob blob-o"></div>

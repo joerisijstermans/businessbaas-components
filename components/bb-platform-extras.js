@@ -5,7 +5,7 @@
       const s = this.attachShadow({ mode: 'open' });
       const faqs = [
         { q: 'Wat zit er precies inbegrepen?', a: 'Je krijgt toegang tot 20+ praktische trainingen (Module 1: Strategie + Module 2: Scoor je eerste klanten), de Kickstart Challenge, AI-coach Nova, de digitale werkplek, en de WhatsApp-community met marktplaats. Live events en 1-op-1 coaching zijn optionele add-ons.' },
-        { q: 'Hoe werkt AI-coach Nova?', a: 'Nova is een AI-coach die jóuw traject kent — jouw doelgroep, jouw aanbod, jouw voortgang in de trainingen. Stel vragen op elk moment van de dag en krijg advies dat aansluit op jouw situatie. Geen generieke antwoorden.' },
+        { q: 'Hoe werkt AI-coach Nova?', a: 'Nova is een AI-coach die jóuw traject kent: jouw doelgroep, jouw aanbod, jouw voortgang in de trainingen. Stel vragen op elk moment van de dag en krijg advies dat aansluit op jouw situatie. Geen generieke antwoorden.' },
         { q: 'Kan ik opzeggen wanneer ik wil?', a: 'Het maandabonnement (€69/maand) kun je per maand opzeggen. Het jaarabonnement (€690/jaar) geldt voor één jaar. Geen verborgen kosten, geen kleine lettertjes.' },
         { q: 'Is dit ook geschikt als ik al een tijdje bezig ben?', a: 'BusinessBaas is primair ontworpen voor starters in de eerste fase: van idee naar eerste klant. Ben je net gestart of wil je een stevigere basis leggen, dan is het platform voor jou. Ben je al een jaar of langer actief als ondernemer, dan heb je waarschijnlijk meer baat bij een ander traject.' },
         { q: 'Wat als ik vastloop of vragen heb?', a: 'Dan heb je Nova (AI-coach, 24/7 beschikbaar), de WhatsApp-community met mede-starters, en de mogelijkheid om live events bij te wonen. Je staat er niet alleen voor.' },

@@ -47,7 +47,7 @@
             <div class="ob"><span class="lbl">Het programma</span></div>
             <div class="hdr ob">
               <h2>Twee modules + een challenge. Één doel: jouw eerste klant.</h2>
-              <p>20+ praktische trainingen verdeeld over twee modules — en een challenge om direct in actie te komen. Alles in jouw eigen tempo.</p>
+              <p>20+ praktische trainingen verdeeld over twee modules, en een challenge om direct in actie te komen. Alles in jouw eigen tempo.</p>
             </div>
             <div class="grid ob">
               <div class="card">
@@ -82,7 +82,7 @@
               <div>
                 <div class="ch-label">Inbegrepen bij lidmaatschap</div>
                 <div class="ch-title">Kickstart Challenge</div>
-                <div class="ch-desc">Concrete opdrachten, community support en een vliegende start als ondernemer — direct wanneer je start.</div>
+                <div class="ch-desc">Concrete opdrachten, community support en een vliegende start als ondernemer, direct wanneer je start.</div>
               </div>
             </div>
             <div class="see-more ob">

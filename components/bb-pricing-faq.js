@@ -60,7 +60,7 @@
         },
         {
           q: 'Wat is het verschil tussen maandelijks en jaarlijks betalen?',
-          a: 'Bij maandelijkse betaling betaal je €69 per maand. Bij jaarlijkse betaling betaal je omgerekend €1,90 per dag — dat scheelt ruim €130 per jaar. Je betaalt dan eenmalig vooruit voor het hele jaar.'
+          a: 'Bij maandelijkse betaling betaal je €69 per maand. Bij jaarlijkse betaling betaal je omgerekend €1,90 per dag, dat scheelt ruim €130 per jaar. Je betaalt dan eenmalig vooruit voor het hele jaar.'
         },
         {
           q: 'Zijn er nog andere kosten naast het abonnement?',

@@ -87,7 +87,7 @@
         <div class="hero">
           <div class="partner-badge">Exclusief voor Dreamchasers & Huis van de Toekomst</div>
           <h1>Zet jouw droom om in een <em>echte onderneming</em></h1>
-          <p>Als deelnemer van Dreamchasers of Huis van de Toekomst krijg je toegang tot BusinessBaas — met stap-voor-stap trainingen, AI-coach Nova en een community van gelijkgestemde starters.</p>
+          <p>Als deelnemer van Dreamchasers of Huis van de Toekomst krijg je toegang tot BusinessBaas, met stap-voor-stap trainingen, AI-coach Nova en een community van gelijkgestemde starters.</p>
           <div class="hero-btns">
             <a href="https://www.businessbaas.com/gratis-training-aanvragen" class="btn-primary" target="_top" data-lightbox>Start gratis →</a>
             <a href="https://www.businessbaas.com/het-platform" class="btn-ghost">Bekijk het platform</a>
@@ -110,7 +110,7 @@
                 <li>Van idee naar een helder aanbod, stap voor stap</li>
                 <li>AI-coach Nova die jou begeleidt als je vastloopt</li>
                 <li>Een community van starters die begrijpen wat jij doormaakt</li>
-                <li>Inbegrepen bij het abonnement — geen extra kosten</li>
+                <li>Inbegrepen bij het abonnement, geen extra kosten</li>
               </ul>
             </div>
             <img class="intro-img ob" src="${CDN}/training-afbeelding.png" alt="BusinessBaas platform" style="transition-delay:.1s">
@@ -136,7 +136,7 @@
                 <img class="feat-img" src="${CDN}/nova-afbeelding.png" alt="AI-Coach Nova">
                 <div class="feat-body">
                   <div class="feat-icon-row"><div class="feat-emoji" style="background:#F5F3FF">🤖</div><span class="feat-name" style="color:#8B5CF6">AI-Coach Nova</span></div>
-                  <h3>Nova — altijd voor je klaar</h3>
+                  <h3>Nova: altijd voor je klaar</h3>
                   <p>Nova kent jóuw situatie en helpt je sparren, plannen en doorpakken. 24/7, ook als je 's avonds vastloopt.</p>
                 </div>
               </div>

@@ -67,7 +67,7 @@
                 <div class="sc ob">
                   <div class="sk"><div class="skn">25+</div><div class="skl">Actieve deelnemers</div><div class="skd">Maken dagelijks gebruik van het platform</div></div>
                   <div class="sk"><div class="skn">90</div><div class="skl">Dagen traject</div><div class="skd">Bewezen weg van idee naar eerste klant</div></div>
-                  <div class="sk"><div class="skn" style="font-size:22px;line-height:1.2;">Op aanvraag</div><div class="skl">Prijs per seat</div><div class="skd">Tarief op maat — neem contact op voor een offerte</div></div>
+                  <div class="sk"><div class="skn" style="font-size:22px;line-height:1.2;">Op aanvraag</div><div class="skl">Prijs per seat</div><div class="skd">Tarief op maat. Neem contact op voor een offerte</div></div>
                   <div class="sk"><div class="skn">3</div><div class="skl">Stappen om te starten</div><div class="skd">Uitnodigen → aan de slag → monitoren</div></div>
                 </div>
                 <div class="pc ob">

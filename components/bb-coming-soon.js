@@ -40,7 +40,7 @@
             We blijven in ontwikkeling
           </div>
           <h1>We bouwen aan<br><em>BusinessBaas 2.0</em></h1>
-          <p class="sub">BusinessBaas wordt groter, slimmer en beter — met <strong>verbeterde trainingen, AI-coach Nova en een volledig nieuwe community</strong>. We zijn er bijna.</p>
+          <p class="sub">BusinessBaas wordt groter, slimmer en beter, met <strong>verbeterde trainingen, AI-coach Nova en een volledig nieuwe community</strong>. We zijn er bijna.</p>
           <p class="member-note">Al lid? Je kunt gewoon blijven inloggen en alles gebruiken.</p>
           <div class="feats">
             <div class="feat"><div class="fi">🎓</div><span class="fl">Trainingen</span></div>

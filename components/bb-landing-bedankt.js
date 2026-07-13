@@ -46,7 +46,7 @@
                 <div class="mail-icon">👋</div>
                 <div class="mail-info">
                   <h3>Welkomstmail met je eerste stap</h3>
-                  <p>Hierin vind je alles om direct te beginnen — inclusief een link naar je eerste module.</p>
+                  <p>Hierin vind je alles om direct te beginnen, inclusief een link naar je eerste module.</p>
                 </div>
               </div>
               <div class="mail-card">
@@ -59,7 +59,7 @@
             </div>
             <div class="spam-note">
               <span>⚠️</span>
-              <span><strong>Check ook je spamfolder</strong> — soms belanden e-mails van nieuwe afzenders daar automatisch.</span>
+              <span><strong>Check ook je spamfolder</strong>, soms belanden e-mails van nieuwe afzenders daar automatisch.</span>
             </div>
             <a href="https://www.businessbaas.com" class="next-btn">
               Ga naar de website

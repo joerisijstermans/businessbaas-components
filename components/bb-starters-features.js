@@ -12,7 +12,7 @@
         { icon:'👥', t:'Community', d:'Ondernemers die precies begrijpen wat jij doormaakt. Stel vragen, deel successen en groei samen sneller.' },
         { icon:'🎯', t:'Marktplaats', d:'Test je aanbod binnen de community. Vind je eerste klanten dichter bij huis dan je denkt.' },
         { icon:'🎤', t:'LIVE Events', d:'Bouw je netwerk op in het echt. Juurd ontmoette tijdens een BusinessBaas LIVE event zijn eerste klant!', upsell: true },
-        { icon:'💬', t:'1 op 1 Coaching', d:'Kom je er niet uit met Nova of de community? Vraag een persoonlijke sessie aan met een expert. Van quick scan tot uitgebreide sparring — altijd op maat.', upsell: true },
+        { icon:'💬', t:'1 op 1 Coaching', d:'Kom je er niet uit met Nova of de community? Vraag een persoonlijke sessie aan met een expert. Van quick scan tot uitgebreide sparring, altijd op maat.', upsell: true },
       ];
       this.shadowRoot.innerHTML = `
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">

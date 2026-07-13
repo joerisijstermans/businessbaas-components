@@ -51,7 +51,7 @@
             </a>
             <p class="trust ob">Geen creditcard nodig &nbsp;·&nbsp; Direct toegang &nbsp;·&nbsp; Geen verborgen kosten</p>
             <div class="price-opts ob">
-              <a class="price-opt-yr" href="https://buy.stripe.com/aFabJ22gG8sy9Fa1nqeZ200" target="_top">Jaarlijks starten — €690/jaar</a>
+              <a class="price-opt-yr" href="https://buy.stripe.com/aFabJ22gG8sy9Fa1nqeZ200" target="_top">Jaarlijks starten: €690/jaar</a>
               <span class="price-sep">of</span>
               <a class="price-opt-mo" href="https://buy.stripe.com/dRm5kE8F4cIO8B65DGeZ202" target="_top">€69/maand</a>
             </div>

@@ -72,8 +72,8 @@
         <div class="features">
           <div class="features-inner">
             <div class="feat-grid">
-              <div class="feat-card ob"><div class="feat-icon">🎓</div><h3>20+ Praktische trainingen</h3><p>Van doelgroepbepaling tot salesgesprek. Modulair opgebouwd zodat jij in jouw tempo werkt — maar je werkt wél.</p></div>
-              <div class="feat-card ob" style="transition-delay:.08s"><div class="feat-icon">🤖</div><h3>Nova, jouw AI-coach</h3><p>Altijd beschikbaar, nooit oordelend. Stuur haar je tekst, je idee, je twijfel — en krijg concrete feedback terug.</p></div>
+              <div class="feat-card ob"><div class="feat-icon">🎓</div><h3>20+ Praktische trainingen</h3><p>Van doelgroepbepaling tot salesgesprek. Modulair opgebouwd zodat jij in jouw tempo werkt, maar je werkt wél.</p></div>
+              <div class="feat-card ob" style="transition-delay:.08s"><div class="feat-icon">🤖</div><h3>Nova, jouw AI-coach</h3><p>Altijd beschikbaar, nooit oordelend. Stuur haar je tekst, je idee, je twijfel, en krijg concrete feedback terug.</p></div>
               <div class="feat-card ob" style="transition-delay:.16s"><div class="feat-icon">🗂️</div><h3>Digitale werkplek</h3><p>Je businessplan, doelgroep, pitch en voortgang op één plek. Geen losse notities meer, alles in één overzicht.</p></div>
               <div class="feat-card ob" style="transition-delay:.24s"><div class="feat-icon">🤝</div><h3>Community &amp; marktplaats</h3><p>Starters die exact begrijpen wat jij doormaakt. Spar, wissel kennis uit en vind je eerste opdrachten intern.</p></div>
             </div>
@@ -111,10 +111,10 @@
               <span class="offer-tag">Word nu lid</span>
               <h2>Zet de volgende stap.<br><em>Begin vandaag.</em></h2>
               <div class="offer-price-row"><span class="price-from">Lidmaatschap vanaf</span><span class="price">€69</span><span class="price-sub">/maand</span></div>
-              <p class="price-free">🎓 <strong>Begin gratis</strong> — geen creditcard, geen verplichtingen</p>
+              <p class="price-free">🎓 <strong>Begin gratis.</strong> Geen creditcard, geen verplichtingen</p>
               <ul class="feats">
                 <li><span>20+ praktische trainingen (inclusief verdieping op de 3 stappen)</span></li>
-                <li><span>AI-coach Nova — persoonlijk advies, 24/7</span></li>
+                <li><span>AI-coach Nova: persoonlijk advies, 24/7</span></li>
                 <li><span>Slim Ondernemen met AI <span class="soon">binnenkort</span></span></li>
                 <li><span>Digitale werkplek voor jouw businessplan</span></li>
                 <li><span>Community &amp; marktplaats</span></li>

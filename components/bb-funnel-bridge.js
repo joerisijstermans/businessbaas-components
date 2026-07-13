@@ -44,8 +44,8 @@
         <div class="bridge">
           <div class="bridge-inner">
             <h2 class="ob">Je hebt de eerste stap gezet.<br>Nu is het tijd voor <em>de rest</em>.</h2>
-            <p class="ob">De 3 stappen uit de training werken. Maar om van een eerste klant naar een <strong>stabiel inkomen</strong> te groeien, heb je meer nodig: een scherpe doelgroep, een overtuigende pitch, een salesproces dat werkt — en iemand die je daarin begeleidt.</p>
-            <p class="ob">Dat is precies wat BusinessBaas biedt. Geen vage theorie, maar een concreet systeem dat starters gebruikt hebben om hun bedrijf van de grond te krijgen — met AI-coach Nova als je persoonlijke sparringpartner, 24/7.</p>
+            <p class="ob">De 3 stappen uit de training werken. Maar om van een eerste klant naar een <strong>stabiel inkomen</strong> te groeien, heb je meer nodig: een scherpe doelgroep, een overtuigende pitch, een salesproces dat werkt, en iemand die je daarin begeleidt.</p>
+            <p class="ob">Dat is precies wat BusinessBaas biedt. Geen vage theorie, maar een concreet systeem dat starters gebruikt hebben om hun bedrijf van de grond te krijgen, met AI-coach Nova als je persoonlijke sparringpartner, 24/7.</p>
             <div class="divider ob">
               <div class="divider-line"></div>
               <span class="divider-text">Wat krijg je als lid?</span>

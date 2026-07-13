@@ -27,9 +27,9 @@
         <section>
           <div class="inner">
             <h2 class="ob">Overtuigd? Begin vandaag.</h2>
-            <p class="ob">Word direct lid en krijg toegang tot alle trainingen, Nova, de digitale werkplek en de community. Of stel eerst een vraag — we helpen je graag.</p>
+            <p class="ob">Word direct lid en krijg toegang tot alle trainingen, Nova, de digitale werkplek en de community. Of stel eerst een vraag, we helpen je graag.</p>
             <div class="btns ob">
-              <a class="btn-p" href="https://buy.stripe.com/aFabJ22gG8sy9Fa1nqeZ200" target="_top">Word nu lid — €690/jaar <svg width="16" height="16" viewBox="0 0 16 16" fill="none" style="vertical-align:middle;margin-left:4px"><path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+              <a class="btn-p" href="https://buy.stripe.com/aFabJ22gG8sy9Fa1nqeZ200" target="_top">Word nu lid: €690/jaar <svg width="16" height="16" viewBox="0 0 16 16" fill="none" style="vertical-align:middle;margin-left:4px"><path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
               <a class="btn-g" href="https://www.businessbaas.com/contact" target="_top">Stel een vraag</a>
             </div>
             <p class="sub-note ob">Of start eerst gratis: <a href="https://www.businessbaas.com/gratis-training-aanvragen" target="_top" style="color:rgba(255,255,255,.55);text-underline-offset:3px;text-decoration:underline">bekijk de gratis training →</a></p>

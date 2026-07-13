@@ -39,7 +39,7 @@
             </div>
             <div class="label">Gratis training aangevraagd</div>
             <h1>Bedankt! Check<br>je <em>inbox</em>.</h1>
-            <p class="sub">Je aanvraag is bevestigd. De gratis training staat klaar — check je inbox voor de link. <strong>Het kan een paar minuten duren.</strong></p>
+            <p class="sub">Je aanvraag is bevestigd. De gratis training staat klaar, check je inbox voor de link. <strong>Het kan een paar minuten duren.</strong></p>
             <div class="cards">
               <div class="card">
                 <div class="cicon">📧</div>

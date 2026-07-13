@@ -62,7 +62,7 @@
           <div class="inner">
             <div class="badge"><span class="dot"></span>Partner demo</div>
             <h1>Ontdek wat BusinessBaas<br>voor jouw <em>organisatie</em> kan doen</h1>
-            <p class="sub">Plan een demo en zie hoe je starters begeleidt op schaal — zonder extra capaciteit van jouw team.</p>
+            <p class="sub">Plan een demo en zie hoe je starters begeleidt op schaal, zonder extra capaciteit van jouw team.</p>
             <div class="checks">
               <span class="check">Gratis en vrijblijvend</span>
               <span class="check">Persoonlijk gesprek</span>
@@ -109,10 +109,10 @@
                   <label for="starters">Aantal starters dat u begeleidt</label>
                   <select id="starters" name="aantal_starters">
                     <option value="" disabled selected>Kies een bandbreedte...</option>
-                    <option value="1-10">1 — 10</option>
-                    <option value="10-25">10 — 25</option>
-                    <option value="25-50">25 — 50</option>
-                    <option value="50-100">50 — 100</option>
+                    <option value="1-10">1-10</option>
+                    <option value="10-25">10-25</option>
+                    <option value="25-50">25-50</option>
+                    <option value="50-100">50-100</option>
                     <option value="100+">100+</option>
                   </select>
                 </div>
@@ -152,7 +152,7 @@
 
         const body = new FormData(form);
         body.append('access_key',  WEB3_KEY);
-        body.append('subject',     'Nieuwe demo-aanvraag — BusinessBaas.com');
+        body.append('subject',     'Nieuwe demo-aanvraag - BusinessBaas.com');
         body.append('from_name',   'BusinessBaas Partner Demo');
         body.append('replyto',     form.querySelector('#email').value);
 

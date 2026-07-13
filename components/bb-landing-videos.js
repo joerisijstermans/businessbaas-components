@@ -31,7 +31,7 @@
           <div class="videos-inner">
             <div class="section-label ob">In hun eigen woorden</div>
             <h2 class="ob">Hoor het van <em>BusinessBaas-leden</em></h2>
-            <p class="videos-sub ob">Geen marketingpraatjes — gewoon echte ervaringen van starters die de stap hebben gezet.</p>
+            <p class="videos-sub ob">Geen marketingpraatjes, gewoon echte ervaringen van starters die de stap hebben gezet.</p>
             <div class="vid-grid">
               <div class="vid-card ob">
                 <video controls><source src="${CDN}/review-katharina.mp4" type="video/mp4"></video>
