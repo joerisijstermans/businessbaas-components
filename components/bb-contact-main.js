@@ -100,14 +100,31 @@
     _bind() {
       const form = this.shadowRoot.getElementById('form');
       const success = this.shadowRoot.getElementById('success');
-      form.addEventListener('submit', (e) => {
+      const btn = this.shadowRoot.querySelector('.btn');
+      form.addEventListener('submit', async (e) => {
         e.preventDefault();
         const name = this.shadowRoot.getElementById('name').value;
         const email = this.shadowRoot.getElementById('email').value;
+        const subject = this.shadowRoot.getElementById('subject').value;
         const msg = this.shadowRoot.getElementById('msg').value;
         if (!name || !email || !msg) return;
-        form.style.display = 'none';
-        success.style.display = 'block';
+        btn.disabled = true;
+        btn.textContent = 'Versturen...';
+        try {
+          const data = new FormData();
+          data.append('access_key', 'e725eb57-1af1-45a5-87a9-ff25ad540eb0');
+          data.append('name', name);
+          data.append('email', email);
+          data.append('message', msg);
+          data.append('subject', `Contactformulier${subject ? ' – ' + subject : ''} – BusinessBaas.com`);
+          data.append('from_name', 'BusinessBaas Contact');
+          await fetch('https://api.web3forms.com/submit', { method: 'POST', body: data });
+          form.style.display = 'none';
+          success.style.display = 'block';
+        } catch {
+          btn.disabled = false;
+          btn.textContent = 'Verstuur bericht';
+        }
       });
     }
     _obs() {
