@@ -66,8 +66,8 @@
           .fc-3.show { opacity: 1; transform: translateY(0); }
           .fc-3-val { font-size: 14px; font-weight: 700; color: var(--navy); display: flex; align-items: center; gap: 8px; }
           .fc-3-icon { width: 22px; height: 22px; border-radius: 50%; background: rgba(232,93,4,.12); display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
-          @media (max-width: 960px) { .hero { padding: 0 20px; } .inner { grid-template-columns: 1fr; gap: 48px; padding: 100px 0 80px; } .right { height: 420px; width: 100%; } .fc-1 { top: -26px; right: 12px; width: 200px; } .fc-3 { bottom: -26px; right: 12px; width: 190px; } }
-          @media (max-width: 580px) { .inner { padding: 88px 0 72px; } h1 { font-size: clamp(34px,9vw,48px); } .right { height: 300px; width: 100%; } .fc-2 { display: none; } .fc-1 { top: -24px; right: 10px; width: 185px; } .fc-3 { bottom: -24px; right: 10px; width: 175px; } }
+          @media (max-width: 960px) { .hero { padding: 0 20px; } .inner { grid-template-columns: 1fr; gap: 48px; padding: 100px 0 80px; } .right { height: 420px; width: 100%; } .fc-1 { top: auto; right: auto; bottom: -26px; left: 12px; width: calc(50% - 18px); } .fc-3 { top: auto; bottom: -26px; right: 12px; width: calc(50% - 18px); } }
+          @media (max-width: 580px) { .inner { padding: 88px 0 72px; } h1 { font-size: clamp(34px,9vw,48px); } .right { height: 300px; width: 100%; } .fc-2 { display: none; } .fc-1 { top: auto; right: auto; bottom: -24px; left: 10px; width: calc(50% - 16px); } .fc-3 { top: auto; bottom: -24px; right: 10px; width: calc(50% - 16px); } }
         </style>
         <section class="hero" role="banner">
           <div class="blob blob-o"></div>
