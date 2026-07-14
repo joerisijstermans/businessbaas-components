@@ -10,7 +10,7 @@
         <style>
           :host{display:block;--orange:#E85D04;--navy:#0D2240;--font:'Inter',-apple-system,sans-serif;}
           *{box-sizing:border-box;margin:0;padding:0;}
-          section{background:var(--navy);padding:80px 24px;font-family:var(--font);position:relative;overflow:hidden;}
+          section{background:var(--navy);padding:88px 24px;font-family:var(--font);position:relative;overflow:hidden;}
           section::before{content:'';position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,0.025) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,0.025) 1px,transparent 1px);background-size:52px 52px;pointer-events:none;}
           .glow{position:absolute;width:520px;height:520px;border-radius:50%;background:radial-gradient(circle,rgba(232,93,4,0.14),transparent 68%);top:-180px;right:-120px;pointer-events:none;}
           .inner{max-width:1180px;margin:0 auto;position:relative;z-index:2;}

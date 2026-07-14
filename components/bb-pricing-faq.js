@@ -8,11 +8,11 @@
         <style>
           *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
           :host{display:block;font-family:'Inter',-apple-system,sans-serif}
-          .wrap{background:#fff;padding:80px 24px 96px}
+          .wrap{background:#fff;padding:88px 24px}
           .inner{max-width:680px;margin:0 auto}
           .top{text-align:center;margin-bottom:48px}
           .lbl{font-size:11.5px;font-weight:700;color:#E85D04;text-transform:uppercase;letter-spacing:.1em;margin-bottom:14px}
-          h2{font-size:clamp(26px,4vw,40px);font-weight:900;color:#0D2240;letter-spacing:-.03em;line-height:1.1}
+          h2{font-size:clamp(28px,4vw,44px);font-weight:900;color:#0D2240;letter-spacing:-.03em;line-height:1.1}
           .list{display:flex;flex-direction:column;gap:0}
           .item{border-bottom:1px solid #F3F4F6}
           .item:first-child{border-top:1px solid #F3F4F6}
@@ -33,7 +33,7 @@
           .cta strong{color:#fff}
           .cta-btn{display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#E85D04;color:#fff;font-size:15px;font-weight:700;border-radius:50px;text-decoration:none;transition:background .2s,transform .2s;font-family:'Inter',sans-serif}
           .cta-btn:hover{background:#CC4D00;transform:translateY(-2px)}
-          @media(max-width:480px){.wrap{padding:60px 20px 72px}}
+          @media(max-width:480px){.wrap{padding:64px 20px}}
         </style>
         <section class="wrap">
           <div class="inner">
