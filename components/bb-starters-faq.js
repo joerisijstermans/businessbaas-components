@@ -6,11 +6,10 @@
     render() {
       const faqs = [
         { q:'Is er een gratis proefperiode?', a:'Ja! Start met de gratis training "Jouw eerste betalende klant, De drie stappen die het verschil maken". Geen creditcard nodig, direct toegang.' },
-        { q:'Wat kost BusinessBaas?', a:'€69 per maand (= €2,30/dag), of €690 per jaar (= €1,90/dag, 2 maanden gratis). Inbegrepen: 20+ trainingen, digitale werkplek, AI-coach Nova, community & marktplaats. LIVE events en 1 op 1 coaching zijn beschikbaar als add-on. Geen verborgen kosten.' },
         { q:'Hoeveel tijd heb ik per week nodig?', a:'Tussen de 2 en 4 uur per week, maar jij bepaalt wanneer. Je werkt volledig op jouw eigen tempo: wanneer jij tijd hebt, wanneer het jou uitkomt. De trainingen zijn kort en gericht op concrete actie, geen marathonsessies.' },
         { q:'Wat als ik nog geen bedrijfsidee heb?', a:'Geen probleem. Module 1 begint juist met het ontdekken en aanscherpen van jouw idee. Van vaag idee naar concrete propositie, stap voor stap.' },
-        { q:'Kan ik op elk moment opzeggen?', a:'Ja. Maandabonnementen zijn altijd maandelijks opzegbaar. Geen minimale contractduur, geen verborgen kosten. We geloven in de kwaliteit van het platform, niet in lock-ins.' },
-        { q:'Wat is het verschil met een gewone online cursus?', a:'BusinessBaas is een volledig platform, geen passieve cursus. Je werkt direct in je digitale werkplek, krijgt coaching van Nova en bent onderdeel van een actieve community. Je leert niet alleen, je bouwt tegelijkertijd aan je echte bedrijf.' },
+        { q:'Wat is het verschil met een gewone online cursus?', a:'BusinessBaas is een volledig platform, geen passieve cursus. Je werkt direct in je digitale werkplek, krijgt coaching van AI-coach Nova en bent onderdeel van een actieve community. Je leert niet alleen, je bouwt tegelijkertijd aan je echte bedrijf.' },
+        { q:'Wat doet AI-coach Nova precies?', a:'Nova is geen gewone chatbot. Ze kent jóuw trainingen, jóuw voortgang en jóuw situatie, en geeft advies dat echt op jou is afgestemd. Beschikbaar 24/7, ook als je \'s avonds twijfels hebt of vastloopt.' },
       ];
       this.shadowRoot.innerHTML = `
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
@@ -51,7 +50,7 @@
           <div class="inner">
             <div class="hd ob"><div class="lbl">Veelgestelde vragen</div><h2>Alles wat je wilt weten</h2><p>Geen verrassingen achteraf.</p></div>
             <div class="faq ob">${faqs.map((f,i)=>`<div class="qi${i===0?' open':''}"><div class="qh"><span class="qt">${f.q}</span><span class="ico"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M7 2V12M2 7H12" stroke="#0D2240" stroke-width="2" stroke-linecap="round"/></svg></span></div><div class="qa"><p>${f.a}</p></div></div>`).join('')}</div>
-            <div class="bot ob"><p>Nog een vraag? <a href="https://www.businessbaas.com/contact">Neem contact op</a>, we helpen je graag.</p></div>
+            <div class="bot ob"><p>Vragen over kosten of opzeggen? <a href="https://www.businessbaas.com/prijzen">Bekijk de prijzenpagina</a> of <a href="https://www.businessbaas.com/contact">neem contact op</a>.</p></div>
           </div>
         </section>`;
     }

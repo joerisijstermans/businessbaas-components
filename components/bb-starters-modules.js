@@ -39,7 +39,7 @@
           .see-link:hover{gap:12px;}
           .ob{opacity:0;transform:translateY(22px);transition:opacity .65s ease,transform .65s ease;}
           .ob.show{opacity:1;transform:translateY(0);}
-          @media(max-width:768px){.grid{grid-template-columns:1fr;}.challenge{flex-direction:column;gap:12px;}}
+          @media(max-width:860px){.grid{grid-template-columns:1fr;}.challenge{flex-direction:column;gap:12px;}}
           @media(max-width:600px){section{padding:64px 20px;}.card-head,.card-body{padding-left:20px;padding-right:20px;}}
         </style>
         <section>
