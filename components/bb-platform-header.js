@@ -18,7 +18,7 @@
         <div class="ph">
           <div class="lbl">Compleet ondernemersplatform</div>
           <h1>Het Platform</h1>
-          <p class="sub">Alles wat je nodig hebt om van idee naar eerste betalende klant te groeien — trainingen, AI-coach Nova, een digitale werkplek en een actieve community, op één plek.</p>
+          <p class="sub">Alles wat je nodig hebt om van idee naar eerste betalende klant te groeien: trainingen, AI-coach Nova, een digitale werkplek en een actieve community, op één plek.</p>
         </div>`;
     }
   }

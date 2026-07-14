@@ -77,7 +77,7 @@
           .fn{font-size:12px;color:#9CA3AF;text-align:center;line-height:1.7}
           .bottom-note{text-align:center;font-size:13.5px;color:#6B7280;line-height:1.6}
           .bottom-note strong{color:#0D2240}
-          .partner-block{background:#0D2240;border-radius:20px;padding:32px 36px;display:flex;align-items:center;justify-content:space-between;gap:24px;margin-top:16px;flex-wrap:wrap}
+          .partner-block{background:#0D2240;border-radius:20px;padding:32px 36px;display:flex;align-items:center;justify-content:space-between;gap:24px;margin-top:36px;flex-wrap:wrap}
           .partner-block-left{}
           .partner-label{font-size:11px;font-weight:700;color:#E85D04;text-transform:uppercase;letter-spacing:.1em;margin-bottom:8px}
           .partner-block h3{font-size:20px;font-weight:800;color:#fff;margin-bottom:8px;line-height:1.2}

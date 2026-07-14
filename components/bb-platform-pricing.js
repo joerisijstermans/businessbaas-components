@@ -23,12 +23,6 @@
           .btn-p{display:inline-flex;align-items:center;gap:9px;padding:17px 40px;background:#E85D04;color:#fff;font-size:1.05rem;font-weight:700;border-radius:50px;text-decoration:none;transition:background .2s,transform .2s,box-shadow .2s;font-family:'Inter',sans-serif;margin-bottom:14px}
           .btn-p:hover{background:#CC4D00;transform:translateY(-2px);box-shadow:0 14px 36px rgba(232,93,4,.42)}
           .trust{font-size:.82rem;color:rgba(255,255,255,.28);margin-bottom:24px}
-          .price-opts{display:flex;align-items:center;justify-content:center;gap:14px;flex-wrap:wrap;margin-bottom:32px}
-          .price-opt-yr{padding:12px 22px;background:rgba(255,255,255,.1);border:1.5px solid rgba(255,255,255,.22);border-radius:50px;font-size:.87rem;font-weight:700;color:#fff;text-decoration:none;transition:all .2s;font-family:'Inter',sans-serif}
-          .price-opt-yr:hover{background:rgba(255,255,255,.18);border-color:rgba(255,255,255,.4)}
-          .price-sep{font-size:.82rem;color:rgba(255,255,255,.25)}
-          .price-opt-mo{font-size:.87rem;font-weight:600;color:rgba(255,255,255,.5);text-decoration:none;transition:color .2s;font-family:'Inter',sans-serif}
-          .price-opt-mo:hover{color:rgba(255,255,255,.85)}
           .divider{width:40px;height:1px;background:rgba(255,255,255,.1);margin:0 auto 28px}
           .plans-link{display:inline-flex;align-items:center;gap:6px;font-size:.9rem;font-weight:600;color:rgba(255,255,255,.5);text-decoration:none;transition:color .2s}
           .plans-link:hover{color:rgba(255,255,255,.85)}
@@ -50,11 +44,6 @@
               <svg width="17" height="17" viewBox="0 0 17 17" fill="none"><path d="M3 8.5H14M14 8.5L9.5 4M14 8.5L9.5 13" stroke="white" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
             </a>
             <p class="trust ob">Geen creditcard nodig &nbsp;·&nbsp; Direct toegang &nbsp;·&nbsp; Geen verborgen kosten</p>
-            <div class="price-opts ob">
-              <a class="price-opt-yr" href="https://buy.stripe.com/aFabJ22gG8sy9Fa1nqeZ200" target="_top">Jaarlijks starten: €690/jaar</a>
-              <span class="price-sep">of</span>
-              <a class="price-opt-mo" href="https://buy.stripe.com/dRm5kE8F4cIO8B65DGeZ202" target="_top">€69/maand</a>
-            </div>
             <div class="divider ob"></div>
             <a class="plans-link ob" href="https://www.businessbaas.com/prijzen" target="_top">
               Bekijk alle abonnementen

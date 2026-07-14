@@ -49,7 +49,7 @@
             <div class="hd ob">
               <div class="lbl">Veelgestelde vragen</div>
               <h2>Is BusinessBaas iets voor mij?</h2>
-              <p>De drie vragen die je waarschijnlijk hebt. Meer vragen over kosten? <a href="https://www.businessbaas.com/prijzen" style="color:var(--orange);font-weight:600;text-decoration:none;">Bekijk de prijzenpagina →</a></p>
+              <p>De drie vragen die starters ons het vaakst stellen.</p>
             </div>
             <div class="faq ob">
               ${faqs.map((f,i)=>`<div class="qi${i===0?' open':''}"><div class="qh"><span class="qt">${f.q}</span><span class="ico"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M7 2V12M2 7H12" stroke="#0D2240" stroke-width="2" stroke-linecap="round"/></svg></span></div><div class="qa"><p>${f.a}</p></div></div>`).join('')}

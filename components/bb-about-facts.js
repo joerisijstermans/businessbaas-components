@@ -16,7 +16,7 @@
           .facts{display:grid;grid-template-columns:1fr 1fr;gap:20px}
           .fact{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);border-radius:14px;padding:20px}
           .fact .v{font-size:1.8rem;font-weight:900;color:#fff;letter-spacing:-.03em}
-          .fact .v em{color:#E85D04;font-style:normal}
+          .fact .v em{color:#fff;font-style:normal}
           .fact .l{font-size:.8rem;color:rgba(255,255,255,.5);margin-top:4px}
           .links{display:flex;gap:16px;flex-wrap:wrap}
           .link-btn{padding:12px 28px;border-radius:50px;font-size:.9rem;font-weight:700;text-decoration:none;transition:all .2s;display:inline-block}

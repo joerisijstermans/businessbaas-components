@@ -43,7 +43,7 @@
         {
           icon: '🎤', label: 'LIVE Events', color: '#F59E0B', badge: 'add-on',
           title: 'Ondernemen leer je écht door mensen te ontmoeten',
-          desc: 'Bij LIVE events komen BusinessBaas-leden fysiek samen. Netwerken, workshops, ideeën uitwisselen, elkaar helpen groeien. We doen het samen — en dat merk je.',
+          desc: 'Bij LIVE events komen BusinessBaas-leden fysiek samen. Netwerken, workshops, ideeën uitwisselen, elkaar helpen groeien. We doen het samen, en dat merk je.',
           points: ['Offline events voor leden', 'Netwerken en workshops in één', 'Ideeën toetsen bij échte ondernemers', 'Pre-sale toegang voor leden'],
           photo: `${CDN}/community-afbeelding.png`
         },

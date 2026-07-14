@@ -47,7 +47,7 @@
           <div class="inner">
             <div>
               <div class="label ob">Jouw AI-coach</div>
-              <h2 class="ob">Meet <span>Nova</span>, altijd voor je klaar</h2>
+              <h2 class="ob"><span>Nova</span> staat altijd voor je klaar</h2>
               <p class="ob">Nova is meer dan een assistent. Ze is jouw persoonlijke businesscoach die er altijd voor je is, ook als het even tegenzit. Ze kent jouw trainingsprogramma van binnen en buiten, weet precies waar je mee bezig bent en helpt je de volgende stap zetten op het moment dat jij het nodig hebt.</p>
               <ul class="bullets ob">
                 <li>Er voor je als je vastloopt, twijfelt of gewoon even wil sparren</li>

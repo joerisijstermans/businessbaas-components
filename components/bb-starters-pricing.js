@@ -88,7 +88,7 @@
               </div>
             </div>
             <div class="insight ob"><p>"De vraag is niet: kan ik €69 missen? De vraag is: kan ik nog 6 maanden zonder klanten?"</p></div>
-            <div class="disc ob"><span>Geen verborgen kosten</span><span>Direct toegang</span><span>Geen creditcard nodig</span></div>
+            <div class="disc ob"><span>Geen verborgen kosten</span><span>Direct toegang</span><span>Maandelijks opzegbaar</span></div>
             <p class="gratis-link ob">Nog niet zeker? <a href="https://www.businessbaas.com/gratis-training-aanvragen" target="_top">Begin gratis met onze gratis training →</a></p>
           </div>
         </section>`;
