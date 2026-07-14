@@ -55,7 +55,7 @@
           <div class="inner">
             <div class="form-card ob">
               <h2>Stuur ons een bericht</h2>
-              <p>We reageren binnen 1 werkdag.</p>
+              <p>Heb je een vraag of wil je meer weten? We helpen je graag.</p>
               <form id="form">
                 <div class="field"><label for="name">Naam</label><input type="text" id="name" placeholder="Jouw naam" required></div>
                 <div class="field"><label for="email">E-mailadres</label><input type="email" id="email" placeholder="jouw@email.com" required></div>

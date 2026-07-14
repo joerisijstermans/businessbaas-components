@@ -77,7 +77,16 @@
           .fn{font-size:12px;color:#9CA3AF;text-align:center;line-height:1.7}
           .bottom-note{text-align:center;font-size:13.5px;color:#6B7280;line-height:1.6}
           .bottom-note strong{color:#0D2240}
+          .partner-block{background:#0D2240;border-radius:20px;padding:32px 36px;display:flex;align-items:center;justify-content:space-between;gap:24px;margin-top:16px;flex-wrap:wrap}
+          .partner-block-left{}
+          .partner-label{font-size:11px;font-weight:700;color:#E85D04;text-transform:uppercase;letter-spacing:.1em;margin-bottom:8px}
+          .partner-block h3{font-size:20px;font-weight:800;color:#fff;margin-bottom:8px;line-height:1.2}
+          .partner-block p{font-size:14px;color:rgba(255,255,255,.6);line-height:1.55;max-width:440px}
+          .partner-btn{display:inline-flex;align-items:center;gap:8px;padding:13px 26px;background:#E85D04;color:#fff;font-size:14px;font-weight:700;border-radius:50px;text-decoration:none;white-space:nowrap;transition:background .2s,transform .2s;font-family:'Inter',sans-serif;flex-shrink:0}
+          .partner-btn:hover{background:#CC4D00;transform:translateY(-2px)}
           @media(max-width:680px){
+            .partner-block{flex-direction:column;align-items:flex-start;padding:24px}
+            .partner-btn{width:100%;justify-content:center}
             .cards{grid-template-columns:1fr}
             .card{padding:32px 24px}
             .amt{font-size:48px}
@@ -127,6 +136,14 @@
 
             </div>
             <p class="bottom-note"><strong>Gratis starten?</strong> Volg eerst onze gratis training en ontdek hoe BusinessBaas werkt. <a href="https://www.businessbaas.com/gratis-training-aanvragen" target="_top" style="color:#E85D04;font-weight:700;text-decoration:none">Vraag hem aan →</a></p>
+            <div class="partner-block">
+              <div class="partner-block-left">
+                <div class="partner-label">Voor organisaties & coaches</div>
+                <h3>BusinessBaas voor partners</h3>
+                <p>Wil je BusinessBaas inzetten voor jouw starters, studenten of klanten? Tarieven zijn op maat en het gesprek begint met een gratis demo.</p>
+              </div>
+              <a href="https://www.businessbaas.com/partner-demo" class="partner-btn" target="_top">Demo aanvragen →</a>
+            </div>
           </div>
         </section>`;
     }

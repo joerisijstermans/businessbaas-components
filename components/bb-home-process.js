@@ -48,7 +48,7 @@
           .tlc:hover{background:#CC4D00;transform:translateY(-1px);box-shadow:0 6px 20px rgba(232,93,4,.4);}
           .ob{opacity:0;transform:translateY(22px);transition:opacity .65s ease,transform .65s ease;}
           .ob.show{opacity:1;transform:translateY(0);}
-          @media(max-width:900px){.layout{grid-template-columns:1fr;gap:48px;}.tl{flex-direction:column;align-items:flex-start;padding:24px;}}
+          @media(max-width:900px){.layout{grid-template-columns:1fr;gap:48px;}.tl{flex-direction:column;align-items:stretch;padding:24px;gap:16px;}.tln{display:none;}.tli{gap:10px 0;display:grid;grid-template-columns:1fr 1fr;}.tlit{gap:8px;}.tlc{text-align:center;justify-content:center;}}
           @media(max-width:600px){section{padding:64px 20px;}}
         </style>
         <section>

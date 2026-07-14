@@ -5,7 +5,7 @@
     connectedCallback() { this.render(); this._bind(); this._obs(); }
     render() {
       const faqs = [
-        { q:'Wat kost BusinessBaas?', a:'€69 per maand, minder dan €2,30 per dag. Jaarlijks is het €690 (2 maanden gratis). Alles is inbegrepen: trainingen, digitale werkplek, AI-coach Nova, marktplaats en community. Geen verborgen kosten, geen losse modules die extra kosten.' },
+        { q:'Wat kost BusinessBaas?', a:'€69 per maand, of €690 per jaar (2 maanden gratis). Bij jaarlijkse betaling is dat minder dan €1,90 per dag. Alles is inbegrepen: trainingen, digitale werkplek, AI-coach Nova, marktplaats en community. Geen verborgen kosten, geen losse modules die extra kosten.' },
         { q:'Hoeveel tijd heb ik per week nodig?', a:'Gemiddeld 3–5 uur per week. Het platform past zich aan jouw tempo aan. Je bepaalt zelf wanneer je werkt. De trainingen zijn kort en gericht, geen marathonsessies, maar concrete actie per week.' },
         { q:'Wat als ik nog geen concreet bedrijfsidee heb?', a:'Geen probleem. Het traject begint juist met het verkennen en aanscherpen van je idee. Module 1 helpt je helderheid te krijgen over je doelgroep, aanbod en positionering, van vaag idee naar concrete propositie.' },
         { q:'Kan ik op elk moment opzeggen?', a:'Ja. Er is geen minimum contractduur bij maandelijkse betaling. Je kunt voor het einde van de maand opzeggen, zonder verdere verplichtingen of kosten. We geloven in de kwaliteit van het platform, niet in lock-ins.' },
