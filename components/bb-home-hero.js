@@ -1,7 +1,7 @@
 ﻿(function () {
   if (customElements.get('bb-home-hero')) return;
 
-  const CDN = 'https://cdn.jsdelivr.net/gh/joerisijstermans/businessbaas-components@main/assets';
+  const CDN = 'https://joerisijstermans.github.io/businessbaas-components/assets';
 
   class BBHomeHero extends HTMLElement {
     constructor() { super(); this.attachShadow({ mode: 'open' }); }

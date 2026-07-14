@@ -169,6 +169,10 @@
       updateVisual();
       startCycle();
 
+      const section = s.getElementById('features');
+      section.addEventListener('mouseenter', () => clearInterval(interval));
+      section.addEventListener('mouseleave', () => { progress = 0; startCycle(); });
+
       const obs = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) e.target.classList.add('show'); }), { threshold: .1 });
       s.querySelectorAll('.ob').forEach(el => obs.observe(el));
     }

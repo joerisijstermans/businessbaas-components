@@ -1,6 +1,6 @@
 (function () {
   if (customElements.get('bb-starters-testimonials')) return;
-  const CDN = 'https://cdn.jsdelivr.net/gh/joerisijstermans/businessbaas-components@main/assets';
+  const CDN = 'https://joerisijstermans.github.io/businessbaas-components/assets';
   class BBStartersTestimonials extends HTMLElement {
     constructor() { super(); this.attachShadow({ mode: 'open' }); this._cur = 0; }
     connectedCallback() {
