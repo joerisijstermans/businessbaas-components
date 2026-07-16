@@ -59,7 +59,7 @@
                 <div class="cicon">🚀</div>
                 <div class="cinfo">
                   <h3>Direct aan de slag</h3>
-                  <p>Na het instellen van je wachtwoord heb je direct toegang tot alle trainingen, AI-coach Nova en de community.</p>
+                  <p>Na het instellen van je wachtwoord kun je direct beginnen met de trainingen en je digitale werkplek. AI-coach Nova wordt voor je klaargezet en volgt zo snel mogelijk.</p>
                 </div>
               </div>
             </div>
