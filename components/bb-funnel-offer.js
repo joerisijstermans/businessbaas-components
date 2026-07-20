@@ -70,6 +70,8 @@
           .feats li::before{content:'✓';flex-shrink:0;width:22px;height:22px;border-radius:50%;background:rgba(232,93,4,.18);color:#E85D04;font-size:12px;font-weight:900;display:flex;align-items:center;justify-content:center;margin-top:1px}
           .feats li span{font-size:15px;color:rgba(255,255,255,.8);line-height:1.5}
           .soon{font-size:10px;font-weight:700;background:rgba(124,58,237,.18);color:#C4B5FD;padding:2px 8px;border-radius:50px;vertical-align:middle;margin-left:6px}
+          .feats li.addon{color:rgba(255,255,255,.45)}
+          .feats li.addon::before{content:'↗';background:transparent;color:rgba(232,93,4,.5)}
           .cta-btn{display:inline-flex;align-items:center;gap:10px;padding:18px 44px;background:#E85D04;color:#fff;font-size:18px;font-weight:700;border-radius:50px;transition:background .22s,transform .22s,box-shadow .22s;margin-bottom:14px}
           .cta-btn:hover{background:#CC4D00;transform:translateY(-2px);box-shadow:0 16px 40px rgba(232,93,4,.45)}
           .cta-sub{font-size:13px;color:rgba(255,255,255,.3)}
@@ -122,24 +124,26 @@
                 <div class="plan">
                   <p class="plan-label">Maandelijks</p>
                   <p class="plan-price">€69<span>/maand</span></p>
-                  <p class="plan-day">€2,30 per dag · Maandelijks opzegbaar</p>
+                  <p class="plan-day">€2,30 per dag<br>Maandelijks opzegbaar</p>
                   <a href="https://buy.stripe.com/dRm5kE8F4cIO8B65DGeZ202" class="plan-btn sec">Start maandelijks</a>
                 </div>
                 <div class="plan best">
                   <div class="plan-badge">Meest gekozen</div>
                   <p class="plan-label">Jaarlijks</p>
                   <p class="plan-price">€690<span>/jaar</span></p>
-                  <p class="plan-day">€1,90 per dag · Na 1 jaar maandelijks opzegbaar</p>
+                  <p class="plan-day">€1,90 per dag<br>Na 1 jaar maandelijks opzegbaar</p>
                   <p class="plan-save">✓ 2 maanden gratis t.o.v. maandelijks</p>
                   <a href="https://buy.stripe.com/aFabJ22gG8sy9Fa1nqeZ200" class="plan-btn">Start jaarlijks</a>
                 </div>
               </div>
               <ul class="feats">
-                <li><span>20+ praktische trainingen (inclusief verdieping op de 3 stappen)</span></li>
-                <li><span>AI-coach Nova: persoonlijk advies, 24/7</span></li>
+                <li><span>20+ praktische trainingen</span></li>
+                <li><span>Digitale werkplek</span></li>
+                <li><span>AI-coach Nova (24/7)</span></li>
                 <li><span>Slim Ondernemen met AI <span class="soon">binnenkort</span></span></li>
-                <li><span>Digitale werkplek voor jouw businessplan</span></li>
                 <li><span>Community &amp; marktplaats</span></li>
+                <li class="addon"><span>LIVE events</span></li>
+                <li class="addon"><span>1 op 1 coaching</span></li>
               </ul>
               <p class="cta-sub">Geen verborgen kosten · Direct toegang</p>
             </div>
