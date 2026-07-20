@@ -22,19 +22,19 @@
           .reframe-a{font-size:clamp(22px,4vw,42px);font-weight:900;color:#E85D04;text-transform:uppercase;letter-spacing:.03em;line-height:1.2}
 
           /* BRIDGE TEXT */
-          .bridge{padding:80px 24px;background:#F4F6FA}
+          .bridge{padding:80px 24px 0;background:#F4F6FA}
           .bridge-inner{max-width:720px;margin:0 auto;text-align:center}
           .bridge h2{font-size:clamp(24px,3.5vw,38px);font-weight:900;color:#0D2240;letter-spacing:-.03em;line-height:1.15;margin-bottom:20px}
           .bridge h2 em{font-style:normal;color:#E85D04}
           .bridge p{font-size:17px;color:#5A6780;line-height:1.72;margin-bottom:16px}
           .bridge p:last-child{margin-bottom:0}
           .bridge strong{color:#0D2240;font-weight:700}
-          .divider{display:flex;align-items:center;gap:20px;margin:40px 0}
+          .divider{display:flex;align-items:center;gap:20px;margin:40px 0 0}
           .divider-line{flex:1;height:1px;background:rgba(13,34,64,.12)}
           .divider-text{font-size:13px;font-weight:700;color:#E85D04;text-transform:uppercase;letter-spacing:.1em;white-space:nowrap}
 
           /* FEATURES */
-          .features{padding:0 24px 80px;background:#F4F6FA}
+          .features{padding:40px 24px 80px;background:#F4F6FA}
           .features-inner{max-width:980px;margin:0 auto}
           .feat-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
           .feat-card{background:linear-gradient(145deg,#0D2240,#162f55);border-radius:20px;padding:32px 28px;transition:transform .25s,box-shadow .25s}
