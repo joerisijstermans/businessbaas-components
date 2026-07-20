@@ -59,7 +59,7 @@
           .plan-price{font-size:30px;font-weight:900;color:#fff;letter-spacing:-.03em;line-height:1;margin-bottom:2px}
           .plan-price span{font-size:13px;color:rgba(255,255,255,.45);font-weight:500}
           .plan-day{font-size:11.5px;color:rgba(255,255,255,.4);margin-bottom:14px;line-height:1.4}
-          .plan-save{font-size:11px;font-weight:700;color:#4ADE80;margin-bottom:14px}
+          .plan-save{font-size:11px;font-weight:700;color:#4ADE80;margin-top:10px}
           .plan-btn{display:block;padding:11px 12px;background:#E85D04;color:#fff;font-size:13px;font-weight:700;border-radius:50px;text-decoration:none;transition:background .2s;font-family:'Inter',sans-serif}
           .plan-btn:hover{background:#CC4D00}
           .plan-btn.sec{background:rgba(255,255,255,.1);color:rgba(255,255,255,.65)}
@@ -132,8 +132,8 @@
                   <p class="plan-label">Jaarlijks</p>
                   <p class="plan-price">€690<span>/jaar</span></p>
                   <p class="plan-day">€1,90 per dag<br>Na 1 jaar maandelijks opzegbaar</p>
-                  <p class="plan-save">✓ 2 maanden gratis t.o.v. maandelijks</p>
                   <a href="https://buy.stripe.com/aFabJ22gG8sy9Fa1nqeZ200" class="plan-btn">Start jaarlijks</a>
+                  <p class="plan-save">✓ 2 maanden gratis t.o.v. maandelijks</p>
                 </div>
               </div>
               <ul class="feats">
