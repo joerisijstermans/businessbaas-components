@@ -12,7 +12,7 @@
           .ob.show{opacity:1;transform:none}
 
           /* HEADER */
-          .header{background:linear-gradient(150deg,#0D2240 0%,#142c54 60%,#0a1a33 100%);padding:72px 24px 64px;text-align:center;position:relative;overflow:hidden}
+          .header{background:linear-gradient(to bottom,#0D2240 0%,#142c54 40%,#0a1a33 100%);padding:72px 24px 64px;text-align:center;position:relative;overflow:hidden}
           .header::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 60% 30%,rgba(232,93,4,.13) 0%,transparent 60%);pointer-events:none}
           .inner{max-width:760px;margin:0 auto;position:relative;z-index:2}
           .label{display:inline-flex;align-items:center;gap:8px;padding:5px 14px;margin-bottom:24px;background:rgba(232,93,4,.2);border:1px solid rgba(232,93,4,.3);border-radius:50px;font-size:11.5px;font-weight:700;color:rgba(255,255,255,.85);text-transform:uppercase;letter-spacing:.1em}
