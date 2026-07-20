@@ -3,6 +3,7 @@
   const CDN = 'https://joerisijstermans.github.io/businessbaas-components/assets';
   class BBFunnelOffer extends HTMLElement {
     connectedCallback() {
+      if (!this.id) this.id = 'volgende-stap';
       const s = this.attachShadow({ mode: 'open' });
       s.innerHTML = `
         <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap" rel="stylesheet">
@@ -17,7 +18,7 @@
           .p-card.ob.show mark.hl{background:rgba(232,93,4,.22);transition-delay:.5s}
 
           /* FEATURES */
-          .features{padding:0 24px 80px;background:#F4F6FA}
+          .features{padding:72px 24px 80px;background:#F4F6FA}
           .features-inner{max-width:980px;margin:0 auto}
           .feat-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
           .feat-card{background:linear-gradient(145deg,#0D2240,#162f55);border-radius:20px;padding:32px 28px;transition:transform .25s,box-shadow .25s}
@@ -72,6 +73,7 @@
           .soon{font-size:10px;font-weight:700;background:rgba(124,58,237,.18);color:#C4B5FD;padding:2px 8px;border-radius:50px;vertical-align:middle;margin-left:6px}
           .feats li.addon{color:rgba(255,255,255,.45)}
           .feats li.addon::before{content:'↗';background:transparent;color:rgba(232,93,4,.5)}
+          .addon-pill{font-size:10px;font-weight:700;background:rgba(232,93,4,.18);color:rgba(232,93,4,.8);padding:2px 7px;border-radius:50px;vertical-align:middle;margin-left:5px}
           .cta-btn{display:inline-flex;align-items:center;gap:10px;padding:18px 44px;background:#E85D04;color:#fff;font-size:18px;font-weight:700;border-radius:50px;transition:background .22s,transform .22s,box-shadow .22s;margin-bottom:14px}
           .cta-btn:hover{background:#CC4D00;transform:translateY(-2px);box-shadow:0 16px 40px rgba(232,93,4,.45)}
           .cta-sub{font-size:13px;color:rgba(255,255,255,.3)}
@@ -142,8 +144,8 @@
                 <li><span>AI-coach Nova (24/7)</span></li>
                 <li><span>Slim Ondernemen met AI <span class="soon">binnenkort</span></span></li>
                 <li><span>Community &amp; marktplaats</span></li>
-                <li class="addon"><span>LIVE events</span></li>
-                <li class="addon"><span>1 op 1 coaching</span></li>
+                <li class="addon"><span>LIVE events<span class="addon-pill">add-on</span></span></li>
+                <li class="addon"><span>1 op 1 coaching<span class="addon-pill">add-on</span></span></li>
               </ul>
               <p class="cta-sub">Geen verborgen kosten · Direct toegang</p>
             </div>

@@ -66,11 +66,10 @@
           <p class="caption ob">🔒 Gratis training · <strong>Jouw eerste betalende klant in 48 uur</strong></p>
           <div class="hot-cta ob">
             <p>Klaar om te beginnen? Word nu lid en zet de volgende stap.</p>
-            <a href="https://buy.stripe.com/aFabJ22gG8sy9Fa1nqeZ200">
+            <a href="https://www.businessbaas.com/nkrpepjicsedwdoligprmkntqoddzozecllpootrqtxggrtojl#volgende-stap">
               Ja, ik wil volledige toegang
               <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M3.5 9H14.5M14.5 9L10 4.5M14.5 9L10 13.5" stroke="white" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
             </a>
-            <p class="hot-cta-sub">Maandelijks opzegbaar · Geen verborgen kosten · Direct toegang</p>
           </div>
         </div>`;
 
