@@ -28,7 +28,7 @@
               allowfullscreen>
             </iframe>
           </div>
-          <p class="caption">🔒 Gratis training · <strong>Jouw eerste betalende klant in 48 uur</strong> · Joeri Sijstermans – BusinessBaas</p>
+          <p class="caption">🔒 Gratis training · <strong>Jouw eerste betalende klant in 48 uur</strong></p>
           <div class="hot-cta">
             <p>Klaar om te beginnen? Word nu lid en zet de volgende stap.</p>
             <a href="https://buy.stripe.com/aFabJ22gG8sy9Fa1nqeZ200">

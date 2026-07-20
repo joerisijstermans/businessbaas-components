@@ -80,10 +80,10 @@
         <div class="features">
           <div class="features-inner">
             <div class="feat-grid">
-              <div class="feat-card ob"><div class="feat-icon">🎓</div><h3>20+ Praktische trainingen</h3><p>Van doelgroepbepaling tot salesgesprek. Modulair opgebouwd zodat jij in jouw tempo werkt, maar je werkt wél.</p></div>
-              <div class="feat-card ob" style="transition-delay:.08s"><div class="feat-icon">🤖</div><h3>Nova, jouw AI-coach</h3><p>Altijd beschikbaar, nooit oordelend. Stuur haar je tekst, je idee, je twijfel, en krijg concrete feedback terug.</p></div>
-              <div class="feat-card ob" style="transition-delay:.16s"><div class="feat-icon">🗂️</div><h3>Digitale werkplek</h3><p>Je businessplan, doelgroep, pitch en voortgang op één plek. Geen losse notities meer, alles in één overzicht.</p></div>
-              <div class="feat-card ob" style="transition-delay:.24s"><div class="feat-icon">🤝</div><h3>Community &amp; marktplaats</h3><p>Starters die exact begrijpen wat jij doormaakt. Spar, wissel kennis uit en vind je eerste opdrachten intern.</p></div>
+              <div class="feat-card ob"><div class="feat-icon">📚</div><h3>20+ Praktische trainingen</h3><p>Stap voor stap van idee naar eerste klant. Elke training eindigt met een concrete opdracht die je direct uitvoert.</p></div>
+              <div class="feat-card ob" style="transition-delay:.08s"><div class="feat-icon">🤖</div><h3>Nova, jouw AI-coach</h3><p>Jouw 24/7 sparringspartner. Nova kent het volledige programma, stelt de juiste vragen en helpt je verder als je vastzit.</p></div>
+              <div class="feat-card ob" style="transition-delay:.16s"><div class="feat-icon">💻</div><h3>Digitale werkplek</h3><p>Werk elke opdracht direct uit op het platform. Geen losse Word-documenten meer, alles op één overzichtelijke plek.</p></div>
+              <div class="feat-card ob" style="transition-delay:.24s"><div class="feat-icon">🤝</div><h3>Community &amp; marktplaats</h3><p>Ondernemers die precies begrijpen wat jij doormaakt. Stel vragen, wissel kennis uit en vind je eerste klanten intern.</p></div>
             </div>
           </div>
         </div>
@@ -122,14 +122,14 @@
                 <div class="plan">
                   <p class="plan-label">Maandelijks</p>
                   <p class="plan-price">€69<span>/maand</span></p>
-                  <p class="plan-day">€2,30 per dag<br>Maandelijks opzegbaar</p>
+                  <p class="plan-day">€2,30 per dag · Maandelijks opzegbaar</p>
                   <a href="https://buy.stripe.com/dRm5kE8F4cIO8B65DGeZ202" class="plan-btn sec">Start maandelijks</a>
                 </div>
                 <div class="plan best">
                   <div class="plan-badge">Meest gekozen</div>
                   <p class="plan-label">Jaarlijks</p>
                   <p class="plan-price">€690<span>/jaar</span></p>
-                  <p class="plan-day">€1,90 per dag</p>
+                  <p class="plan-day">€1,90 per dag · Na 1 jaar maandelijks opzegbaar</p>
                   <p class="plan-save">✓ 2 maanden gratis t.o.v. maandelijks</p>
                   <a href="https://buy.stripe.com/aFabJ22gG8sy9Fa1nqeZ200" class="plan-btn">Start jaarlijks</a>
                 </div>
@@ -141,7 +141,7 @@
                 <li><span>Digitale werkplek voor jouw businessplan</span></li>
                 <li><span>Community &amp; marktplaats</span></li>
               </ul>
-              <p class="cta-sub">Geen verborgen kosten · Direct toegang · Annuleer wanneer je wilt</p>
+              <p class="cta-sub">Geen verborgen kosten · Direct toegang</p>
             </div>
           </div>
         </div>`;
