@@ -44,11 +44,6 @@
             <div class="label ob">🎓 Gratis training</div>
             <h1 class="ob">Jouw eerste betalende klant<br>in <em>48 uur</em></h1>
             <p class="sub ob">Kijk de training en ontdek de 3 stappen die startende ondernemers gebruiken om snel hun eerste klant binnen te halen, ook als je nog geen netwerk of ervaring hebt.</p>
-            <div class="checks ob">
-              <span class="check">Stap 1: Bepaal wie jouw ideale klant is (in 10 minuten)</span>
-              <span class="check">Stap 2: Schrijf een bericht dat mensen niet kunnen negeren</span>
-              <span class="check">Stap 3: Stuur het naar 10 mensen, vandaag nog</span>
-            </div>
             <div class="arrow ob">↓</div>
           </div>
         </section>
