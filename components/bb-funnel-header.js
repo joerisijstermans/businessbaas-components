@@ -7,7 +7,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap" rel="stylesheet">
         <style>
           *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-          :host{display:block;font-family:'Inter',-apple-system,sans-serif}
+          :host{display:block;font-family:'Inter',-apple-system,sans-serif;background:#0D2240}
           .ob{opacity:0;transform:translateY(22px);transition:opacity .6s ease,transform .6s ease}
           .ob.show{opacity:1;transform:none}
           .header{background:linear-gradient(150deg,#0D2240 0%,#142c54 60%,#0f2845 100%);padding:72px 24px 64px;text-align:center;position:relative;overflow:hidden}
