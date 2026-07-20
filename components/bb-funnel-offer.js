@@ -119,19 +119,19 @@
               <span class="offer-tag">Word nu lid</span>
               <h2>Zet de volgende stap.<br><em>Begin vandaag.</em></h2>
               <div class="plans">
-                <div class="plan best">
-                  <div class="plan-badge">Meest gekozen</div>
-                  <p class="plan-label">Jaarlijks</p>
-                  <p class="plan-price">€690<span>/jaar</span></p>
-                  <p class="plan-day">€1,90 per dag</p>
-                  <p class="plan-save">✓ 2 maanden gratis</p>
-                  <a href="https://buy.stripe.com/aFabJ22gG8sy9Fa1nqeZ200" class="plan-btn">Start jaarlijks</a>
-                </div>
                 <div class="plan">
                   <p class="plan-label">Maandelijks</p>
                   <p class="plan-price">€69<span>/maand</span></p>
                   <p class="plan-day">€2,30 per dag<br>Maandelijks opzegbaar</p>
                   <a href="https://buy.stripe.com/dRm5kE8F4cIO8B65DGeZ202" class="plan-btn sec">Start maandelijks</a>
+                </div>
+                <div class="plan best">
+                  <div class="plan-badge">Meest gekozen</div>
+                  <p class="plan-label">Jaarlijks</p>
+                  <p class="plan-price">€690<span>/jaar</span></p>
+                  <p class="plan-day">€1,90 per dag</p>
+                  <p class="plan-save">✓ 2 maanden gratis t.o.v. maandelijks</p>
+                  <a href="https://buy.stripe.com/aFabJ22gG8sy9Fa1nqeZ200" class="plan-btn">Start jaarlijks</a>
                 </div>
               </div>
               <ul class="feats">

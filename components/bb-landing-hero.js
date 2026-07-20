@@ -48,7 +48,7 @@
             </div>
             <div class="hero-cta-wrap ob">
               <a href="https://www.businessbaas.com/gratis-training-aanvragen" class="btn-primary" target="_top" data-lightbox>
-                Vraag de gratis training aan
+                Bekijk de gratis training
                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M3.5 9H14.5M14.5 9L10 4.5M14.5 9L10 13.5" stroke="white" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
               </a>
               <span class="hero-note">100% gratis · Geen creditcard · <strong>Direct toegang</strong></span>

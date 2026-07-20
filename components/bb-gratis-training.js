@@ -24,26 +24,21 @@
           .arrow svg{animation:bounce 1.6s ease-in-out infinite}
           @keyframes bounce{0%,100%{transform:translateY(0)}50%{transform:translateY(6px)}}
           .form-hint{margin-top:14px;font-size:13.5px;font-weight:600;color:rgba(255,255,255,.45)}
-          .social-proof{margin-top:20px;font-size:13px;color:rgba(255,255,255,.35);font-weight:600}
-          .social-proof strong{color:rgba(255,255,255,.55)}
-          .byline{margin-top:10px;font-size:12px;color:rgba(255,255,255,.28);letter-spacing:.02em}
         </style>
         <div class="wrap">
           <div class="inner">
             <div class="badge"><span class="dot"></span>Gratis training</div>
             <h1>Jouw eerste<br><em>betalende klanten</em></h1>
-            <p class="tagline">De drie stappen die het verschil maken — in 48 uur.</p>
+            <p class="tagline">De drie stappen die het verschil maken.</p>
             <div class="checks">
               <span class="check">Direct toegang</span>
               <span class="check">Geen creditcard</span>
               <span class="check">Altijd beschikbaar</span>
             </div>
-            <p class="social-proof">Sluit je aan bij <strong>100+ startende ondernemers</strong> die al begonnen zijn.</p>
             <div class="arrow">
               <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><path d="M14 6v16M14 22l-6-6M14 22l6-6" stroke="rgba(255,255,255,.3)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
               <p class="form-hint">Vul hieronder je gegevens in en start direct</p>
             </div>
-            <p class="byline">Joeri Sijstermans · oprichter BusinessBaas</p>
           </div>
         </div>`;
     }
