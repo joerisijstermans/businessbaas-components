@@ -34,7 +34,7 @@
           .divider-text{font-size:13px;font-weight:700;color:#E85D04;text-transform:uppercase;letter-spacing:.1em;white-space:nowrap}
 
           /* FEATURES */
-          .features{padding:40px 24px 80px;background:#F4F6FA}
+          .features{padding:80px 24px 80px;background:#F4F6FA}
           .features-inner{max-width:980px;margin:0 auto}
           .feat-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
           .feat-card{background:linear-gradient(145deg,#0D2240,#162f55);border-radius:20px;padding:32px 28px;transition:transform .25s,box-shadow .25s}
