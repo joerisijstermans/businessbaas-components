@@ -13,6 +13,11 @@
           .video-frame iframe{width:100%;height:100%;border:none;display:block}
           .caption{text-align:center;margin-top:20px;font-size:14px;color:rgba(255,255,255,.35)}
           .caption strong{color:rgba(255,255,255,.55)}
+          .hot-cta{margin-top:32px;text-align:center;padding:28px 24px;background:rgba(232,93,4,.1);border:1px solid rgba(232,93,4,.2);border-radius:16px}
+          .hot-cta p{font-size:15px;font-weight:700;color:rgba(255,255,255,.8);margin-bottom:14px}
+          .hot-cta a{display:inline-flex;align-items:center;gap:8px;padding:14px 32px;background:#E85D04;color:#fff;font-size:15px;font-weight:700;border-radius:50px;text-decoration:none;transition:background .2s,transform .2s;font-family:'Inter',sans-serif}
+          .hot-cta a:hover{background:#CC4D00;transform:translateY(-2px)}
+          .hot-cta-sub{font-size:12px;color:rgba(255,255,255,.3);margin-top:10px}
         </style>
         <div class="wrap">
           <div class="video-frame">
@@ -24,6 +29,14 @@
             </iframe>
           </div>
           <p class="caption">🔒 Gratis training · <strong>Jouw eerste betalende klant in 48 uur</strong> · Joeri Sijstermans – BusinessBaas</p>
+          <div class="hot-cta">
+            <p>Klaar om te beginnen? Word nu lid en zet de volgende stap.</p>
+            <a href="https://buy.stripe.com/aFabJ22gG8sy9Fa1nqeZ200">
+              Ja, ik wil volledige toegang
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M3.5 9H14.5M14.5 9L10 4.5M14.5 9L10 13.5" stroke="white" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+            <p class="hot-cta-sub">Maandelijks opzegbaar · Geen verborgen kosten · Direct toegang</p>
+          </div>
         </div>`;
     }
   }

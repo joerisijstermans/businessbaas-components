@@ -26,6 +26,8 @@
           .bridge p:last-child{margin-bottom:0}
           .bridge strong{color:#0D2240;font-weight:700}
 
+          @media(max-width:640px){.reframe{padding:48px 20px}.bridge{padding:56px 20px}}
+
           /* divider */
           .divider{display:flex;align-items:center;gap:20px;margin:40px 0}
           .divider-line{flex:1;height:1px;background:rgba(13,34,64,.12)}
