@@ -39,7 +39,7 @@
         <section class="hero">
           <div class="hero-inner">
             <div class="hero-badge ob">🎓 Gratis training, vandaag nog starten</div>
-            <h1 class="ob">Jouw eerste betalende klant,<br><em>in 48 uur</em></h1>
+            <h1 class="ob">Jouw eerste betalende klant, <em>in 48 uur</em></h1>
             <p class="hero-sub ob">De drie concrete stappen die het verschil maken voor startende ondernemers. Direct toepasbaar, geen theorie. <strong>Spreek binnen 48 uur je eerste potentiële klant.</strong></p>
             <div class="hero-checks ob">
               <span class="hero-check">Stap 1: Wie is jouw ideale klant? (in 10 minuten helder)</span>
