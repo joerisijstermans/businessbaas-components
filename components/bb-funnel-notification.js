@@ -1,6 +1,6 @@
 (function () {
-  if (customElements.get('bb-landing-notification')) return;
-  class BBLandingNotification extends HTMLElement {
+  if (customElements.get('bb-funnel-notification')) return;
+  class BBFunnelNotification extends HTMLElement {
     connectedCallback() {
       const s = this.attachShadow({ mode: 'open' });
       s.innerHTML = `
@@ -15,24 +15,22 @@
             position: relative;
             transform: translateX(-110%);
             transition: transform 0.45s cubic-bezier(0.34,1.26,0.64,1);
-            pointer-events: auto;
           }
           .popup.show { transform: translateX(0); }
           .avatar {
             width: 42px; height: 42px; border-radius: 50%;
             display: flex; align-items: center; justify-content: center;
-            font-size: 1.05rem; font-weight: 800; color: #fff;
-            flex-shrink: 0;
+            font-size: 1.05rem; font-weight: 800; color: #fff; flex-shrink: 0;
           }
           .info { display: flex; flex-direction: column; gap: 3px; min-width: 0; }
           .name { font-size: .88rem; font-weight: 700; color: #0D2240; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
           .action { font-size: .78rem; color: #5A6780; line-height: 1.4; }
+          .badge { display: inline-block; margin-top: 3px; font-size: .70rem; font-weight: 700; color: #059669; background: rgba(5,150,105,.1); padding: 1px 7px; border-radius: 50px; }
           .close {
             position: absolute; top: 8px; right: 10px;
             background: none; border: none; cursor: pointer;
             font-size: .95rem; color: #9CA3AF; line-height: 1;
-            padding: 2px 4px; border-radius: 4px;
-            transition: color .15s;
+            padding: 2px 4px; border-radius: 4px; transition: color .15s;
           }
           .close:hover { color: #374151; }
         </style>
@@ -41,59 +39,60 @@
           <div class="info">
             <div class="name" id="name"></div>
             <div class="action" id="action"></div>
+            <span class="badge">✓ Nieuw lid</span>
           </div>
           <button class="close" id="close" aria-label="Sluiten">×</button>
         </div>`;
 
-      const visitors = [
-        { name: 'Lisa',   city: 'Amsterdam', msg: 'bekijkt de gratis training' },
-        { name: 'Ravi',   city: 'Utrecht',   msg: 'is zojuist lid geworden' },
-        { name: 'Emma',   city: 'Rotterdam', msg: 'bekijkt de gratis training' },
-        { name: 'Daan',   city: 'Eindhoven', msg: 'vraagt de gratis training aan' },
-        { name: 'Sophie', city: 'Den Haag',  msg: 'is zojuist lid geworden' },
-        { name: 'Tim',    city: 'Groningen', msg: 'bekijkt de gratis training' },
-        { name: 'Julia',  city: 'Breda',     msg: 'vraagt de gratis training aan' },
-        { name: 'Finn',   city: 'Tilburg',   msg: 'is zojuist lid geworden' },
-        { name: 'Nina',   city: 'Leiden',    msg: 'bekijkt de gratis training' },
-        { name: 'Lars',   city: 'Haarlem',   msg: 'vraagt de gratis training aan' },
+      const members = [
+        { name: 'Ravi',   city: 'Utrecht'   },
+        { name: 'Sophie', city: 'Den Haag'  },
+        { name: 'Finn',   city: 'Tilburg'   },
+        { name: 'Lisa',   city: 'Amsterdam' },
+        { name: 'Daan',   city: 'Eindhoven' },
+        { name: 'Nina',   city: 'Leiden'    },
+        { name: 'Lars',   city: 'Haarlem'   },
+        { name: 'Julia',  city: 'Breda'     },
       ];
 
-      const colors = ['#E85D04', '#0D2240', '#2563EB', '#059669', '#7C3AED', '#DC2626', '#D97706', '#0891B2', '#BE185D', '#4F46E5'];
+      const colors = ['#E85D04','#0D2240','#2563EB','#059669','#7C3AED','#DC2626','#D97706','#0891B2'];
 
-      const popup  = s.getElementById('popup');
-      const avatar = s.getElementById('avatar');
-      const nameEl = s.getElementById('name');
+      const popup   = s.getElementById('popup');
+      const avatar  = s.getElementById('avatar');
+      const nameEl  = s.getElementById('name');
       const actionEl = s.getElementById('action');
       const closeBtn = s.getElementById('close');
 
+      let lastIndex = -1;
       let hideTimer = null;
       let nextTimer = null;
-      let lastIndex = -1;
       let dismissed = false;
+      let count = 0;
+      const MAX = 4;
 
       function pickRandom() {
         let idx;
-        do { idx = Math.floor(Math.random() * visitors.length); } while (idx === lastIndex && visitors.length > 1);
+        do { idx = Math.floor(Math.random() * members.length); } while (idx === lastIndex && members.length > 1);
         lastIndex = idx;
-        return visitors[idx];
+        return members[idx];
       }
 
       function show() {
-        if (dismissed) return;
-        const v = pickRandom();
-        const colorIdx = visitors.indexOf(v) % colors.length;
-        avatar.style.background = colors[colorIdx];
-        avatar.textContent = v.name.charAt(0);
-        nameEl.textContent = v.name + ' · ' + v.city;
-        actionEl.textContent = v.msg;
+        if (dismissed || count >= MAX) return;
+        const m = pickRandom();
+        avatar.style.background = colors[lastIndex % colors.length];
+        avatar.textContent = m.name.charAt(0);
+        nameEl.textContent = m.name + ' · ' + m.city;
+        actionEl.textContent = 'is zojuist lid geworden';
         popup.classList.add('show');
+        count++;
         hideTimer = setTimeout(hide, 7000);
       }
 
       function hide() {
         popup.classList.remove('show');
-        if (!dismissed) {
-          const delay = 12000 + Math.random() * 10000; // 12–22 seconds random
+        if (!dismissed && count < MAX) {
+          const delay = 600000 + Math.random() * 300000; // 10–15 minutes
           nextTimer = setTimeout(show, delay);
         }
       }
@@ -105,9 +104,9 @@
         popup.classList.remove('show');
       });
 
-      // Start after 5 seconds
-      nextTimer = setTimeout(show, 5000);
+      // First popup after 8 minutes
+      nextTimer = setTimeout(show, 480000);
     }
   }
-  customElements.define('bb-landing-notification', BBLandingNotification);
+  customElements.define('bb-funnel-notification', BBFunnelNotification);
 })();
