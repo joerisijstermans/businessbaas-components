@@ -93,7 +93,7 @@
       function hide() {
         popup.classList.remove('show');
         if (!dismissed) {
-          const delay = 12000 + Math.random() * 10000; // 12–22 seconds random
+          const delay = 45000 + Math.random() * 45000; // 45–90 seconds random
           nextTimer = setTimeout(show, delay);
         }
       }
