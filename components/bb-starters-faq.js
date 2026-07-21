@@ -6,7 +6,7 @@
     render() {
       const faqs = [
         { q:'Is er een gratis proefperiode?', a:'Ja! Start met de gratis training "Jouw eerste betalende klant, De drie stappen die het verschil maken". Geen creditcard nodig, direct toegang.' },
-        { q:'Hoeveel tijd heb ik per week nodig?', a:'Tussen de 2 en 4 uur per week, maar jij bepaalt wanneer. Je werkt volledig op jouw eigen tempo: wanneer jij tijd hebt, wanneer het jou uitkomt. De trainingen zijn kort en gericht op concrete actie, geen marathonsessies.' },
+        { q:'Hoeveel tijd heb ik per week nodig?', a:'Wij adviseren tussen de 2 en 4 uur per week, maar jij bepaalt dat helemaal zelf. Je werkt op jouw eigen tempo: wanneer jij tijd hebt, wanneer het jou uitkomt. De trainingen zijn kort en gericht op concrete actie, geen marathonsessies.' },
         { q:'Wat als ik nog geen bedrijfsidee heb?', a:'Geen probleem. Module 1 begint juist met het ontdekken en aanscherpen van jouw idee. Van vaag idee naar concrete propositie, stap voor stap.' },
         { q:'Wat is het verschil met een gewone online cursus?', a:'BusinessBaas is een volledig platform, geen passieve cursus. Je werkt direct in je digitale werkplek, krijgt coaching van AI-coach Nova en bent onderdeel van een actieve community. Je leert niet alleen, je bouwt tegelijkertijd aan je echte bedrijf.' },
         { q:'Wat doet AI-coach Nova precies?', a:'Nova is geen gewone chatbot. Ze kent jóuw trainingen, jóuw voortgang en jóuw situatie, en geeft advies dat echt op jou is afgestemd. Beschikbaar 24/7, ook als je \'s avonds twijfels hebt of vastloopt.' },

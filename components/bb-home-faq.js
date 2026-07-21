@@ -5,7 +5,7 @@
     connectedCallback() { this.render(); this._bind(); this._obs(); }
     render() {
       const faqs = [
-        { q:'Hoeveel tijd heb ik per week nodig?', a:'Gemiddeld 3–5 uur per week. Je bepaalt zelf wanneer je werkt. De trainingen zijn kort en gericht op concrete actie, geen marathonsessies.' },
+        { q:'Hoeveel tijd heb ik per week nodig?', a:'Wij adviseren tussen de 2 en 4 uur per week, maar jij bepaalt dat helemaal zelf. Je werkt op jouw eigen tempo: wanneer jij tijd hebt, wanneer het jou uitkomt. De trainingen zijn kort en gericht op concrete actie, geen marathonsessies.' },
         { q:'Wat als ik nog geen concreet bedrijfsidee heb?', a:'Geen probleem. Het traject begint juist met het verkennen en aanscherpen van je idee. Module 1 helpt je helderheid te krijgen over je doelgroep, aanbod en positionering: van vaag idee naar concrete propositie.' },
         { q:'Wat is het verschil met een gewone online cursus?', a:'BusinessBaas is een volledig platform, geen passieve cursus. Je werkt direct in je digitale werkplek, krijgt persoonlijk feedback van AI-coach Nova en bent onderdeel van een actieve community. Je leert niet alleen, je bouwt tegelijkertijd aan je echte bedrijf.' },
       ];
