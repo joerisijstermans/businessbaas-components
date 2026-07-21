@@ -19,27 +19,27 @@
           h2 em{font-style:normal;color:#E85D04}
           .pricing-sub{font-size:17px;color:#5A6780;max-width:500px;margin:0 auto 52px;line-height:1.65}
 
-          .card{background:#fff;border-radius:24px;box-shadow:0 4px 24px rgba(13,34,64,.08),0 1px 4px rgba(13,34,64,.04);overflow:hidden}
+          .card{background:linear-gradient(145deg,#0D2240,#162f55);border-radius:24px;box-shadow:0 8px 40px rgba(13,34,64,.3),0 2px 8px rgba(13,34,64,.15);overflow:hidden}
           .card-top{background:#E85D04;padding:14px 32px;text-align:center}
           .card-top p{font-size:14px;font-weight:700;color:#fff;letter-spacing:.01em}
           .card-body{display:grid;grid-template-columns:1fr 1px 1fr;align-items:start;padding:40px 0}
 
           .price-col{padding:0 40px;text-align:center}
-          .price-label{font-size:12px;font-weight:700;color:#9CA3AF;text-transform:uppercase;letter-spacing:.1em;margin-bottom:16px}
-          .price-amount{font-size:64px;font-weight:900;color:#0D2240;letter-spacing:-.04em;line-height:1}
-          .price-period{font-size:17px;color:#9CA3AF;font-weight:500}
-          .price-day{font-size:14px;color:#9CA3AF;margin-top:6px;margin-bottom:28px}
+          .price-label{font-size:12px;font-weight:700;color:rgba(255,255,255,.4);text-transform:uppercase;letter-spacing:.1em;margin-bottom:16px}
+          .price-amount{font-size:64px;font-weight:900;color:#fff;letter-spacing:-.04em;line-height:1}
+          .price-period{font-size:17px;color:rgba(255,255,255,.45);font-weight:500}
+          .price-day{font-size:14px;color:rgba(255,255,255,.4);margin-top:6px;margin-bottom:28px}
           .plan-cta{display:inline-flex;align-items:center;gap:8px;padding:14px 32px;background:#E85D04;color:#fff;font-size:16px;font-weight:700;border-radius:50px;transition:background .22s,transform .22s,box-shadow .22s;white-space:nowrap}
           .plan-cta:hover{background:#CC4D00;transform:translateY(-2px);box-shadow:0 12px 32px rgba(232,93,4,.4)}
-          .plan-guarantee{font-size:12px;color:#9CA3AF;margin-top:12px}
+          .plan-guarantee{font-size:12px;color:rgba(255,255,255,.35);margin-top:12px}
 
-          .divider{width:1px;background:rgba(13,34,64,.08);align-self:stretch}
+          .divider{width:1px;background:rgba(255,255,255,.1);align-self:stretch}
 
           .feats-col{padding:0 40px}
           .feats-col ul{list-style:none;display:flex;flex-direction:column;gap:13px;text-align:left}
-          .feats-col li{display:flex;align-items:center;gap:10px;font-size:15px;color:#374151}
-          .feats-col li::before{content:'✓';flex-shrink:0;width:20px;height:20px;border-radius:50%;background:rgba(232,93,4,.12);color:#E85D04;font-size:11px;font-weight:900;display:flex;align-items:center;justify-content:center}
-          .soon-badge{font-size:10px;font-weight:700;background:rgba(124,58,237,.1);color:#7C3AED;padding:2px 7px;border-radius:50px;margin-left:6px;vertical-align:middle}
+          .feats-col li{display:flex;align-items:center;gap:10px;font-size:15px;color:rgba(255,255,255,.8)}
+          .feats-col li::before{content:'✓';flex-shrink:0;width:20px;height:20px;border-radius:50%;background:rgba(232,93,4,.2);color:#E85D04;font-size:11px;font-weight:900;display:flex;align-items:center;justify-content:center}
+          .soon-badge{font-size:10px;font-weight:700;background:rgba(124,58,237,.2);color:#C4B5FD;padding:2px 7px;border-radius:50px;margin-left:6px;vertical-align:middle}
 
           @media(max-width:640px){
             .card-body{grid-template-columns:1fr;padding:32px 0}

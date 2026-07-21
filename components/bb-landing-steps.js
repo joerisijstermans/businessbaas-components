@@ -18,7 +18,7 @@
           h2 em{font-style:normal;color:#E85D04}
           .steps-sub{font-size:16px;color:rgba(255,255,255,.5);margin-top:12px;line-height:1.6}
           .step-row{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;position:relative}
-          .step-row::before{content:'';position:absolute;top:32px;left:calc(16.67% + 24px);right:calc(16.67% + 24px);height:2px;background:linear-gradient(90deg,rgba(232,93,4,.3),rgba(232,93,4,.15));pointer-events:none}
+          .step-row::before{display:none}
           .step{text-align:center;padding:0 16px;position:relative}
           .step-num{width:64px;height:64px;border-radius:50%;background:rgba(232,93,4,.15);border:2px solid rgba(232,93,4,.35);display:inline-flex;align-items:center;justify-content:center;font-size:22px;font-weight:900;color:#E85D04;margin:0 auto 20px;position:relative;z-index:1;transition:background .3s,border-color .3s}
           .step:hover .step-num{background:rgba(232,93,4,.25);border-color:rgba(232,93,4,.6)}
@@ -40,21 +40,21 @@
             <div class="step-row">
               <div class="step ob">
                 <div class="step-num">1</div>
-                <span class="step-time">⏱ 10 minuten</span>
-                <h3>Bepaal wie jouw ideale klant is</h3>
-                <p>Niet iedereen is jouw klant. In tien minuten maak je scherp wie je écht moet benaderen, zodat elk bericht raak is.</p>
+                <span class="step-time">Vandaag</span>
+                <h3>Schrijf jouw ideale klant op</h3>
+                <p>In één zin. Gebruik de formule: <em>Ik help [wie] met [wat] zodat [resultaat].</em> Schrijf het op papier — niet in je hoofd.</p>
               </div>
               <div class="step ob" style="transition-delay:.12s">
                 <div class="step-num">2</div>
-                <span class="step-time">⏱ 15 minuten</span>
-                <h3>Schrijf één krachtig bericht</h3>
-                <p>Geen verkooppraatje, maar een eerlijk en direct bericht dat aansluit op hun echte behoefte. Je schrijft het nu, één keer.</p>
+                <span class="step-time">Morgen ochtend</span>
+                <h3>Formuleer jouw aanbod in twee zinnen</h3>
+                <p>Wat bied je aan, voor wie, en voor welke prijs? Stuur het naar één vertrouwde persoon: "Begrijp je dit? Klinkt dit aantrekkelijk?"</p>
               </div>
               <div class="step ob" style="transition-delay:.24s">
                 <div class="step-num">3</div>
-                <span class="step-time">⏱ Vandaag nog</span>
-                <h3>Stuur het naar 10 mensen</h3>
-                <p>Meer hoef je niet te doen. Stuur het bericht naar tien mensen in jouw netwerk en plan je eerste gesprekken in.</p>
+                <span class="step-time">Morgen middag</span>
+                <h3>Stuur een persoonlijk bericht</h3>
+                <p>Schrijf 5 namen op van mensen die jouw ideale klant zijn of kennen. Kies er minimaal één uit en stuur een persoonlijk bericht.</p>
               </div>
             </div>
             <div class="steps-result ob">
