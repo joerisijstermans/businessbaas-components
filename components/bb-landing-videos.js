@@ -20,7 +20,8 @@
           .videos-sub{font-size:17px;color:#5A6780;margin-bottom:48px}
           .vid-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}
           .vid-card{border-radius:20px;overflow:hidden;background:#0D2240;box-shadow:0 8px 32px rgba(13,34,64,.15)}
-          .vid-card video{width:100%;display:block;aspect-ratio:9/13;object-fit:cover}
+          .vid-frame{width:100%;aspect-ratio:9/16;display:block}
+          .vid-frame iframe{width:100%;height:100%;border:none;display:block}
           .vid-info{padding:18px 22px}
           .vid-name{font-size:15px;font-weight:700;color:#fff}
           .vid-role{font-size:13px;color:rgba(255,255,255,.45);margin-top:3px}
@@ -34,11 +35,11 @@
             <p class="videos-sub ob">Geen marketingpraatjes, gewoon echte ervaringen van starters die de stap hebben gezet.</p>
             <div class="vid-grid">
               <div class="vid-card ob">
-                <video controls><source src="${CDN}/review-katharina.mp4" type="video/mp4"></video>
+                <div class="vid-frame"><iframe src="https://www.youtube.com/embed/SaKGtn-n1p8?rel=0&modestbranding=1" title="Katharina März – Katharinazorg" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
                 <div class="vid-info"><div class="vid-name">Katharina März</div><div class="vid-role">Katharinazorg</div><span class="vid-tag">Persoonlijk advies op maat</span></div>
               </div>
               <div class="vid-card ob" style="transition-delay:.12s">
-                <video controls><source src="${CDN}/review-jamie.mp4" type="video/mp4"></video>
+                <div class="vid-frame"><iframe src="https://www.youtube.com/embed/iNu3gVMENtU?rel=0&modestbranding=1" title="Jamie Senden – Overgangsconsulent" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
                 <div class="vid-info"><div class="vid-name">Jamie Senden</div><div class="vid-role">Overgangsconsulent</div><span class="vid-tag">Verandert mijn mindset</span></div>
               </div>
             </div>
