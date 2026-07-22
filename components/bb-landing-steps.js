@@ -41,20 +41,20 @@
               <div class="step ob">
                 <div class="step-num">1</div>
                 <span class="step-time">Vandaag</span>
-                <h3>Schrijf jouw ideale klant op</h3>
-                <p>In één zin. Gebruik de formule: <em>Ik help [wie] met [wat] zodat [resultaat].</em> Schrijf het op papier — niet in je hoofd.</p>
+                <h3>Wie is jouw ideale klant?</h3>
+                <p>Je leert in de training precies wie je wilt bereiken — en waarom dit het verschil maakt tussen berichten die genegeerd worden en berichten die werken.</p>
               </div>
               <div class="step ob" style="transition-delay:.12s">
                 <div class="step-num">2</div>
                 <span class="step-time">Morgen ochtend</span>
-                <h3>Formuleer jouw aanbod in twee zinnen</h3>
-                <p>Wat bied je aan, voor wie, en voor welke prijs? Stuur het naar één vertrouwde persoon: "Begrijp je dit? Klinkt dit aantrekkelijk?"</p>
+                <h3>Schrijf een bericht dat raakt</h3>
+                <p>Geen verkooppraatje. Je schrijft één bericht dat aansluit op een echte behoefte — eerlijk, direct en zo concreet dat mensen reageren.</p>
               </div>
               <div class="step ob" style="transition-delay:.24s">
                 <div class="step-num">3</div>
                 <span class="step-time">Morgen middag</span>
-                <h3>Stuur een persoonlijk bericht</h3>
-                <p>Schrijf 5 namen op van mensen die jouw ideale klant zijn of kennen. Kies er minimaal één uit en stuur een persoonlijk bericht.</p>
+                <h3>Plan je eerste gesprek in</h3>
+                <p>Je weet aan wie je het stuurt, je hebt het bericht klaar. De laatste stap: versturen en je eerste gesprek inplannen. Meer hoef je niet te doen.</p>
               </div>
             </div>
             <div class="steps-result ob">

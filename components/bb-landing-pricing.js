@@ -54,9 +54,6 @@
             <h2 class="ob">Begin gratis.<br>Groei in <em>jouw tempo</em>.</h2>
             <p class="pricing-sub ob">Start met de gratis training en beslis daarna of Businessbaas bij jou past. Geen verplichtingen, geen verrassingen.</p>
             <div class="card ob">
-              <div class="card-top">
-                <p>🎓 Begin gratis — geen creditcard nodig</p>
-              </div>
               <div class="card-body">
                 <div class="price-col">
                   <p class="price-label">Lidmaatschap</p>
