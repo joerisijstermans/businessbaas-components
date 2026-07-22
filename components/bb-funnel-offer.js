@@ -78,7 +78,7 @@
                 <li class="addon"><span>LIVE events<span class="addon-pill">add-on</span></span></li>
                 <li class="addon"><span>1 op 1 coaching<span class="addon-pill">add-on</span></span></li>
               </ul>
-              <p class="cta-sub">Geen verborgen kosten · Direct toegang</p>
+              <p class="cta-sub">Direct toegang · Geen verborgen kosten · Maandelijks opzegbaar</p>
             </div>
           </div>
         </div>`;

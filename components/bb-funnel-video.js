@@ -35,7 +35,7 @@
               Ja, ik wil volledige toegang
               <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M3.5 9H14.5M14.5 9L10 4.5M14.5 9L10 13.5" stroke="white" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
             </a>
-            <p class="hot-cta-sub">✓ Direct toegang &nbsp;·&nbsp; ✓ Geen verborgen kosten</p>
+            <p class="hot-cta-sub">✓ Direct toegang &nbsp;·&nbsp; ✓ Geen verborgen kosten &nbsp;·&nbsp; ✓ Maandelijks opzegbaar</p>
           </div>
         </div>`;
     }
