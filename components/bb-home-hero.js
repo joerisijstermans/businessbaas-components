@@ -82,7 +82,7 @@
                 <a href="https://www.businessbaas.com/gratis-training-aanvragen" class="btn-p" target="_top" data-lightbox>Gratis training <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
                 <a href="https://www.businessbaas.com/het-platform" class="btn-s">Bekijk hoe het werkt</a>
               </div>
-              <p class="disclaimer" id="disc">✓ Geen verborgen kosten &nbsp;&nbsp; ✓ Direct toegang &nbsp;&nbsp; ✓ Altijd opzegbaar</p>
+              <p class="disclaimer" id="disc">✓ Direct toegang &nbsp;&nbsp; ✓ Geen creditcard nodig</p>
               <div class="sp" id="sp">
                 <div class="avatars">
                   <img class="av" src="https://cdn.jsdelivr.net/gh/joerisijstermans/businessbaas-components@main/assets/joyce-prof.jpg" alt="Joyce">

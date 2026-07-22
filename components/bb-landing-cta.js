@@ -29,7 +29,7 @@
               Bekijk de gratis training
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M4 10H16M16 10L11 5M16 10L11 15" stroke="white" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
             </a>
-            <p class="final-note ob">Gratis starten · Geen creditcard · Altijd opzegbaar</p>
+            <p class="final-note ob">✓ Direct toegang &nbsp;·&nbsp; ✓ Geen creditcard nodig</p>
           </div>
         </section>`;
       const obs = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('show'); obs.unobserve(e.target); } }), { threshold: 0.08 });

@@ -43,7 +43,7 @@
               Gratis training starten
               <svg width="17" height="17" viewBox="0 0 17 17" fill="none"><path d="M3 8.5H14M14 8.5L9.5 4M14 8.5L9.5 13" stroke="white" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
             </a>
-            <p class="trust ob">Geen creditcard nodig &nbsp;·&nbsp; Direct toegang &nbsp;·&nbsp; Geen verborgen kosten</p>
+            <p class="trust ob">✓ Direct toegang &nbsp;·&nbsp; ✓ Geen creditcard nodig</p>
             <div class="divider ob"></div>
             <a class="plans-link ob" href="https://www.businessbaas.com/prijzen" target="_top">
               Bekijk alle abonnementen
