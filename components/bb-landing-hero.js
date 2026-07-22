@@ -87,6 +87,12 @@
         }
       }), { threshold: 0.08 });
       s.querySelectorAll('.ob').forEach(el => obs.observe(el));
+      s.querySelectorAll('a[href="#volgende-stap"]').forEach(function(a) {
+        a.addEventListener('click', function(e) {
+          e.preventDefault();
+          window.parent.postMessage({type:'bbScroll',anchor:'volgende-stap'},'*');
+        });
+      });
     }
   }
   customElements.define('bb-landing-hero', BBLandingHero);
