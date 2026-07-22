@@ -26,7 +26,7 @@
           .bridge-inner{max-width:720px;margin:0 auto;text-align:center}
           .bridge h2{font-size:clamp(24px,3.5vw,38px);font-weight:900;color:#0D2240;letter-spacing:-.03em;line-height:1.15;margin-bottom:20px}
           .bridge h2 em{font-style:normal;color:#E85D04}
-          .bridge p{font-size:17px;color:#5A6780;line-height:1.72;margin-bottom:16px}
+          .bridge p{font-size:clamp(15px,2.2vw,17px);color:#5A6780;line-height:1.72;margin-bottom:16px}
           .bridge p:last-child{margin-bottom:0}
           .bridge strong{color:#0D2240;font-weight:700}
           .divider{display:flex;align-items:center;gap:20px;margin:40px 0 0}

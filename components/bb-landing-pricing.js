@@ -17,7 +17,7 @@
           .section-label::before{content:'';display:block;width:26px;height:2px;background:#E85D04;border-radius:2px}
           h2{font-size:clamp(28px,4vw,48px);font-weight:900;color:#0D2240;letter-spacing:-.03em;line-height:1.1;margin-bottom:16px}
           h2 em{font-style:normal;color:#E85D04}
-          .pricing-sub{font-size:17px;color:#5A6780;max-width:500px;margin:0 auto 52px;line-height:1.65}
+          .pricing-sub{font-size:clamp(15px,2.2vw,17px);color:#5A6780;max-width:500px;margin:0 auto 52px;line-height:1.65}
 
           .card{background:linear-gradient(145deg,#0D2240,#162f55);border-radius:24px;box-shadow:0 8px 40px rgba(13,34,64,.3),0 2px 8px rgba(13,34,64,.15);overflow:hidden}
           .card-top{background:#E85D04;padding:14px 32px;text-align:center}

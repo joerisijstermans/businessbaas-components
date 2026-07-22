@@ -16,7 +16,7 @@
           .final-inner{max-width:680px;margin:0 auto;position:relative;z-index:2}
           h2{font-size:clamp(30px,5vw,56px);font-weight:900;color:#fff;letter-spacing:-.035em;line-height:1.08;margin-bottom:20px}
           h2 em{font-style:normal;color:#E85D04}
-          p{font-size:18px;color:rgba(255,255,255,.6);line-height:1.65;margin-bottom:44px}
+          p{font-size:clamp(16px,2.5vw,18px);color:rgba(255,255,255,.6);line-height:1.65;margin-bottom:44px}
           .final-cta{display:inline-flex;align-items:center;gap:10px;padding:18px 42px;background:#E85D04;color:#fff;font-size:18px;font-weight:700;border-radius:50px;transition:background .22s,transform .22s,box-shadow .22s;margin-bottom:16px}
           .final-cta:hover{background:#CC4D00;transform:translateY(-2px);box-shadow:0 16px 40px rgba(232,93,4,.45)}
           .final-note{font-size:13px;color:rgba(255,255,255,.35)}

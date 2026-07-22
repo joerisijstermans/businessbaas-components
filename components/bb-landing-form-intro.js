@@ -17,7 +17,7 @@
           .section-label::before,.section-label::after{content:'';display:block;width:26px;height:2px;background:#E85D04;border-radius:2px}
           h2{font-size:clamp(26px,4vw,44px);font-weight:900;color:#fff;letter-spacing:-.03em;line-height:1.1;margin-bottom:16px}
           h2 em{font-style:normal;color:#E85D04}
-          p{font-size:17px;color:rgba(255,255,255,.55);line-height:1.65}
+          p{font-size:clamp(15px,2vw,17px);color:rgba(255,255,255,.55);line-height:1.65}
           p strong{color:rgba(255,255,255,.8);font-weight:600}
         </style>
         <div class="intro">
