@@ -4,7 +4,7 @@
   const C = ['bb-landing-form-intro'];
   C.forEach(n => { if (!customElements.get(n)) { const s = document.createElement('script'); s.src = `${B}/${n}.js`; document.head.appendChild(s); } });
   class BB1GratisTrainingPreForm extends HTMLElement {
-    connectedCallback() { this.style.display = 'block'; this.innerHTML = C.map(n => `<${n}></${n}>`).join(''); }
+    connectedCallback() { if (!this.id) this.id = 'volgende-stap'; this.style.display = 'block'; this.innerHTML = C.map(n => `<${n}></${n}>`).join(''); }
   }
   customElements.define('bb1-gratis-training-pre-form', BB1GratisTrainingPreForm);
 })();
