@@ -59,7 +59,7 @@
                   <p class="price-label">Lidmaatschap</p>
                   <div><span class="price-amount">€69</span><span class="price-period">/mnd</span></div>
                   <p class="price-day">≈ €2,30 per dag</p>
-                  <a href="https://www.businessbaas.com/gratis-training#volgende-stap" class="plan-cta">
+                  <a href="https://www.businessbaas.com/gratistraining#volgende-stap" class="plan-cta">
                     Start gratis
                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
                   </a>
