@@ -62,7 +62,6 @@
             <div class="bottom">
               <div>
                 <div class="legal">© 2026 BusinessBaas · Alle rechten voorbehouden &nbsp;·&nbsp;<a href="https://www.businessbaas.com/privacybeleid">Privacybeleid</a><a href="https://www.businessbaas.com/algemenevoorwaarden-b2c">Algemene Voorwaarden</a><a href="https://www.businessbaas.com/algemenevoorwaarden-b2b">B2B Voorwaarden</a></div>
-                <div class="kvk">KVK: 90226801</div>
               </div>
               <div class="socials">
                 <a class="soc" href="https://www.linkedin.com/company/businessbaas" target="_blank" rel="noopener" aria-label="LinkedIn">

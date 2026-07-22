@@ -39,8 +39,8 @@
               <a href="https://www.businessbaas.com/gratis-training-aanvragen" class="bw" target="_top" data-lightbox>Gratis training starten <svg width="17" height="17" viewBox="0 0 17 17" fill="none"><path d="M3 8.5H14M14 8.5L9.5 4M14 8.5L9.5 13" stroke="#E85D04" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
             </div>
             <div class="disc ob">
-              <span>✓ Direct toegang</span>
-              <span>✓ Geen creditcard nodig</span>
+              <span>Direct toegang</span>
+              <span>Geen creditcard nodig</span>
             </div>
           </div>
         </section>`;
