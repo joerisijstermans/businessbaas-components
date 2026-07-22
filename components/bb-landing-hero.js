@@ -42,7 +42,7 @@
             <h1 class="ob">Jouw eerste betalende klant, <em>in 48 uur</em></h1>
             <p class="hero-sub ob">De drie concrete stappen die het verschil maken voor startende ondernemers. Direct toepasbaar, geen theorie. <strong>Spreek binnen 48 uur je eerste potentiële klant.</strong></p>
             <div class="hero-cta-wrap ob">
-              <a href="#aanmelden" class="btn-primary" data-pm="aanmelden">
+              <a href="https://www.businessbaas.com/gratis-training#volgende-stap" class="btn-primary" target="_top">
                 Bekijk de gratis training
                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M3.5 9H14.5M14.5 9L10 4.5M14.5 9L10 13.5" stroke="white" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
               </a>
@@ -87,7 +87,6 @@
         }
       }), { threshold: 0.08 });
       s.querySelectorAll('.ob').forEach(el => obs.observe(el));
-      s.querySelectorAll('[data-pm]').forEach(a => a.addEventListener('click', e => { e.preventDefault(); window.parent.postMessage('bb-scroll:' + a.dataset.pm, '*'); }));
     }
   }
   customElements.define('bb-landing-hero', BBLandingHero);
