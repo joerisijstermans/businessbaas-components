@@ -25,7 +25,7 @@
           <div class="final-inner">
             <h2 class="ob">Klaar om te beginnen?<br><em>Start vandaag gratis.</em></h2>
             <p class="ob">Tientallen starters gingen je voor. De volgende stap is simpel: klik op de knop en begin direct met de gratis training. Geen excuses meer. De tijd is nu.</p>
-            <a href="#volgende-stap" class="final-cta ob" target="_top">
+            <a href="https://www.businessbaas.com/gratis-training#volgende-stap" class="final-cta ob">
               Bekijk de gratis training
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M4 10H16M16 10L11 5M16 10L11 15" stroke="white" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
             </a>
@@ -34,12 +34,6 @@
         </section>`;
       const obs = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('show'); obs.unobserve(e.target); } }), { threshold: 0.08 });
       s.querySelectorAll('.ob').forEach(el => obs.observe(el));
-      s.querySelectorAll('a[href="#volgende-stap"]').forEach(function(a) {
-        a.addEventListener('click', function(e) {
-          e.preventDefault();
-          window.parent.postMessage({type:'bbScroll',anchor:'volgende-stap'},'*');
-        });
-      });
     }
   }
   customElements.define('bb-landing-cta', BBLandingCta);
