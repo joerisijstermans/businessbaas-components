@@ -105,7 +105,7 @@
               </div>
               <div class="fc fc-2" id="fc2">
                 <div class="fc-lbl">Voortgang</div>
-                <div class="fc-2-row"><span class="fc-2-name">Module 2</span><span class="fc-2-pct">65%</span></div>
+                <div class="fc-2-row"><span class="fc-2-name">Module 1</span><span class="fc-2-pct">65%</span></div>
                 <div class="fc-2-bar"><div class="fc-2-fill"></div></div>
               </div>
               <div class="fc fc-3" id="fc3">

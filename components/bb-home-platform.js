@@ -54,7 +54,7 @@
           icon: '🤝', label: 'Community',
           outcome: 'Nooit alleen',
           title: 'Ondernemen samen met mensen die het begrijpen',
-          desc: 'Een actieve community van gelijkgestemde starters. Spar over uitdagingen, test ideeën en bouw aan je netwerk. Plus: live events waar je echte klanten kunt ontmoeten.',
+          desc: 'Een actieve community van gelijkgestemde starters. Spar over uitdagingen, test ideeën en bouw aan je netwerk. Plus: live events waar je mede-ondernemers kunt ontmoeten.',
           points: ['Online netwerk van startende ondernemers', 'Test je ideeën veilig en krijg feedback', 'BusinessBaas LIVE events', 'Sparringspartners die jou begrijpen'],
           color: '#F59E0B',
           photo: `${CDN}/community-afbeelding.png`

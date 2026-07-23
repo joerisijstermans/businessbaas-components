@@ -50,7 +50,7 @@
             <div class="layout">
               <div class="left ob">
                 <span class="lbl">Voor Organisaties &amp; Coaches</span>
-                <h2>Begeleid starters op schaal<br>zonder <em>extra capaciteit</em></h2>
+                <h2>Begeleid starters<br>op schaal<br>zonder <em>extra capaciteit</em></h2>
                 <p>Werk je met startende ondernemers? BusinessBaas maakt begeleiding schaalbaar: jij houdt de regie, wij leveren het platform, de trainingen en de AI-coach.</p>
                 <div class="bullets">
                   <div class="bullet"><div class="bi">⚡</div><span>Begeleid tientallen ondernemers tegelijk vanuit één partner-dashboard</span></div>

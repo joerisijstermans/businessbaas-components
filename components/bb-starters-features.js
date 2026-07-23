@@ -6,9 +6,9 @@
     render() {
       const feats = [
         { icon:'📚', t:'20+ Trainingen', d:'Praktische trainingen die je stap voor stap begeleiden van idee naar eerste klant. Elke training eindigt met een concrete opdracht.' },
+        { icon:'💻', t:'Digitale Werkplek', d:'Werk elke opdracht direct uit op het platform. Geen losse Word-documenten of notitieblokjes, alles op één plek.' },
         { icon:'🤖', t:'Nova, je AI-coach', d:'Jouw 24/7 sparringspartner. Nova kent het volledige programma, stelt de juiste vragen en helpt je verder als je vastzit. Jij bepaalt wat je deelt.' },
         { icon:'✨', t:'Slim Ondernemen met AI', d:'Leer hoe je als starter AI-tools slim inzet: van contentcreatie en marktonderzoek tot automatisering en klantenwerving. Snel, praktisch en toepasbaar.', soon: true },
-        { icon:'💻', t:'Digitale Werkplek', d:'Werk elke opdracht direct uit op het platform. Geen losse Word-documenten of notitieblokjes, alles op één plek.' },
         { icon:'👥', t:'Community', d:'Ondernemers die precies begrijpen wat jij doormaakt. Stel vragen, deel successen en groei samen sneller.' },
         { icon:'🎯', t:'Marktplaats', d:'Test je aanbod binnen de community. Vind je eerste klanten dichter bij huis dan je denkt.' },
         { icon:'🎤', t:'LIVE Events', d:'Bouw je netwerk op in het echt. Juurd ontmoette tijdens een BusinessBaas LIVE event zijn eerste klant!', upsell: true },
