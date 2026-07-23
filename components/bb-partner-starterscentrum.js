@@ -13,7 +13,8 @@
           /* HERO */
           .hero{background:linear-gradient(145deg,#0D2240 0%,#142c54 60%,#0D2240 100%);padding:80px 24px 72px;text-align:center;position:relative;overflow:hidden}
           .hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 65% 40%,rgba(232,93,4,.14) 0%,transparent 60%);pointer-events:none}
-          .partner-badge{display:inline-flex;align-items:center;gap:8px;padding:7px 18px;background:rgba(232,93,4,.18);border:1px solid rgba(232,93,4,.35);border-radius:50px;font-size:12px;font-weight:700;color:rgba(255,255,255,.9);text-transform:uppercase;letter-spacing:.08em;margin-bottom:28px}
+          .partner-badge{display:inline-flex;align-items:center;gap:10px;font-size:12px;font-weight:700;color:rgba(232,93,4,.9);text-transform:uppercase;letter-spacing:.08em;margin-bottom:28px}
+          .partner-badge::before{content:'';display:block;width:26px;height:2px;background:#E85D04;border-radius:2px;flex-shrink:0}
           .hero h1{font-size:clamp(28px,4.5vw,54px);font-weight:900;color:#fff;line-height:1.08;letter-spacing:-.03em;margin-bottom:18px;max-width:700px;margin-left:auto;margin-right:auto}
           .hero h1 em{color:#E85D04;font-style:normal}
           .hero p{font-size:18px;color:rgba(255,255,255,.68);line-height:1.65;max-width:560px;margin:0 auto 36px}
