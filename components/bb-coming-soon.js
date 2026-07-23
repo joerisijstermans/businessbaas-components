@@ -12,9 +12,8 @@
           :host{display:block;font-family:'Inter',-apple-system,sans-serif}
           a{color:inherit;text-decoration:none}
           .wrap{background:#0D2240;padding:120px 24px;text-align:center}
-          .badge{display:inline-flex;align-items:center;gap:8px;padding:6px 16px;background:rgba(232,93,4,.18);border:1px solid rgba(232,93,4,.3);border-radius:50px;font-size:12px;font-weight:700;color:rgba(232,93,4,.9);text-transform:uppercase;letter-spacing:.1em;margin-bottom:28px}
-          .dot{width:6px;height:6px;border-radius:50%;background:#E85D04;display:inline-block;animation:pulse 1.8s ease-in-out infinite;flex-shrink:0}
-          @keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
+          .badge{display:inline-flex;align-items:center;gap:10px;font-size:12px;font-weight:700;color:rgba(232,93,4,.9);text-transform:uppercase;letter-spacing:.1em;margin-bottom:28px}
+          .badge::before{content:'';display:block;width:26px;height:2px;background:#E85D04;border-radius:2px;flex-shrink:0}
           h1{font-size:clamp(30px,5vw,58px);font-weight:900;color:#fff;line-height:1.08;letter-spacing:-.03em;margin-bottom:20px}
           h1 em{font-style:normal;color:#E85D04}
           .sub{font-size:17px;color:rgba(255,255,255,.55);line-height:1.7;max-width:520px;margin:0 auto 48px}
@@ -35,10 +34,7 @@
           .copy{font-size:12px;color:rgba(255,255,255,.18)}
         </style>
         <div class="wrap">
-          <div class="badge">
-            <span class="dot"></span>
-            We blijven in ontwikkeling
-          </div>
+          <div class="badge">We blijven in ontwikkeling</div>
           <h1>We bouwen aan<br><em>BusinessBaas 2.0</em></h1>
           <p class="sub">BusinessBaas wordt groter, slimmer en beter, met <strong>verbeterde trainingen, AI-coach Nova en een volledig nieuwe community</strong>. We zijn er bijna.</p>
           <p class="member-note">Al lid? Je kunt gewoon blijven inloggen en alles gebruiken.</p>
