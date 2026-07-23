@@ -15,7 +15,8 @@
           .header{background:linear-gradient(to bottom,#0D2240 0%,#142c54 40%,#0a1a33 100%);padding:72px 24px 64px;text-align:center;position:relative;overflow:hidden}
           .header::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 60% 30%,rgba(232,93,4,.13) 0%,transparent 60%);pointer-events:none}
           .inner{max-width:760px;margin:0 auto;position:relative;z-index:2}
-          .label{display:inline-flex;align-items:center;gap:8px;padding:5px 14px;margin-bottom:24px;background:rgba(232,93,4,.2);border:1px solid rgba(232,93,4,.3);border-radius:50px;font-size:11.5px;font-weight:700;color:rgba(255,255,255,.85);text-transform:uppercase;letter-spacing:.1em}
+          .label{display:inline-flex;align-items:center;gap:10px;margin-bottom:24px;font-size:11.5px;font-weight:700;color:rgba(232,93,4,.9);text-transform:uppercase;letter-spacing:.1em}
+          .label::before{content:'';display:block;width:26px;height:2px;background:#E85D04;border-radius:2px;flex-shrink:0}
           h1{font-size:clamp(28px,5vw,56px);font-weight:900;color:#fff;line-height:1.08;letter-spacing:-.035em;margin-bottom:20px}
           h1 em{font-style:normal;color:#E85D04}
           .sub{font-size:clamp(15px,2vw,18px);color:rgba(255,255,255,.65);line-height:1.6;max-width:580px;margin:0 auto 36px}
@@ -41,7 +42,7 @@
         <!-- HEADER -->
         <section class="header">
           <div class="inner">
-            <div class="label ob">🎓 Gratis training</div>
+            <div class="label ob">Gratis training</div>
             <h1 class="ob">Jouw eerste betalende klant<br>in <em>48 uur</em></h1>
             <p class="sub ob">Kijk de training en ontdek de 3 stappen die startende ondernemers gebruiken om snel hun eerste klant binnen te halen, ook als je nog geen netwerk of ervaring hebt.</p>
             <div class="arrow ob">↓</div>

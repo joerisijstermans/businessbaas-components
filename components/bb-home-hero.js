@@ -20,10 +20,9 @@
           .blob-o { width: 600px; height: 600px; background: rgba(232,93,4,0.09); top: -200px; right: -120px; }
           .blob-n { width: 500px; height: 500px; background: rgba(13,34,64,0.06); bottom: -80px; left: -160px; }
           .inner { max-width: 1180px; margin: 0 auto; padding: 120px 0 80px; display: grid; grid-template-columns: 1fr 1fr; gap: 72px; align-items: center; position: relative; z-index: 2; width: 100%; }
-          .badge { display: inline-flex; align-items: center; gap: 8px; padding: 7px 16px; background: rgba(232,93,4,0.10); border: 1px solid rgba(232,93,4,0.22); border-radius: 50px; margin-bottom: 28px; font-size: 11.5px; font-weight: 700; color: #B84800; text-transform: uppercase; letter-spacing: 0.07em; opacity: 0; transform: translateY(10px); transition: opacity 0.55s ease, transform 0.55s ease; }
+          .badge { display: inline-flex; align-items: center; gap: 10px; margin-bottom: 28px; font-size: 11.5px; font-weight: 700; color: var(--orange); text-transform: uppercase; letter-spacing: 0.07em; opacity: 0; transform: translateY(10px); transition: opacity 0.55s ease, transform 0.55s ease; }
+          .badge::before { content: ''; display: block; width: 26px; height: 2px; background: var(--orange); border-radius: 2px; flex-shrink: 0; }
           .badge.show { opacity: 1; transform: translateY(0); }
-          .badge-dot { width: 6px; height: 6px; background: var(--orange); border-radius: 50%; animation: pulse 2s infinite; }
-          @keyframes pulse { 0%,100%{opacity:1;transform:scale(1);}50%{opacity:.4;transform:scale(.75);} }
           h1 { font-size: clamp(36px, 4vw, 60px); font-weight: 900; line-height: 1.08; color: var(--navy); letter-spacing: -0.038em; margin-bottom: 16px; opacity: 0; transform: translateY(20px); transition: opacity 0.7s ease, transform 0.7s ease; }
           h1.show { opacity: 1; transform: translateY(0); }
           .accent-line { font-size: clamp(18px, 2.2vw, 26px); font-weight: 800; color: var(--orange); margin-bottom: 22px; display: block; opacity: 0; transform: translateY(14px); transition: opacity 0.65s ease, transform 0.65s ease; }
@@ -74,7 +73,7 @@
           <div class="blob blob-n"></div>
           <div class="inner">
             <div class="left">
-              <div class="badge" id="badge"><span class="badge-dot"></span>Ondernemersplatform voor starters</div>
+              <div class="badge" id="badge">Ondernemersplatform voor starters</div>
               <h1 id="h1">Van idee naar je<br>eerste betalende<br>klant.</h1>
               <span class="accent-line" id="acc">Wij begeleiden je.</span>
               <p class="sub" id="sub">BusinessBaas geeft je de structuur, begeleiding en tools om echt vooruit te komen: van strategie tot je eerste omzet.</p>

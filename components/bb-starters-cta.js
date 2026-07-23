@@ -15,7 +15,8 @@
           section{background:linear-gradient(135deg,var(--orange) 0%,#FF7A35 100%);padding:88px 24px;font-family:var(--font);position:relative;overflow:hidden;}
           section::before{content:'';position:absolute;inset:0;background-image:radial-gradient(circle at 20% 50%,rgba(255,255,255,.07) 0%,transparent 50%),radial-gradient(circle at 80% 20%,rgba(255,255,255,.05) 0%,transparent 40%);pointer-events:none;}
           .inner{max-width:700px;margin:0 auto;text-align:center;position:relative;z-index:2;}
-          .badge{display:inline-flex;align-items:center;gap:8px;padding:7px 16px;background:rgba(255,255,255,.18);border-radius:50px;font-size:11.5px;font-weight:700;color:rgba(255,255,255,.9);text-transform:uppercase;letter-spacing:.08em;margin-bottom:24px;}
+          .badge{display:inline-flex;align-items:center;gap:10px;margin-bottom:24px;font-size:11.5px;font-weight:700;color:rgba(255,255,255,.9);text-transform:uppercase;letter-spacing:.08em;}
+          .badge::before{content:'';display:block;width:26px;height:2px;background:rgba(255,255,255,.75);border-radius:2px;flex-shrink:0;}
           h2{font-size:clamp(32px,5vw,56px);font-weight:900;color:#fff;line-height:1.08;letter-spacing:-.035em;margin-bottom:16px;}
           .sub{font-size:17.5px;color:rgba(255,255,255,.82);line-height:1.65;margin-bottom:36px;}
           .sub strong{color:#fff;font-weight:700;}
@@ -29,7 +30,7 @@
         </style>
         <section>
           <div class="inner">
-            <div class="badge ob">🎓 Gratis Training</div>
+            <div class="badge ob">Gratis training</div>
             <h2 class="ob">Jouw eerste betalende<br>klant wacht op jou</h2>
             <p class="sub ob">Start vandaag gratis en ontdek <strong>de drie stappen die het verschil maken</strong>.</p>
             <a href="https://www.businessbaas.com/gratis-training-aanvragen" class="btn ob" target="_top" data-lightbox>Gratis training starten <svg width="17" height="17" viewBox="0 0 17 17" fill="none"><path d="M3 8.5H14M14 8.5L9.5 4M14 8.5L9.5 13" stroke="#E85D04" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>

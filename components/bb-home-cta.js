@@ -15,7 +15,8 @@
           section{background:linear-gradient(135deg,var(--orange) 0%,#FF7A35 100%);padding:88px 24px;font-family:var(--font);position:relative;overflow:hidden;}
           section::before{content:'';position:absolute;inset:0;background-image:radial-gradient(circle at 20% 50%,rgba(255,255,255,0.07) 0%,transparent 50%),radial-gradient(circle at 80% 20%,rgba(255,255,255,0.05) 0%,transparent 40%);pointer-events:none;}
           .inner{max-width:720px;margin:0 auto;text-align:center;position:relative;z-index:2;}
-          .badge{display:inline-flex;align-items:center;gap:8px;padding:7px 16px;background:rgba(255,255,255,0.18);border-radius:50px;font-size:11.5px;font-weight:700;color:rgba(255,255,255,0.9);text-transform:uppercase;letter-spacing:0.08em;margin-bottom:24px;}
+          .badge{display:inline-flex;align-items:center;gap:10px;margin-bottom:24px;font-size:11.5px;font-weight:700;color:rgba(255,255,255,0.9);text-transform:uppercase;letter-spacing:0.08em;}
+          .badge::before{content:'';display:block;width:26px;height:2px;background:rgba(255,255,255,.75);border-radius:2px;flex-shrink:0;}
           h2{font-size:clamp(32px,5vw,58px);font-weight:900;color:#fff;line-height:1.08;letter-spacing:-0.035em;margin-bottom:16px;}
           .sub{font-size:17.5px;color:rgba(255,255,255,0.82);line-height:1.65;margin-bottom:36px;}
           .sub strong{color:#fff;font-weight:700;}
@@ -32,7 +33,7 @@
         </style>
         <section>
           <div class="inner">
-            <div class="badge ob">🎓 Gratis Training</div>
+            <div class="badge ob">Gratis training</div>
             <h2 class="ob">Jouw eerste betalende<br>klant wacht op jou</h2>
             <p class="sub ob">Start vandaag gratis met <strong>"Jouw eerste betalende klant: de drie stappen die het verschil maken"</strong>.</p>
             <div class="ctas ob">
