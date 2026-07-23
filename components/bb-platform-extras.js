@@ -17,7 +17,8 @@
           :host{display:block}
           section{padding:88px 24px;background:#fff;font-family:'Inter',sans-serif}
           .inner{max-width:760px;margin:0 auto}
-          .lbl{font-size:.8rem;font-weight:700;color:#E85D04;letter-spacing:.12em;text-transform:uppercase;margin-bottom:14px;text-align:center}
+          .lbl{display:flex;justify-content:center;align-items:center;gap:10px;font-size:.8rem;font-weight:700;color:#E85D04;letter-spacing:.12em;text-transform:uppercase;margin-bottom:14px}
+          .lbl::before{content:'';display:block;width:26px;height:2px;background:#E85D04;border-radius:2px;flex-shrink:0}
           h2{font-size:clamp(1.6rem,3.2vw,2.4rem);font-weight:900;color:#0D2240;letter-spacing:-.03em;line-height:1.15;margin-bottom:48px;text-align:center}
           .faq-item{border-bottom:1px solid rgba(13,34,64,.08)}
           .faq-item:first-of-type{border-top:1px solid rgba(13,34,64,.08)}

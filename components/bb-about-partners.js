@@ -10,7 +10,8 @@
           :host{display:block}
           section{padding:88px 24px;background:#fff;font-family:'Inter',sans-serif}
           .inner{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
-          .label{font-size:.8rem;font-weight:700;color:#E85D04;letter-spacing:.12em;text-transform:uppercase;margin-bottom:14px}
+          .label{display:inline-flex;align-items:center;gap:10px;font-size:.8rem;font-weight:700;color:#E85D04;letter-spacing:.12em;text-transform:uppercase;margin-bottom:14px}
+          .label::before{content:'';display:block;width:26px;height:2px;background:#E85D04;border-radius:2px;flex-shrink:0}
           h2{font-size:clamp(1.6rem,3.5vw,2.4rem);font-weight:900;color:#0D2240;letter-spacing:-.03em;margin-bottom:20px;line-height:1.2}
           p{font-size:.97rem;color:#5A6780;line-height:1.75;margin-bottom:20px}
           .partner-card{background:#0D2240;border-radius:20px;padding:32px;color:rgba(255,255,255,.85)}

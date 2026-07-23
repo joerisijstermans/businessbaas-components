@@ -13,7 +13,8 @@
           .blob1{width:500px;height:500px;background:#E85D04;top:-160px;right:-120px}
           .blob2{width:420px;height:420px;background:#2563EB;bottom:-120px;left:-80px}
           .inner{max-width:620px;margin:0 auto;position:relative;z-index:1}
-          .lbl{font-size:.8rem;font-weight:700;color:#E85D04;letter-spacing:.12em;text-transform:uppercase;margin-bottom:18px}
+          .lbl{display:inline-flex;align-items:center;gap:10px;font-size:.8rem;font-weight:700;color:#E85D04;letter-spacing:.12em;text-transform:uppercase;margin-bottom:18px}
+          .lbl::before{content:'';display:block;width:26px;height:2px;background:#E85D04;border-radius:2px;flex-shrink:0}
           h2{font-size:clamp(2rem,4.5vw,3.2rem);font-weight:900;color:#fff;letter-spacing:-.04em;margin-bottom:40px;line-height:1.1}
           h2 em{font-style:normal;color:#E85D04}
           .price-block{margin-bottom:40px}

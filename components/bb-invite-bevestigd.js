@@ -15,7 +15,8 @@
           .check{width:80px;height:80px;border-radius:50%;background:rgba(34,197,94,.15);border:2px solid rgba(34,197,94,.35);display:flex;align-items:center;justify-content:center;margin:0 auto 32px;animation:pop .5s cubic-bezier(0.34,1.56,0.64,1) both}
           @keyframes pop{from{transform:scale(0);opacity:0}to{transform:scale(1);opacity:1}}
           .check svg{width:36px;height:36px}
-          .label{display:inline-flex;align-items:center;gap:8px;font-size:11.5px;font-weight:700;color:rgba(34,197,94,.8);text-transform:uppercase;letter-spacing:.1em;margin-bottom:16px}
+          .label{display:inline-flex;align-items:center;gap:10px;font-size:11.5px;font-weight:700;color:rgba(34,197,94,.8);text-transform:uppercase;letter-spacing:.1em;margin-bottom:16px}
+          .label::before{content:'';display:block;width:26px;height:2px;background:rgba(34,197,94,.8);border-radius:2px;flex-shrink:0}
           h1{font-size:clamp(28px,5vw,50px);font-weight:900;color:#fff;line-height:1.08;letter-spacing:-.035em;margin-bottom:20px}
           h1 em{font-style:normal;color:#E85D04}
           .sub{font-size:17px;color:rgba(255,255,255,.6);line-height:1.7;margin-bottom:40px}

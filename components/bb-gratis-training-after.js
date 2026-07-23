@@ -10,7 +10,8 @@
           :host{display:block;font-family:'Inter',-apple-system,sans-serif}
           .wrap{background:#0D2240;padding:48px 24px 64px}
           .inner{max-width:520px;margin:0 auto}
-          .label{font-size:11px;font-weight:700;color:rgba(255,255,255,.3);text-transform:uppercase;letter-spacing:.12em;text-align:center;margin-bottom:32px}
+          .label{display:flex;justify-content:center;align-items:center;gap:10px;font-size:11px;font-weight:700;color:rgba(255,255,255,.3);text-transform:uppercase;letter-spacing:.12em;margin-bottom:32px}
+          .label::before{content:'';display:block;width:26px;height:2px;background:rgba(255,255,255,.3);border-radius:2px;flex-shrink:0}
           .steps{display:flex;flex-direction:column;gap:0}
           .step{display:flex;align-items:flex-start;gap:20px;padding:20px 0;border-bottom:1px solid rgba(255,255,255,.06)}
           .step:last-child{border-bottom:none}

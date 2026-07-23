@@ -33,7 +33,8 @@
           /* WHAT-INCLUDED */
           .included{padding:88px 24px;background:#fff}
           .inner{max-width:1180px;margin:0 auto}
-          .section-label{font-size:.8rem;font-weight:700;color:#E85D04;letter-spacing:.12em;text-transform:uppercase;margin-bottom:14px;text-align:center}
+          .section-label{display:flex;justify-content:center;align-items:center;gap:10px;font-size:.8rem;font-weight:700;color:#E85D04;letter-spacing:.12em;text-transform:uppercase;margin-bottom:14px}
+          .section-label::before{content:'';display:block;width:26px;height:2px;background:#E85D04;border-radius:2px;flex-shrink:0}
           .section-title{font-size:clamp(1.7rem,3.5vw,2.4rem);font-weight:900;color:#0D2240;letter-spacing:-.03em;margin-bottom:12px;text-align:center;line-height:1.2}
           .section-sub{font-size:1.02rem;color:#5A6780;max-width:540px;margin:0 auto 52px;text-align:center;line-height:1.7}
           .feat-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}
@@ -146,7 +147,7 @@
         <!-- HOW IT WORKS -->
         <div class="how">
           <div class="how-inner">
-            <div class="section-label ob" style="text-align:left">Hoe het werkt</div>
+            <div class="section-label ob" style="justify-content:flex-start">Hoe het werkt</div>
             <h2 class="section-title ob" style="text-align:left">Van programma naar platform</h2>
             <div class="steps ob">
               <div class="step">

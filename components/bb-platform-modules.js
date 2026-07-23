@@ -10,7 +10,8 @@
           :host{display:block}
           section{padding:88px 24px;background:#F4F6FA;font-family:'Inter',sans-serif}
           .inner{max-width:1200px;margin:0 auto}
-          .lbl{font-size:.8rem;font-weight:700;color:#E85D04;letter-spacing:.12em;text-transform:uppercase;margin-bottom:14px;text-align:center}
+          .lbl{display:flex;justify-content:center;align-items:center;gap:10px;font-size:.8rem;font-weight:700;color:#E85D04;letter-spacing:.12em;text-transform:uppercase;margin-bottom:14px}
+          .lbl::before{content:'';display:block;width:26px;height:2px;background:#E85D04;border-radius:2px;flex-shrink:0}
           h2{font-size:clamp(1.8rem,4vw,2.8rem);font-weight:900;color:#0D2240;letter-spacing:-.03em;margin-bottom:16px;line-height:1.15;text-align:center}
           .sub{font-size:1.05rem;color:#5A6780;max-width:580px;line-height:1.7;margin:0 auto 56px;text-align:center}
           .grid{display:grid;grid-template-columns:1fr 1fr;gap:28px}

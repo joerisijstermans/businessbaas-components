@@ -11,7 +11,8 @@
           :host{display:block}
           section{padding:88px 24px;background:#fff;font-family:'Inter',sans-serif}
           .inner{max-width:800px;margin:0 auto}
-          .label{font-size:.8rem;font-weight:700;color:#E85D04;letter-spacing:.12em;text-transform:uppercase;margin-bottom:14px}
+          .label{display:inline-flex;align-items:center;gap:10px;font-size:.8rem;font-weight:700;color:#E85D04;letter-spacing:.12em;text-transform:uppercase;margin-bottom:14px}
+          .label::before{content:'';display:block;width:26px;height:2px;background:#E85D04;border-radius:2px;flex-shrink:0}
           h2{font-size:clamp(1.8rem,4vw,2.6rem);font-weight:900;color:#0D2240;letter-spacing:-.03em;margin-bottom:40px;line-height:1.2}
           .timeline{display:flex;flex-direction:column;gap:0}
           .step{display:grid;grid-template-columns:80px 1fr;gap:24px;padding-bottom:48px;position:relative}

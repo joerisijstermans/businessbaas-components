@@ -10,7 +10,8 @@
           :host{display:block}
           section{padding:88px 24px;background:#F4F6FA;font-family:'Inter',sans-serif}
           .inner{max-width:1200px;margin:0 auto}
-          .label{font-size:.8rem;font-weight:700;color:#E85D04;letter-spacing:.12em;text-transform:uppercase;margin-bottom:14px;text-align:center}
+          .label{display:flex;justify-content:center;align-items:center;gap:10px;font-size:.8rem;font-weight:700;color:#E85D04;letter-spacing:.12em;text-transform:uppercase;margin-bottom:14px}
+          .label::before{content:'';display:block;width:26px;height:2px;background:#E85D04;border-radius:2px;flex-shrink:0}
           h2{font-size:clamp(1.8rem,4vw,2.6rem);font-weight:900;color:#0D2240;letter-spacing:-.03em;margin-bottom:16px;text-align:center;line-height:1.2}
           .sub{font-size:1.05rem;color:#5A6780;max-width:560px;margin:0 auto 56px;text-align:center;line-height:1.7}
           .mission-box{background:#0D2240;border-radius:24px;padding:48px;text-align:center;margin-bottom:48px;position:relative;overflow:hidden}
