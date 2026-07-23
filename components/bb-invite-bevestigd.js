@@ -26,6 +26,7 @@
           .cicon{width:44px;height:44px;border-radius:12px;background:rgba(232,93,4,.18);display:flex;align-items:center;justify-content:center;font-size:20px;flex-shrink:0;margin-top:2px}
           .cinfo h3{font-size:15px;font-weight:700;color:#fff;margin-bottom:4px}
           .cinfo p{font-size:13.5px;color:rgba(255,255,255,.5);line-height:1.55}
+          .spam-note{background:rgba(251,188,4,.08);border:1px solid rgba(251,188,4,.2);border-radius:12px;padding:14px 18px;font-size:13px;color:rgba(251,188,4,.85);display:flex;align-items:center;gap:10px;margin-bottom:32px;text-align:left}
           .btn{display:inline-flex;align-items:center;gap:10px;padding:16px 36px;background:#E85D04;color:#fff;font-size:16px;font-weight:700;border-radius:50px;transition:background .22s,transform .22s,box-shadow .22s;margin-bottom:12px}
           .btn:hover{background:#CC4D00;transform:translateY(-2px);box-shadow:0 14px 36px rgba(232,93,4,.4)}
           .note{font-size:13px;color:rgba(255,255,255,.3)}
@@ -63,6 +64,10 @@
                   <p>Na het instellen van je wachtwoord kun je direct beginnen met de trainingen en je digitale werkplek. AI-coach Nova wordt voor je klaargezet en volgt zo snel mogelijk.</p>
                 </div>
               </div>
+            </div>
+            <div class="spam-note">
+              <span>⚠️</span>
+              <span><strong>Check ook je spamfolder</strong>, soms belanden e-mails van nieuwe afzenders daar automatisch.</span>
             </div>
             <a href="https://www.businessbaas.com" class="btn" target="_top">
               Terug naar de website

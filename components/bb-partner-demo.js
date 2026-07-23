@@ -16,9 +16,8 @@
           .hero{background:linear-gradient(145deg,#0D2240 0%,#142c54 60%,#0D2240 100%);padding:56px 24px 52px;text-align:center;position:relative;overflow:hidden}
           .hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 50% 0%,rgba(232,93,4,.14) 0%,transparent 60%);pointer-events:none}
           .inner{max-width:580px;margin:0 auto;position:relative;z-index:2}
-          .badge{display:inline-flex;align-items:center;gap:7px;padding:5px 14px;background:rgba(232,93,4,.18);border:1px solid rgba(232,93,4,.3);border-radius:50px;font-size:11px;font-weight:700;color:rgba(232,93,4,.9);text-transform:uppercase;letter-spacing:.1em;margin-bottom:20px}
-          .dot{width:5px;height:5px;border-radius:50%;background:#E85D04;display:inline-block;animation:pulse 1.8s ease-in-out infinite;flex-shrink:0}
-          @keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
+          .badge{display:inline-flex;align-items:center;gap:10px;font-size:11px;font-weight:700;color:rgba(232,93,4,.9);text-transform:uppercase;letter-spacing:.1em;margin-bottom:20px}
+          .badge::before{content:'';display:block;width:26px;height:2px;background:#E85D04;border-radius:2px;flex-shrink:0}
           h1{font-size:clamp(24px,4.5vw,40px);font-weight:900;color:#fff;line-height:1.1;letter-spacing:-.03em;margin-bottom:12px}
           h1 em{font-style:normal;color:#E85D04}
           .sub{font-size:16px;color:rgba(255,255,255,.62);margin-bottom:26px;font-weight:500;line-height:1.6}
@@ -60,7 +59,7 @@
 
         <div class="hero">
           <div class="inner">
-            <div class="badge"><span class="dot"></span>Partner demo</div>
+            <div class="badge">Partner demo</div>
             <h1>Ontdek wat BusinessBaas<br>voor jouw <em>organisatie</em> kan doen</h1>
             <p class="sub">Plan een demo en zie hoe je starters begeleidt op schaal, zonder extra capaciteit van jouw team.</p>
             <div class="checks">
