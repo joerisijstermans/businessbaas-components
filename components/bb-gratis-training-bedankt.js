@@ -41,6 +41,10 @@
             <div class="label">Gratis training aangevraagd</div>
             <h1>Bedankt! De training<br>staat <em>klaar</em>.</h1>
             <p class="sub">Je kunt de training direct bekijken. <strong>We sturen hem ook naar je inbox</strong> zodat je hem later altijd nog eens kunt terugkijken.</p>
+            <a href="https://www.businessbaas.com/nkrpepjicsedwdoligprmkntqoddzozecllpootrqtxggrtojl" class="btn" target="_top">
+              Training direct bekijken
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M3.5 9H14.5M14.5 9L10 4.5M14.5 9L10 13.5" stroke="white" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
             <div class="cards">
               <div class="card">
                 <div class="cicon">🎬</div>
@@ -64,10 +68,6 @@
                 </div>
               </div>
             </div>
-            <a href="https://www.businessbaas.com/nkrpepjicsedwdoligprmkntqoddzozecllpootrqtxggrtojl" class="btn" target="_top">
-              Training direct bekijken
-              <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M3.5 9H14.5M14.5 9L10 4.5M14.5 9L10 13.5" stroke="white" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </a>
             <p class="note">Vragen? Mail ons op info@businessbaas.com</p>
           </div>
         </section>`;
