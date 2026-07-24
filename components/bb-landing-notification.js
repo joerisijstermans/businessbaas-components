@@ -105,8 +105,8 @@
         popup.classList.remove('show');
       });
 
-      // Start after 5 seconds
-      nextTimer = setTimeout(show, 5000);
+      // Start after 25 seconds
+      nextTimer = setTimeout(show, 25000);
     }
   }
   customElements.define('bb-landing-notification', BBLandingNotification);

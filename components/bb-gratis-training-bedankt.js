@@ -39,21 +39,21 @@
               </svg>
             </div>
             <div class="label">Gratis training aangevraagd</div>
-            <h1>Bedankt! Check<br>je <em>inbox</em>.</h1>
-            <p class="sub">Je aanvraag is bevestigd. De gratis training staat klaar, check je inbox voor de link. <strong>Het kan een paar minuten duren.</strong></p>
+            <h1>Bedankt! De training<br>staat <em>klaar</em>.</h1>
+            <p class="sub">Je kunt de training direct bekijken. <strong>We sturen hem ook naar je inbox</strong> zodat je hem later altijd nog eens kunt terugkijken.</p>
             <div class="cards">
               <div class="card">
-                <div class="cicon">📧</div>
+                <div class="cicon">🎬</div>
                 <div class="cinfo">
-                  <h3>Check je inbox</h3>
-                  <p>Je ontvangt de link naar de gratis training per e-mail. Staat er niks in je inbox? Check dan je spammap.</p>
+                  <h3>Bekijk de training nu</h3>
+                  <p>Klik op de knop hieronder en start direct. Geen account, geen wachtwoord — gewoon kijken.</p>
                 </div>
               </div>
               <div class="card">
-                <div class="cicon">🎓</div>
+                <div class="cicon">📧</div>
                 <div class="cinfo">
-                  <h3>Gratis en direct beschikbaar</h3>
-                  <p>De training is volledig gratis. Geen creditcard, geen verplichtingen. Kijk op je eigen tempo.</p>
+                  <h3>Staat ook in je inbox</h3>
+                  <p>Je ontvangt de link per e-mail, zodat je hem op een later moment ook kunt terugkijken. Niks ontvangen? Check je spammap.</p>
                 </div>
               </div>
               <div class="card">
@@ -64,8 +64,8 @@
                 </div>
               </div>
             </div>
-            <a href="https://www.businessbaas.com" class="btn" target="_top">
-              Terug naar de website
+            <a href="https://www.businessbaas.com/nkrpepjicsedwdoligprmkntqoddzozecllpootrqtxggrtojl" class="btn" target="_top">
+              Training direct bekijken
               <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M3.5 9H14.5M14.5 9L10 4.5M14.5 9L10 13.5" stroke="white" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
             </a>
             <p class="note">Vragen? Mail ons op info@businessbaas.com</p>
