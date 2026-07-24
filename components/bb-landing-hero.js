@@ -16,7 +16,8 @@
           .hero{background:linear-gradient(150deg,#0D2240 0%,#142c54 55%,#0f2845 100%);padding:96px 24px 88px;position:relative;overflow:hidden;text-align:center}
           .hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 65% 40%,rgba(232,93,4,.15) 0%,transparent 60%);pointer-events:none}
           .hero-inner{max-width:780px;margin:0 auto;position:relative;z-index:2}
-          .hero-badge{display:inline-flex;align-items:center;gap:8px;padding:6px 16px;margin-bottom:28px;background:rgba(232,93,4,.2);border:1px solid rgba(232,93,4,.3);border-radius:50px;font-size:12px;font-weight:700;color:rgba(255,255,255,.85);text-transform:uppercase;letter-spacing:.09em}
+          .hero-badge{display:inline-flex;align-items:center;gap:10px;margin-bottom:28px;font-size:12px;font-weight:700;color:rgba(255,255,255,.85);text-transform:uppercase;letter-spacing:.09em}
+          .hero-badge::before{content:'';display:block;width:26px;height:2px;background:rgba(255,255,255,.75);border-radius:2px;flex-shrink:0}
           h1{font-size:clamp(32px,5.5vw,64px);font-weight:900;color:#fff;line-height:1.07;letter-spacing:-.035em;margin-bottom:24px}
           h1 em{font-style:normal;color:#E85D04}
           .hero-sub{font-size:clamp(16px,2.2vw,19px);color:rgba(255,255,255,.65);line-height:1.7;max-width:600px;margin:0 auto 40px}
@@ -38,7 +39,7 @@
         </style>
         <section class="hero">
           <div class="hero-inner">
-            <div class="hero-badge ob">🎓 Gratis training, vandaag nog starten</div>
+            <div class="hero-badge ob">Gratis training, vandaag nog starten</div>
             <h1 class="ob">Jouw eerste betalende klant, <em>in 48 uur</em></h1>
             <p class="hero-sub ob">De drie concrete stappen die het verschil maken voor startende ondernemers. Direct toepasbaar, geen theorie. <strong>Spreek binnen 48 uur je eerste potentiële klant.</strong></p>
             <div class="hero-cta-wrap ob">
