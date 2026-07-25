@@ -88,12 +88,12 @@
 
         <!-- HERO -->
         <div class="hero">
-          <div class="partner-badge">Exclusief voor Dreamchasers & Huis van de Toekomst</div>
+          <div class="partner-badge">De digitale golden standard voor Dreamchasers</div>
           <h1>Zet jouw droom om in een <em>echte onderneming</em></h1>
-          <p>Als deelnemer van Dreamchasers of Huis van de Toekomst krijg je toegang tot BusinessBaas, met stap-voor-stap trainingen, AI-coach Nova en een community van gelijkgestemde starters.</p>
+          <p>Dreamchasers gebruikt BusinessBaas als de digitale basis van hun programma en adviseert deelnemers om gebruik te maken van het platform. Sluit je eigen licentie af en start vandaag nog.</p>
           <div class="hero-btns">
-            <a href="https://www.businessbaas.com/gratis-training-aanvragen" class="btn-primary" target="_top" data-lightbox>Start gratis →</a>
-            <a href="https://www.businessbaas.com/het-platform" class="btn-ghost">Bekijk het platform</a>
+            <a href="https://www.businessbaas.com/gratis-training-aanvragen" class="btn-primary" target="_top">Gratis kennismaken →</a>
+            <a href="https://www.businessbaas.com/prijzen" class="btn-ghost" target="_top">Direct lid worden</a>
           </div>
           <div class="hero-logos">
             <span class="hl-label">In samenwerking met</span>
@@ -108,12 +108,12 @@
             <div>
               <div class="intro-label ob">Waarom BusinessBaas</div>
               <h2 class="ob">De tools die jouw idee omzetten in een echt bedrijf</h2>
-              <p class="ob">Bij Dreamchasers en Huis van de Toekomst draait het om lef, actie en dromen die werkelijkheid worden. BusinessBaas is de digitale ruggengraat die daarbij hoort: praktisch, betaalbaar en altijd beschikbaar.</p>
+              <p class="ob">Dreamchasers gebruikt BusinessBaas als de digitale basis van hun programma. Van jouw Dreamchasers traject wordt verwacht dat je een eigen BusinessBaas licentie afsluit — praktisch, betaalbaar en altijd beschikbaar.</p>
               <ul class="checklist ob">
                 <li>Van idee naar een helder aanbod, stap voor stap</li>
                 <li>AI-coach Nova die jou begeleidt als je vastloopt</li>
                 <li>Een community van starters die begrijpen wat jij doormaakt</li>
-                <li>Inbegrepen bij het abonnement, geen extra kosten</li>
+                <li>Sluit je eigen licentie af — aanbevolen door Dreamchasers</li>
               </ul>
             </div>
             <img class="intro-img ob" src="${CDN}/training-afbeelding.png" alt="BusinessBaas platform" style="transition-delay:.1s">
@@ -181,13 +181,13 @@
         <!-- CTA -->
         <div class="cta">
           <div class="cta-inner ob">
-            <h2>De deur naar jouw toekomst staat open</h2>
-            <p>Meld je gratis aan via de BusinessBaas website. Geen creditcard, geen verplichtingen. Gewoon starten en zien hoe ver je komt.</p>
+            <h2>Klaar om je droom werkelijkheid te maken?</h2>
+            <p>Maak gratis kennis met BusinessBaas of sluit direct een licentie af. Dreamchasers adviseert al zijn deelnemers om met BusinessBaas te starten.</p>
             <div class="cta-btns">
-              <a href="https://www.businessbaas.com/gratis-training-aanvragen" class="cta-btn-w" target="_top" data-lightbox>Start gratis training</a>
-              <a href="https://www.businessbaas.com/het-platform" class="cta-btn-g">Bekijk het platform</a>
+              <a href="https://www.businessbaas.com/gratis-training-aanvragen" class="cta-btn-w" target="_top">Gratis kennismaken</a>
+              <a href="https://www.businessbaas.com/prijzen" class="cta-btn-g" target="_top">Direct lid worden</a>
             </div>
-            <p class="cta-note">Aangeboden via Dreamchasers & Huis van de Toekomst Heerlen</p>
+            <p class="cta-note">Vragen? Neem contact op met Stichting Dreamchasers via <a href="mailto:lars@fb4.nl" style="color:rgba(255,255,255,.7);text-decoration:underline">lars@fb4.nl</a></p>
           </div>
         </div>`;
 
