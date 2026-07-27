@@ -90,7 +90,7 @@
                   <img class="av" src="https://cdn.jsdelivr.net/gh/joerisijstermans/businessbaas-components@main/assets/inge-prof.png" alt="Inge">
                   <img class="av" src="https://cdn.jsdelivr.net/gh/joerisijstermans/businessbaas-components@main/assets/loes-prof.png" alt="Loes">
                 </div>
-                <p class="sp-text"><strong>25+ starters</strong> gingen je al voor</p>
+                <p class="sp-text"><strong>Starters uit heel Nederland</strong> gingen je voor</p>
               </div>
             </div>
             <div class="right" id="right">

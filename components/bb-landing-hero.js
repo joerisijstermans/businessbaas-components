@@ -59,7 +59,7 @@
                 <img src="${CDN}/stephan-prof.png" alt="Stephan">
               </div>
               <div class="strip-text">
-                <strong><span id="cnt-starters">25</span>+ starters</strong> gingen je voor<br>
+                <strong><span id="cnt-starters">250</span>+ starters</strong> volgden de gratis training<br>
                 Gemiddeld <strong><span id="cnt-rating">4.9</span>/5</strong> op Google Reviews
               </div>
             </div>
@@ -82,7 +82,7 @@
           e.target.classList.add('show');
           obs.unobserve(e.target);
           if (e.target.classList.contains('avatar-strip')) {
-            animateCount(s.getElementById('cnt-starters'), 25, 0, 1400);
+            animateCount(s.getElementById('cnt-starters'), 250, 0, 1400);
             animateCount(s.getElementById('cnt-rating'), 4.9, 1, 1600);
           }
         }

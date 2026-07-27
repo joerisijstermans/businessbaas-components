@@ -145,8 +145,7 @@
               <button class="arr next-btn" aria-label="Volgende"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M7 4L12 9L7 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
             </div>
             <div class="stats">
-              <div class="sc" data-target="25" data-suffix="+" data-decimals="0"><div class="sn">0<span>+</span></div><div class="sl2">Actieve leden</div></div>
-              <div class="sc" style="transition-delay:.1s" data-target="20" data-suffix="+" data-decimals="0"><div class="sn">0<span>+</span></div><div class="sl2">Praktische trainingen</div></div>
+              <div class="sc" style="transition-delay:.0s" data-target="20" data-suffix="+" data-decimals="0"><div class="sn">0<span>+</span></div><div class="sl2">Praktische trainingen</div></div>
               <div class="sc" style="transition-delay:.2s" data-target="90" data-suffix="" data-decimals="0"><div class="sn">0</div><div class="sl2">Dagen programma</div></div>
               <div class="sc" style="transition-delay:.3s" data-target="4.9" data-suffix="★" data-decimals="1"><div class="sn">0<span>★</span></div><div class="sl2">Google beoordeling</div></div>
             </div>

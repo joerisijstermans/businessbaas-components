@@ -40,7 +40,7 @@
             </div>
             <div class="facts ob">
               <div class="fact"><div class="v"><em>2025</em></div><div class="l">Lancering</div></div>
-              <div class="fact"><div class="v">25<em>+</em></div><div class="l">Actieve leden</div></div>
+              <div class="fact"><div class="v">250<em>+</em></div><div class="l">Gratis trainingen</div></div>
               <div class="fact"><div class="v">20<em>+</em></div><div class="l">Trainingen</div></div>
               <div class="fact"><div class="v">4.9<em>/5</em></div><div class="l">Gemiddelde beoordeling</div></div>
               <div class="fact" style="grid-column:1/-1"><div class="v">🏆 <em>Finalist</em></div><div class="l">Limburg Awards 2025</div></div>
@@ -50,7 +50,7 @@
 
       // Counter targets: keyed by label text for reliable matching
       const counterTargets = [
-        { label: 'Actieve leden',          target: 25,  decimals: 0, suffix: '<em>+</em>' },
+        { label: 'Gratis trainingen',        target: 250, decimals: 0, suffix: '<em>+</em>' },
         { label: 'Trainingen',             target: 20,  decimals: 0, suffix: '<em>+</em>' },
         { label: 'Gemiddelde beoordeling', target: 4.9, decimals: 1, suffix: '<em>/5</em>' },
       ];
