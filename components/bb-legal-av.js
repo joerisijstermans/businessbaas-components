@@ -21,7 +21,7 @@
 
         <!-- CONTENT -->
         <div style="max-width:760px;margin:0 auto;padding:64px 24px 96px">
-          <p style="font-size:.8rem;color:#9CA3AF;margin-bottom:48px">Laatst bijgewerkt: 15 april 2026</p>
+          <p style="font-size:.8rem;color:#9CA3AF;margin-bottom:48px">Laatst bijgewerkt: 30 juli 2026</p>
 
           <h2 style="font-size:1.25rem;font-weight:800;color:#0D2240;margin:36px 0 12px">Artikel 1 – Bedrijfsgegevens</h2>
           <p style="font-size:.95rem;color:#374151;line-height:1.75;margin-bottom:16px">Deze algemene voorwaarden zijn van toepassing op alle diensten aangeboden door:</p>
@@ -72,6 +72,18 @@
 
           <h2 style="font-size:1.25rem;font-weight:800;color:#0D2240;margin:36px 0 12px">Artikel 8 – Herroepingsrecht</h2>
           <p style="font-size:.95rem;color:#374151;line-height:1.75;margin-bottom:16px">De deelnemer verleent bij het afsluiten van het abonnement uitdrukkelijk toestemming voor onmiddellijke uitvoering van de overeenkomst en erkent daarmee dat het herroepingsrecht vervalt zodra toegang tot de digitale diensten is verleend. Dit is in overeenstemming met artikel 6:230p sub f Burgerlijk Wetboek.</p>
+
+          <h2 style="font-size:1.25rem;font-weight:800;color:#0D2240;margin:36px 0 12px">Artikel 8a – Tevredenheidsgarantie</h2>
+          <p style="font-size:.95rem;color:#374151;line-height:1.75;margin-bottom:16px">Naast de wettelijke bepalingen uit artikel 8 biedt BusinessBaas op vrijwillige basis een tevredenheidsgarantie aan deelnemers die een <strong>jaarlijks abonnement</strong> (€ 690,–) afsluiten.</p>
+          <p style="font-size:.95rem;color:#374151;line-height:1.75;margin-bottom:8px"><strong>Voorwaarden voor terugbetaling:</strong></p>
+          <ul style="padding-left:20px;margin-bottom:16px;display:flex;flex-direction:column;gap:6px">
+            <li style="font-size:.95rem;color:#374151;line-height:1.65">De garantie is uitsluitend van toepassing op het jaarlijks abonnement (€ 690,–). Het maandelijks abonnement valt niet onder deze garantieregeling.</li>
+            <li style="font-size:.95rem;color:#374151;line-height:1.65">De deelnemer dient het verzoek tot terugbetaling uiterlijk op de tiende kalenderdag na aankoopdatum, vóór 23:59 uur, schriftelijk in te dienen via <a href="mailto:info@businessbaas.com" style="color:#E85D04;text-decoration:none">info@businessbaas.com</a>.</li>
+            <li style="font-size:.95rem;color:#374151;line-height:1.65">De deelnemer heeft maximaal 2 trainingen volledig afgerond op het platform.</li>
+            <li style="font-size:.95rem;color:#374151;line-height:1.65">De deelnemer heeft maximaal 10 berichten of interacties verstuurd aan AI-coach Nova.</li>
+          </ul>
+          <p style="font-size:.95rem;color:#374151;line-height:1.75;margin-bottom:16px">Indien aan alle bovenstaande voorwaarden is voldaan, ontvangt de deelnemer het volledig betaalde abonnementsbedrag terug binnen <strong>14 dagen</strong> na goedkeuring van het verzoek. Terugbetaling vindt plaats via dezelfde betaalmethode als de oorspronkelijke betaling.</p>
+          <p style="font-size:.95rem;color:#374151;line-height:1.75;margin-bottom:16px">Deze garantie geldt eenmalig per deelnemer en is niet overdraagbaar. Misbruik van de garantieregeling kan leiden tot uitsluiting van toekomstige deelname aan het platform.</p>
 
           <h2 style="font-size:1.25rem;font-weight:800;color:#0D2240;margin:36px 0 12px">Artikel 9 – Gebruik van de diensten</h2>
           <p style="font-size:.95rem;color:#374151;line-height:1.75;margin-bottom:8px"><strong>9.1 Nova (AI-coach)</strong></p>
