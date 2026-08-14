@@ -11,7 +11,6 @@
         { icon:'⏳', t:'Blijft leren zonder actie', d:'Kennis genoeg. Maar de stap van leren naar doen zetten? Dáár loopt het vast.' },
       ];
       this.shadowRoot.innerHTML = `
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
         <style>
           :host{display:block;--orange:#E85D04;--navy:#0D2240;--font:'Inter',-apple-system,sans-serif;}
           *{box-sizing:border-box;margin:0;padding:0;}

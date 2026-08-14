@@ -13,7 +13,6 @@
         { num:'03', title:'Vind je eerste klanten', desc:'Bouw momentum richting omzet. Na 90 dagen heb je een helder aanbod, een gerichte aanpak en klanten die bij jou passen, geen theorie meer, maar resultaat.', outcome:'Week 9–13: Gemiddeld eerste klant', color:'#10B981' },
       ];
       this.shadowRoot.innerHTML = `
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
         <style>
           :host{display:block;--orange:#E85D04;--navy:#0D2240;--font:'Inter',-apple-system,sans-serif;}
           *{box-sizing:border-box;margin:0;padding:0;}

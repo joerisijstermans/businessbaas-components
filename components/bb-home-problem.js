@@ -14,7 +14,6 @@
         { icon: '🎯', title: 'Je weet niet hoe je jezelf verkoopt', desc: 'Je bent goed in je vak, maar hoe vertel je dat overtuigend? Klanten vinden begint met de juiste boodschap.' },
       ];
       this.shadowRoot.innerHTML = `
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
         <style>
           :host { display: block; --orange: #E85D04; --navy: #0D2240; --font: 'Inter',-apple-system,sans-serif; }
           * { box-sizing: border-box; margin: 0; padding: 0; }

@@ -15,7 +15,6 @@
         { icon:'💬', t:'1 op 1 Coaching', d:'Kom je er niet uit met Nova of de community? Vraag een persoonlijke sessie aan met een expert. Van quick scan tot uitgebreide sparring, altijd op maat.', upsell: true },
       ];
       this.shadowRoot.innerHTML = `
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
         <style>
           :host{display:block;--orange:#E85D04;--navy:#0D2240;--font:'Inter',-apple-system,sans-serif;}
           *{box-sizing:border-box;margin:0;padding:0;}

@@ -5,7 +5,6 @@
       if (!this.id) this.id = 'volgende-stap';
       const s = this.attachShadow({ mode: 'open' });
       s.innerHTML = `
-        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap" rel="stylesheet">
         <style>
           *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
           :host{display:block;font-family:'Inter',-apple-system,sans-serif}

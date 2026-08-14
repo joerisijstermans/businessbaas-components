@@ -10,7 +10,6 @@
         { q:'Wat is het verschil met een gewone online cursus?', a:'BusinessBaas is een volledig platform, geen passieve cursus. Je werkt direct in je digitale werkplek, krijgt persoonlijk feedback van AI-coach Nova en bent onderdeel van een actieve community. Je leert niet alleen, je bouwt tegelijkertijd aan je echte bedrijf.' },
       ];
       this.shadowRoot.innerHTML = `
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
         <style>
           :host{display:block;--orange:#E85D04;--navy:#0D2240;--font:'Inter',-apple-system,sans-serif;}
           *{box-sizing:border-box;margin:0;padding:0;}

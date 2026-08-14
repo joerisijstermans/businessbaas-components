@@ -12,7 +12,6 @@
         { q:'Wat doet AI-coach Nova precies?', a:'Nova is geen gewone chatbot. Ze kent jóuw trainingen, jóuw voortgang en jóuw situatie, en geeft advies dat echt op jou is afgestemd. Beschikbaar 24/7, ook als je \'s avonds twijfels hebt of vastloopt.' },
       ];
       this.shadowRoot.innerHTML = `
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
         <style>
           :host{display:block;--orange:#E85D04;--navy:#0D2240;--font:'Inter',-apple-system,sans-serif;}
           *{box-sizing:border-box;margin:0;padding:0;}

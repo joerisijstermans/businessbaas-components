@@ -10,7 +10,6 @@
         { quote: 'Het baken bij het starten van een bedrijf! Een duidelijke weg, <mark class="hl">stap voor stap</mark>, en helder advies als het even niet zo gaat als je graag zou willen.', name: 'Inge Höper', role: 'Kommeshier', av: `${CDN}/inge-prof.png` },
       ];
       s.innerHTML = `
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
         <style>
           *{box-sizing:border-box;margin:0;padding:0}
           :host{display:block}

@@ -13,7 +13,6 @@
         { num:'03', title:'Actie, geen theorie', desc:'Elke training heeft directe opdrachten die je uitvoert in je werkplek. Je leert niet passief, je bouwt tegelijkertijd aan je echte bedrijf. Na 90 dagen heb je resultaat, niet alleen kennis.', outcome:'Van idee naar eerste klanten', color:'#10B981' },
       ];
       this.shadowRoot.innerHTML = `
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
         <style>
           :host{display:block;--orange:#E85D04;--navy:#0D2240;--font:'Inter',-apple-system,sans-serif;}
           *{box-sizing:border-box;margin:0;padding:0;}

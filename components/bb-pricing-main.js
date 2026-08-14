@@ -35,7 +35,6 @@
           <div><strong>1 op 1 coaching <span class="addon-pill">add-on</span></strong><span>Persoonlijke begeleiding op maat</span></div>
         </li>`;
       s.innerHTML = `
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
         <style>
           *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
           :host{display:block;font-family:'Inter',-apple-system,sans-serif}

@@ -8,7 +8,6 @@
     }
     render() {
       this.shadowRoot.innerHTML = `
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
         <style>
           :host { display: block; position: fixed; top: 0; left: 0; right: 0; z-index: 9999; --orange: #E85D04; --navy: #0D2240; --font: 'Inter', -apple-system, sans-serif; }
           * { box-sizing: border-box; margin: 0; padding: 0; }

@@ -7,7 +7,6 @@
       const label = this.getAttribute('label') || 'Startende ondernemers';
       const s = this.attachShadow({mode:'open'});
       s.innerHTML = `
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
         <style>
           :host { display: block; }
           * { box-sizing: border-box; margin: 0; padding: 0; }
