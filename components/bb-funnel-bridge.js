@@ -1,6 +1,6 @@
-(function () {
+﻿(function () {
   if (customElements.get('bb-funnel-bridge')) return;
-  const CDN = 'https://joerisijstermans.github.io/businessbaas-components/assets';
+  const CDN = 'https://cdn.jsdelivr.net/gh/joerisijstermans/businessbaas-components@main/assets';
   class BBFunnelBridge extends HTMLElement {
     connectedCallback() {
       const s = this.attachShadow({ mode: 'open' });
@@ -64,8 +64,8 @@
         <!-- REFRAME -->
         <div class="reframe">
           <div class="reframe-inner">
-            <p class="reframe-q ob">De vraag is niet: "Kan ik €69 per maand missen?"</p>
-            <p class="reframe-a ob">De vraag is: "Kan ik nóg 6 maanden zonder klanten?"</p>
+            <p class="reframe-q ob">De vraag is niet: "Kan ik â‚¬69 per maand missen?"</p>
+            <p class="reframe-a ob">De vraag is: "Kan ik nÃ³g 6 maanden zonder klanten?"</p>
           </div>
         </div>
 
@@ -87,10 +87,10 @@
         <div class="features">
           <div class="features-inner">
             <div class="feat-grid">
-              <div class="feat-card ob"><div class="feat-icon">📚</div><h3>20+ Praktische trainingen</h3><p>Stap voor stap van idee naar eerste klant. Elke training eindigt met een concrete opdracht die je direct uitvoert.</p></div>
-              <div class="feat-card ob" style="transition-delay:.08s"><div class="feat-icon">🤖</div><h3>Nova, jouw AI-coach</h3><p>Jouw 24/7 sparringspartner. Nova kent het volledige programma, stelt de juiste vragen en helpt je verder als je vastzit.</p></div>
-              <div class="feat-card ob" style="transition-delay:.16s"><div class="feat-icon">💻</div><h3>Digitale werkplek</h3><p>Werk elke opdracht direct uit op het platform. Geen losse Word-documenten meer, alles op één overzichtelijke plek.</p></div>
-              <div class="feat-card ob" style="transition-delay:.24s"><div class="feat-icon">🤝</div><h3>Community &amp; marktplaats</h3><p>Ondernemers die precies begrijpen wat jij doormaakt. Stel vragen, wissel kennis uit en vind je eerste klanten intern.</p></div>
+              <div class="feat-card ob"><div class="feat-icon">ðŸ“š</div><h3>20+ Praktische trainingen</h3><p>Stap voor stap van idee naar eerste klant. Elke training eindigt met een concrete opdracht die je direct uitvoert.</p></div>
+              <div class="feat-card ob" style="transition-delay:.08s"><div class="feat-icon">ðŸ¤–</div><h3>Nova, jouw AI-coach</h3><p>Jouw 24/7 sparringspartner. Nova kent het volledige programma, stelt de juiste vragen en helpt je verder als je vastzit.</p></div>
+              <div class="feat-card ob" style="transition-delay:.16s"><div class="feat-icon">ðŸ’»</div><h3>Digitale werkplek</h3><p>Werk elke opdracht direct uit op het platform. Geen losse Word-documenten meer, alles op Ã©Ã©n overzichtelijke plek.</p></div>
+              <div class="feat-card ob" style="transition-delay:.24s"><div class="feat-icon">ðŸ¤</div><h3>Community &amp; marktplaats</h3><p>Ondernemers die precies begrijpen wat jij doormaakt. Stel vragen, wissel kennis uit en vind je eerste klanten intern.</p></div>
             </div>
           </div>
         </div>
@@ -101,17 +101,17 @@
             <h2 class="ob">Starters die je al voorgingen<br>zeggen het <em>zelf</em></h2>
             <div class="proof-grid">
               <div class="p-card ob">
-                <div class="p-stars">★★★★★</div>
+                <div class="p-stars">â˜…â˜…â˜…â˜…â˜…</div>
                 <p class="p-quote">"Echt een stevige basis om mee te starten. <mark class="hl">je staat er niet alleen voor</mark>."</p>
                 <div class="p-person"><img src="${CDN}/stan-prof.jpg" alt="Stan Vreuls"><div><div class="p-name">Stan Vreuls</div><div class="p-role">21x</div></div></div>
               </div>
               <div class="p-card ob" style="transition-delay:.08s">
-                <div class="p-stars">★★★★★</div>
-                <p class="p-quote">"Nova voelt als een écht persoon om mee te sparren. <mark class="hl">prijs-kwaliteitverhouding is top</mark>."</p>
+                <div class="p-stars">â˜…â˜…â˜…â˜…â˜…</div>
+                <p class="p-quote">"Nova voelt als een Ã©cht persoon om mee te sparren. <mark class="hl">prijs-kwaliteitverhouding is top</mark>."</p>
                 <div class="p-person"><img src="${CDN}/jorn-prof.jpg" alt="Jorn Gijzen"><div><div class="p-name">Jorn Gijzen</div><div class="p-role">Talent Rocketeers</div></div></div>
               </div>
               <div class="p-card ob" style="transition-delay:.16s">
-                <div class="p-stars">★★★★★</div>
+                <div class="p-stars">â˜…â˜…â˜…â˜…â˜…</div>
                 <p class="p-quote">"<mark class="hl">meer zelfvertrouwen en zekerheid</mark>. Stapsgewijs werken geeft het gevoel dat je bedrijf tot leven komt."</p>
                 <div class="p-person"><img src="${CDN}/joyce-prof.jpg" alt="Joyce Bekkers"><div><div class="p-name">Joyce Bekkers</div><div class="p-role">Kindercoach The Joy</div></div></div>
               </div>
@@ -125,3 +125,4 @@
   }
   customElements.define('bb-funnel-bridge', BBFunnelBridge);
 })();
+

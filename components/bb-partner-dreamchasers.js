@@ -1,6 +1,6 @@
-(function () {
+﻿(function () {
   if (customElements.get('bb-partner-dreamchasers')) return;
-  const CDN = 'https://joerisijstermans.github.io/businessbaas-components/assets';
+  const CDN = 'https://cdn.jsdelivr.net/gh/joerisijstermans/businessbaas-components@main/assets';
   class BBPartnerDreamchasers extends HTMLElement {
     connectedCallback() {
       const s = this.attachShadow({ mode: 'open' });
@@ -36,7 +36,7 @@
           .intro p{font-size:.97rem;color:#5A6780;line-height:1.75;margin-bottom:16px}
           .checklist{list-style:none;display:flex;flex-direction:column;gap:10px;margin-top:4px}
           .checklist li{display:flex;align-items:flex-start;gap:10px;font-size:.9rem;color:#3D4F6B;line-height:1.5}
-          .checklist li::before{content:'✓';width:22px;height:22px;border-radius:50%;background:#E85D04;color:#fff;font-size:.7rem;font-weight:700;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px}
+          .checklist li::before{content:'âœ“';width:22px;height:22px;border-radius:50%;background:#E85D04;color:#fff;font-size:.7rem;font-weight:700;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px}
           .intro-img{width:100%;border-radius:20px;box-shadow:0 20px 56px rgba(13,34,64,.14);display:block}
           @media(max-width:760px){.intro-inner{grid-template-columns:1fr}}
 
@@ -91,7 +91,7 @@
           <h1>Zet jouw droom om in een <em>echte onderneming</em></h1>
           <p>Dreamchasers gebruikt BusinessBaas als de digitale basis van hun programma en adviseert deelnemers om gebruik te maken van het platform. Sluit je eigen licentie af en start vandaag nog.</p>
           <div class="hero-btns">
-            <a href="https://www.businessbaas.com/gratis-training-aanvragen" class="btn-primary" target="_top">Gratis kennismaken →</a>
+            <a href="https://www.businessbaas.com/gratis-training-aanvragen" class="btn-primary" target="_top">Gratis kennismaken â†’</a>
             <a href="https://www.businessbaas.com/prijzen" class="btn-ghost" target="_top">Direct lid worden</a>
           </div>
           <div class="hero-logos">
@@ -107,12 +107,12 @@
             <div>
               <div class="intro-label ob">Waarom BusinessBaas</div>
               <h2 class="ob">De tools die jouw idee omzetten in een echt bedrijf</h2>
-              <p class="ob">Dreamchasers gebruikt BusinessBaas als de digitale basis van hun programma. Van jouw Dreamchasers traject wordt verwacht dat je een eigen BusinessBaas licentie afsluit — praktisch, betaalbaar en altijd beschikbaar.</p>
+              <p class="ob">Dreamchasers gebruikt BusinessBaas als de digitale basis van hun programma. Van jouw Dreamchasers traject wordt verwacht dat je een eigen BusinessBaas licentie afsluit â€” praktisch, betaalbaar en altijd beschikbaar.</p>
               <ul class="checklist ob">
                 <li>Van idee naar een helder aanbod, stap voor stap</li>
                 <li>AI-coach Nova die jou begeleidt als je vastloopt</li>
                 <li>Een community van starters die begrijpen wat jij doormaakt</li>
-                <li>Sluit je eigen licentie af — aanbevolen door Dreamchasers</li>
+                <li>Sluit je eigen licentie af â€” aanbevolen door Dreamchasers</li>
               </ul>
             </div>
             <img class="intro-img ob" src="${CDN}/training-afbeelding.png" alt="BusinessBaas platform" style="transition-delay:.1s">
@@ -129,7 +129,7 @@
               <div class="feat-card">
                 <img class="feat-img" src="${CDN}/training-afbeelding.png" alt="Trainingen">
                 <div class="feat-body">
-                  <div class="feat-icon-row"><div class="feat-emoji" style="background:#FFF3EB">📚</div><span class="feat-name" style="color:#E85D04">Trainingen</span></div>
+                  <div class="feat-icon-row"><div class="feat-emoji" style="background:#FFF3EB">ðŸ“š</div><span class="feat-name" style="color:#E85D04">Trainingen</span></div>
                   <h3>Praktische trainingen die echt werken</h3>
                   <p>20+ korte trainingen die je direct toepast. Van jouw aanbod bepalen tot je eerste klant binnenhalen.</p>
                 </div>
@@ -137,23 +137,23 @@
               <div class="feat-card">
                 <img class="feat-img" src="${CDN}/nova-afbeelding.png" alt="AI-Coach Nova">
                 <div class="feat-body">
-                  <div class="feat-icon-row"><div class="feat-emoji" style="background:#F5F3FF">🤖</div><span class="feat-name" style="color:#8B5CF6">AI-Coach Nova</span></div>
+                  <div class="feat-icon-row"><div class="feat-emoji" style="background:#F5F3FF">ðŸ¤–</div><span class="feat-name" style="color:#8B5CF6">AI-Coach Nova</span></div>
                   <h3>Nova: altijd voor je klaar</h3>
-                  <p>Nova kent jóuw situatie en helpt je sparren, plannen en doorpakken. 24/7, ook als je 's avonds vastloopt.</p>
+                  <p>Nova kent jÃ³uw situatie en helpt je sparren, plannen en doorpakken. 24/7, ook als je 's avonds vastloopt.</p>
                 </div>
               </div>
               <div class="feat-card">
                 <img class="feat-img" src="${CDN}/community-afbeelding.png" alt="Community">
                 <div class="feat-body">
-                  <div class="feat-icon-row"><div class="feat-emoji" style="background:#FFFBEB">🤝</div><span class="feat-name" style="color:#F59E0B">Community</span></div>
+                  <div class="feat-icon-row"><div class="feat-emoji" style="background:#FFFBEB">ðŸ¤</div><span class="feat-name" style="color:#F59E0B">Community</span></div>
                   <h3>Een community die jou begrijpt</h3>
-                  <p>Spar met mede-starters, test ideeën en bouw je netwerk. Plus live events waar je echte verbindingen maakt.</p>
+                  <p>Spar met mede-starters, test ideeÃ«n en bouw je netwerk. Plus live events waar je echte verbindingen maakt.</p>
                 </div>
               </div>
               <div class="feat-card">
                 <img class="feat-img" src="${CDN}/marktplaats-afbeelding.jpg" alt="Marktplaats">
                 <div class="feat-body">
-                  <div class="feat-icon-row"><div class="feat-emoji" style="background:#ECFDF5">🛒</div><span class="feat-name" style="color:#10B981">Marktplaats</span></div>
+                  <div class="feat-icon-row"><div class="feat-emoji" style="background:#ECFDF5">ðŸ›’</div><span class="feat-name" style="color:#10B981">Marktplaats</span></div>
                   <h3>Vind je eerste klanten dichter bij huis</h3>
                   <p>Deel jouw aanbod met mede-ondernemers. Al diverse leden vonden opdrachten via BusinessBaas.</p>
                 </div>
@@ -168,10 +168,10 @@
             <div class="quote-marks">"</div>
             <p class="quote-text">Het baken bij het starten van een bedrijf! Een duidelijke weg, stap voor stap, en helder advies als het even niet zo gaat als je graag zou willen.</p>
             <div class="quote-author">
-              <img class="quote-avatar" src="${CDN}/inge-prof.png" alt="Inge Höper">
+              <img class="quote-avatar" src="${CDN}/inge-prof.png" alt="Inge HÃ¶per">
               <div>
-                <div class="quote-name">Inge Höper</div>
-                <div class="quote-role">Kommeshier · BusinessBaas lid</div>
+                <div class="quote-name">Inge HÃ¶per</div>
+                <div class="quote-role">Kommeshier Â· BusinessBaas lid</div>
               </div>
             </div>
           </div>
@@ -196,3 +196,4 @@
   }
   customElements.define('bb-partner-dreamchasers', BBPartnerDreamchasers);
 })();
+

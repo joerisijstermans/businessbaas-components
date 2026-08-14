@@ -1,6 +1,6 @@
-(function () {
+﻿(function () {
   if (customElements.get('bb-starters-testimonials')) return;
-  const CDN = 'https://joerisijstermans.github.io/businessbaas-components/assets';
+  const CDN = 'https://cdn.jsdelivr.net/gh/joerisijstermans/businessbaas-components@main/assets';
   class BBStartersTestimonials extends HTMLElement {
     constructor() { super(); this.attachShadow({ mode: 'open' }); this._cur = 0; }
     connectedCallback() {
@@ -8,8 +8,8 @@
         { name:'Stan Vreuls', company:'21x', quote:'Van het uitwerken van je idee tot het binnenhalen van je eerste klanten, je staat er niet alleen voor. Echt een stevige basis om mee te starten!', result:'Stevige basis voor zijn nieuwe bedrijf', av:`${CDN}/stan-prof.jpg`, highlight:'eerste klanten' },
         { name:'Joyce Bekkers', company:'Kindercoach The Joy', quote:'Het brengt mij meer zelfvertrouwen en zekerheid in mijn startende bedrijf. Met focus en stapsgewijs door de trainingen gaan krijg je meer gevoel dat je bedrijf tot leven komt. Geweldig en een echte aanrader!', result:'Meer zelfvertrouwen als ondernemer', av:`${CDN}/joyce-prof.jpg`, highlight:'meer zelfvertrouwen en zekerheid' },
         { name:'Juurd Beijer', company:'Juurd Beijer Fotografie', quote:'Het heeft mij heel erg uit de comfort zone getrokken om daadwerkelijk nieuwe stappen te zetten. Tijdens het live event heb ik nieuwe mensen ontmoet, contacten gelegd en zelfs een nieuwe klant ontmoet!', result:'Nieuwe klant via live event', av:`${CDN}/juurd-prof.jpg`, highlight:'een nieuwe klant ontmoet' },
-        { name:'Loes Kluter', company:'Kluter Vastgoedpresentatie', quote:'Die training heeft echt het verschil gemaakt voor mijn bedrijf! Dankzij de praktische en heldere aanpak heb ik mijn niche scherp voor ogen én weet ik hoe ik ze gericht kan aanspreken. Absoluut een aanrader!', result:'Niche scherp en gericht aanpakken', av:`${CDN}/loes-prof.png`, highlight:'het verschil gemaakt' },
-        { name:'Inge Höper', company:'Kommeshier', quote:'Het baken bij het starten van een bedrijf! Een duidelijke weg, stap voor stap, en helder advies als het even niet zo gaat als je graag zou willen.', result:'Duidelijke weg, stap voor stap', av:`${CDN}/inge-prof.png`, highlight:'stap voor stap' },
+        { name:'Loes Kluter', company:'Kluter Vastgoedpresentatie', quote:'Die training heeft echt het verschil gemaakt voor mijn bedrijf! Dankzij de praktische en heldere aanpak heb ik mijn niche scherp voor ogen Ã©n weet ik hoe ik ze gericht kan aanspreken. Absoluut een aanrader!', result:'Niche scherp en gericht aanpakken', av:`${CDN}/loes-prof.png`, highlight:'het verschil gemaakt' },
+        { name:'Inge HÃ¶per', company:'Kommeshier', quote:'Het baken bij het starten van een bedrijf! Een duidelijke weg, stap voor stap, en helder advies als het even niet zo gaat als je graag zou willen.', result:'Duidelijke weg, stap voor stap', av:`${CDN}/inge-prof.png`, highlight:'stap voor stap' },
       ];
       this._n = this._t.length;
       this.render();
@@ -97,7 +97,7 @@
                   const markedQuote = s.highlight
                     ? s.quote.replace(s.highlight, `<mark class="hl">${s.highlight}</mark>`)
                     : s.quote;
-                  return `<div class="card"><blockquote>${markedQuote}</blockquote><div><div class="person"><img src="${s.av}" alt="${s.name}"><div><div class="pn">${s.name}</div><div class="co">${s.company}</div></div></div><div class="res-tag">✓ ${s.result}</div></div></div>`;
+                  return `<div class="card"><blockquote>${markedQuote}</blockquote><div><div class="person"><img src="${s.av}" alt="${s.name}"><div><div class="pn">${s.name}</div><div class="co">${s.company}</div></div></div><div class="res-tag">âœ“ ${s.result}</div></div></div>`;
                 }).join('')}
               </div>
             </div>
@@ -106,7 +106,7 @@
               <div class="dots" id="dots"></div>
               <button class="arr next-btn" aria-label="Volgende"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M7 4L12 9L7 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
             </div>
-            <div class="award-wrap ob"><div class="award"><span class="award-trophy">🏆</span><div class="award-txt"><div class="award-top">Finalist</div><div class="award-name">Limburg Awards 2025</div></div></div></div>
+            <div class="award-wrap ob"><div class="award"><span class="award-trophy">ðŸ†</span><div class="award-txt"><div class="award-top">Finalist</div><div class="award-name">Limburg Awards 2025</div></div></div></div>
           </div>
         </section>`;
     }
@@ -144,3 +144,4 @@
   }
   customElements.define('bb-starters-testimonials', BBStartersTestimonials);
 })();
+

@@ -1,57 +1,57 @@
-(function () {
+﻿(function () {
   if (customElements.get('bb-platform-features')) return;
-  const CDN = 'https://joerisijstermans.github.io/businessbaas-components/assets';
+  const CDN = 'https://cdn.jsdelivr.net/gh/joerisijstermans/businessbaas-components@main/assets';
   class BBPlatformFeatures extends HTMLElement {
     connectedCallback() {
       const s = this.attachShadow({ mode: 'open' });
       const features = [
         {
-          icon: '📚', label: 'Trainingen', color: '#E85D04',
+          icon: 'ðŸ“š', label: 'Trainingen', color: '#E85D04',
           title: '20+ trainingen die je van idee naar klant brengen',
           desc: '20+ praktische trainingen die je door de beginfase leiden. Alleen wat nu relevant is, geen overweldigende theorie, geen eindeloos zoeken.',
           points: ['Van idee naar een helder, verkopend aanbod', 'Positionering die de juiste klanten aantrekt', 'Sales & acquisitie stap voor stap', 'Direct actie na elke les'],
           photo: `${CDN}/training-afbeelding.png`
         },
         {
-          icon: '🖥️', label: 'Werkplek', color: '#3B82F6',
+          icon: 'ðŸ–¥ï¸', label: 'Werkplek', color: '#3B82F6',
           title: 'Werk gestructureerd aan je bedrijf',
           desc: 'Geen passieve cursussen. In de digitale werkplek voer je direct de opdrachten uit. Elke week een concreet stuk verder, zichtbaar in je voortgang.',
           points: ['Opdrachten direct uitvoeren na elke training', 'Voortgang per module inzichtelijk', 'Je businessplan bouw je on-the-go', 'Altijd inzicht in waar je staat'],
           photo: `${CDN}/werkplek-afbeelding.png`
         },
         {
-          icon: '🤖', label: 'AI-Coach Nova', color: '#8B5CF6',
+          icon: 'ðŸ¤–', label: 'AI-Coach Nova', color: '#8B5CF6',
           title: 'Persoonlijke coaching, geen chatbot',
-          desc: 'Nova is niet zomaar een AI-assistent. Ze kent jóuw trainingen en jóuw situatie, en benadert je ultra-persoonlijk. Dat is iets wezenlijk anders dan ChatGPT. Inbegrepen bij je abonnement, zonder extra kosten.',
-          points: ['Ultra-persoonlijk, afgestemd op jóuw traject', 'Altijd beschikbaar, ook \'s avonds en in het weekend', 'Advies op jouw situatie, niet op een standaard vraag', 'Gebouwd op alle BusinessBaas trainingen'],
+          desc: 'Nova is niet zomaar een AI-assistent. Ze kent jÃ³uw trainingen en jÃ³uw situatie, en benadert je ultra-persoonlijk. Dat is iets wezenlijk anders dan ChatGPT. Inbegrepen bij je abonnement, zonder extra kosten.',
+          points: ['Ultra-persoonlijk, afgestemd op jÃ³uw traject', 'Altijd beschikbaar, ook \'s avonds en in het weekend', 'Advies op jouw situatie, niet op een standaard vraag', 'Gebouwd op alle BusinessBaas trainingen'],
           photo: `${CDN}/nova-afbeelding.png?v=2`
         },
         {
-          icon: '✨', label: 'Slim met AI', color: '#7C3AED', badge: 'binnenkort',
+          icon: 'âœ¨', label: 'Slim met AI', color: '#7C3AED', badge: 'binnenkort',
           title: 'AI echt voor je laten werken als ondernemer',
-          desc: 'Ontdek hoe je AI inzet als ondernemer op een manier die écht het verschil maakt. Van e-mail en agendabeheer tot automatiseren wat jou tijd kost, zodat jij je richt op waar je echt van aanvliegt.',
-          points: ['AI als werknemer, niet als zoekmachine', 'Automatiseer terugkerende taken', 'Slimmer communiceren met klanten', '🚀 In ontwikkeling — coming soon'],
+          desc: 'Ontdek hoe je AI inzet als ondernemer op een manier die Ã©cht het verschil maakt. Van e-mail en agendabeheer tot automatiseren wat jou tijd kost, zodat jij je richt op waar je echt van aanvliegt.',
+          points: ['AI als werknemer, niet als zoekmachine', 'Automatiseer terugkerende taken', 'Slimmer communiceren met klanten', 'ðŸš€ In ontwikkeling â€” coming soon'],
           photo: `${CDN}/ai-tools-afbeelding.png`
         },
         {
-          icon: '🛒', label: 'Community & Marktplaats', color: '#10B981',
+          icon: 'ðŸ›’', label: 'Community & Marktplaats', color: '#10B981',
           title: 'Vind klanten via de WhatsApp-community en marktplaats',
-          desc: 'In onze actieve WhatsApp-community spar je met mede-starters en deel je jouw aanbod. De geïntegreerde marktplaats maakt het vinden van eerste klanten concreet en laagdrempelig.',
-          points: ['WhatsApp-community van gelijkgestemde starters', 'Jouw aanbod zichtbaar voor alle leden', 'Members helpen members aan opdrachten', 'Echte klanten, echte relaties — dicht bij huis'],
+          desc: 'In onze actieve WhatsApp-community spar je met mede-starters en deel je jouw aanbod. De geÃ¯ntegreerde marktplaats maakt het vinden van eerste klanten concreet en laagdrempelig.',
+          points: ['WhatsApp-community van gelijkgestemde starters', 'Jouw aanbod zichtbaar voor alle leden', 'Members helpen members aan opdrachten', 'Echte klanten, echte relaties â€” dicht bij huis'],
           photo: `${CDN}/marktplaats-afbeelding.jpg`
         },
         {
-          icon: '🎤', label: 'LIVE Events', color: '#F59E0B', badge: 'add-on',
-          title: 'Ondernemen leer je écht door mensen te ontmoeten',
-          desc: 'Bij LIVE events komen BusinessBaas-leden fysiek samen. Netwerken, workshops, ideeën uitwisselen, elkaar helpen groeien. We doen het samen, en dat merk je.',
-          points: ['Offline events voor leden', 'Netwerken en workshops in één', 'Ideeën toetsen bij échte ondernemers', 'Pre-sale toegang voor leden'],
+          icon: 'ðŸŽ¤', label: 'LIVE Events', color: '#F59E0B', badge: 'add-on',
+          title: 'Ondernemen leer je Ã©cht door mensen te ontmoeten',
+          desc: 'Bij LIVE events komen BusinessBaas-leden fysiek samen. Netwerken, workshops, ideeÃ«n uitwisselen, elkaar helpen groeien. We doen het samen, en dat merk je.',
+          points: ['Offline events voor leden', 'Netwerken en workshops in Ã©Ã©n', 'IdeeÃ«n toetsen bij Ã©chte ondernemers', 'Pre-sale toegang voor leden'],
           photo: `${CDN}/community-afbeelding.png`
         },
         {
-          icon: '💬', label: '1 op 1 coaching', color: '#0D2240', badge: 'add-on',
+          icon: 'ðŸ’¬', label: '1 op 1 coaching', color: '#0D2240', badge: 'add-on',
           title: 'Kom er samen uit met een expert',
           desc: 'Kom je er samen met Nova en de community niet uit? Dan kun je 1 op 1 coaching aanvragen. Een expert helpt je weer op weg! Van een quick scan tot een uitgebreide sparringsessie, altijd afgestemd op wat jij nodig hebt.',
-          points: ['Persoonlijke sparringsessie op aanvraag', 'Van quick scan tot uitgebreide coaching', 'Altijd afgestemd op jóuw situatie', 'Aanvulling op Nova en de community'],
+          points: ['Persoonlijke sparringsessie op aanvraag', 'Van quick scan tot uitgebreide coaching', 'Altijd afgestemd op jÃ³uw situatie', 'Aanvulling op Nova en de community'],
           photo: `${CDN}/coaching-afbeelding.jpg`
         }
       ];
@@ -100,7 +100,7 @@
           <div class="inner">
             <div class="hdr ob">
               <div class="label">Wat je krijgt</div>
-              <h2>Zeven tools in één platform</h2>
+              <h2>Zeven tools in Ã©Ã©n platform</h2>
               <p class="sub">BusinessBaas is meer dan een cursus. Het is je complete ondernemers-ecosysteem.</p>
             </div>
             <div class="layout ob">
@@ -179,3 +179,4 @@
   }
   customElements.define('bb-platform-features', BBPlatformFeatures);
 })();
+

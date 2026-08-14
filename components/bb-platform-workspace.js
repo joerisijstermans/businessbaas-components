@@ -1,6 +1,6 @@
-(function () {
+﻿(function () {
   if (customElements.get('bb-platform-workspace')) return;
-  const CDN = 'https://joerisijstermans.github.io/businessbaas-components/assets';
+  const CDN = 'https://cdn.jsdelivr.net/gh/joerisijstermans/businessbaas-components@main/assets';
   class BBPlatformWorkspace extends HTMLElement {
     connectedCallback() {
       const s = this.attachShadow({ mode: 'open' });
@@ -33,26 +33,26 @@
             <div>
               <div class="lbl ob">Digitale Werkplek</div>
               <h2 class="ob">De plek waar jouw onderneming vorm krijgt</h2>
-              <p class="ob">Vroeger was een ondernemersplan een dik, lastig PDF-document. In de digitale werkplek gaat dat anders. Alles wat je leert in de trainingen werk je hier direct uit. De exacte opdrachten per training vind je terug in jouw eigen omgeving. Jouw onderneming, opgebouwd vanuit de trainingen. Alles op één plek.</p>
+              <p class="ob">Vroeger was een ondernemersplan een dik, lastig PDF-document. In de digitale werkplek gaat dat anders. Alles wat je leert in de trainingen werk je hier direct uit. De exacte opdrachten per training vind je terug in jouw eigen omgeving. Jouw onderneming, opgebouwd vanuit de trainingen. Alles op Ã©Ã©n plek.</p>
               <div class="features ob" style="transition-delay:.1s">
                 <div class="feat">
-                  <div class="feat-icon">📋</div>
+                  <div class="feat-icon">ðŸ“‹</div>
                   <div class="feat-info">
                     <h4>Jouw digitale ondernemersplan</h4>
                     <p>Geen dikke PDF meer. Je plan groeit mee terwijl jij groeit als ondernemer, interactief en overzichtelijk.</p>
                   </div>
                 </div>
                 <div class="feat">
-                  <div class="feat-icon">✍️</div>
+                  <div class="feat-icon">âœï¸</div>
                   <div class="feat-info">
                     <h4>Opdrachten uit de trainingen</h4>
                     <p>Elke training heeft bijbehorende opdrachten die je direct uitwerkt in jouw werkplek. Zo bouw jij jouw bedrijf stap voor stap op.</p>
                   </div>
                 </div>
                 <div class="feat">
-                  <div class="feat-icon">📊</div>
+                  <div class="feat-icon">ðŸ“Š</div>
                   <div class="feat-info">
-                    <h4>Alles op één plek</h4>
+                    <h4>Alles op Ã©Ã©n plek</h4>
                     <p>Jouw informatie, voortgang en uitwerkingen altijd bij de hand. Overzichtelijk, georganiseerd en overal bereikbaar.</p>
                   </div>
                 </div>
@@ -66,3 +66,4 @@
   }
   customElements.define('bb-platform-workspace', BBPlatformWorkspace);
 })();
+

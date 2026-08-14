@@ -1,6 +1,6 @@
-(function () {
+﻿(function () {
   if (customElements.get('bb-home-b2b')) return;
-  const CDN = 'https://joerisijstermans.github.io/businessbaas-components/assets';
+  const CDN = 'https://cdn.jsdelivr.net/gh/joerisijstermans/businessbaas-components@main/assets';
   class BBHomeB2B extends HTMLElement {
     constructor() { super(); this.attachShadow({ mode: 'open' }); }
     connectedCallback() { this.render(); this._obs(); }
@@ -52,10 +52,10 @@
                 <h2>Begeleid starters<br>op schaal<br>zonder <em>extra capaciteit</em></h2>
                 <p>Werk je met startende ondernemers? BusinessBaas maakt begeleiding schaalbaar: jij houdt de regie, wij leveren het platform, de trainingen en de AI-coach.</p>
                 <div class="bullets">
-                  <div class="bullet"><div class="bi">⚡</div><span>Begeleid tientallen ondernemers tegelijk vanuit één partner-dashboard</span></div>
-                  <div class="bullet"><div class="bi">📊</div><span>Realtime inzicht in voortgang en betrokkenheid per deelnemer</span></div>
-                  <div class="bullet"><div class="bi">🎯</div><span>Bewezen 90-daagse traject, aantoonbaar resultaat voor jouw netwerk</span></div>
-                  <div class="bullet"><div class="bi">🤖</div><span>AI-coach Nova neemt routinevragen over, jij focust op waardevolle gesprekken</span></div>
+                  <div class="bullet"><div class="bi">âš¡</div><span>Begeleid tientallen ondernemers tegelijk vanuit Ã©Ã©n partner-dashboard</span></div>
+                  <div class="bullet"><div class="bi">ðŸ“Š</div><span>Realtime inzicht in voortgang en betrokkenheid per deelnemer</span></div>
+                  <div class="bullet"><div class="bi">ðŸŽ¯</div><span>Bewezen 90-daagse traject, aantoonbaar resultaat voor jouw netwerk</span></div>
+                  <div class="bullet"><div class="bi">ðŸ¤–</div><span>AI-coach Nova neemt routinevragen over, jij focust op waardevolle gesprekken</span></div>
                 </div>
                 <div class="ctas">
                   <a href="https://www.businessbaas.com/partner-demo" class="bm">Demo aanvragen <svg width="15" height="15" viewBox="0 0 15 15" fill="none"><path d="M3 7.5H12M12 7.5L8.5 4M12 7.5L8.5 11" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
@@ -67,13 +67,13 @@
                   <div class="sk"><div class="skn">250+</div><div class="skl">Gratis trainingen</div><div class="skd">Al aangevraagd door starters in heel Nederland</div></div>
                   <div class="sk"><div class="skn">90</div><div class="skl">Dagen traject</div><div class="skd">Bewezen weg van idee naar eerste klant</div></div>
                   <div class="sk"><div class="skn" style="font-size:22px;line-height:1.2;">Op aanvraag</div><div class="skl">Prijs per seat</div><div class="skd">Tarief op maat. Neem contact op voor een offerte</div></div>
-                  <div class="sk"><div class="skn">3</div><div class="skl">Stappen om te starten</div><div class="skd">Uitnodigen → aan de slag → monitoren</div></div>
+                  <div class="sk"><div class="skn">3</div><div class="skl">Stappen om te starten</div><div class="skd">Uitnodigen â†’ aan de slag â†’ monitoren</div></div>
                 </div>
                 <div class="pc ob">
                   <div class="pl" style="background:transparent;padding:4px 8px;"><img src="${CDN}/starterscentrum-logo.png" alt="StartersCentrum Limburg" style="max-width:120px;max-height:56px;object-fit:contain;display:block;"></div>
                   <div class="pt">
                     <p>"BusinessBaas heeft onze begeleiding van startende ondernemers volledig getransformeerd."</p>
-                    <div class="pb">✓ Volledig operationeel</div>
+                    <div class="pb">âœ“ Volledig operationeel</div>
                   </div>
                 </div>
               </div>
@@ -88,3 +88,4 @@
   }
   customElements.define('bb-home-b2b', BBHomeB2B);
 })();
+

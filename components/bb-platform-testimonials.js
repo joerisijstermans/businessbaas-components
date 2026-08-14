@@ -1,13 +1,13 @@
-(function () {
+﻿(function () {
   if (customElements.get('bb-platform-testimonials')) return;
-  const CDN = 'https://joerisijstermans.github.io/businessbaas-components/assets';
+  const CDN = 'https://cdn.jsdelivr.net/gh/joerisijstermans/businessbaas-components@main/assets';
   class BBPlatformTestimonials extends HTMLElement {
     connectedCallback() {
       const s = this.attachShadow({ mode: 'open' });
       const reviews = [
-        { quote: 'Nova voelt als een écht persoon om mee te sparren: ze helpt mijn plannen te structureren en geeft precies de juiste inspiratie wanneer ik vastloop. Bovendien is de <mark class="hl">prijs-kwaliteitverhouding top</mark>: professionele tools, coaching én een actieve community.', name: 'Jorn Gijzen', role: 'Talent Rocketeers', av: `${CDN}/jorn-prof.jpg` },
-        { quote: 'Die training heeft echt <mark class="hl">het verschil gemaakt voor mijn bedrijf</mark>! Dankzij de praktische en heldere aanpak heb ik mijn niche scherp voor ogen én weet ik hoe ik ze gericht kan aanspreken. Absoluut een aanrader!', name: 'Loes Kluter', role: 'Kluter Vastgoedpresentatie', av: `${CDN}/loes-prof.png` },
-        { quote: 'Het baken bij het starten van een bedrijf! Een duidelijke weg, <mark class="hl">stap voor stap</mark>, en helder advies als het even niet zo gaat als je graag zou willen.', name: 'Inge Höper', role: 'Kommeshier', av: `${CDN}/inge-prof.png` },
+        { quote: 'Nova voelt als een Ã©cht persoon om mee te sparren: ze helpt mijn plannen te structureren en geeft precies de juiste inspiratie wanneer ik vastloop. Bovendien is de <mark class="hl">prijs-kwaliteitverhouding top</mark>: professionele tools, coaching Ã©n een actieve community.', name: 'Jorn Gijzen', role: 'Talent Rocketeers', av: `${CDN}/jorn-prof.jpg` },
+        { quote: 'Die training heeft echt <mark class="hl">het verschil gemaakt voor mijn bedrijf</mark>! Dankzij de praktische en heldere aanpak heb ik mijn niche scherp voor ogen Ã©n weet ik hoe ik ze gericht kan aanspreken. Absoluut een aanrader!', name: 'Loes Kluter', role: 'Kluter Vastgoedpresentatie', av: `${CDN}/loes-prof.png` },
+        { quote: 'Het baken bij het starten van een bedrijf! Een duidelijke weg, <mark class="hl">stap voor stap</mark>, en helder advies als het even niet zo gaat als je graag zou willen.', name: 'Inge HÃ¶per', role: 'Kommeshier', av: `${CDN}/inge-prof.png` },
       ];
       s.innerHTML = `
         <style>
@@ -57,3 +57,4 @@
   }
   customElements.define('bb-platform-testimonials', BBPlatformTestimonials);
 })();
+

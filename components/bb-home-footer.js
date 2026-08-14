@@ -1,6 +1,6 @@
-(function () {
+﻿(function () {
   if (customElements.get('bb-home-footer')) return;
-  const CDN = 'https://joerisijstermans.github.io/businessbaas-components/assets';
+  const CDN = 'https://cdn.jsdelivr.net/gh/joerisijstermans/businessbaas-components@main/assets';
   class BBHomeFooter extends HTMLElement {
     constructor() { super(); this.attachShadow({ mode: 'open' }); }
     connectedCallback() {
@@ -43,7 +43,7 @@
                   <img src="${CDN}/beeldmerk-tot.png" alt="BusinessBaas">
                 </a>
                 <p class="bd">Van idee naar eerste betalende klanten. Het compleet ondernemersplatform voor startende ondernemers.</p>
-                <a href="https://www.businessbaas.com/gratis-training-aanvragen" class="bc" target="_top" data-lightbox>Gratis training starten →</a>
+                <a href="https://www.businessbaas.com/gratis-training-aanvragen" class="bc" target="_top" data-lightbox>Gratis training starten â†’</a>
               </div>
               <div class="col"><h4>Platform</h4><ul>
                 <li><a href="https://www.businessbaas.com/het-platform">Het Platform</a></li>
@@ -67,7 +67,7 @@
             </div>
             <div class="bottom">
               <div>
-                <div class="legal">© 2026 BusinessBaas · Alle rechten voorbehouden &nbsp;·&nbsp;<a href="https://www.businessbaas.com/privacybeleid">Privacybeleid</a><a href="https://www.businessbaas.com/algemenevoorwaarden-b2c">Algemene Voorwaarden</a><a href="https://www.businessbaas.com/algemenevoorwaarden-b2b">B2B Voorwaarden</a></div>
+                <div class="legal">Â© 2026 BusinessBaas Â· Alle rechten voorbehouden &nbsp;Â·&nbsp;<a href="https://www.businessbaas.com/privacybeleid">Privacybeleid</a><a href="https://www.businessbaas.com/algemenevoorwaarden-b2c">Algemene Voorwaarden</a><a href="https://www.businessbaas.com/algemenevoorwaarden-b2b">B2B Voorwaarden</a></div>
                 <div class="kvk">KVK: 90226801</div>
               </div>
               <div class="socials">
@@ -94,3 +94,4 @@
   }
   customElements.define('bb-home-footer', BBHomeFooter);
 })();
+

@@ -1,6 +1,6 @@
-(function () {
+﻿(function () {
   if (customElements.get('bb-home-proof')) return;
-  const CDN = 'https://joerisijstermans.github.io/businessbaas-components/assets';
+  const CDN = 'https://cdn.jsdelivr.net/gh/joerisijstermans/businessbaas-components@main/assets';
   class BBHomeProof extends HTMLElement {
     constructor() { super(); this.attachShadow({ mode: 'open' }); this._cur = 0; }
     connectedCallback() {
@@ -9,13 +9,13 @@
         { name:'Sandra Klein', company:'Sandra-Coacht', quote:'Wat een energie en inspiratie op het Businessbaas Live Event! Ik werd getriggerd om in mijn pitch mijn unieke \'ik\' nog duidelijker te laten zien. Grote complimenten aan Joeri en het hele team, ga zo door!', result:'Finalist Limburg Award 2025', av:`${CDN}/sandra-prof.jpg`, highlight:"mijn unieke 'ik' nog duidelijker" },
         { name:'Joyce Bekkers', company:'Kindercoach The Joy', quote:'Het brengt mij meer zelfvertrouwen en zekerheid in mijn startende bedrijf. Met focus en stapsgewijs door de trainingen gaan krijg je meer gevoel dat je bedrijf tot leven komt. Geweldig en een echte aanrader!', result:'Meer zelfvertrouwen als ondernemer', av:`${CDN}/joyce-prof.jpg`, highlight:'meer zelfvertrouwen en zekerheid' },
         { name:'Stan Vreuls', company:'21x', quote:'Van het uitwerken van je idee tot het binnenhalen van je eerste klanten, je staat er niet alleen voor. Echt een stevige basis om mee te starten!', result:'Stevige basis voor zijn nieuwe bedrijf', av:`${CDN}/stan-prof.jpg`, highlight:'eerste klanten' },
-        { name:'Stephan Janssen', company:'Stephan Media', quote:'Via Businessbaas heb ik een goed framework gekregen om mijn onderneming een goede start te geven. De community is iets waar ik veel extra waarde uit haal door met lokale ondernemers te kunnen sparren over problemen waar we tegenaan lopen.', result:'Framework én actieve community', av:`${CDN}/stephan-prof.png`, highlight:'veel extra waarde' },
-        { name:'Shauna Mols', company:'Mols marketing', quote:'Dankzij BusinessBaas heb ik niet alleen mijn bedrijf vormgegeven, maar ook mezelf opnieuw leren kennen als ondernemer. Dé investering voor elke starter die méér wil dan alleen een goed businessplan.', result:'Stevige basis voor bedrijf én zichzelf', av:`${CDN}/shauna-prof.jpg`, highlight:'Dé investering voor elke starter' },
-        { name:'Jorn Gijzen', company:'Talent Rocketeers', quote:'Nova voelt als een écht persoon om mee te sparren: ze helpt mijn plannen te structureren en geeft precies de juiste inspiratie wanneer ik vastloop. Bovendien is de prijs-kwaliteitverhouding top: professionele tools, coaching én een actieve community.', result:'Stap voor stap opgestart in eigen tempo', av:`${CDN}/jorn-prof.jpg`, highlight:'prijs-kwaliteitverhouding top' },
-        { name:'Katharina März', company:'Katharinazorg', quote:'Stap voor stap ga je aan het werk, niets wordt overgeslagen. Joeri kijkt persoonlijk met je mee en je krijgt advies en een fijne uitleg hoe je dingen kan aanpakken. Echt een aanrader voor persoonlijke ontwikkeling en groei!', result:'Persoonlijk advies op maat', av:`${CDN}/katharina-prof.jpg`, highlight:'Joeri kijkt persoonlijk met je mee' },
+        { name:'Stephan Janssen', company:'Stephan Media', quote:'Via Businessbaas heb ik een goed framework gekregen om mijn onderneming een goede start te geven. De community is iets waar ik veel extra waarde uit haal door met lokale ondernemers te kunnen sparren over problemen waar we tegenaan lopen.', result:'Framework Ã©n actieve community', av:`${CDN}/stephan-prof.png`, highlight:'veel extra waarde' },
+        { name:'Shauna Mols', company:'Mols marketing', quote:'Dankzij BusinessBaas heb ik niet alleen mijn bedrijf vormgegeven, maar ook mezelf opnieuw leren kennen als ondernemer. DÃ© investering voor elke starter die mÃ©Ã©r wil dan alleen een goed businessplan.', result:'Stevige basis voor bedrijf Ã©n zichzelf', av:`${CDN}/shauna-prof.jpg`, highlight:'DÃ© investering voor elke starter' },
+        { name:'Jorn Gijzen', company:'Talent Rocketeers', quote:'Nova voelt als een Ã©cht persoon om mee te sparren: ze helpt mijn plannen te structureren en geeft precies de juiste inspiratie wanneer ik vastloop. Bovendien is de prijs-kwaliteitverhouding top: professionele tools, coaching Ã©n een actieve community.', result:'Stap voor stap opgestart in eigen tempo', av:`${CDN}/jorn-prof.jpg`, highlight:'prijs-kwaliteitverhouding top' },
+        { name:'Katharina MÃ¤rz', company:'Katharinazorg', quote:'Stap voor stap ga je aan het werk, niets wordt overgeslagen. Joeri kijkt persoonlijk met je mee en je krijgt advies en een fijne uitleg hoe je dingen kan aanpakken. Echt een aanrader voor persoonlijke ontwikkeling en groei!', result:'Persoonlijk advies op maat', av:`${CDN}/katharina-prof.jpg`, highlight:'Joeri kijkt persoonlijk met je mee' },
         { name:'Gijs Kohlen', company:'CitralStudios', quote:'Dankzij BusinessBaas heb ik mijn ondernemersmindset echt kunnen aanscherpen. Het heeft me geholpen om niet alleen naar de groei van mijn bedrijf te kijken, maar ook naar mijn eigen ontwikkeling als ondernemer. Een waardevolle investering die je echt in beweging brengt.', result:'Ondernemersmindset aangescherpt', av:`${CDN}/gijs-prof.jpg`, highlight:'ondernemersmindset echt kunnen aanscherpen' },
-        { name:'Loes Kluter', company:'Kluter Vastgoedpresentatie', quote:'Die training heeft echt het verschil gemaakt voor mijn bedrijf! Dankzij de praktische en heldere aanpak heb ik mijn niche scherp voor ogen én weet ik hoe ik ze gericht kan aanspreken. Absoluut een aanrader!', result:'Niche scherp en gericht aanpakken', av:`${CDN}/loes-prof.png`, highlight:'het verschil gemaakt voor mijn bedrijf' },
-        { name:'Inge Höper', company:'Kommeshier', quote:'Het baken bij het starten van een bedrijf! Een duidelijke weg, stap voor stap, en helder advies als het even niet zo gaat als je graag zou willen.', result:'Duidelijke weg, stap voor stap', av:`${CDN}/inge-prof.png`, highlight:'stap voor stap' },
+        { name:'Loes Kluter', company:'Kluter Vastgoedpresentatie', quote:'Die training heeft echt het verschil gemaakt voor mijn bedrijf! Dankzij de praktische en heldere aanpak heb ik mijn niche scherp voor ogen Ã©n weet ik hoe ik ze gericht kan aanspreken. Absoluut een aanrader!', result:'Niche scherp en gericht aanpakken', av:`${CDN}/loes-prof.png`, highlight:'het verschil gemaakt voor mijn bedrijf' },
+        { name:'Inge HÃ¶per', company:'Kommeshier', quote:'Het baken bij het starten van een bedrijf! Een duidelijke weg, stap voor stap, en helder advies als het even niet zo gaat als je graag zou willen.', result:'Duidelijke weg, stap voor stap', av:`${CDN}/inge-prof.png`, highlight:'stap voor stap' },
       ];
       this._n = this._t.length;
       this.render();
@@ -116,7 +116,7 @@
               </div>
               <div class="gb">
                 <div class="gl">G</div>
-                <div><div class="gs">4.9 <span class="gst">★★★★★</span></div><div class="gsl">Google Reviews</div></div>
+                <div><div class="gs">4.9 <span class="gst">â˜…â˜…â˜…â˜…â˜…</span></div><div class="gsl">Google Reviews</div></div>
               </div>
             </div>
             <div class="slider-area ob">
@@ -132,7 +132,7 @@
                       <img src="${s.av}" alt="${s.name}">
                       <div><div class="pn">${s.name}</div><div class="co">${s.company}</div></div>
                     </div>
-                    <div class="res-tag">✓ ${s.result}</div>
+                    <div class="res-tag">âœ“ ${s.result}</div>
                   </div>
                 </div>`;
                 }).join('')}
@@ -147,7 +147,7 @@
               <div class="sc" style="transition-delay:.0s" data-target="3" data-suffix="" data-decimals="0"><div class="sn">0</div><div class="sl2">Modules</div></div>
               <div class="sc" style="transition-delay:.1s" data-target="20" data-suffix="+" data-decimals="0"><div class="sn">0<span>+</span></div><div class="sl2">Praktische trainingen</div></div>
               <div class="sc" style="transition-delay:.2s" data-target="90" data-suffix="" data-decimals="0"><div class="sn">0</div><div class="sl2">Dagen programma</div></div>
-              <div class="sc" style="transition-delay:.3s" data-target="4.9" data-suffix="★" data-decimals="1"><div class="sn">0<span>★</span></div><div class="sl2">Google beoordeling</div></div>
+              <div class="sc" style="transition-delay:.3s" data-target="4.9" data-suffix="â˜…" data-decimals="1"><div class="sn">0<span>â˜…</span></div><div class="sl2">Google beoordeling</div></div>
             </div>
             <div class="cs ob">
               <p>Jij kunt het volgende <em>succesverhaal</em> zijn</p>
@@ -218,3 +218,4 @@
   }
   customElements.define('bb-home-proof', BBHomeProof);
 })();
+
