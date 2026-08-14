@@ -10,8 +10,8 @@
           :host{display:block;font-family:'Inter',-apple-system,sans-serif}
           a{color:inherit;text-decoration:none}
           img{display:block;max-width:100%}
-          .ob{opacity:0;transform:translateY(22px);transition:opacity .6s ease,transform .6s ease}
-          .ob.show{opacity:1;transform:none}
+          .ob{transform:translateY(22px);transition:transform .6s ease}
+          .ob.show{transform:none}
           .hero{background:linear-gradient(150deg,#0D2240 0%,#142c54 55%,#0f2845 100%);padding:96px 24px 88px;position:relative;overflow:hidden;text-align:center}
           .hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 65% 40%,rgba(232,93,4,.15) 0%,transparent 60%);pointer-events:none}
           .hero-inner{max-width:780px;margin:0 auto;position:relative;z-index:2}
