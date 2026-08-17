@@ -41,7 +41,7 @@
         <section class="hero">
           <div class="hero-inner">
             <div class="hero-badge ob">Gratis training, vandaag nog starten</div>
-            <h1 class="ob">Jouw eerste betalende klant,<br class="mb"> <em>in 48 uur</em></h1>
+            <h1>Jouw eerste betalende klant,<br class="mb"> <em>in 48 uur</em></h1>
             <p class="hero-sub ob">De drie concrete stappen die het verschil maken voor startende ondernemers. Direct toepasbaar, geen theorie. <strong>Spreek binnen 48 uur je eerste potentiÃ«le klant.</strong></p>
             <div class="hero-cta-wrap ob">
               <a href="https://www.businessbaas.com/gratis-training#volgende-stap" class="btn-primary">
