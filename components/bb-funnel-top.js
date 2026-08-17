@@ -1,4 +1,4 @@
-(function () {
+﻿(function () {
   if (customElements.get('bb-funnel-top')) return;
   class BBFunnelTop extends HTMLElement {
     connectedCallback() {
@@ -7,8 +7,8 @@
         <style>
           *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
           :host{display:block;font-family:'Inter',-apple-system,sans-serif;background:#0a1a33}
-          .ob{opacity:0;transform:translateY(22px);transition:opacity .6s ease,transform .6s ease}
-          .ob.show{opacity:1;transform:none}
+          .ob{transform:translateY(22px);transition:transform .6s ease}
+          .ob.show{transform:none}
 
           /* HEADER */
           .header{background:linear-gradient(to bottom,#0D2240 0%,#142c54 40%,#0a1a33 100%);padding:72px 24px 64px;text-align:center;position:relative;overflow:hidden}
@@ -42,7 +42,7 @@
         <section class="header">
           <div class="inner">
             <div class="label ob">Gratis training</div>
-            <h1 class="ob">Jouw eerste betalende klant<br>in <em>48 uur</em></h1>
+            <h1>Jouw eerste betalende klant<br>in <em>48 uur</em></h1>
             <p class="sub ob">Kijk de training en ontdek de 3 stappen die startende ondernemers gebruiken om snel hun eerste klant binnen te halen, ook als je nog geen netwerk of ervaring hebt.</p>
             <div class="arrow ob">↓</div>
           </div>
@@ -76,3 +76,4 @@
   }
   customElements.define('bb-funnel-top', BBFunnelTop);
 })();
+

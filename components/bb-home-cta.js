@@ -1,4 +1,4 @@
-(function () {
+﻿(function () {
   if (customElements.get('bb-home-cta')) return;
   class BBHomeCta extends HTMLElement {
     constructor() { super(); this.attachShadow({ mode: 'open' }); }
@@ -26,8 +26,8 @@
           .disc{font-size:13px;color:rgba(255,255,255,0.62);display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;}
           .disc span{display:flex;align-items:center;gap:5px;}
           .disc span::before{content:'✓';font-weight:700;color:rgba(255,255,255,0.8);}
-          .ob{opacity:0;transform:translateY(18px);transition:opacity 0.65s ease,transform 0.65s ease;}
-          .ob.show{opacity:1;transform:translateY(0);}
+          .ob{transform:translateY(18px);transition:transform 0.65s ease;}
+          .ob.show{transform:translateY(0);}
           @media(max-width:600px){section{padding:64px 20px;}h2{font-size:clamp(28px,8vw,44px);}.sub{font-size:16px;}}
         </style>
         <section>
@@ -52,3 +52,4 @@
   }
   customElements.define('bb-home-cta', BBHomeCta);
 })();
+

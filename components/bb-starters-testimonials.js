@@ -80,8 +80,8 @@
           .award-txt{text-align:left;}
           .award-top{font-size:11px;font-weight:700;color:rgba(232,93,4,.9);text-transform:uppercase;letter-spacing:.10em;margin-bottom:3px;}
           .award-name{font-size:16px;font-weight:800;color:#fff;line-height:1;}
-          .ob{opacity:0;transform:translateY(22px);transition:opacity .65s ease,transform .65s ease;}
-          .ob.show{opacity:1;transform:translateY(0);}
+          .ob{transform:translateY(22px);transition:transform .65s ease;}
+          .ob.show{transform:translateY(0);}
           mark.hl{background:transparent;color:inherit;border-radius:3px;padding:1px 3px;transition:background .8s ease}
           .card.hl-ready mark.hl{background:rgba(232,93,4,.18);transition-delay:.4s}
           @media(max-width:960px){section{padding:64px 20px;}.card{flex:0 0 calc((100% - 20px) / 2);}}
@@ -144,4 +144,5 @@
   }
   customElements.define('bb-starters-testimonials', BBStartersTestimonials);
 })();
+
 

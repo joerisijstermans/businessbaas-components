@@ -8,8 +8,8 @@
         <style>
           *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
           :host{display:block;font-family:'Inter',-apple-system,sans-serif}
-          .ob{opacity:0;transform:translateY(22px);transition:opacity .6s ease,transform .6s ease}
-          .ob.show{opacity:1;transform:none}
+          .ob{transform:translateY(22px);transition:transform .6s ease}
+          .ob.show{transform:none}
           .videos{padding:80px 24px;background:#fff}
           .videos-inner{max-width:860px;margin:0 auto;text-align:center}
           .section-label{display:inline-flex;align-items:center;gap:10px;font-size:11.5px;font-weight:700;color:#E85D04;text-transform:uppercase;letter-spacing:.1em;margin-bottom:16px;justify-content:center}
@@ -50,4 +50,5 @@
   }
   customElements.define('bb-landing-videos', BBLandingVideos);
 })();
+
 

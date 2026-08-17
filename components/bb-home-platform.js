@@ -1,4 +1,4 @@
-(function () {
+﻿(function () {
   if (customElements.get('bb-home-platform')) return;
   const CDN = 'https://cdn.jsdelivr.net/gh/joerisijstermans/businessbaas-components@main/assets';
   class BBHomePlatform extends HTMLElement {
@@ -102,8 +102,8 @@
           .ck{width:21px;height:21px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:11px;color:white;flex-shrink:0;font-weight:700;}
           .pcta{display:inline-flex;align-items:center;gap:8px;padding:12px 24px;border-radius:50px;color:white;font-size:14.5px;font-weight:700;text-decoration:none;transition:all .22s;font-family:var(--font);}
           .pcta:hover{transform:translateY(-2px);box-shadow:0 10px 28px rgba(0,0,0,.2);}
-          .ob{opacity:0;transform:translateY(22px);transition:opacity .65s ease,transform .65s ease;}
-          .ob.show{opacity:1;transform:translateY(0);}
+          .ob{transform:translateY(22px);transition:transform .65s ease;}
+          .ob.show{transform:translateY(0);}
           @media(max-width:960px){.panel.active{grid-template-columns:1fr;}.pv{display:none;}.tabs{gap:4px;}.tab{padding:7px 13px;font-size:12.5px;}}
           @media(max-width:700px){section{padding:64px 20px;}.head{flex-direction:column;align-items:flex-start;}}
         </style>
@@ -147,3 +147,4 @@
   }
   customElements.define('bb-home-platform', BBHomePlatform);
 })();
+

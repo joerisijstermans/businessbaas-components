@@ -1,4 +1,4 @@
-(function () {
+﻿(function () {
   if (customElements.get('bb-home-process')) return;
   class BBHomeProcess extends HTMLElement {
     constructor() { super(); this.attachShadow({ mode: 'open' }); }
@@ -28,7 +28,7 @@
           .cta:hover{background:#CC4D00;transform:translateY(-2px);box-shadow:0 8px 24px rgba(232,93,4,.34);}
           .steps{display:flex;flex-direction:column;}
           .step{display:flex;gap:24px;align-items:flex-start;opacity:0;transform:translateY(20px);}
-          .step.show{opacity:1;transform:translateY(0);transition:opacity .65s ease,transform .65s ease;}
+          .step.show{opacity:1;transform:translateY(0);transition:transform .65s ease;}
           .sl{display:flex;flex-direction:column;align-items:center;}
           .sn{width:48px;height:48px;border-radius:14px;font-size:14px;font-weight:900;color:#fff;display:flex;align-items:center;justify-content:center;flex-shrink:0;}
           .sline{width:2px;flex:1;min-height:28px;margin:6px 0;}
@@ -45,8 +45,8 @@
           .tln{width:28px;height:1px;background:rgba(255,255,255,.18);margin:0 10px;flex-shrink:0;}
           .tlc{display:inline-flex;align-items:center;gap:8px;padding:12px 24px;background:var(--orange);color:#fff;font-size:14px;font-weight:700;border-radius:50px;text-decoration:none;transition:all .22s;font-family:var(--font);white-space:nowrap;flex-shrink:0;}
           .tlc:hover{background:#CC4D00;transform:translateY(-1px);box-shadow:0 6px 20px rgba(232,93,4,.4);}
-          .ob{opacity:0;transform:translateY(22px);transition:opacity .65s ease,transform .65s ease;}
-          .ob.show{opacity:1;transform:translateY(0);}
+          .ob{transform:translateY(22px);transition:transform .65s ease;}
+          .ob.show{transform:translateY(0);}
           @media(max-width:900px){.layout{grid-template-columns:1fr;gap:48px;}.tl{flex-direction:column;align-items:stretch;padding:24px;gap:16px;}.tln{display:none;}.tli{gap:10px 0;display:grid;grid-template-columns:1fr 1fr;}.tlit{gap:8px;}.tlc{text-align:center;justify-content:center;}}
           @media(max-width:600px){section{padding:64px 20px;}}
         </style>
@@ -85,3 +85,4 @@
   }
   customElements.define('bb-home-process', BBHomeProcess);
 })();
+

@@ -1,4 +1,4 @@
-(function () {
+﻿(function () {
   if (customElements.get('bb-funnel-faq')) return;
   class BBFunnelFaq extends HTMLElement {
     connectedCallback() {
@@ -7,8 +7,8 @@
         <style>
           *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
           :host{display:block;font-family:'Inter',-apple-system,sans-serif}
-          .ob{opacity:0;transform:translateY(22px);transition:opacity .6s ease,transform .6s ease}
-          .ob.show{opacity:1;transform:none}
+          .ob{transform:translateY(22px);transition:transform .6s ease}
+          .ob.show{transform:none}
           .faq{padding:96px 24px;background:#fff}
           .faq-inner{max-width:720px;margin:0 auto}
           h2{font-size:clamp(26px,3.5vw,40px);font-weight:900;color:#0D2240;letter-spacing:-.03em;text-align:center;margin-bottom:52px}
@@ -45,3 +45,4 @@
   }
   customElements.define('bb-funnel-faq', BBFunnelFaq);
 })();
+

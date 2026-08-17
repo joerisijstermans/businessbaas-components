@@ -1,4 +1,4 @@
-(function () {
+﻿(function () {
   if (customElements.get('bb-platform-extras')) return;
   class BBPlatformExtras extends HTMLElement {
     connectedCallback() {
@@ -31,8 +31,8 @@
           .faq-a{max-height:0;overflow:hidden;transition:max-height .35s ease}
           .faq-a-inner{padding:0 0 20px;font-size:.93rem;color:#5A6780;line-height:1.7}
           .faq-item.open .faq-a{max-height:300px}
-          .ob{opacity:0;transform:translateY(22px);transition:opacity .55s ease,transform .55s ease}
-          .ob.show{opacity:1;transform:none}
+          .ob{transform:translateY(22px);transition:transform .55s ease}
+          .ob.show{transform:none}
           @media(max-width:520px){section{padding:64px 20px}}
         </style>
         <section>
@@ -65,3 +65,4 @@
   }
   customElements.define('bb-platform-extras', BBPlatformExtras);
 })();
+

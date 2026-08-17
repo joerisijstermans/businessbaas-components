@@ -1,4 +1,4 @@
-(function () {
+﻿(function () {
   if (customElements.get('bb-starters-faq')) return;
   class BBStartersFaq extends HTMLElement {
     constructor() { super(); this.attachShadow({ mode: 'open' }); }
@@ -41,8 +41,8 @@
           .bot p{font-size:15px;color:#5A6780;}
           .bot a{color:var(--orange);font-weight:600;text-decoration:none;}
           .bot a:hover{text-decoration:underline;}
-          .ob{opacity:0;transform:translateY(20px);transition:opacity .65s ease,transform .65s ease;}
-          .ob.show{opacity:1;transform:translateY(0);}
+          .ob{transform:translateY(20px);transition:transform .65s ease;}
+          .ob.show{transform:translateY(0);}
           @media(max-width:600px){section{padding:64px 20px;}}
         </style>
         <section>
@@ -58,3 +58,4 @@
   }
   customElements.define('bb-starters-faq', BBStartersFaq);
 })();
+

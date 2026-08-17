@@ -25,8 +25,8 @@
           .highlight img{width:72px;height:72px;border-radius:50%;object-fit:cover;flex-shrink:0;border:3px solid #E85D04}
           .highlight p{font-size:1rem;color:#3D4F6B;line-height:1.7;font-style:italic;margin-bottom:8px}
           .highlight .sig{font-size:.85rem;font-weight:700;color:#0D2240}
-          .ob{opacity:0;transform:translateY(22px);transition:opacity .55s ease,transform .55s ease}
-          .ob.show{opacity:1;transform:none}
+          .ob{transform:translateY(22px);transition:transform .55s ease}
+          .ob.show{transform:none}
         </style>
         <section>
           <div class="inner">
@@ -77,4 +77,5 @@
   }
   customElements.define('bb-about-story', BBAboutStory);
 })();
+
 

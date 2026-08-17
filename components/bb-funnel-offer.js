@@ -1,4 +1,4 @@
-(function () {
+﻿(function () {
   if (customElements.get('bb-funnel-offer')) return;
   class BBFunnelOffer extends HTMLElement {
     connectedCallback() {
@@ -9,8 +9,8 @@
           *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
           :host{display:block;font-family:'Inter',-apple-system,sans-serif}
           a{color:inherit;text-decoration:none}
-          .ob{opacity:0;transform:translateY(22px);transition:opacity .6s ease,transform .6s ease}
-          .ob.show{opacity:1;transform:none}
+          .ob{transform:translateY(22px);transition:transform .6s ease}
+          .ob.show{transform:none}
 
           /* OFFER CARD */
           .offer{padding:80px 24px;background:#F4F6FA}
@@ -87,3 +87,4 @@
   }
   customElements.define('bb-funnel-offer', BBFunnelOffer);
 })();
+

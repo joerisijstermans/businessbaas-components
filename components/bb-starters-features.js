@@ -1,4 +1,4 @@
-(function () {
+﻿(function () {
   if (customElements.get('bb-starters-features')) return;
   class BBStartersFeatures extends HTMLElement {
     constructor() { super(); this.attachShadow({ mode: 'open' }); }
@@ -34,8 +34,8 @@
           .addon-badge{font-size:10px;font-weight:700;color:var(--orange);background:rgba(232,93,4,.10);border-radius:50px;padding:2px 8px;text-transform:uppercase;letter-spacing:.05em;flex-shrink:0;}
           .soon-badge{font-size:10px;font-weight:700;color:#7C3AED;background:rgba(124,58,237,.10);border-radius:50px;padding:2px 8px;text-transform:uppercase;letter-spacing:.05em;flex-shrink:0;}
           .feat-d{font-size:14px;color:#5A6780;line-height:1.6;}
-          .ob{opacity:0;transform:translateY(22px);transition:opacity .65s ease,transform .65s ease;}
-          .ob.show{opacity:1;transform:translateY(0);}
+          .ob{transform:translateY(22px);transition:transform .65s ease;}
+          .ob.show{transform:translateY(0);}
           @media(max-width:900px){.grid{grid-template-columns:repeat(2,1fr);}}
           @media(max-width:580px){.grid{grid-template-columns:1fr;}section{padding:64px 20px;}}
         </style>
@@ -51,3 +51,4 @@
   }
   customElements.define('bb-starters-features', BBStartersFeatures);
 })();
+

@@ -1,4 +1,4 @@
-(function () {
+﻿(function () {
   if (customElements.get('bb-starters-process')) return;
   class BBStartersProcess extends HTMLElement {
     constructor() { super(); this.attachShadow({ mode: 'open' }); }
@@ -29,8 +29,8 @@
           .cta-wrap{text-align:center;}
           .btn{display:inline-flex;align-items:center;gap:8px;padding:15px 32px;background:var(--orange);color:#fff;font-size:16px;font-weight:700;border-radius:50px;text-decoration:none;transition:background .22s,transform .22s,box-shadow .22s;font-family:var(--font);}
           .btn:hover{background:#CC4D00;transform:translateY(-2px);box-shadow:0 10px 28px rgba(232,93,4,.36);}
-          .ob{opacity:0;transform:translateY(22px);transition:opacity .65s ease,transform .65s ease;}
-          .ob.show{opacity:1;transform:translateY(0);}
+          .ob{transform:translateY(22px);transition:transform .65s ease;}
+          .ob.show{transform:translateY(0);}
           @media(max-width:768px){.steps{grid-template-columns:1fr;gap:28px;}.steps::before{display:none;}}
           @media(max-width:600px){section{padding:64px 20px;}}
         </style>
@@ -47,3 +47,4 @@
   }
   customElements.define('bb-starters-process', BBStartersProcess);
 })();
+

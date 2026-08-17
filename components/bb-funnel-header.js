@@ -1,4 +1,4 @@
-(function () {
+﻿(function () {
   if (customElements.get('bb-funnel-header')) return;
   class BBFunnelHeader extends HTMLElement {
     connectedCallback() {
@@ -7,8 +7,8 @@
         <style>
           *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
           :host{display:block;font-family:'Inter',-apple-system,sans-serif;background:#0D2240}
-          .ob{opacity:0;transform:translateY(22px);transition:opacity .6s ease,transform .6s ease}
-          .ob.show{opacity:1;transform:none}
+          .ob{transform:translateY(22px);transition:transform .6s ease}
+          .ob.show{transform:none}
           .header{background:linear-gradient(150deg,#0D2240 0%,#142c54 60%,#0f2845 100%);padding:72px 24px 64px;text-align:center;position:relative;overflow:hidden}
           .header::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 60% 30%,rgba(232,93,4,.13) 0%,transparent 60%);pointer-events:none}
           .inner{max-width:760px;margin:0 auto;position:relative;z-index:2}
@@ -26,7 +26,7 @@
         <section class="header">
           <div class="inner">
             <div class="label ob">Gratis training</div>
-            <h1 class="ob">Jouw eerste betalende klant<br>in <em>48 uur</em></h1>
+            <h1>Jouw eerste betalende klant<br>in <em>48 uur</em></h1>
             <p class="sub ob">Kijk de training en ontdek de 3 stappen die startende ondernemers gebruiken om snel hun eerste klant binnen te halen, ook als je nog geen netwerk of ervaring hebt.</p>
             <div class="checks ob">
               <span class="check">Stap 1: Bepaal wie jouw ideale klant is (in 10 minuten)</span>
@@ -42,3 +42,4 @@
   }
   customElements.define('bb-funnel-header', BBFunnelHeader);
 })();
+

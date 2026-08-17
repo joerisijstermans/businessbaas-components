@@ -1,4 +1,4 @@
-(function () {
+﻿(function () {
   if (customElements.get('bb-platform-nova')) return;
   class BBPlatformNova extends HTMLElement {
     connectedCallback() {
@@ -38,8 +38,8 @@
           @keyframes blink{0%,80%,100%{opacity:.3}40%{opacity:1}}
           .chat-input{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);border-radius:50px;padding:12px 20px;color:rgba(255,255,255,.4);font-size:.85rem;margin-top:8px;font-family:'Inter',sans-serif}
           @media(max-width:900px){.inner{grid-template-columns:1fr;gap:48px}}
-          .ob{opacity:0;transform:translateY(22px);transition:opacity .55s ease,transform .55s ease}
-          .ob.show{opacity:1;transform:none}
+          .ob{transform:translateY(22px);transition:transform .55s ease}
+          .ob.show{transform:none}
         </style>
         <section>
           <div class="blob blob1"></div>
@@ -73,3 +73,4 @@
   }
   customElements.define('bb-platform-nova', BBPlatformNova);
 })();
+

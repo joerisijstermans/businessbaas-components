@@ -1,4 +1,4 @@
-(function(){
+﻿(function(){
   const CDN = 'https://cdn.jsdelivr.net/gh/joerisijstermans/businessbaas-components@main/assets';
   if(customElements.get('bb-partners-logos'))return;
   class BBPartnersLogos extends HTMLElement{
@@ -19,8 +19,8 @@
           .logo-wrap{height:90px;display:flex;align-items:center;justify-content:center;}
           .logo-wrap img{max-height:90px;max-width:150px;object-fit:contain;}
           .name{font-size:13px;font-weight:700;color:var(--navy);line-height:1.4;text-align:center;}
-          .ob{opacity:0;transform:translateY(22px);transition:opacity .65s ease,transform .65s ease;}
-          .ob.show{opacity:1;transform:translateY(0);}
+          .ob{transform:translateY(22px);transition:transform .65s ease;}
+          .ob.show{transform:translateY(0);}
           @media(max-width:900px){.grid{grid-template-columns:repeat(2,1fr);}}
           @media(max-width:600px){section{padding:48px 20px;}.grid{gap:14px;}.card{padding:24px 16px 20px;}.logo-wrap{height:72px;}.logo-wrap img{max-height:72px;max-width:120px;}}
         </style>
@@ -59,3 +59,4 @@
   }
   customElements.define('bb-partners-logos',BBPartnersLogos);
 })();
+

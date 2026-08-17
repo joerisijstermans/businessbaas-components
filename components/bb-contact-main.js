@@ -1,4 +1,4 @@
-(function () {
+﻿(function () {
   if (customElements.get('bb-contact-main')) return;
   class BBContactMain extends HTMLElement {
     constructor() { super(); this.attachShadow({ mode: 'open' }); }
@@ -45,8 +45,8 @@
           .cta-card.outline p{color:#5A6780}
           .cta-link{display:inline-flex;align-items:center;gap:6px;padding:9px 18px;background:var(--orange);color:#fff;font-size:13px;font-weight:700;border-radius:50px;text-decoration:none;transition:background .2s}
           .cta-link:hover{background:#CC4D00}
-          .ob{opacity:0;transform:translateY(22px);transition:opacity .65s ease,transform .65s ease}
-          .ob.show{opacity:1;transform:translateY(0)}
+          .ob{transform:translateY(22px);transition:transform .65s ease}
+          .ob.show{transform:translateY(0)}
           @media(max-width:860px){.inner{grid-template-columns:1fr;gap:36px}}
           @media(max-width:600px){section{padding:64px 20px}.form-card{padding:28px 22px}}
         </style>
@@ -133,3 +133,4 @@
   }
   customElements.define('bb-contact-main', BBContactMain);
 })();
+

@@ -1,4 +1,4 @@
-(function () {
+﻿(function () {
   if (customElements.get('bb-landing-steps')) return;
   class BBLandingSteps extends HTMLElement {
     connectedCallback() {
@@ -7,8 +7,8 @@
         <style>
           *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
           :host{display:block;font-family:'Inter',-apple-system,sans-serif}
-          .ob{opacity:0;transform:translateY(22px);transition:opacity .6s ease,transform .6s ease}
-          .ob.show{opacity:1;transform:none}
+          .ob{transform:translateY(22px);transition:transform .6s ease}
+          .ob.show{transform:none}
           .steps{padding:88px 24px;background:#0D2240}
           .steps-inner{max-width:960px;margin:0 auto}
           .steps-head{text-align:center;margin-bottom:56px}
@@ -67,3 +67,4 @@
   }
   customElements.define('bb-landing-steps', BBLandingSteps);
 })();
+

@@ -1,4 +1,4 @@
-(function () {
+﻿(function () {
   if (customElements.get('bb-starters-modules')) return;
   class BBStartersModules extends HTMLElement {
     constructor() { super(); this.attachShadow({ mode: 'open' }); }
@@ -36,8 +36,8 @@
           .see-more{text-align:center;}
           .see-link{display:inline-flex;align-items:center;gap:7px;font-size:15px;font-weight:700;color:var(--orange);text-decoration:none;transition:gap .2s;}
           .see-link:hover{gap:12px;}
-          .ob{opacity:0;transform:translateY(22px);transition:opacity .65s ease,transform .65s ease;}
-          .ob.show{opacity:1;transform:translateY(0);}
+          .ob{transform:translateY(22px);transition:transform .65s ease;}
+          .ob.show{transform:translateY(0);}
           @media(max-width:860px){.grid{grid-template-columns:1fr;}.challenge{flex-direction:column;gap:12px;}}
           @media(max-width:600px){section{padding:64px 20px;}.card-head,.card-body{padding-left:20px;padding-right:20px;}}
         </style>
@@ -97,3 +97,4 @@
   }
   customElements.define('bb-starters-modules', BBStartersModules);
 })();
+

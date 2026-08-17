@@ -1,4 +1,4 @@
-(function () {
+﻿(function () {
   if (customElements.get('bb-landing-form-intro')) return;
   class BBLandingFormIntro extends HTMLElement {
     connectedCallback() {
@@ -8,8 +8,8 @@
         <style>
           *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
           :host{display:block;font-family:'Inter',-apple-system,sans-serif}
-          .ob{opacity:0;transform:translateY(22px);transition:opacity .6s ease,transform .6s ease}
-          .ob.show{opacity:1;transform:none}
+          .ob{transform:translateY(22px);transition:transform .6s ease}
+          .ob.show{transform:none}
           .intro{background:#0D2240;padding:80px 24px 56px;text-align:center}
           .intro-inner{max-width:640px;margin:0 auto}
           .section-label{display:inline-flex;align-items:center;gap:10px;font-size:11.5px;font-weight:700;color:rgba(232,93,4,.8);text-transform:uppercase;letter-spacing:.1em;margin-bottom:20px;justify-content:center}
@@ -32,3 +32,4 @@
   }
   customElements.define('bb-landing-form-intro', BBLandingFormIntro);
 })();
+

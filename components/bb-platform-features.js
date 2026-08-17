@@ -93,8 +93,8 @@
           @keyframes fadeSlide{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
           @media(max-width:900px){.layout{grid-template-columns:1fr}.visual-panel{position:static;order:-1}.visual-box{min-height:auto}.visual-content img{height:240px}}
           @media(max-width:480px){.visual-content img{height:200px}}
-          .ob{opacity:0;transform:translateY(22px);transition:opacity .55s ease,transform .55s ease}
-          .ob.show{opacity:1;transform:none}
+          .ob{transform:translateY(22px);transition:transform .55s ease}
+          .ob.show{transform:none}
         </style>
         <section id="features">
           <div class="inner">
@@ -179,4 +179,5 @@
   }
   customElements.define('bb-platform-features', BBPlatformFeatures);
 })();
+
 

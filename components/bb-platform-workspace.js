@@ -22,8 +22,8 @@
           .feat-info p{font-size:.85rem;color:#5A6780;margin:0;line-height:1.5}
           .img-wrap img{width:100%;border-radius:20px;box-shadow:0 20px 56px rgba(13,34,64,0.18);display:block}
           @media(max-width:900px){.inner{grid-template-columns:1fr;gap:48px}.img-wrap{order:-1}}
-          .ob{opacity:0;transform:translateY(22px);transition:opacity .55s ease,transform .55s ease}
-          .ob.show{opacity:1;transform:none}
+          .ob{transform:translateY(22px);transition:transform .55s ease}
+          .ob.show{transform:none}
         </style>
         <section>
           <div class="inner">
@@ -66,4 +66,5 @@
   }
   customElements.define('bb-platform-workspace', BBPlatformWorkspace);
 })();
+
 

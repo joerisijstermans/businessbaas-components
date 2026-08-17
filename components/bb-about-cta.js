@@ -1,4 +1,4 @@
-(function () {
+﻿(function () {
   if (customElements.get('bb-about-cta')) return;
   class BBAboutCta extends HTMLElement {
     connectedCallback() {
@@ -16,8 +16,8 @@
           .btn-w:hover{background:rgba(255,255,255,.9);transform:translateY(-2px)}
           .btn-g{border:2px solid rgba(255,255,255,.5);color:#fff;padding:16px 36px;border-radius:50px;font-size:1rem;font-weight:600;text-decoration:none;transition:all .2s;display:inline-block}
           .btn-g:hover{border-color:#fff;background:rgba(255,255,255,.1)}
-          .ob{opacity:0;transform:translateY(22px);transition:opacity .55s ease,transform .55s ease}
-          .ob.show{opacity:1;transform:none}
+          .ob{transform:translateY(22px);transition:transform .55s ease}
+          .ob.show{transform:none}
         </style>
         <section>
           <div class="inner">
@@ -35,3 +35,4 @@
   }
   customElements.define('bb-about-cta', BBAboutCta);
 })();
+

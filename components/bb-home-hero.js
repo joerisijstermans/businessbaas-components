@@ -22,8 +22,8 @@
           .badge { display: inline-flex; align-items: center; gap: 10px; margin-bottom: 28px; font-size: 11.5px; font-weight: 700; color: var(--orange); text-transform: uppercase; letter-spacing: 0.07em; opacity: 0; transform: translateY(10px); transition: opacity 0.55s ease, transform 0.55s ease; }
           .badge::before { content: ''; display: block; width: 26px; height: 2px; background: var(--orange); border-radius: 2px; flex-shrink: 0; }
           .badge.show { opacity: 1; transform: translateY(0); }
-          h1 { font-size: clamp(36px, 4vw, 60px); font-weight: 900; line-height: 1.08; color: var(--navy); letter-spacing: -0.038em; margin-bottom: 16px; opacity: 0; transform: translateY(20px); transition: opacity 0.7s ease, transform 0.7s ease; }
-          h1.show { opacity: 1; transform: translateY(0); }
+          h1 { font-size: clamp(36px, 4vw, 60px); font-weight: 900; line-height: 1.08; color: var(--navy); letter-spacing: -0.038em; margin-bottom: 16px; transform: translateY(20px); transition: transform 0.7s ease; }
+          h1.show { transform: translateY(0); }
           .accent-line { font-size: clamp(18px, 2.2vw, 26px); font-weight: 800; color: var(--orange); margin-bottom: 22px; display: block; opacity: 0; transform: translateY(14px); transition: opacity 0.65s ease, transform 0.65s ease; }
           .accent-line.show { opacity: 1; transform: translateY(0); }
           .sub { font-size: 17px; font-weight: 400; line-height: 1.7; color: #5A6780; max-width: 480px; margin-bottom: 36px; opacity: 0; transform: translateY(14px); transition: opacity 0.7s ease, transform 0.7s ease; }
@@ -129,4 +129,5 @@
   }
   customElements.define('bb-home-hero', BBHomeHero);
 })();
+
 

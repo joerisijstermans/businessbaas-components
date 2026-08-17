@@ -38,8 +38,8 @@
           .pl{background:rgba(255,255,255,0.10);border-radius:10px;padding:12px 16px;font-size:13px;font-weight:800;color:#fff;line-height:1.35;flex-shrink:0;text-align:center;}
           .pt p{font-size:13.5px;font-style:italic;color:rgba(255,255,255,0.72);line-height:1.55;margin-bottom:6px;}
           .pb{display:inline-flex;align-items:center;gap:5px;font-size:11px;font-weight:700;color:#10B981;background:rgba(16,185,129,0.14);border-radius:50px;padding:4px 10px;}
-          .ob{opacity:0;transform:translateY(22px);transition:opacity 0.65s ease,transform 0.65s ease;}
-          .ob.show{opacity:1;transform:translateY(0);}
+          .ob{transform:translateY(22px);transition:transform 0.65s ease;}
+          .ob.show{transform:translateY(0);}
           @media(max-width:900px){.layout{grid-template-columns:1fr;gap:48px;}}
           @media(max-width:600px){section{padding:64px 20px;}.sc{grid-template-columns:1fr 1fr;}.pc{flex-direction:column;align-items:flex-start;}}
         </style>
@@ -88,4 +88,5 @@
   }
   customElements.define('bb-home-b2b', BBHomeB2B);
 })();
+
 

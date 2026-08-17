@@ -1,4 +1,4 @@
-(function () {
+﻿(function () {
   if (customElements.get('bb-about-partners')) return;
   class BBAboutPartners extends HTMLElement {
     connectedCallback() {
@@ -20,8 +20,8 @@
           .cta-link{display:inline-flex;align-items:center;gap:8px;color:#E85D04;font-weight:700;text-decoration:none;font-size:.95rem;margin-top:24px;transition:gap .2s}
           .cta-link:hover{gap:14px}
           @media(max-width:768px){.inner{grid-template-columns:1fr}}
-          .ob{opacity:0;transform:translateY(22px);transition:opacity .55s ease,transform .55s ease}
-          .ob.show{opacity:1;transform:none}
+          .ob{transform:translateY(22px);transition:transform .55s ease}
+          .ob.show{transform:none}
         </style>
         <section>
           <div class="inner">
@@ -46,3 +46,4 @@
   }
   customElements.define('bb-about-partners', BBAboutPartners);
 })();
+

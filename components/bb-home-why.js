@@ -1,4 +1,4 @@
-(function () {
+﻿(function () {
   if (customElements.get('bb-home-why')) return;
   class BBHomeWhy extends HTMLElement {
     constructor() { super(); this.attachShadow({ mode: 'open' }); }
@@ -26,7 +26,7 @@
           .hd p{font-size:17px;color:#5A6780;line-height:1.65;max-width:480px;margin:0 auto;}
           .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:3px;margin-bottom:56px;}
           .item{padding:40px 36px;background:#fff;position:relative;opacity:0;transform:translateY(20px);}
-          .item.show{opacity:1;transform:translateY(0);transition:opacity .65s ease,transform .65s ease;}
+          .item.show{opacity:1;transform:translateY(0);transition:transform .65s ease;}
           .item:first-child{border-radius:20px 0 0 20px;}
           .item:last-child{border-radius:0 20px 20px 0;}
           .bar{position:absolute;top:0;left:0;right:0;height:4px;border-radius:inherit;border-bottom-left-radius:0;border-bottom-right-radius:0;}
@@ -39,8 +39,8 @@
           .btn{display:inline-flex;align-items:center;gap:9px;padding:15px 32px;background:var(--orange);color:#fff;font-size:15.5px;font-weight:700;border-radius:50px;text-decoration:none;transition:all .22s;font-family:var(--font);box-shadow:0 4px 20px rgba(232,93,4,.28);}
           .btn:hover{background:#CC4D00;transform:translateY(-2px);box-shadow:0 10px 32px rgba(232,93,4,.38);}
           .disc{font-size:13px;color:#9CA3AF;margin-top:12px;}
-          .ob{opacity:0;transform:translateY(20px);transition:opacity .65s ease,transform .65s ease;}
-          .ob.show{opacity:1;transform:translateY(0);}
+          .ob{transform:translateY(20px);transition:transform .65s ease;}
+          .ob.show{transform:translateY(0);}
           @media(max-width:860px){.grid{grid-template-columns:1fr;gap:10px;}.item{border-radius:16px!important;}.item::before{border-radius:16px 16px 0 0;}}
           @media(max-width:600px){section{padding:64px 20px;}.item{padding:28px 24px;}}
         </style>
@@ -68,3 +68,4 @@
   }
   customElements.define('bb-home-why', BBHomeWhy);
 })();
+

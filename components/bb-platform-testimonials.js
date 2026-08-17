@@ -27,8 +27,8 @@
           .author-name{font-size:.9rem;font-weight:700;color:#0D2240}
           .author-role{font-size:.8rem;color:#5A6780}
           @media(max-width:768px){.grid{grid-template-columns:1fr}}
-          .ob{opacity:0;transform:translateY(22px);transition:opacity .55s ease,transform .55s ease}
-          .ob.show{opacity:1;transform:none}
+          .ob{transform:translateY(22px);transition:transform .55s ease}
+          .ob.show{transform:none}
           .hl{background:transparent;color:inherit;border-radius:3px;padding:1px 3px;transition:background .8s ease}
           .card.ob.show .hl{background:rgba(232,93,4,.22);transition-delay:.5s}
         </style>
@@ -57,4 +57,5 @@
   }
   customElements.define('bb-platform-testimonials', BBPlatformTestimonials);
 })();
+
 

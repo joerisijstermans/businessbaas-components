@@ -1,4 +1,4 @@
-(function () {
+﻿(function () {
   if (customElements.get('bb-platform-pricing')) return;
   class BBPlatformPricing extends HTMLElement {
     connectedCallback() {
@@ -26,8 +26,8 @@
           .divider{width:40px;height:1px;background:rgba(255,255,255,.1);margin:0 auto 28px}
           .plans-link{display:inline-flex;align-items:center;gap:6px;font-size:.9rem;font-weight:600;color:rgba(255,255,255,.5);text-decoration:none;transition:color .2s}
           .plans-link:hover{color:rgba(255,255,255,.85)}
-          .ob{opacity:0;transform:translateY(22px);transition:opacity .55s ease,transform .55s ease}
-          .ob.show{opacity:1;transform:none}
+          .ob{transform:translateY(22px);transition:transform .55s ease}
+          .ob.show{transform:none}
         </style>
         <section>
           <div class="blob blob1"></div>
@@ -57,3 +57,4 @@
   }
   customElements.define('bb-platform-pricing', BBPlatformPricing);
 })();
+

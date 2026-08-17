@@ -1,4 +1,4 @@
-(function () {
+﻿(function () {
   if (customElements.get('bb-landing-cta')) return;
   class BBLandingCta extends HTMLElement {
     connectedCallback() {
@@ -8,8 +8,8 @@
           *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
           :host{display:block;font-family:'Inter',-apple-system,sans-serif}
           a{color:inherit;text-decoration:none}
-          .ob{opacity:0;transform:translateY(22px);transition:opacity .6s ease,transform .6s ease}
-          .ob.show{opacity:1;transform:none}
+          .ob{transform:translateY(22px);transition:transform .6s ease}
+          .ob.show{transform:none}
           .final{padding:96px 24px;background:#0D2240;text-align:center;position:relative;overflow:hidden}
           .final::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 50% 100%,rgba(232,93,4,.15) 0%,transparent 65%);pointer-events:none}
           .final-inner{max-width:680px;margin:0 auto;position:relative;z-index:2}
@@ -37,3 +37,4 @@
   }
   customElements.define('bb-landing-cta', BBLandingCta);
 })();
+

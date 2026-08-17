@@ -1,4 +1,4 @@
-(function () {
+﻿(function () {
   if (customElements.get('bb-platform-modules')) return;
   class BBPlatformModules extends HTMLElement {
     connectedCallback() {
@@ -37,8 +37,8 @@
           .ch-pills{background:rgba(0,0,0,.15);padding:16px 32px;display:flex;flex-wrap:wrap;gap:10px}
           .pill{background:rgba(255,255,255,.15);border-radius:50px;padding:5px 14px;font-size:.78rem;color:#fff;font-weight:600}
           @media(max-width:768px){.grid{grid-template-columns:1fr}}
-          .ob{opacity:0;transform:translateY(22px);transition:opacity .55s ease,transform .55s ease}
-          .ob.show{opacity:1;transform:none}
+          .ob{transform:translateY(22px);transition:transform .55s ease}
+          .ob.show{transform:none}
         </style>
         <section>
           <div class="inner">
@@ -87,3 +87,4 @@
   }
   customElements.define('bb-platform-modules', BBPlatformModules);
 })();
+

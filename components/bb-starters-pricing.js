@@ -1,4 +1,4 @@
-(function () {
+﻿(function () {
   if (customElements.get('bb-starters-pricing')) return;
   class BBStartersPricing extends HTMLElement {
     constructor() { super(); this.attachShadow({ mode: 'open' }); this._yearly = false; }
@@ -49,8 +49,8 @@
           .disc{text-align:center;font-size:13px;color:rgba(255,255,255,.35);display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;}
           .disc span{display:flex;align-items:center;gap:5px;}
           .disc span::before{content:'✓';font-weight:700;color:#22C55E;}
-          .ob{opacity:0;transform:translateY(22px);transition:opacity .65s ease,transform .65s ease;}
-          .ob.show{opacity:1;transform:translateY(0);}
+          .ob{transform:translateY(22px);transition:transform .65s ease;}
+          .ob.show{transform:translateY(0);}
           .gratis-link{text-align:center;margin-top:16px;font-size:13px;color:rgba(255,255,255,.35);}
           .gratis-link a{color:rgba(255,255,255,.55);text-decoration:none;font-weight:600;transition:color .2s;}
           .gratis-link a:hover{color:rgba(255,255,255,.85);}
@@ -118,3 +118,4 @@
   }
   customElements.define('bb-starters-pricing', BBStartersPricing);
 })();
+

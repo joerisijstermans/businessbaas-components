@@ -9,8 +9,8 @@
           *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
           :host{display:block;font-family:'Inter',-apple-system,sans-serif}
           img{display:block;max-width:100%}
-          .ob{opacity:0;transform:translateY(22px);transition:opacity .6s ease,transform .6s ease}
-          .ob.show{opacity:1;transform:none}
+          .ob{transform:translateY(22px);transition:transform .6s ease}
+          .ob.show{transform:none}
           mark.hl{background:transparent;color:inherit;border-radius:3px;padding:1px 3px;transition:background .8s ease}
           .p-card.ob.show mark.hl{background:rgba(232,93,4,.22);transition-delay:.5s}
 
@@ -125,4 +125,5 @@
   }
   customElements.define('bb-funnel-bridge', BBFunnelBridge);
 })();
+
 

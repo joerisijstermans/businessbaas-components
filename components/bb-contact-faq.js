@@ -1,4 +1,4 @@
-(function () {
+﻿(function () {
   if (customElements.get('bb-contact-faq')) return;
   class BBContactFaq extends HTMLElement {
     constructor() { super(); this.attachShadow({ mode: 'open' }); }
@@ -18,8 +18,8 @@
           .ia{font-size:14px;color:#5A6780;line-height:1.6}
           .ia a{color:var(--orange);font-weight:600;text-decoration:none}
           .ia a:hover{text-decoration:underline}
-          .ob{opacity:0;transform:translateY(22px);transition:opacity .65s ease,transform .65s ease}
-          .ob.show{opacity:1;transform:translateY(0)}
+          .ob{transform:translateY(22px);transition:transform .65s ease}
+          .ob.show{transform:translateY(0)}
           @media(max-width:600px){section{padding:56px 20px}}
         </style>
         <section>
@@ -41,3 +41,4 @@
   }
   customElements.define('bb-contact-faq', BBContactFaq);
 })();
+

@@ -1,4 +1,4 @@
-(function () {
+﻿(function () {
   if (customElements.get('bb-about-mission')) return;
   class BBAboutMission extends HTMLElement {
     connectedCallback() {
@@ -26,8 +26,8 @@
           .val p{font-size:.85rem;color:#5A6780;line-height:1.6}
           @media(max-width:900px){.values{grid-template-columns:repeat(2,1fr)}}
           @media(max-width:500px){.values{grid-template-columns:1fr}}
-          .ob{opacity:0;transform:translateY(22px);transition:opacity .55s ease,transform .55s ease}
-          .ob.show{opacity:1;transform:none}
+          .ob{transform:translateY(22px);transition:transform .55s ease}
+          .ob.show{transform:none}
         </style>
         <section>
           <div class="inner">
@@ -68,3 +68,4 @@
   }
   customElements.define('bb-about-mission', BBAboutMission);
 })();
+

@@ -80,8 +80,8 @@
           .cta-btn-g:hover{border-color:#fff;background:rgba(255,255,255,.1)}
           .cta-note{font-size:.82rem;color:rgba(255,255,255,.55);margin-top:16px}
 
-          .ob{opacity:0;transform:translateY(22px);transition:opacity .55s ease,transform .55s ease}
-          .ob.show{opacity:1;transform:none}
+          .ob{transform:translateY(22px);transition:transform .55s ease}
+          .ob.show{transform:none}
         </style>
 
         <!-- HERO -->
@@ -208,4 +208,5 @@
   }
   customElements.define('bb-partner-ohb', BBPartnerOhb);
 })();
+
 

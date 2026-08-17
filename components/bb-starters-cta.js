@@ -1,4 +1,4 @@
-(function () {
+﻿(function () {
   if (customElements.get('bb-starters-cta')) return;
   class BBStartersCta extends HTMLElement {
     constructor() { super(); this.attachShadow({ mode: 'open' }); }
@@ -23,8 +23,8 @@
           .btn:hover{transform:translateY(-2px);box-shadow:0 14px 36px rgba(0,0,0,.22);}
           .disc{font-size:13px;color:rgba(255,255,255,.62);display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;margin-top:20px;}
           .disc span::before{content:'✓ ';font-weight:700;color:rgba(255,255,255,.8);}
-          .ob{opacity:0;transform:translateY(18px);transition:opacity .65s ease,transform .65s ease;}
-          .ob.show{opacity:1;transform:translateY(0);}
+          .ob{transform:translateY(18px);transition:transform .65s ease;}
+          .ob.show{transform:translateY(0);}
           @media(max-width:600px){section{padding:64px 20px;}h2{font-size:clamp(28px,8vw,42px);}}
         </style>
         <section>
@@ -41,3 +41,4 @@
   }
   customElements.define('bb-starters-cta', BBStartersCta);
 })();
+
