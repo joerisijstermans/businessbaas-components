@@ -40,7 +40,7 @@
             <div class="top">
               <div class="brand">
                 <a class="logo" href="https://www.businessbaas.com">
-                  <img src="${CDN}/beeldmerk-tot.png" alt="BusinessBaas">
+                  <img src="${CDN}/beeldmerk-tot.webp" alt="BusinessBaas">
                 </a>
                 <p class="bd">Van idee naar eerste betalende klanten. Het compleet ondernemersplatform voor startende ondernemers.</p>
                 <a href="https://www.businessbaas.com/gratis-training-aanvragen" class="bc" target="_top" data-lightbox>Gratis training starten â†’</a>

@@ -70,7 +70,7 @@
                   <div class="sk"><div class="skn">3</div><div class="skl">Stappen om te starten</div><div class="skd">Uitnodigen â†’ aan de slag â†’ monitoren</div></div>
                 </div>
                 <div class="pc ob">
-                  <div class="pl" style="background:transparent;padding:4px 8px;"><img src="${CDN}/starterscentrum-logo.png" alt="StartersCentrum Limburg" style="max-width:120px;max-height:56px;object-fit:contain;display:block;"></div>
+                  <div class="pl" style="background:transparent;padding:4px 8px;"><img src="${CDN}/starterscentrum-logo.webp" alt="StartersCentrum Limburg" style="max-width:120px;max-height:56px;object-fit:contain;display:block;"></div>
                   <div class="pt">
                     <p>"BusinessBaas heeft onze begeleiding van startende ondernemers volledig getransformeerd."</p>
                     <div class="pb">âœ“ Volledig operationeel</div>

@@ -115,7 +115,7 @@
                 <li>Sluit je eigen licentie af â€” aanbevolen door Dreamchasers</li>
               </ul>
             </div>
-            <img class="intro-img ob" src="${CDN}/training-afbeelding.png" alt="BusinessBaas platform" style="transition-delay:.1s">
+            <img class="intro-img ob" src="${CDN}/training-afbeelding.webp" alt="BusinessBaas platform" style="transition-delay:.1s">
           </div>
         </div>
 
@@ -127,7 +127,7 @@
             <p class="section-sub ob">BusinessBaas geeft je alles om te beginnen, door te zetten en te groeien als ondernemer.</p>
             <div class="feat-grid ob">
               <div class="feat-card">
-                <img class="feat-img" src="${CDN}/training-afbeelding.png" alt="Trainingen">
+                <img class="feat-img" src="${CDN}/training-afbeelding.webp" alt="Trainingen">
                 <div class="feat-body">
                   <div class="feat-icon-row"><div class="feat-emoji" style="background:#FFF3EB">ðŸ“š</div><span class="feat-name" style="color:#E85D04">Trainingen</span></div>
                   <h3>Praktische trainingen die echt werken</h3>
@@ -135,7 +135,7 @@
                 </div>
               </div>
               <div class="feat-card">
-                <img class="feat-img" src="${CDN}/nova-afbeelding.png" alt="AI-Coach Nova">
+                <img class="feat-img" src="${CDN}/nova-afbeelding.webp" alt="AI-Coach Nova">
                 <div class="feat-body">
                   <div class="feat-icon-row"><div class="feat-emoji" style="background:#F5F3FF">ðŸ¤–</div><span class="feat-name" style="color:#8B5CF6">AI-Coach Nova</span></div>
                   <h3>Nova: altijd voor je klaar</h3>
@@ -143,7 +143,7 @@
                 </div>
               </div>
               <div class="feat-card">
-                <img class="feat-img" src="${CDN}/community-afbeelding.png" alt="Community">
+                <img class="feat-img" src="${CDN}/community-afbeelding.webp" alt="Community">
                 <div class="feat-body">
                   <div class="feat-icon-row"><div class="feat-emoji" style="background:#FFFBEB">ðŸ¤</div><span class="feat-name" style="color:#F59E0B">Community</span></div>
                   <h3>Een community die jou begrijpt</h3>
@@ -151,7 +151,7 @@
                 </div>
               </div>
               <div class="feat-card">
-                <img class="feat-img" src="${CDN}/marktplaats-afbeelding.jpg" alt="Marktplaats">
+                <img class="feat-img" src="${CDN}/marktplaats-afbeelding.webp" alt="Marktplaats">
                 <div class="feat-body">
                   <div class="feat-icon-row"><div class="feat-emoji" style="background:#ECFDF5">ðŸ›’</div><span class="feat-name" style="color:#10B981">Marktplaats</span></div>
                   <h3>Vind je eerste klanten dichter bij huis</h3>
@@ -168,7 +168,7 @@
             <div class="quote-marks">"</div>
             <p class="quote-text">Het baken bij het starten van een bedrijf! Een duidelijke weg, stap voor stap, en helder advies als het even niet zo gaat als je graag zou willen.</p>
             <div class="quote-author">
-              <img class="quote-avatar" src="${CDN}/inge-prof.png" alt="Inge HÃ¶per">
+              <img class="quote-avatar" src="${CDN}/inge-prof.webp" alt="Inge HÃ¶per">
               <div>
                 <div class="quote-name">Inge HÃ¶per</div>
                 <div class="quote-role">Kommeshier Â· BusinessBaas lid</div>

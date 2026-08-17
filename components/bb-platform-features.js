@@ -10,14 +10,14 @@
           title: '20+ trainingen die je van idee naar klant brengen',
           desc: '20+ praktische trainingen die je door de beginfase leiden. Alleen wat nu relevant is, geen overweldigende theorie, geen eindeloos zoeken.',
           points: ['Van idee naar een helder, verkopend aanbod', 'Positionering die de juiste klanten aantrekt', 'Sales & acquisitie stap voor stap', 'Direct actie na elke les'],
-          photo: `${CDN}/training-afbeelding.png`
+          photo: `${CDN}/training-afbeelding.webp`
         },
         {
           icon: 'ðŸ–¥ï¸', label: 'Werkplek', color: '#3B82F6',
           title: 'Werk gestructureerd aan je bedrijf',
           desc: 'Geen passieve cursussen. In de digitale werkplek voer je direct de opdrachten uit. Elke week een concreet stuk verder, zichtbaar in je voortgang.',
           points: ['Opdrachten direct uitvoeren na elke training', 'Voortgang per module inzichtelijk', 'Je businessplan bouw je on-the-go', 'Altijd inzicht in waar je staat'],
-          photo: `${CDN}/werkplek-afbeelding.png`
+          photo: `${CDN}/werkplek-afbeelding.webp`
         },
         {
           icon: 'ðŸ¤–', label: 'AI-Coach Nova', color: '#8B5CF6',
@@ -31,28 +31,28 @@
           title: 'AI echt voor je laten werken als ondernemer',
           desc: 'Ontdek hoe je AI inzet als ondernemer op een manier die Ã©cht het verschil maakt. Van e-mail en agendabeheer tot automatiseren wat jou tijd kost, zodat jij je richt op waar je echt van aanvliegt.',
           points: ['AI als werknemer, niet als zoekmachine', 'Automatiseer terugkerende taken', 'Slimmer communiceren met klanten', 'ðŸš€ In ontwikkeling â€” coming soon'],
-          photo: `${CDN}/ai-tools-afbeelding.png`
+          photo: `${CDN}/ai-tools-afbeelding.webp`
         },
         {
           icon: 'ðŸ›’', label: 'Community & Marktplaats', color: '#10B981',
           title: 'Vind klanten via de WhatsApp-community en marktplaats',
           desc: 'In onze actieve WhatsApp-community spar je met mede-starters en deel je jouw aanbod. De geÃ¯ntegreerde marktplaats maakt het vinden van eerste klanten concreet en laagdrempelig.',
           points: ['WhatsApp-community van gelijkgestemde starters', 'Jouw aanbod zichtbaar voor alle leden', 'Members helpen members aan opdrachten', 'Echte klanten, echte relaties â€” dicht bij huis'],
-          photo: `${CDN}/marktplaats-afbeelding.jpg`
+          photo: `${CDN}/marktplaats-afbeelding.webp`
         },
         {
           icon: 'ðŸŽ¤', label: 'LIVE Events', color: '#F59E0B', badge: 'add-on',
           title: 'Ondernemen leer je Ã©cht door mensen te ontmoeten',
           desc: 'Bij LIVE events komen BusinessBaas-leden fysiek samen. Netwerken, workshops, ideeÃ«n uitwisselen, elkaar helpen groeien. We doen het samen, en dat merk je.',
           points: ['Offline events voor leden', 'Netwerken en workshops in Ã©Ã©n', 'IdeeÃ«n toetsen bij Ã©chte ondernemers', 'Pre-sale toegang voor leden'],
-          photo: `${CDN}/community-afbeelding.png`
+          photo: `${CDN}/community-afbeelding.webp`
         },
         {
           icon: 'ðŸ’¬', label: '1 op 1 coaching', color: '#0D2240', badge: 'add-on',
           title: 'Kom er samen uit met een expert',
           desc: 'Kom je er samen met Nova en de community niet uit? Dan kun je 1 op 1 coaching aanvragen. Een expert helpt je weer op weg! Van een quick scan tot een uitgebreide sparringsessie, altijd afgestemd op wat jij nodig hebt.',
           points: ['Persoonlijke sparringsessie op aanvraag', 'Van quick scan tot uitgebreide coaching', 'Altijd afgestemd op jÃ³uw situatie', 'Aanvulling op Nova en de community'],
-          photo: `${CDN}/coaching-afbeelding.jpg`
+          photo: `${CDN}/coaching-afbeelding.webp`
         }
       ];
 

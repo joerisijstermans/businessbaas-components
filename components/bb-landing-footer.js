@@ -24,7 +24,7 @@
         </style>
         <footer class="foot">
           <a href="https://www.businessbaas.com" class="logo">
-            <img src="${CDN}/beeldmerk-tot.png" alt="BusinessBaas">
+            <img src="${CDN}/beeldmerk-tot.webp" alt="BusinessBaas">
           </a>
           <div class="foot-right">
             <div class="foot-links">

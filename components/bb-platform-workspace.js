@@ -28,7 +28,7 @@
         <section>
           <div class="inner">
             <div class="img-wrap ob">
-              <img src="${CDN}/werkplek-afbeelding.png" alt="Digitale Werkplek">
+              <img src="${CDN}/werkplek-afbeelding.webp" alt="Digitale Werkplek">
             </div>
             <div>
               <div class="lbl ob">Digitale Werkplek</div>

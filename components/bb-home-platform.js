@@ -12,7 +12,7 @@
           desc: '20+ praktische trainingen die je door de beginfase leiden. Alleen wat nu relevant is, geen overweldigende theorie, geen eindeloos zoeken.',
           points: ['Van idee naar een helder, verkopend aanbod', 'Positionering die de juiste klanten aantrekt', 'Sales & acquisitie stap voor stap', 'Direct actie na elke les'],
           color: '#E85D04',
-          photo: `${CDN}/training-afbeelding.png`
+          photo: `${CDN}/training-afbeelding.webp`
         },
         {
           icon: '🖥️', label: 'Werkplek',
@@ -21,7 +21,7 @@
           desc: 'Geen passieve cursussen. In de digitale werkplek voer je direct de opdrachten uit. Elke week een concreet stuk verder, zichtbaar in je voortgang.',
           points: ['Opdrachten direct uitvoeren na elke training', 'Voortgang per module inzichtelijk', 'Je businessplan bouw je on-the-go', 'Altijd inzicht in waar je staat'],
           color: '#3B82F6',
-          photo: `${CDN}/werkplek-afbeelding.png`
+          photo: `${CDN}/werkplek-afbeelding.webp`
         },
         {
           icon: '🤖', label: 'AI-Coach Nova',
@@ -30,7 +30,7 @@
           desc: 'Nova is niet zomaar een AI-assistent. Ze kent jóuw trainingen en jóuw situatie, en benadert je ultra-persoonlijk. Dat is iets wezenlijk anders dan ChatGPT. Volledig inbegrepen in het abonnement, geen extra kosten.',
           points: ['Ultra-persoonlijk, afgestemd op jóuw traject', 'Altijd beschikbaar, ook \'s avonds en in het weekend', 'Advies op jouw situatie, niet op een standaard vraag', 'Gebouwd op alle BusinessBaas trainingen'],
           color: '#8B5CF6',
-          photo: `${CDN}/nova-afbeelding.png`
+          photo: `${CDN}/nova-afbeelding.webp`
         },
         {
           icon: '✨', label: 'Slim met AI',
@@ -39,7 +39,7 @@
           desc: 'Ontdek hoe je AI inzet als ondernemer op een manier die écht het verschil maakt. Van e-mail en agendabeheer tot automatiseren wat jou tijd kost, zodat jij je richt op waar je echt van aanvliegt.',
           points: ['AI als werknemer, niet als zoekmachine', 'Automatiseer terugkerende taken', 'Slimmer communiceren met klanten', '🚀 In ontwikkeling — coming soon'],
           color: '#7C3AED',
-          photo: `${CDN}/ai-tools-afbeelding.png`
+          photo: `${CDN}/ai-tools-afbeelding.webp`
         },
         {
           icon: '🛒', label: 'Marktplaats',
@@ -48,7 +48,7 @@
           desc: 'Via onze WhatsApp-community deel je jouw aanbod met mede-ondernemers. Al diverse leden hebben via BusinessBaas opdrachten bij elkaar gevonden.',
           points: ['Deel je aanbod in de WhatsApp-community', 'Klanten vinden via mede-ondernemers', 'Members helpen members', 'Echte opdrachten, echte relaties'],
           color: '#10B981',
-          photo: `${CDN}/marktplaats-afbeelding.jpg`
+          photo: `${CDN}/marktplaats-afbeelding.webp`
         },
         {
           icon: '🤝', label: 'Community',
@@ -57,7 +57,7 @@
           desc: 'Een actieve community van gelijkgestemde starters. Spar over uitdagingen, test ideeën en bouw aan je netwerk. Plus: live events waar je mede-ondernemers kunt ontmoeten.',
           points: ['Online netwerk van startende ondernemers', 'Test je ideeën veilig en krijg feedback', 'BusinessBaas LIVE events', 'Sparringspartners die jou begrijpen'],
           color: '#F59E0B',
-          photo: `${CDN}/community-afbeelding.png`
+          photo: `${CDN}/community-afbeelding.webp`
         },
         {
           icon: '💬', label: '1 op 1 coaching',
@@ -66,7 +66,7 @@
           desc: 'Kom je er samen met Nova en de community niet uit? Dan kun je 1 op 1 coaching aanvragen. Een expert helpt je weer op weg! Van een quick scan tot een uitgebreide sparringsessie, er wordt altijd afgestemd op wat jij nodig hebt om weer verder te kunnen.',
           points: ['Persoonlijke sparringsessie op aanvraag', 'Van quick scan tot uitgebreide coaching', 'Altijd afgestemd op jóuw situatie', 'Aanvulling op Nova en de community'],
           color: '#0D2240',
-          photo: `${CDN}/coaching-afbeelding.jpg`
+          photo: `${CDN}/coaching-afbeelding.webp`
         }
       ];
       this.render();

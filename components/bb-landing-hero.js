@@ -52,12 +52,12 @@
             </div>
             <div class="avatar-strip ob">
               <div class="avatars">
-                <img src="${CDN}/jorn-prof.jpg" alt="Jorn">
-                <img src="${CDN}/joyce-prof.jpg" alt="Joyce">
-                <img src="${CDN}/juurd-prof.jpg" alt="Juurd">
-                <img src="${CDN}/shauna-prof.jpg" alt="Shauna">
-                <img src="${CDN}/stan-prof.jpg" alt="Stan">
-                <img src="${CDN}/stephan-prof.png" alt="Stephan">
+                <img src="${CDN}/jorn-prof.webp" alt="Jorn">
+                <img src="${CDN}/joyce-prof.webp" alt="Joyce">
+                <img src="${CDN}/juurd-prof.webp" alt="Juurd">
+                <img src="${CDN}/shauna-prof.webp" alt="Shauna">
+                <img src="${CDN}/stan-prof.webp" alt="Stan">
+                <img src="${CDN}/stephan-prof.webp" alt="Stephan">
               </div>
               <div class="strip-text">
                 <strong><span id="cnt-starters">250</span>+ starters</strong> volgden de gratis training<br>

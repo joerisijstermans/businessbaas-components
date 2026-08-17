@@ -103,17 +103,17 @@
               <div class="p-card ob">
                 <div class="p-stars">â˜…â˜…â˜…â˜…â˜…</div>
                 <p class="p-quote">"Echt een stevige basis om mee te starten. <mark class="hl">je staat er niet alleen voor</mark>."</p>
-                <div class="p-person"><img src="${CDN}/stan-prof.jpg" alt="Stan Vreuls"><div><div class="p-name">Stan Vreuls</div><div class="p-role">21x</div></div></div>
+                <div class="p-person"><img src="${CDN}/stan-prof.webp" alt="Stan Vreuls"><div><div class="p-name">Stan Vreuls</div><div class="p-role">21x</div></div></div>
               </div>
               <div class="p-card ob" style="transition-delay:.08s">
                 <div class="p-stars">â˜…â˜…â˜…â˜…â˜…</div>
                 <p class="p-quote">"Nova voelt als een Ã©cht persoon om mee te sparren. <mark class="hl">prijs-kwaliteitverhouding is top</mark>."</p>
-                <div class="p-person"><img src="${CDN}/jorn-prof.jpg" alt="Jorn Gijzen"><div><div class="p-name">Jorn Gijzen</div><div class="p-role">Talent Rocketeers</div></div></div>
+                <div class="p-person"><img src="${CDN}/jorn-prof.webp" alt="Jorn Gijzen"><div><div class="p-name">Jorn Gijzen</div><div class="p-role">Talent Rocketeers</div></div></div>
               </div>
               <div class="p-card ob" style="transition-delay:.16s">
                 <div class="p-stars">â˜…â˜…â˜…â˜…â˜…</div>
                 <p class="p-quote">"<mark class="hl">meer zelfvertrouwen en zekerheid</mark>. Stapsgewijs werken geeft het gevoel dat je bedrijf tot leven komt."</p>
-                <div class="p-person"><img src="${CDN}/joyce-prof.jpg" alt="Joyce Bekkers"><div><div class="p-name">Joyce Bekkers</div><div class="p-role">Kindercoach The Joy</div></div></div>
+                <div class="p-person"><img src="${CDN}/joyce-prof.webp" alt="Joyce Bekkers"><div><div class="p-name">Joyce Bekkers</div><div class="p-role">Kindercoach The Joy</div></div></div>
               </div>
             </div>
           </div>

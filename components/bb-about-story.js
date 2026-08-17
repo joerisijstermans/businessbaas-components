@@ -63,7 +63,7 @@
               </div>
             </div>
             <div class="highlight ob">
-              <img src="${CDN}/joeri-prof.jpg" alt="Joeri Sijstermans">
+              <img src="${CDN}/joeri-prof.webp" alt="Joeri Sijstermans">
               <div>
                 <p>"Ik heb jarenlang gezien hoe getalenteerde mensen vastliepen op de praktische kant van ondernemen. BusinessBaas is mijn antwoord op dat probleem. Niet meer hoeven rondzoeken, niet meer betalen voor losse adviezen, gewoon alles op Ã©Ã©n plek, voor een prijs die elke starter kan betalen."</p>
                 <div class="sig">Joeri Sijstermans, Oprichter BusinessBaas</div>

@@ -29,23 +29,23 @@
             <div class="ob"><span class="lbl">Onze partners</span></div>
             <div class="grid ob">
               <div class="card">
-                <div class="logo-wrap"><img src="${CDN}/logo-starterscentrum-nieuw.png" alt="Starterscentrum Limburg"></div>
+                <div class="logo-wrap"><img src="${CDN}/logo-starterscentrum-nieuw.webp" alt="Starterscentrum Limburg"></div>
                 <span class="name">Starterscentrum Limburg</span>
               </div>
               <div class="card">
-                <div class="logo-wrap"><img src="${CDN}/logo-gemeente-maastricht-nieuw.png" alt="Gemeente Maastricht"></div>
+                <div class="logo-wrap"><img src="${CDN}/logo-gemeente-maastricht-nieuw.webp" alt="Gemeente Maastricht"></div>
                 <span class="name">Gemeente Maastricht</span>
               </div>
               <div class="card">
-                <div class="logo-wrap"><img src="${CDN}/logo-dreamchasers-nieuw.png" alt="Stichting Dreamchasers"></div>
+                <div class="logo-wrap"><img src="${CDN}/logo-dreamchasers-nieuw.webp" alt="Stichting Dreamchasers"></div>
                 <span class="name">Stichting Dreamchasers</span>
               </div>
               <div class="card">
-                <div class="logo-wrap"><img src="${CDN}/logo-ohb-nieuw.png" alt="Ondernemershub Brunssum"></div>
+                <div class="logo-wrap"><img src="${CDN}/logo-ohb-nieuw.webp" alt="Ondernemershub Brunssum"></div>
                 <span class="name">Ondernemershub Brunssum</span>
               </div>
               <div class="card">
-                <div class="logo-wrap"><img src="${CDN}/logo-nic-nieuw.png" alt="New Insight Consulting"></div>
+                <div class="logo-wrap"><img src="${CDN}/logo-nic-nieuw.webp" alt="New Insight Consulting"></div>
                 <span class="name">New Insight Consulting</span>
               </div>
             </div>

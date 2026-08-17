@@ -83,17 +83,17 @@
               <p class="disclaimer" id="disc">âœ“ Direct toegang &nbsp;&nbsp; âœ“ Geen creditcard nodig</p>
               <div class="sp" id="sp">
                 <div class="avatars">
-                  <img class="av" src="https://cdn.jsdelivr.net/gh/joerisijstermans/businessbaas-components@main/assets/joyce-prof.jpg" alt="Joyce">
-                  <img class="av" src="https://cdn.jsdelivr.net/gh/joerisijstermans/businessbaas-components@main/assets/marleen-prof.jpg" alt="Marleen">
-                  <img class="av" src="https://cdn.jsdelivr.net/gh/joerisijstermans/businessbaas-components@main/assets/katharina-prof.jpg" alt="Katharina">
-                  <img class="av" src="https://cdn.jsdelivr.net/gh/joerisijstermans/businessbaas-components@main/assets/inge-prof.png" alt="Inge">
-                  <img class="av" src="https://cdn.jsdelivr.net/gh/joerisijstermans/businessbaas-components@main/assets/loes-prof.png" alt="Loes">
+                  <img class="av" src="https://cdn.jsdelivr.net/gh/joerisijstermans/businessbaas-components@main/assets/joyce-prof.webp" alt="Joyce">
+                  <img class="av" src="https://cdn.jsdelivr.net/gh/joerisijstermans/businessbaas-components@main/assets/marleen-prof.webp" alt="Marleen">
+                  <img class="av" src="https://cdn.jsdelivr.net/gh/joerisijstermans/businessbaas-components@main/assets/katharina-prof.webp" alt="Katharina">
+                  <img class="av" src="https://cdn.jsdelivr.net/gh/joerisijstermans/businessbaas-components@main/assets/inge-prof.webp" alt="Inge">
+                  <img class="av" src="https://cdn.jsdelivr.net/gh/joerisijstermans/businessbaas-components@main/assets/loes-prof.webp" alt="Loes">
                 </div>
                 <p class="sp-text"><strong>Starters uit heel Nederland</strong> gingen je voor</p>
               </div>
             </div>
             <div class="right" id="right">
-              <img class="photo" src="https://cdn.jsdelivr.net/gh/joerisijstermans/businessbaas-components@main/assets/hero-afbeelding.png" alt="Ondernemer aan het werk">
+              <img class="photo" src="https://cdn.jsdelivr.net/gh/joerisijstermans/businessbaas-components@main/assets/hero-afbeelding.webp" alt="Ondernemer aan het werk">
               <div class="fc fc-1" id="fc1">
                 <div class="fc-lbl">Volgende stap</div>
                 <div class="fc-1-val">
