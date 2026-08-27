@@ -48,7 +48,7 @@
           .feat-card p{font-size:.875rem;color:#5A6780;line-height:1.6}
           @media(max-width:640px){.feat-grid{grid-template-columns:1fr}}
 
-          /* TIMELINE â€” HOW IT WORKS */
+          /* TIMELINE — HOW IT WORKS */
           .how{padding:72px 24px;background:#F4F6FA}
           .how-inner{max-width:760px;margin:0 auto}
           .steps{display:flex;flex-direction:column;gap:0;margin-top:40px}
@@ -90,7 +90,7 @@
           <h1>Jouw 6 maanden <em>BusinessBaas</em> toegang</h1>
           <p>Als deelnemer van de Ondernemershub Brunssum is BusinessBaas inbegrepen in jouw traject. Hier werk je alles wat je leert direct uit in jouw eigen digitale werkplek.</p>
           <div class="hero-btns">
-            <a href="https://www.businessbaas.com/het-platform" class="btn-primary">Bekijk het platform â†’</a>
+            <a href="https://www.businessbaas.com/het-platform" class="btn-primary">Bekijk het platform →</a>
             <a href="mailto:info@businessbaas.com" class="btn-ghost">Vragen? Neem contact op</a>
           </div>
           <div class="hero-logos">
@@ -110,15 +110,15 @@
               <div class="feat-card">
                 <img class="feat-img" src="${CDN}/werkplek-afbeelding.webp" alt="Digitale Werkplek">
                 <div class="feat-body">
-                  <div class="feat-icon-row"><div class="feat-emoji" style="background:#EFF6FF">ðŸ–¥ï¸</div><span class="feat-name" style="color:#3B82F6">Werkplek</span></div>
+                  <div class="feat-icon-row"><div class="feat-emoji" style="background:#EFF6FF">🖥�</div><span class="feat-name" style="color:#3B82F6">Werkplek</span></div>
                   <h3>Werk gestructureerd aan je bedrijf</h3>
-                  <p>De digitale werkplek is waar je de opdrachten uit het programma uitwerkt. Jouw ondernemersplan, overzichtelijk op Ã©Ã©n plek.</p>
+                  <p>De digitale werkplek is waar je de opdrachten uit het programma uitwerkt. Jouw ondernemersplan, overzichtelijk op één plek.</p>
                 </div>
               </div>
               <div class="feat-card">
                 <img class="feat-img" src="${CDN}/nova-afbeelding.webp" alt="AI-Coach Nova">
                 <div class="feat-body">
-                  <div class="feat-icon-row"><div class="feat-emoji" style="background:#F5F3FF">ðŸ¤–</div><span class="feat-name" style="color:#8B5CF6">AI-Coach Nova</span></div>
+                  <div class="feat-icon-row"><div class="feat-emoji" style="background:#F5F3FF">🤖</div><span class="feat-name" style="color:#8B5CF6">AI-Coach Nova</span></div>
                   <h3>Jouw persoonlijke AI-coach, 24/7</h3>
                   <p>Nova kent jouw programma en situatie. Altijd beschikbaar voor sparren, ook buiten de 12 weken van het programma.</p>
                 </div>
@@ -126,7 +126,7 @@
               <div class="feat-card">
                 <img class="feat-img" src="${CDN}/training-afbeelding.webp" alt="Trainingen">
                 <div class="feat-body">
-                  <div class="feat-icon-row"><div class="feat-emoji" style="background:#FFF3EB">ðŸ“š</div><span class="feat-name" style="color:#E85D04">Trainingen</span></div>
+                  <div class="feat-icon-row"><div class="feat-emoji" style="background:#FFF3EB">📚</div><span class="feat-name" style="color:#E85D04">Trainingen</span></div>
                   <h3>20+ trainingen, altijd beschikbaar</h3>
                   <p>Verdiep wat je hebt geleerd of ontdek nieuwe onderwerpen in je eigen tempo. Trainingen blijven 6 maanden toegankelijk.</p>
                 </div>
@@ -134,9 +134,9 @@
               <div class="feat-card">
                 <img class="feat-img" src="${CDN}/community-afbeelding.webp" alt="Community">
                 <div class="feat-body">
-                  <div class="feat-icon-row"><div class="feat-emoji" style="background:#FFFBEB">ðŸ¤</div><span class="feat-name" style="color:#F59E0B">Community</span></div>
+                  <div class="feat-icon-row"><div class="feat-emoji" style="background:#FFFBEB">�</div><span class="feat-name" style="color:#F59E0B">Community</span></div>
                   <h3>Netwerk van gelijkgestemde starters</h3>
-                  <p>Kom in contact met andere starters in BusinessBaas Ã©n van de Ondernemershub. Samen kom je verder.</p>
+                  <p>Kom in contact met andere starters in BusinessBaas én van de Ondernemershub. Samen kom je verder.</p>
                 </div>
               </div>
             </div>
@@ -178,12 +178,12 @@
         <div class="quote-section">
           <div class="quote-inner ob">
             <div class="quote-marks">"</div>
-            <p class="quote-text">Die training heeft echt het verschil gemaakt voor mijn bedrijf! Dankzij de praktische en heldere aanpak heb ik mijn niche scherp voor ogen Ã©n weet ik hoe ik ze gericht kan aanspreken. Absoluut een aanrader!</p>
+            <p class="quote-text">Die training heeft echt het verschil gemaakt voor mijn bedrijf! Dankzij de praktische en heldere aanpak heb ik mijn niche scherp voor ogen én weet ik hoe ik ze gericht kan aanspreken. Absoluut een aanrader!</p>
             <div class="quote-author">
               <img class="quote-avatar" src="${CDN}/loes-prof.webp" alt="Loes Kluter">
               <div>
                 <div class="quote-name">Loes Kluter</div>
-                <div class="quote-role">Kluter Vastgoedpresentatie Â· BusinessBaas lid</div>
+                <div class="quote-role">Kluter Vastgoedpresentatie · BusinessBaas lid</div>
               </div>
             </div>
           </div>

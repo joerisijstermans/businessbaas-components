@@ -34,11 +34,11 @@
             <p class="videos-sub ob">Geen marketingpraatjes, gewoon echte ervaringen van starters die de stap hebben gezet.</p>
             <div class="vid-grid">
               <div class="vid-card ob">
-                <div class="vid-frame"><iframe src="https://www.youtube.com/embed/SaKGtn-n1p8?rel=0&modestbranding=1" title="Katharina MÃ¤rz â€“ Katharinazorg" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-                <div class="vid-info"><div class="vid-name">Katharina MÃ¤rz</div><div class="vid-role">Katharinazorg</div><span class="vid-tag">Persoonlijk advies op maat</span></div>
+                <div class="vid-frame"><iframe src="https://www.youtube.com/embed/SaKGtn-n1p8?rel=0&modestbranding=1" title="Katharina März – Katharinazorg" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                <div class="vid-info"><div class="vid-name">Katharina März</div><div class="vid-role">Katharinazorg</div><span class="vid-tag">Persoonlijk advies op maat</span></div>
               </div>
               <div class="vid-card ob" style="transition-delay:.12s">
-                <div class="vid-frame"><iframe src="https://www.youtube.com/embed/iNu3gVMENtU?rel=0&modestbranding=1" title="Jamie Senden â€“ Overgangsconsulent" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                <div class="vid-frame"><iframe src="https://www.youtube.com/embed/iNu3gVMENtU?rel=0&modestbranding=1" title="Jamie Senden – Overgangsconsulent" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
                 <div class="vid-info"><div class="vid-name">Jamie Senden</div><div class="vid-role">Overgangsconsulent</div><span class="vid-tag">Verandert mijn mindset</span></div>
               </div>
             </div>

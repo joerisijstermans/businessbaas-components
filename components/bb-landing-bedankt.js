@@ -43,21 +43,21 @@
             <p class="sub">Je bent nu lid van BusinessBaas. Over enkele momenten ontvang je <strong>twee e-mails</strong> van ons:</p>
             <div class="mail-cards">
               <div class="mail-card">
-                <div class="mail-icon">ðŸ”‘</div>
+                <div class="mail-icon">🔑</div>
                 <div class="mail-info">
                   <h3>Stel je wachtwoord in</h3>
                   <p>Je ontvangt een "wachtwoord vergeten" e-mail. Klik op de link daarin om een wachtwoord aan te maken voor jouw BusinessBaas-account.</p>
                 </div>
               </div>
               <div class="mail-card">
-                <div class="mail-icon">ðŸ“§</div>
+                <div class="mail-icon">📧</div>
                 <div class="mail-info">
                   <h3>Instructies &amp; onboarding</h3>
                   <p>Je ontvangt ook een onboardingse-mail met uitleg over het platform en jouw eerste stappen.</p>
                 </div>
               </div>
               <div class="mail-card">
-                <div class="mail-icon">ðŸš€</div>
+                <div class="mail-icon">🚀</div>
                 <div class="mail-info">
                   <h3>Direct aan de slag</h3>
                   <p>Na het instellen van je wachtwoord kun je direct beginnen met de trainingen en je digitale werkplek. AI-coach Nova wordt voor je klaargezet en volgt zo snel mogelijk.</p>
@@ -65,7 +65,7 @@
               </div>
             </div>
             <div class="spam-note">
-              <span>âš ï¸</span>
+              <span>⚠�</span>
               <span><strong>Check ook je spamfolder</strong>, soms belanden e-mails van nieuwe afzenders daar automatisch.</span>
             </div>
             <a href="https://www.businessbaas.com" class="next-btn">

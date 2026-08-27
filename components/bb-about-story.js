@@ -36,15 +36,15 @@
               <div class="step ob">
                 <div class="year-badge"><span class="year">2014</span><div class="dot"></div></div>
                 <div class="content">
-                  <h3>Docent Ã©n ondernemer tegelijk</h3>
-                  <p>Joeri start zijn carriÃ¨re als HBO-docent en begeleidt jaar na jaar studenten in hun ontwikkeling. Datzelfde jaar start hij ook zijn eerste eigen onderneming. Hij leert al snel: het belang van je netwerk aanspreken, niet alles alleen willen doen, hoofd- en bijzaken onderscheiden en scherp bepalen wie je klant is, en wie niet. Die combinatie van begeleider Ã©n ondernemer-in-de-praktijk bepaalt hoe hij naar starters kijkt.</p>
+                  <h3>Docent én ondernemer tegelijk</h3>
+                  <p>Joeri start zijn carrière als HBO-docent en begeleidt jaar na jaar studenten in hun ontwikkeling. Datzelfde jaar start hij ook zijn eerste eigen onderneming. Hij leert al snel: het belang van je netwerk aanspreken, niet alles alleen willen doen, hoofd- en bijzaken onderscheiden en scherp bepalen wie je klant is, en wie niet. Die combinatie van begeleider én ondernemer-in-de-praktijk bepaalt hoe hij naar starters kijkt.</p>
                 </div>
               </div>
               <div class="step ob" style="transition-delay:.07s">
                 <div class="year-badge"><span class="year">2023</span><div class="dot"></div></div>
                 <div class="content">
                   <h3>Het gat in de markt</h3>
-                  <p>Er bestaan cursussen, er zijn coaches, er zijn YouTube-video's, maar nergens is alles gecombineerd in Ã©Ã©n platform dat specifiek gebouwd is voor de Nederlandse starter. Joeri besluit dat hij het zelf gaat bouwen.</p>
+                  <p>Er bestaan cursussen, er zijn coaches, er zijn YouTube-video's, maar nergens is alles gecombineerd in één platform dat specifiek gebouwd is voor de Nederlandse starter. Joeri besluit dat hij het zelf gaat bouwen.</p>
                 </div>
               </div>
               <div class="step ob" style="transition-delay:.14s">
@@ -65,7 +65,7 @@
             <div class="highlight ob">
               <img src="${CDN}/joeri-prof.webp" alt="Joeri Sijstermans">
               <div>
-                <p>"Ik heb jarenlang gezien hoe getalenteerde mensen vastliepen op de praktische kant van ondernemen. BusinessBaas is mijn antwoord op dat probleem. Niet meer hoeven rondzoeken, niet meer betalen voor losse adviezen, gewoon alles op Ã©Ã©n plek, voor een prijs die elke starter kan betalen."</p>
+                <p>"Ik heb jarenlang gezien hoe getalenteerde mensen vastliepen op de praktische kant van ondernemen. BusinessBaas is mijn antwoord op dat probleem. Niet meer hoeven rondzoeken, niet meer betalen voor losse adviezen, gewoon alles op één plek, voor een prijs die elke starter kan betalen."</p>
                 <div class="sig">Joeri Sijstermans, Oprichter BusinessBaas</div>
               </div>
             </div>
