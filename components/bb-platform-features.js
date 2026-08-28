@@ -24,7 +24,7 @@
           title: 'Persoonlijke coaching, geen chatbot',
           desc: 'Nova is niet zomaar een AI-assistent. Ze kent jóuw trainingen en jóuw situatie, en benadert je ultra-persoonlijk. Dat is iets wezenlijk anders dan ChatGPT. Inbegrepen bij je abonnement, zonder extra kosten.',
           points: ['Ultra-persoonlijk, afgestemd op jóuw traject', 'Altijd beschikbaar, ook \'s avonds en in het weekend', 'Advies op jouw situatie, niet op een standaard vraag', 'Gebouwd op alle BusinessBaas trainingen'],
-          photo: `${CDN}/nova-afbeelding.png?v=2`
+          photo: `${CDN}/nova-afbeelding.webp`
         },
         {
           icon: '✨', label: 'Slim met AI', color: '#7C3AED', badge: 'binnenkort',

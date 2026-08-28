@@ -36,8 +36,8 @@
           .rt span { font-size: 14px; color: rgba(255,255,255,0.42); font-weight: 500; }
           .rc { display: inline-flex; align-items: center; gap: 8px; padding: 14px 28px; background: var(--orange); color: #fff; font-size: 15px; font-weight: 700; border-radius: 50px; text-decoration: none; transition: background 0.22s,transform 0.22s,box-shadow 0.22s; font-family: var(--font); white-space: nowrap; flex-shrink: 0; }
           .rc:hover { background: #CC4D00; transform: translateY(-2px); box-shadow: 0 8px 24px rgba(232,93,4,0.38); }
-          .ob { opacity: 0; transform: translateY(22px); transition: opacity 0.65s ease, transform 0.65s ease; }
-          .ob.show { opacity: 1; transform: translateY(0); }
+          .ob { transform: translateY(22px); transition: transform 0.65s ease; }
+          .ob.show { transform: translateY(0); }
           @media (max-width:960px) { .grid { grid-template-columns:1fr 1fr; } }
           @media (max-width:600px) { section { padding:64px 20px; } .grid { grid-template-columns:1fr; } .res { padding:28px 24px; flex-direction:column; align-items:flex-start; } }
         </style>

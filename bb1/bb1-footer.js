@@ -1,6 +1,6 @@
 (function () {
   if (customElements.get('bb1-footer')) return;
-  const CDN = 'https://joerisijstermans.github.io/businessbaas-components/assets';
+  const CDN = 'https://cdn.jsdelivr.net/gh/joerisijstermans/businessbaas-components@main/assets';
   class BB1Footer extends HTMLElement {
     constructor() { super(); this.attachShadow({ mode: 'open' }); }
     connectedCallback() {
@@ -38,7 +38,7 @@
             <div class="top">
               <div class="brand">
                 <a class="logo" href="https://www.businessbaas.com">
-                  <img src="${CDN}/beeldmerk-tot.png" alt="BusinessBaas">
+                  <img src="${CDN}/beeldmerk-tot.webp" alt="BusinessBaas">
                 </a>
                 <p class="bd">Van idee naar eerste betalende klanten. Het compleet ondernemersplatform voor startende ondernemers.</p>
                 <a href="https://www.businessbaas.com/gratis-training-aanvragen" class="bc" target="_top" data-lightbox>Gratis training starten →</a>
