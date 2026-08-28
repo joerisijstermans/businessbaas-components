@@ -43,7 +43,7 @@
                   </div>
                 </div>
                 <div class="feat">
-                  <div class="feat-icon">��</div>
+                  <div class="feat-icon">✍️</div>
                   <div class="feat-info">
                     <h4>Opdrachten uit de trainingen</h4>
                     <p>Elke training heeft bijbehorende opdrachten die je direct uitwerkt in jouw werkplek. Zo bouw jij jouw bedrijf stap voor stap op.</p>

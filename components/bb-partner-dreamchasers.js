@@ -145,7 +145,7 @@
               <div class="feat-card">
                 <img class="feat-img" src="${CDN}/community-afbeelding.webp" alt="Community">
                 <div class="feat-body">
-                  <div class="feat-icon-row"><div class="feat-emoji" style="background:#FFFBEB">�</div><span class="feat-name" style="color:#F59E0B">Community</span></div>
+                  <div class="feat-icon-row"><div class="feat-emoji" style="background:#FFFBEB">🤝</div><span class="feat-name" style="color:#F59E0B">Community</span></div>
                   <h3>Een community die jou begrijpt</h3>
                   <p>Spar met mede-starters, test ideeën en bouw je netwerk. Plus live events waar je echte verbindingen maakt.</p>
                 </div>

@@ -110,7 +110,7 @@
               <div class="feat-card">
                 <img class="feat-img" src="${CDN}/werkplek-afbeelding.webp" alt="Digitale Werkplek">
                 <div class="feat-body">
-                  <div class="feat-icon-row"><div class="feat-emoji" style="background:#EFF6FF">🖥�</div><span class="feat-name" style="color:#3B82F6">Werkplek</span></div>
+                  <div class="feat-icon-row"><div class="feat-emoji" style="background:#EFF6FF">🖥️</div><span class="feat-name" style="color:#3B82F6">Werkplek</span></div>
                   <h3>Werk gestructureerd aan je bedrijf</h3>
                   <p>De digitale werkplek is waar je de opdrachten uit het programma uitwerkt. Jouw ondernemersplan, overzichtelijk op één plek.</p>
                 </div>
@@ -134,7 +134,7 @@
               <div class="feat-card">
                 <img class="feat-img" src="${CDN}/community-afbeelding.webp" alt="Community">
                 <div class="feat-body">
-                  <div class="feat-icon-row"><div class="feat-emoji" style="background:#FFFBEB">�</div><span class="feat-name" style="color:#F59E0B">Community</span></div>
+                  <div class="feat-icon-row"><div class="feat-emoji" style="background:#FFFBEB">🤝</div><span class="feat-name" style="color:#F59E0B">Community</span></div>
                   <h3>Netwerk van gelijkgestemde starters</h3>
                   <p>Kom in contact met andere starters in BusinessBaas én van de Ondernemershub. Samen kom je verder.</p>
                 </div>

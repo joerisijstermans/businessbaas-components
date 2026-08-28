@@ -65,7 +65,7 @@
               </div>
             </div>
             <div class="spam-note">
-              <span>⚠�</span>
+              <span>⚠️</span>
               <span><strong>Check ook je spamfolder</strong>, soms belanden e-mails van nieuwe afzenders daar automatisch.</span>
             </div>
             <a href="https://www.businessbaas.com" class="next-btn">

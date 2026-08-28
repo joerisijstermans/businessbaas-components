@@ -13,7 +13,7 @@
           photo: `${CDN}/training-afbeelding.webp`
         },
         {
-          icon: '🖥�', label: 'Werkplek', color: '#3B82F6',
+          icon: '🖥️', label: 'Werkplek', color: '#3B82F6',
           title: 'Werk gestructureerd aan je bedrijf',
           desc: 'Geen passieve cursussen. In de digitale werkplek voer je direct de opdrachten uit. Elke week een concreet stuk verder, zichtbaar in je voortgang.',
           points: ['Opdrachten direct uitvoeren na elke training', 'Voortgang per module inzichtelijk', 'Je businessplan bouw je on-the-go', 'Altijd inzicht in waar je staat'],

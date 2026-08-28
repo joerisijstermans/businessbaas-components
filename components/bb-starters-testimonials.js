@@ -106,7 +106,7 @@
               <div class="dots" id="dots"></div>
               <button class="arr next-btn" aria-label="Volgende"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M7 4L12 9L7 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
             </div>
-            <div class="award-wrap ob"><div class="award"><span class="award-trophy">��</span><div class="award-txt"><div class="award-top">Finalist</div><div class="award-name">Limburg Awards 2025</div></div></div></div>
+            <div class="award-wrap ob"><div class="award"><span class="award-trophy">🏆</span><div class="award-txt"><div class="award-top">Finalist</div><div class="award-name">Limburg Awards 2025</div></div></div></div>
           </div>
         </section>`;
     }

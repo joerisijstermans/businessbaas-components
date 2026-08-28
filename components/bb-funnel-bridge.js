@@ -90,7 +90,7 @@
               <div class="feat-card ob"><div class="feat-icon">📚</div><h3>20+ Praktische trainingen</h3><p>Stap voor stap van idee naar eerste klant. Elke training eindigt met een concrete opdracht die je direct uitvoert.</p></div>
               <div class="feat-card ob" style="transition-delay:.08s"><div class="feat-icon">🤖</div><h3>Nova, jouw AI-coach</h3><p>Jouw 24/7 sparringspartner. Nova kent het volledige programma, stelt de juiste vragen en helpt je verder als je vastzit.</p></div>
               <div class="feat-card ob" style="transition-delay:.16s"><div class="feat-icon">💻</div><h3>Digitale werkplek</h3><p>Werk elke opdracht direct uit op het platform. Geen losse Word-documenten meer, alles op één overzichtelijke plek.</p></div>
-              <div class="feat-card ob" style="transition-delay:.24s"><div class="feat-icon">�</div><h3>Community &amp; marktplaats</h3><p>Ondernemers die precies begrijpen wat jij doormaakt. Stel vragen, wissel kennis uit en vind je eerste klanten intern.</p></div>
+              <div class="feat-card ob" style="transition-delay:.24s"><div class="feat-icon">🤝</div><h3>Community &amp; marktplaats</h3><p>Ondernemers die precies begrijpen wat jij doormaakt. Stel vragen, wissel kennis uit en vind je eerste klanten intern.</p></div>
             </div>
           </div>
         </div>

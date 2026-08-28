@@ -106,7 +106,7 @@
               <div class="feat-card">
                 <img class="feat-img" src="${CDN}/werkplek-afbeelding.webp" alt="Digitale Werkplek">
                 <div class="feat-body">
-                  <div class="feat-icon-row"><div class="feat-emoji" style="background:#EFF6FF">🖥�</div><span class="feat-name" style="color:#3B82F6">Werkplek</span></div>
+                  <div class="feat-icon-row"><div class="feat-emoji" style="background:#EFF6FF">🖥️</div><span class="feat-name" style="color:#3B82F6">Werkplek</span></div>
                   <h3>Werk gestructureerd aan je bedrijf</h3>
                   <p>Voer opdrachten direct uit na elke training. Je businessplan bouw je on-the-go, altijd overzichtelijk.</p>
                 </div>
@@ -122,7 +122,7 @@
               <div class="feat-card">
                 <img class="feat-img" src="${CDN}/community-afbeelding.webp" alt="Community">
                 <div class="feat-body">
-                  <div class="feat-icon-row"><div class="feat-emoji" style="background:#FFFBEB">�</div><span class="feat-name" style="color:#F59E0B">Community</span></div>
+                  <div class="feat-icon-row"><div class="feat-emoji" style="background:#FFFBEB">🤝</div><span class="feat-name" style="color:#F59E0B">Community</span></div>
                   <h3>Ondernemen samen met gelijkgestemden</h3>
                   <p>Een actieve community van starters. Spar, test ideeën en bouw aan je netwerk. Plus live events.</p>
                 </div>
