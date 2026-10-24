@@ -64,7 +64,7 @@
         <!-- REFRAME -->
         <div class="reframe">
           <div class="reframe-inner">
-            <p class="reframe-q ob">De vraag is niet: "Kan ik €69 per maand missen?"</p>
+            <p class="reframe-q ob">De vraag is niet: "Kan ik €2,30 per dag missen?"</p>
             <p class="reframe-a ob">De vraag is: "Kan ik nóg 6 maanden zonder klanten?"</p>
           </div>
         </div>
