@@ -6,7 +6,7 @@
       s.innerHTML=`
         <style>
           *{box-sizing:border-box;margin:0;padding:0}
-          :host{display:block;font-family:'Inter',-apple-system,sans-serif}
+          :host{display:block;width:100%;font-family:'Inter',-apple-system,sans-serif}
           .bar{background:#0D2240;border-bottom:1px solid rgba(255,255,255,.08);padding:0 24px;position:relative;overflow:hidden}
           .bar::before{content:'';position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.025) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.025) 1px,transparent 1px);background-size:52px 52px;pointer-events:none}
           .inner{max-width:1180px;margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr);position:relative;z-index:1}
