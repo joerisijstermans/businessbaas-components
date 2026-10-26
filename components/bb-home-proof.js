@@ -86,12 +86,6 @@
           .dots{display:flex;gap:7px;align-items:center;flex:1;}
           .dot{width:8px;height:8px;border-radius:50%;background:rgba(13,34,64,.15);border:none;cursor:pointer;padding:0;transition:all .25s;flex-shrink:0;}
           .dot.on{background:var(--orange);width:22px;border-radius:4px;}
-          .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:rgba(13,34,64,.08);border-radius:18px;overflow:hidden;box-shadow:0 4px 24px rgba(13,34,64,.06);margin-top:48px;}
-          .sc{background:#fff;padding:28px 20px;text-align:center;opacity:0;transform:translateY(14px);transition:all .6s ease;}
-          .sc.show{opacity:1;transform:translateY(0);}
-          .sn{font-size:36px;font-weight:900;color:var(--navy);letter-spacing:-.03em;}
-          .sn span{color:var(--navy);}
-          .sl2{font-size:11px;font-weight:600;color:#9CA3AF;text-transform:uppercase;letter-spacing:.06em;margin-top:6px;}
           .cs{text-align:center;margin-top:52px;}
           .cs p{font-size:20px;font-weight:700;color:var(--navy);margin-bottom:18px;}
           .cs p em{font-style:normal;color:var(--orange);}
@@ -102,8 +96,7 @@
           mark.hl{background:transparent;color:inherit;border-radius:3px;padding:1px 3px;transition:background .8s ease}
           .card.hl-ready mark.hl{background:rgba(232,93,4,.18);transition-delay:.4s}
           @media(max-width:960px){section{padding:64px 20px;}.card{flex:0 0 calc((100% - 20px) / 2);}}
-          @media(max-width:580px){.card{flex:0 0 100%;}.stats{grid-template-columns:1fr 1fr;}}
-          @media(max-width:480px){.stats{grid-template-columns:1fr;}}
+          @media(max-width:580px){.card{flex:0 0 100%;}}
         </style>
         <section>
           <div class="inner">
@@ -141,12 +134,6 @@
               <div class="dots" id="dots"></div>
               <button class="arr next-btn" aria-label="Volgende"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M7 4L12 9L7 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
             </div>
-            <div class="stats">
-              <div class="sc" style="transition-delay:.0s" data-target="3" data-suffix="" data-decimals="0"><div class="sn">0</div><div class="sl2">Modules</div></div>
-              <div class="sc" style="transition-delay:.1s" data-target="20" data-suffix="+" data-decimals="0"><div class="sn">0<span>+</span></div><div class="sl2">Praktische trainingen</div></div>
-              <div class="sc" style="transition-delay:.2s" data-target="90" data-suffix="" data-decimals="0"><div class="sn">0</div><div class="sl2">Dagen programma</div></div>
-              <div class="sc" style="transition-delay:.3s" data-target="4.9" data-suffix="★" data-decimals="1"><div class="sn">0<span>★</span></div><div class="sl2">Google beoordeling</div></div>
-            </div>
             <div class="cs ob">
               <p>Jij kunt het volgende <em>succesverhaal</em> zijn</p>
               <a href="https://www.businessbaas.com/gratis-training-aanvragen" class="sb" target="_top" data-lightbox>Start jouw gratis training <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
@@ -167,37 +154,9 @@
     }
     _obs() {
       const o = new IntersectionObserver((es) => es.forEach(e => { if (e.isIntersecting) { setTimeout(() => e.target.classList.add('show'), 60); o.unobserve(e.target); } }), { threshold: 0.08 });
-      this.shadowRoot.querySelectorAll('.ob,.sc').forEach(el => o.observe(el));
+      this.shadowRoot.querySelectorAll('.ob').forEach(el => o.observe(el));
 
       const sr = this.shadowRoot;
-      const statEls = sr.querySelectorAll('.sc[data-target]');
-      const statObs = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-          if (!entry.isIntersecting) return;
-          statObs.unobserve(entry.target);
-          const el = entry.target;
-          const target = parseFloat(el.dataset.target);
-          const decimals = parseInt(el.dataset.decimals || '0');
-          const prefix = el.dataset.prefix || '';
-          const suffix = el.dataset.suffix || '';
-          const sn = el.querySelector('.sn');
-          if (!sn) return;
-          const dur = 1400;
-          const start = performance.now();
-          (function tick(now) {
-            const p = Math.min((now - start) / dur, 1);
-            const eased = 1 - Math.pow(1 - p, 3);
-            const val = eased * target;
-            const formatted = decimals ? val.toFixed(decimals).replace('.', ',') : Math.floor(val);
-            if (prefix) sn.innerHTML = `<span>${prefix}</span>${formatted}`;
-            else if (suffix) sn.innerHTML = `${formatted}<span>${suffix}</span>`;
-            else sn.textContent = formatted;
-            if (p < 1) requestAnimationFrame(tick);
-          })(performance.now());
-        });
-      }, { threshold: 0.5 });
-      statEls.forEach(el => statObs.observe(el));
-
       const sliderArea = sr.querySelector('.slider-area');
       if (sliderArea) {
         const hlObs = new IntersectionObserver((entries) => {
