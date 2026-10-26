@@ -6,10 +6,10 @@
       s.innerHTML=`
         <style>
           *{box-sizing:border-box;margin:0;padding:0}
-          :host{display:block;width:100%;font-family:'Inter',-apple-system,sans-serif}
-          .bar{background:#0D2240;border-bottom:1px solid rgba(255,255,255,.08);padding:0 24px;position:relative;overflow:hidden}
+          :host{display:block;width:100%;margin:0;padding:0;font-family:'Inter',-apple-system,sans-serif}
+          .bar{background:#0D2240;border-bottom:1px solid rgba(255,255,255,.08);padding:0 24px;position:relative;overflow:hidden;width:100%}
           .bar::before{content:'';position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.025) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.025) 1px,transparent 1px);background-size:52px 52px;pointer-events:none}
-          .inner{max-width:1180px;margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr);position:relative;z-index:1}
+          .inner{max-width:1180px;margin:0 auto;width:100%;display:grid;grid-template-columns:repeat(4,1fr);position:relative;z-index:1}
           .stat{display:flex;flex-direction:column;align-items:center;justify-content:center;padding:28px 16px;gap:4px;border-right:1px solid rgba(255,255,255,.08)}
           .stat:last-child{border-right:none}
           .val{font-size:clamp(26px,3vw,36px);font-weight:900;color:#E85D04;letter-spacing:-.03em;line-height:1}
