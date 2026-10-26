@@ -50,8 +50,8 @@
                 <li><a href="https://www.businessbaas.com/het-platform">Trainingen</a></li>
                 <li><a href="https://www.businessbaas.com/het-platform">Digitale Werkplek</a></li>
                 <li><a href="https://www.businessbaas.com/het-platform">AI-Coach Nova</a></li>
-                <li><a href="https://www.businessbaas.com/het-platform">Marktplaats</a></li>
-                <li><a href="https://www.businessbaas.com/het-platform">Community</a></li>
+                <li><a href="https://www.businessbaas.com/het-platform">LIVE Events</a></li>
+                <li><a href="https://www.businessbaas.com/het-platform">1 op 1 Coaching</a></li>
               </ul></div>
               <div class="col"><h4>Voor Starters</h4><ul>
                 <li><a href="https://www.businessbaas.com/voor-starters">Voor Starters</a></li>

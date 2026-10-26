@@ -20,7 +20,7 @@
 
         <!-- CONTENT -->
         <div style="max-width:760px;margin:0 auto;padding:64px 24px 96px">
-          <p style="font-size:.8rem;color:#9CA3AF;margin-bottom:48px">Laatst bijgewerkt: 30 juli 2026</p>
+          <p style="font-size:.8rem;color:#9CA3AF;margin-bottom:48px">Laatst bijgewerkt: 26 oktober 2026</p>
 
           <h2 style="font-size:1.25rem;font-weight:800;color:#0D2240;margin:36px 0 12px">Artikel 1 – Bedrijfsgegevens</h2>
           <p style="font-size:.95rem;color:#374151;line-height:1.75;margin-bottom:16px">Deze algemene voorwaarden zijn van toepassing op alle diensten aangeboden door:</p>
@@ -36,7 +36,7 @@
           <p style="font-size:.95rem;color:#374151;line-height:1.75;margin-bottom:16px">In deze algemene voorwaarden wordt verstaan onder:</p>
           <ul style="padding-left:20px;margin-bottom:16px;display:flex;flex-direction:column;gap:6px">
             <li style="font-size:.95rem;color:#374151;line-height:1.65"><strong>Deelnemer:</strong> een natuurlijk persoon van 18 jaar of ouder die een abonnement afsluit op het BusinessBaas-platform.</li>
-            <li style="font-size:.95rem;color:#374151;line-height:1.65"><strong>Diensten:</strong> het totaal aan door BusinessBaas aangeboden producten en diensten, waaronder online trainingen, AI-coach Nova, de digitale werkplek (Mural), de WhatsApp-community en optionele persoonlijke coaching.</li>
+            <li style="font-size:.95rem;color:#374151;line-height:1.65"><strong>Diensten:</strong> het totaal aan door BusinessBaas aangeboden producten en diensten, waaronder online trainingen, AI-coach Nova, de digitale werkplek (Mural) en optionele persoonlijke coaching.</li>
             <li style="font-size:.95rem;color:#374151;line-height:1.65"><strong>Nova:</strong> de AI-coach binnen het platform, aangedreven door Pickaxe/OpenAI. Nova verstrekt uitsluitend algemene informatie en geeft geen professioneel juridisch, financieel of medisch advies.</li>
             <li style="font-size:.95rem;color:#374151;line-height:1.65"><strong>Platform:</strong> de digitale leeromgeving van BusinessBaas, inclusief alle bijbehorende tools en diensten.</li>
             <li style="font-size:.95rem;color:#374151;line-height:1.65"><strong>Abonnement:</strong> de overeenkomst op basis waarvan de deelnemer toegang krijgt tot de diensten van BusinessBaas.</li>
@@ -91,9 +91,6 @@
           <p style="font-size:.95rem;color:#374151;line-height:1.75;margin-bottom:16px">De deelnemer ontvangt toegang tot een persoonlijke digitale werkplek via Mural. De toegangslink wordt elke 24 uur vernieuwd. De deelnemer is zelf verantwoordelijk voor de beveiliging van de toegangslink en mag deze niet delen met derden. BusinessBaas is niet aansprakelijk voor ongeautoriseerde toegang als gevolg van het delen van de link door de deelnemer.</p>
           <p style="font-size:.95rem;color:#374151;line-height:1.75;margin-bottom:8px"><strong>9.3 Trainingen en leermateriaal</strong></p>
           <p style="font-size:.95rem;color:#374151;line-height:1.75;margin-bottom:16px">De trainingen en materialen van BusinessBaas bevatten algemene informatie en zijn bedoeld als educatieve hulpmiddelen. De deelnemer is zelf verantwoordelijk voor de toepassing van de verkregen kennis in zijn of haar specifieke situatie.</p>
-          <p style="font-size:.95rem;color:#374151;line-height:1.75;margin-bottom:8px"><strong>9.4 WhatsApp-community</strong></p>
-          <p style="font-size:.95rem;color:#374151;line-height:1.75;margin-bottom:16px">Deelname aan de WhatsApp-community is optioneel. Naast deze algemene voorwaarden zijn ook de gebruiksvoorwaarden en het privacybeleid van Meta van toepassing op het gebruik van WhatsApp. BusinessBaas is niet aansprakelijk voor de werking of het beleid van het Meta-platform.</p>
-
           <h2 style="font-size:1.25rem;font-weight:800;color:#0D2240;margin:36px 0 12px">Artikel 10 – Aansprakelijkheid en resultaatgarantie</h2>
           <p style="font-size:.95rem;color:#374151;line-height:1.75;margin-bottom:16px">BusinessBaas biedt een leerplatform en stelt kennis, tools en begeleiding beschikbaar. BusinessBaas geeft geen garantie op specifieke resultaten, zoals inkomen, klanten, omzet of ondernemingssucces. Resultaten zijn volledig afhankelijk van de inzet, omstandigheden en keuzes van de deelnemer zelf.</p>
           <p style="font-size:.95rem;color:#374151;line-height:1.75;margin-bottom:16px">De aansprakelijkheid van BusinessBaas is te allen tijde beperkt tot het bedrag dat de deelnemer in de voorafgaande drie maanden heeft betaald, tenzij sprake is van opzet of grove schuld aan de zijde van BusinessBaas. BusinessBaas is nimmer aansprakelijk voor indirecte schade, gevolgschade, gederfde winst of reputatieschade.</p>

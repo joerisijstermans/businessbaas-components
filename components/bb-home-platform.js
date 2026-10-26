@@ -15,6 +15,15 @@
           photo: `${CDN}/training-afbeelding.webp`
         },
         {
+          icon: '✨', label: 'Slim met AI', soon: true,
+          outcome: 'AI next level',
+          title: 'AI echt voor je laten werken als ondernemer',
+          desc: 'Ontdek hoe je AI inzet als ondernemer op een manier die écht het verschil maakt. Van e-mail en agendabeheer tot automatiseren wat jou tijd kost, zodat jij je richt op waar je echt van aanvliegt.',
+          points: ['AI als werknemer, niet als zoekmachine', 'Automatiseer terugkerende taken', 'Slimmer communiceren met klanten', '🚀 In ontwikkeling — coming soon'],
+          color: '#7C3AED',
+          photo: `${CDN}/ai-tools-afbeelding.webp`
+        },
+        {
           icon: '🖥️', label: 'Werkplek',
           outcome: 'Van chaos naar concreet plan',
           title: 'Werk gestructureerd aan je bedrijf',
@@ -33,38 +42,20 @@
           photo: `${CDN}/nova-afbeelding.webp`
         },
         {
-          icon: '✨', label: 'Slim met AI',
-          outcome: 'AI next level',
-          title: 'AI echt voor je laten werken als ondernemer',
-          desc: 'Ontdek hoe je AI inzet als ondernemer op een manier die écht het verschil maakt. Van e-mail en agendabeheer tot automatiseren wat jou tijd kost, zodat jij je richt op waar je echt van aanvliegt.',
-          points: ['AI als werknemer, niet als zoekmachine', 'Automatiseer terugkerende taken', 'Slimmer communiceren met klanten', '🚀 In ontwikkeling — coming soon'],
-          color: '#7C3AED',
-          photo: `${CDN}/ai-tools-afbeelding.webp`
-        },
-        {
-          icon: '🛒', label: 'Marktplaats',
-          outcome: 'Eerste opdrachten',
-          title: 'Vind je eerste klanten dichter bij huis',
-          desc: 'Via onze WhatsApp-community deel je jouw aanbod met mede-ondernemers. Al diverse leden hebben via BusinessBaas opdrachten bij elkaar gevonden.',
-          points: ['Deel je aanbod in de WhatsApp-community', 'Klanten vinden via mede-ondernemers', 'Members helpen members', 'Echte opdrachten, echte relaties'],
-          color: '#10B981',
-          photo: `${CDN}/marktplaats-afbeelding.webp`
-        },
-        {
-          icon: '🤝', label: 'Community',
-          outcome: 'Nooit alleen',
-          title: 'Ondernemen samen met mensen die het begrijpen',
-          desc: 'Een actieve community van gelijkgestemde starters. Spar over uitdagingen, test ideeën en bouw aan je netwerk. Plus: live events waar je mede-ondernemers kunt ontmoeten.',
-          points: ['Online netwerk van startende ondernemers', 'Test je ideeën veilig en krijg feedback', 'BusinessBaas LIVE events', 'Sparringspartners die jou begrijpen'],
-          color: '#F59E0B',
-          photo: `${CDN}/community-afbeelding.webp`
+          icon: '⚡', label: 'LIVE events',
+          outcome: 'Netwerken & groeien',
+          title: 'Ontmoet gelijkgestemde ondernemers',
+          desc: 'BusinessBaas LIVE events brengen starters bij elkaar. Sparr, leer van elkaars ervaringen en bouw het netwerk dat je als ondernemer nodig hebt.',
+          points: ['Exclusieve events voor leden', 'Sparren met andere startende ondernemers', 'Inspiratie en concrete tips ophalen', 'Je netwerk uitbouwen in een veilige omgeving'],
+          color: '#059669',
+          photo: `${CDN}/live-events-afbeelding.webp`
         },
         {
           icon: '💬', label: '1 op 1 coaching',
           outcome: 'Expert hulp op maat',
-          title: 'Kom er samen uit met een expert',
-          desc: 'Kom je er samen met Nova en de community niet uit? Dan kun je 1 op 1 coaching aanvragen. Een expert helpt je weer op weg! Van een quick scan tot een uitgebreide sparringsessie, er wordt altijd afgestemd op wat jij nodig hebt om weer verder te kunnen.',
-          points: ['Persoonlijke sparringsessie op aanvraag', 'Van quick scan tot uitgebreide coaching', 'Altijd afgestemd op jóuw situatie', 'Aanvulling op Nova en de community'],
+          title: 'Jouw eigen sparringpartner',
+          desc: 'Kom je er met Nova niet uit? Dan kun je 1 op 1 coaching aanvragen. Een expert helpt je persoonlijk verder. Van een quick scan tot een uitgebreide sparringsessie, sessies plan je direct in via het platform.',
+          points: ['Persoonlijke sparringsessie op aanvraag', 'Van quick scan tot uitgebreide coaching', 'Altijd afgestemd op jóuw situatie', 'Direct inplannen via het platform'],
           color: '#0D2240',
           photo: `${CDN}/coaching-afbeelding.webp`
         }
@@ -91,6 +82,7 @@
           .tab{display:flex;align-items:center;justify-content:center;gap:7px;padding:9px 14px;border-radius:11px;border:none;font-size:13.5px;font-weight:600;color:#64748B;cursor:pointer;background:transparent;transition:all .22s;font-family:var(--font);flex:1;}
           .tab:hover{color:var(--navy);background:rgba(13,34,64,.06);}
           .tab.active{background:#fff;color:var(--navy);box-shadow:0 2px 12px rgba(0,0,0,.1);}
+          .tab-soon{font-size:8px;font-weight:700;background:rgba(124,58,237,.2);color:#C4B5FD;padding:1px 5px;border-radius:4px;margin-left:4px;vertical-align:middle;}
           .panel{display:none;grid-template-columns:1fr 1fr;gap:72px;align-items:center;animation:fadeUp .4s ease;}
           .panel.active{display:grid;}
           @keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
@@ -113,7 +105,7 @@
             <div class="head ob">
               <div class="ht">
                 <h2>Alles om van starter naar <em>ondernemer te groeien</em></h2>
-                <p>Vijf geïntegreerde onderdelen, elk gericht op één ding: jou sneller naar je eerste betalende klanten brengen.</p>
+                <p>Zes onderdelen, elk gericht op één ding: jou sneller naar je eerste betalende klanten brengen.</p>
               </div>
               <a href="https://www.businessbaas.com/het-platform" class="hl">Bekijk het volledige platform <svg width="15" height="15" viewBox="0 0 15 15" fill="none"><path d="M3 7.5H12M12 7.5L8.5 4M12 7.5L8.5 11" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
             </div>
@@ -126,7 +118,7 @@
     }
     _renderTabs() {
       const el = this.shadowRoot.getElementById('ptabs');
-      el.innerHTML = this._features.map((f,i)=>`<button class="tab${i===0?' active':''}" data-i="${i}">${f.icon} ${f.label}</button>`).join('');
+      el.innerHTML = this._features.map((f,i)=>`<button class="tab${i===0?' active':''}" data-i="${i}">${f.icon} ${f.label}${f.soon?'<span class="tab-soon">binnenkort</span>':''}</button>`).join('');
       el.querySelectorAll('.tab').forEach(btn => {
         btn.addEventListener('click', () => {
           this._active = +btn.dataset.i;

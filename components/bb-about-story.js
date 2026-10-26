@@ -51,7 +51,7 @@
                 <div class="year-badge"><span class="year">2025</span><div class="dot"></div></div>
                 <div class="content">
                   <h3>BusinessBaas gaat live</h3>
-                  <p>Vanuit Echt, Limburg lanceert Joeri BusinessBaas. Het platform combineert stap-voor-stap trainingen, AI-coach Nova, een digitale werkplek en een community. Datzelfde jaar wordt BusinessBaas genomineerd als een van de meest veelbelovende startende ondernemingen van Limburg.</p>
+                  <p>Vanuit Echt, Limburg lanceert Joeri BusinessBaas. Het platform combineert stap-voor-stap trainingen, AI-coach Nova en een digitale werkplek. Datzelfde jaar wordt BusinessBaas genomineerd als een van de meest veelbelovende startende ondernemingen van Limburg.</p>
                 </div>
               </div>
               <div class="step ob" style="transition-delay:.21s">

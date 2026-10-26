@@ -70,11 +70,10 @@
               </div>
               <ul class="feats">
                 <li><span>20+ praktische trainingen</span></li>
+                <li><span>Slim met AI<span class="soon">binnenkort</span></span></li>
                 <li><span>Digitale werkplek</span></li>
                 <li><span>AI-coach Nova (24/7)</span></li>
-                <li><span>Slim Ondernemen met AI <span class="soon">binnenkort</span></span></li>
-                <li><span>Community &amp; marktplaats</span></li>
-                <li class="addon"><span>LIVE events<span class="addon-pill">add-on</span></span></li>
+                <li><span>LIVE events</span></li>
                 <li class="addon"><span>1 op 1 coaching<span class="addon-pill">add-on</span></span></li>
               </ul>
               <p class="cta-sub">Direct toegang · Geen verborgen kosten · Maandelijks opzegbaar</p>

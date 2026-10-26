@@ -68,10 +68,11 @@
                 <div class="feats-col">
                   <ul>
                     <li>20+ praktische trainingen</li>
-                    <li>AI-coach Nova (24/7)</li>
-                    <li>Slim Ondernemen met AI <span class="soon-badge">binnenkort</span></li>
+                    <li>Slim met AI<span class="soon-badge">binnenkort</span></li>
                     <li>Digitale werkplek</li>
-                    <li>Community &amp; marktplaats</li>
+                    <li>AI-coach Nova (24/7)</li>
+                    <li>LIVE events</li>
+                    <li>1 op 1 coaching (add-on)</li>
                     <li>Altijd opzegbaar</li>
                   </ul>
                 </div>

@@ -57,7 +57,7 @@
               <div class="val ob" style="transition-delay:.21s">
                 <span class="val-icon">❤️</span>
                 <h3>Echte betrokkenheid</h3>
-                <p>Joeri is persoonlijk aanwezig in de community, de live events en de content. Dit is geen anoniem platform.</p>
+                <p>Joeri is persoonlijk aanwezig in de trainingen, de LIVE events en de content. Dit is geen anoniem platform.</p>
               </div>
             </div>
           </div>

@@ -20,7 +20,7 @@
 
         <!-- CONTENT -->
         <div style="max-width:760px;margin:0 auto;padding:64px 24px 96px">
-          <p style="font-size:.8rem;color:#9CA3AF;margin-bottom:48px">Laatst bijgewerkt: 15 april 2026</p>
+          <p style="font-size:.8rem;color:#9CA3AF;margin-bottom:48px">Laatst bijgewerkt: 26 oktober 2026</p>
 
           <h2 style="font-size:1.25rem;font-weight:800;color:#0D2240;margin:36px 0 12px">Artikel 1 – Wie zijn wij</h2>
           <p style="font-size:.95rem;color:#374151;line-height:1.75;margin-bottom:16px">BusinessBaas is een eenmanszaak, ingeschreven bij de Kamer van Koophandel onder nummer 90226801, gevestigd te Echt, Nederland. Wij zijn verantwoordelijk voor de verwerking van persoonsgegevens zoals beschreven in dit privacybeleid.</p>
@@ -47,7 +47,7 @@
             <li style="font-size:.95rem;color:#374151;line-height:1.65"><strong>Werkplek-inhoud (Mural):</strong> content die je aanmaakt in je digitale werkplek, zoals notities, canvassen en ingevulde oefeningen.</li>
             <li style="font-size:.95rem;color:#374151;line-height:1.65"><strong>Nova AI-invoer:</strong> vragen en invoer die je verstrekt aan AI-coach Nova, verwerkt via het Pickaxe/OpenAI-platform.</li>
             <li style="font-size:.95rem;color:#374151;line-height:1.65"><strong>Technische gegevens:</strong> IP-adres, browsertype en -versie, apparaattype, besturingssysteem en sessiegegevens.</li>
-            <li style="font-size:.95rem;color:#374151;line-height:1.65"><strong>Communicatiegegevens:</strong> berichten, e-mails en WhatsApp-berichten die je met ons uitwisselt, inclusief community-berichten.</li>
+            <li style="font-size:.95rem;color:#374151;line-height:1.65"><strong>Communicatiegegevens:</strong> berichten en e-mails die je met ons uitwisselt.</li>
             <li style="font-size:.95rem;color:#374151;line-height:1.65"><strong>Automatiseringsgegevens (n8n):</strong> gegevens die worden verwerkt in het kader van geautomatiseerde workflows en koppelingen tussen platformcomponenten.</li>
             <li style="font-size:.95rem;color:#374151;line-height:1.65"><strong>Videoconferentiegegevens (Zoom):</strong> naam, e-mailadres, opname-toestemmingen en sessiegegevens bij deelname aan coachingsgesprekken of webinars via Zoom.</li>
           </ul>
@@ -72,7 +72,6 @@
             <li style="font-size:.95rem;color:#374151;line-height:1.65"><strong>Mollie:</strong> Nederlandse betalingsverwerking.</li>
             <li style="font-size:.95rem;color:#374151;line-height:1.65"><strong>n8n:</strong> automatiseringsplatform voor workflows en platformintegraties.</li>
             <li style="font-size:.95rem;color:#374151;line-height:1.65"><strong>Zoom:</strong> videoconferentieplatform voor coaching en webinars.</li>
-            <li style="font-size:.95rem;color:#374151;line-height:1.65"><strong>Meta / WhatsApp:</strong> optionele community-omgeving; gebruik is onderworpen aan de voorwaarden en het privacybeleid van Meta.</li>
           </ul>
           <p style="font-size:.95rem;color:#374151;line-height:1.75;margin-bottom:16px">Wij verstrekken geen persoonsgegevens aan derden voor commerciële doeleinden, tenzij daarvoor expliciete toestemming is verkregen of een wettelijke verplichting bestaat.</p>
 
