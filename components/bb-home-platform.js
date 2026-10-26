@@ -48,7 +48,7 @@
           desc: 'BusinessBaas LIVE events brengen starters bij elkaar. Sparr, leer van elkaars ervaringen en bouw het netwerk dat je als ondernemer nodig hebt.',
           points: ['Exclusieve events voor leden', 'Sparren met andere startende ondernemers', 'Inspiratie en concrete tips ophalen', 'Je netwerk uitbouwen in een veilige omgeving'],
           color: '#059669',
-          photo: `${CDN}/live-events-afbeelding.webp`
+          photo: 'https://static.wixstatic.com/media/6c17f4_af58dd1dbc5c43c99f7ec0f79cb54867~mv2.jpg'
         },
         {
           icon: '💬', label: '1 op 1 coaching',
