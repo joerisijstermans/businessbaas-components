@@ -20,7 +20,7 @@
 
         <!-- CONTENT -->
         <div style="max-width:760px;margin:0 auto;padding:64px 24px 96px">
-          <p style="font-size:.8rem;color:#9CA3AF;margin-bottom:48px">Laatst bijgewerkt: 26 oktober 2026</p>
+          <p style="font-size:.8rem;color:#9CA3AF;margin-bottom:48px">Laatst bijgewerkt: 31 oktober 2026</p>
 
           <h2 style="font-size:1.25rem;font-weight:800;color:#0D2240;margin:36px 0 12px">Artikel 1 – Bedrijfsgegevens</h2>
           <p style="font-size:.95rem;color:#374151;line-height:1.75;margin-bottom:16px">Deze algemene voorwaarden zijn van toepassing op alle diensten aangeboden door:</p>
@@ -36,10 +36,11 @@
           <p style="font-size:.95rem;color:#374151;line-height:1.75;margin-bottom:16px">In deze algemene voorwaarden wordt verstaan onder:</p>
           <ul style="padding-left:20px;margin-bottom:16px;display:flex;flex-direction:column;gap:6px">
             <li style="font-size:.95rem;color:#374151;line-height:1.65"><strong>Deelnemer:</strong> een natuurlijk persoon van 18 jaar of ouder die een abonnement afsluit op het BusinessBaas-platform.</li>
-            <li style="font-size:.95rem;color:#374151;line-height:1.65"><strong>Diensten:</strong> het totaal aan door BusinessBaas aangeboden producten en diensten, waaronder online trainingen, AI-coach Nova, de digitale werkplek (Mural) en optionele persoonlijke coaching.</li>
+            <li style="font-size:.95rem;color:#374151;line-height:1.65"><strong>Diensten:</strong> het totaal aan door BusinessBaas aangeboden producten en diensten, waaronder online trainingen, AI-coach Nova, de digitale werkplek en optionele persoonlijke coaching.</li>
             <li style="font-size:.95rem;color:#374151;line-height:1.65"><strong>Nova:</strong> de AI-coach binnen het platform, aangedreven door Pickaxe/OpenAI. Nova verstrekt uitsluitend algemene informatie en geeft geen professioneel juridisch, financieel of medisch advies.</li>
             <li style="font-size:.95rem;color:#374151;line-height:1.65"><strong>Platform:</strong> de digitale leeromgeving van BusinessBaas, inclusief alle bijbehorende tools en diensten.</li>
-            <li style="font-size:.95rem;color:#374151;line-height:1.65"><strong>Abonnement:</strong> de overeenkomst op basis waarvan de deelnemer toegang krijgt tot de diensten van BusinessBaas.</li>
+            <li style="font-size:.95rem;color:#374151;line-height:1.65"><strong>Abonnement:</strong> de overeenkomst op basis waarvan de deelnemer toegang krijgt tot de diensten van BusinessBaas, beschikbaar als Online Maandelijks, Online Jaarlijks of Coaching.</li>
+            <li style="font-size:.95rem;color:#374151;line-height:1.65"><strong>Coachingssessie:</strong> een persoonlijk gesprek van 1 uur of 1,5 uur met een coach van BusinessBaas, in te plannen via het platform.</li>
           </ul>
 
           <h2 style="font-size:1.25rem;font-weight:800;color:#0D2240;margin:36px 0 12px">Artikel 3 – Toepasselijkheid</h2>
@@ -60,26 +61,28 @@
           <h2 style="font-size:1.25rem;font-weight:800;color:#0D2240;margin:36px 0 12px">Artikel 6 – Abonnement en opzegging</h2>
           <p style="font-size:.95rem;color:#374151;line-height:1.75;margin-bottom:16px">BusinessBaas biedt de volgende abonnementsvormen aan:</p>
           <ul style="padding-left:20px;margin-bottom:16px;display:flex;flex-direction:column;gap:6px">
-            <li style="font-size:.95rem;color:#374151;line-height:1.65"><strong>Maandabonnement:</strong> € 69,– per maand, opzegbaar met een opzegtermijn van 1 kalendermaand. De opzegging gaat in aan het einde van de lopende abonnementsmaand.</li>
-            <li style="font-size:.95rem;color:#374151;line-height:1.65"><strong>Jaarabonnement:</strong> € 690,– per jaar (één betaling vooraf). Na afloop van het jaar wordt het abonnement automatisch omgezet naar een maandabonnement, tenzij tijdig is opgezegd.</li>
+            <li style="font-size:.95rem;color:#374151;line-height:1.65"><strong>Online Maandelijks:</strong> € 69,– per maand, opzegbaar met een opzegtermijn van 1 kalendermaand. De opzegging gaat in aan het einde van de lopende abonnementsmaand.</li>
+            <li style="font-size:.95rem;color:#374151;line-height:1.65"><strong>Online Jaarlijks:</strong> € 690,– per jaar (één betaling vooraf). Na afloop van het jaar wordt het abonnement automatisch omgezet naar Online Maandelijks (€ 69,– per maand), tenzij tijdig is opgezegd.</li>
+            <li style="font-size:.95rem;color:#374151;line-height:1.65"><strong>Coaching:</strong> € 990,– per jaar (één betaling vooraf), inclusief drie coachingssessies. Na afloop van het jaar wordt het abonnement automatisch omgezet naar Online Maandelijks (€ 69,– per maand), tenzij tijdig is opgezegd.</li>
           </ul>
           <p style="font-size:.95rem;color:#374151;line-height:1.75;margin-bottom:16px">Opzegging kan plaatsvinden via de accountomgeving op het platform of per e-mail aan <a href="mailto:info@businessbaas.com" style="color:#E85D04;text-decoration:none">info@businessbaas.com</a>. Bij een prijsverhoging ontvangt de deelnemer minimaal 30 dagen van tevoren schriftelijk bericht. De deelnemer heeft in dat geval het recht het abonnement kosteloos te beëindigen voor de ingangsdatum van de verhoging.</p>
 
           <h2 style="font-size:1.25rem;font-weight:800;color:#0D2240;margin:36px 0 12px">Artikel 7 – Betaling</h2>
-          <p style="font-size:.95rem;color:#374151;line-height:1.75;margin-bottom:16px">Alle vermelde bedragen zijn inclusief btw, tenzij anders aangegeven. Betalingen worden verwerkt via Stripe of Mollie. Bij een maandabonnement wordt het abonnementsgeld maandelijks automatisch geïncasseerd.</p>
+          <p style="font-size:.95rem;color:#374151;line-height:1.75;margin-bottom:16px">Alle vermelde bedragen zijn inclusief btw, tenzij anders aangegeven. Abonnementen (Online Maandelijks, Online Jaarlijks en Coaching) worden afgehandeld via <strong>Stripe</strong>. Betaling is mogelijk met iDEAL, creditcard of via Klarna (achteraf betalen). Losse add-ons, zoals extra coachingssessies en LIVE events tickets, worden afgehandeld via <strong>Mollie</strong>. Bij een maandabonnement wordt het abonnementsgeld maandelijks automatisch geïncasseerd.</p>
           <p style="font-size:.95rem;color:#374151;line-height:1.75;margin-bottom:16px">Bij niet tijdige of mislukte betaling heeft BusinessBaas het recht de toegang tot het platform te blokkeren totdat de openstaande bedragen volledig zijn voldaan. BusinessBaas is gerechtigd administratiekosten en wettelijke rente in rekening te brengen bij betalingsverzuim.</p>
 
           <h2 style="font-size:1.25rem;font-weight:800;color:#0D2240;margin:36px 0 12px">Artikel 8 – Herroepingsrecht</h2>
           <p style="font-size:.95rem;color:#374151;line-height:1.75;margin-bottom:16px">De deelnemer verleent bij het afsluiten van het abonnement uitdrukkelijk toestemming voor onmiddellijke uitvoering van de overeenkomst en erkent daarmee dat het herroepingsrecht vervalt zodra toegang tot de digitale diensten is verleend. Dit is in overeenstemming met artikel 6:230p sub f Burgerlijk Wetboek.</p>
 
           <h2 style="font-size:1.25rem;font-weight:800;color:#0D2240;margin:36px 0 12px">Artikel 8a – Tevredenheidsgarantie</h2>
-          <p style="font-size:.95rem;color:#374151;line-height:1.75;margin-bottom:16px">Naast de wettelijke bepalingen uit artikel 8 biedt BusinessBaas op vrijwillige basis een tevredenheidsgarantie aan deelnemers die een <strong>jaarlijks abonnement</strong> (€ 690,–) afsluiten.</p>
+          <p style="font-size:.95rem;color:#374151;line-height:1.75;margin-bottom:16px">Naast de wettelijke bepalingen uit artikel 8 biedt BusinessBaas op vrijwillige basis een tevredenheidsgarantie aan deelnemers die een <strong>Online Jaarlijks</strong> (€ 690,–) of <strong>Coaching</strong> (€ 990,–) abonnement afsluiten.</p>
           <p style="font-size:.95rem;color:#374151;line-height:1.75;margin-bottom:8px"><strong>Voorwaarden voor terugbetaling:</strong></p>
           <ul style="padding-left:20px;margin-bottom:16px;display:flex;flex-direction:column;gap:6px">
-            <li style="font-size:.95rem;color:#374151;line-height:1.65">De garantie is uitsluitend van toepassing op het jaarlijks abonnement (€ 690,–). Het maandelijks abonnement valt niet onder deze garantieregeling.</li>
+            <li style="font-size:.95rem;color:#374151;line-height:1.65">De garantie is uitsluitend van toepassing op Online Jaarlijks (€ 690,–) en Coaching (€ 990,–). Het maandelijks abonnement valt niet onder deze garantieregeling.</li>
             <li style="font-size:.95rem;color:#374151;line-height:1.65">De deelnemer dient het verzoek tot terugbetaling uiterlijk op de tiende kalenderdag na aankoopdatum, vóór 23:59 uur, schriftelijk in te dienen via <a href="mailto:info@businessbaas.com" style="color:#E85D04;text-decoration:none">info@businessbaas.com</a>.</li>
             <li style="font-size:.95rem;color:#374151;line-height:1.65">De deelnemer heeft maximaal 2 trainingen volledig afgerond op het platform.</li>
             <li style="font-size:.95rem;color:#374151;line-height:1.65">De deelnemer heeft maximaal 10 berichten of interacties verstuurd aan AI-coach Nova.</li>
+            <li style="font-size:.95rem;color:#374151;line-height:1.65">Bij het Coaching-abonnement geldt de garantie uitsluitend wanneer er nog geen coachingssessie is gepland of bijgewoond.</li>
           </ul>
           <p style="font-size:.95rem;color:#374151;line-height:1.75;margin-bottom:16px">Indien aan alle bovenstaande voorwaarden is voldaan, ontvangt de deelnemer het volledig betaalde abonnementsbedrag terug binnen <strong>14 dagen</strong> na goedkeuring van het verzoek. Terugbetaling vindt plaats via dezelfde betaalmethode als de oorspronkelijke betaling.</p>
           <p style="font-size:.95rem;color:#374151;line-height:1.75;margin-bottom:16px">Deze garantie geldt eenmalig per deelnemer en is niet overdraagbaar. Misbruik van de garantieregeling kan leiden tot uitsluiting van toekomstige deelname aan het platform.</p>
@@ -91,6 +94,8 @@
           <p style="font-size:.95rem;color:#374151;line-height:1.75;margin-bottom:16px">De deelnemer ontvangt toegang tot een persoonlijke digitale werkplek via Mural. De toegangslink wordt elke 24 uur vernieuwd. De deelnemer is zelf verantwoordelijk voor de beveiliging van de toegangslink en mag deze niet delen met derden. BusinessBaas is niet aansprakelijk voor ongeautoriseerde toegang als gevolg van het delen van de link door de deelnemer.</p>
           <p style="font-size:.95rem;color:#374151;line-height:1.75;margin-bottom:8px"><strong>9.3 Trainingen en leermateriaal</strong></p>
           <p style="font-size:.95rem;color:#374151;line-height:1.75;margin-bottom:16px">De trainingen en materialen van BusinessBaas bevatten algemene informatie en zijn bedoeld als educatieve hulpmiddelen. De deelnemer is zelf verantwoordelijk voor de toepassing van de verkregen kennis in zijn of haar specifieke situatie.</p>
+          <p style="font-size:.95rem;color:#374151;line-height:1.75;margin-bottom:8px"><strong>9.4 Coachingssessies</strong></p>
+          <p style="font-size:.95rem;color:#374151;line-height:1.75;margin-bottom:16px">Deelnemers met een Coaching-abonnement ontvangen drie coachingssessies per abonnementsjaar. Sessies zijn geldig gedurende de lopende abonnementsperiode van één jaar en zijn niet overdraagbaar, niet deelbaar en niet inwisselbaar voor geld. Ongebruikte sessies vervallen aan het einde van het abonnementsjaar. Extra coachingssessies zijn als add-on beschikbaar voor alle deelnemers en in te plannen via het platform; betaling verloopt via Mollie.</p>
           <h2 style="font-size:1.25rem;font-weight:800;color:#0D2240;margin:36px 0 12px">Artikel 10 – Aansprakelijkheid en resultaatgarantie</h2>
           <p style="font-size:.95rem;color:#374151;line-height:1.75;margin-bottom:16px">BusinessBaas biedt een leerplatform en stelt kennis, tools en begeleiding beschikbaar. BusinessBaas geeft geen garantie op specifieke resultaten, zoals inkomen, klanten, omzet of ondernemingssucces. Resultaten zijn volledig afhankelijk van de inzet, omstandigheden en keuzes van de deelnemer zelf.</p>
           <p style="font-size:.95rem;color:#374151;line-height:1.75;margin-bottom:16px">De aansprakelijkheid van BusinessBaas is te allen tijde beperkt tot het bedrag dat de deelnemer in de voorafgaande drie maanden heeft betaald, tenzij sprake is van opzet of grove schuld aan de zijde van BusinessBaas. BusinessBaas is nimmer aansprakelijk voor indirecte schade, gevolgschade, gederfde winst of reputatieschade.</p>
