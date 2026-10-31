@@ -18,7 +18,7 @@
         <div class="ph">
           <div class="label">Prijzen</div>
           <h1>Transparant. Eerlijk.<br>Alles erin.</h1>
-          <p>Geen tierstructuur, geen verborgen kosten. Kies het abonnement dat bij jou past.</p>
+          <p>Online op je eigen tempo, of met persoonlijke coaching erbij. Alle prijzen zijn inclusief btw. Geen verborgen kosten.</p>
         </div>`;
     }
   });

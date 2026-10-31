@@ -23,7 +23,7 @@
           .item.open .icon{background:rgba(232,93,4,.12)}
           .item.open .icon svg{transform:rotate(45deg)}
           .a{max-height:0;overflow:hidden;transition:max-height .35s ease,padding .35s ease}
-          .item.open .a{max-height:200px}
+          .item.open .a{max-height:360px}
           .a-inner{padding:0 0 20px}
           .a-inner p{font-size:14.5px;color:#5A6780;line-height:1.75}
           .a-inner a{color:#E85D04;font-weight:600;text-decoration:none}
@@ -59,16 +59,16 @@
           a: 'We bieden geen gratis trial voor het volledige platform, maar je kunt wel gratis onze training "Jouw eerste betalende klanten" volgen. Zo zie je eerst hoe we werken voordat je een beslissing neemt. <a href="https://www.businessbaas.com/gratis-training-aanvragen" target="_top">Vraag de gratis training aan →</a>'
         },
         {
-          q: 'Wat is het verschil tussen maandelijks en jaarlijks betalen?',
-          a: 'Bij maandelijkse betaling betaal je €69 per maand. Bij jaarlijkse betaling betaal je omgerekend €1,90 per dag, dat scheelt ruim €130 per jaar. Je betaalt dan eenmalig vooruit voor het hele jaar.'
+          q: 'Wat is het verschil tussen de pakketten?',
+          a: 'BusinessBaas biedt drie opties: <strong>Online Maandelijks</strong> (€69/maand, geen jaarcontract), <strong>Online Jaarlijks</strong> (€690/jaar, 2 maanden gratis t.o.v. maandelijks) en <strong>Coaching</strong> (€990/jaar, inclusief 3 persoonlijke coachingssessies van 1 uur of 1,5 uur). Bij de jaarlijkse opties betaal je eenmalig vooruit. Na het jaar loopt Online Jaarlijks automatisch door als maandabonnement; Coaching als Online Maand.'
         },
         {
           q: 'Zijn er nog andere kosten naast het abonnement?',
-          a: 'Bijna alles zit in één prijs: trainingen, Nova AI-assistent, digitale werkplek, community en marktplaats. Er zijn twee add-ons die je los kunt afnemen: <strong>LIVE events tickets</strong> (leden krijgen altijd voorrang in de pre-sale) en <strong>1 op 1 coaching</strong>. Alles andere is volledig inbegrepen.'
+          a: 'Bijna alles zit in één prijs: trainingen, Nova AI-assistent en digitale werkplek. Er zijn twee add-ons die je los kunt afnemen: <strong>LIVE events tickets</strong> (leden krijgen altijd voorrang in de pre-sale) en <strong>extra 1 op 1 coachingssessies</strong> (€125 voor 1 uur of €175 voor 1,5 uur). Heb je het Coaching-abonnement? Dan zijn de eerste 3 sessies al inbegrepen.'
         },
         {
           q: 'Hoe werkt de betaling?',
-          a: 'Betaling verloopt veilig via Stripe. Je kunt betalen met creditcard of iDEAL. Je ontvangt altijd een factuur en je kunt je abonnement eenvoudig zelf beheren of stopzetten.'
+          a: 'Abonnementen worden afgehandeld via <strong>Stripe</strong> (iDEAL of creditcard). Wil je achteraf betalen? Dan is <strong>Klarna</strong> beschikbaar bij zowel Maandelijks als Jaarlijks. Losse add-ons zoals LIVE events tickets en extra coachingssessies worden afgehandeld via <strong>Mollie</strong>. Je ontvangt altijd een factuur en kunt je abonnement eenvoudig zelf beheren of stopzetten.'
         },
         {
           q: 'Ik ben net begonnen als ondernemer. Is BusinessBaas ook voor mij?',
