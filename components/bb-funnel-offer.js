@@ -20,7 +20,7 @@
           .offer-tag{display:inline-block;background:rgba(232,93,4,.2);color:#E85D04;font-size:11.5px;font-weight:700;padding:5px 14px;border-radius:50px;text-transform:uppercase;letter-spacing:.08em;margin-bottom:24px}
           .offer-card h2{font-size:clamp(24px,3.5vw,36px);font-weight:900;color:#fff;letter-spacing:-.03em;line-height:1.15;margin-bottom:12px}
           .offer-card h2 em{font-style:normal;color:#E85D04}
-          .plans{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:28px 0 32px}
+          .plans{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;margin:28px 0 32px}
           .plan{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);border-radius:16px;padding:20px 16px;position:relative}
           .plan.best{border-color:#E85D04;background:rgba(232,93,4,.08)}
           .plan-badge{position:absolute;top:-11px;left:50%;transform:translateX(-50%);background:#E85D04;color:#fff;font-size:10px;font-weight:800;padding:3px 12px;border-radius:50px;text-transform:uppercase;letter-spacing:.06em;white-space:nowrap}
@@ -42,7 +42,7 @@
           .feats li.addon::before{content:'↗';background:transparent;color:rgba(232,93,4,.5)}
           .addon-pill{font-size:10px;font-weight:700;background:rgba(232,93,4,.18);color:rgba(232,93,4,.8);padding:2px 7px;border-radius:50px;vertical-align:middle;margin-left:5px}
           .cta-sub{font-size:13px;color:rgba(255,255,255,.3)}
-          @media(max-width:480px){.plans{grid-template-columns:1fr}}
+          @media(max-width:580px){.plans{grid-template-columns:1fr}}
           @media(max-width:580px){.offer-card{padding:36px 24px}}
         </style>
 
@@ -54,29 +54,34 @@
               <h2>Zet de volgende stap.<br><em>Begin vandaag.</em></h2>
               <div class="plans">
                 <div class="plan">
-                  <p class="plan-label">Maandelijks</p>
+                  <p class="plan-label">Online Maandelijks</p>
                   <p class="plan-price">€69<span>/maand</span></p>
-                  <p class="plan-day">€2,30 per dag<br>Maandelijks opzegbaar</p>
-                  <a href="https://buy.stripe.com/dRm5kE8F4cIO8B65DGeZ202" class="plan-btn sec">Start maandelijks</a>
+                  <p class="plan-day">€2,30 per dag<br>Geen jaarcontract</p>
+                  <a href="https://buy.stripe.com/dRm5kE8F4cIO8B65DGeZ202?utm_source=website&utm_medium=gratis-training&utm_campaign=pricing&utm_content=online-maand" target="_top" class="plan-btn sec">Maandelijks starten</a>
                 </div>
                 <div class="plan best">
                   <div class="plan-badge">Meest gekozen</div>
-                  <p class="plan-label">Jaarlijks</p>
+                  <p class="plan-label">Online Jaarlijks</p>
                   <p class="plan-price">€690<span>/jaar</span></p>
                   <p class="plan-day">€1,90 per dag<br>Na 1 jaar maandelijks opzegbaar</p>
-                  <a href="https://buy.stripe.com/aFabJ22gG8sy9Fa1nqeZ200" class="plan-btn">Start jaarlijks</a>
+                  <a href="https://buy.stripe.com/aFabJ22gG8sy9Fa1nqeZ200?utm_source=website&utm_medium=gratis-training&utm_campaign=pricing&utm_content=online-jaar" target="_top" class="plan-btn">Jaarlijks starten</a>
                   <p class="plan-save">✓ 2 maanden gratis t.o.v. maandelijks</p>
+                </div>
+                <div class="plan">
+                  <p class="plan-label">Coaching</p>
+                  <p class="plan-price">€990<span>/jaar</span></p>
+                  <p class="plan-day">€2,71 per dag<br>Incl. 3 coachingssessies</p>
+                  <a href="https://buy.stripe.com/7sY7sMf3s5gm4kQ7LOeZ203?utm_source=website&utm_medium=gratis-training&utm_campaign=pricing&utm_content=coaching" target="_top" class="plan-btn sec">Coaching starten</a>
                 </div>
               </div>
               <ul class="feats">
                 <li><span>20+ praktische trainingen</span></li>
-                <li><span>Slim met AI<span class="soon">binnenkort</span></span></li>
                 <li><span>Digitale werkplek</span></li>
                 <li><span>AI-coach Nova (24/7)</span></li>
-                <li><span>LIVE events</span></li>
-                <li class="addon"><span>1 op 1 coaching<span class="addon-pill">add-on</span></span></li>
+                <li class="addon"><span>LIVE events<span class="addon-pill">add-on</span></span></li>
+                <li class="addon"><span>1 op 1 coaching<span class="addon-pill">add-on · inbegrepen bij Coaching</span></span></li>
               </ul>
-              <p class="cta-sub">Direct toegang · Geen verborgen kosten · Maandelijks opzegbaar</p>
+              <p class="cta-sub">Alle prijzen inclusief btw · Geen verborgen kosten · Achteraf betalen via Klarna beschikbaar</p>
             </div>
           </div>
         </div>`;
