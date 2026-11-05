@@ -4,15 +4,17 @@
     connectedCallback() {
       const sr = this.attachShadow({ mode: 'open' });
 
-      const COMPLEET_LIVE          = false;
+      const COMPLEET_LIVE          = true;
       const SHOW_VOORDEEL          = true;
       const SHOW_KLARNA            = true;
       const SHOW_LOSSE_SESSIE_PRIJS = true;
 
-      const STRIPE_MAAND = 'https://buy.stripe.com/dRm5kE8F4cIO8B65DGeZ202';
-      const STRIPE_JAAR  = 'https://buy.stripe.com/aFabJ22gG8sy9Fa1nqeZ200';
-      const UTM_JAAR   = '?utm_source=website&utm_medium=prijzen&utm_campaign=pricing&utm_content=online-jaar';
-      const UTM_MAAND  = '?utm_source=website&utm_medium=prijzen&utm_campaign=pricing&utm_content=online-maand';
+      const STRIPE_MAAND    = 'https://buy.stripe.com/dRm5kE8F4cIO8B65DGeZ202';
+      const STRIPE_JAAR     = 'https://buy.stripe.com/aFabJ22gG8sy9Fa1nqeZ200';
+      const STRIPE_COACHING = 'https://buy.stripe.com/7sY7sMf3s5gm4kQ7LOeZ203';
+      const UTM_JAAR     = '?utm_source=website&utm_medium=prijzen&utm_campaign=pricing&utm_content=online-jaar';
+      const UTM_MAAND    = '?utm_source=website&utm_medium=prijzen&utm_campaign=pricing&utm_content=online-maand';
+      const UTM_COACHING = '?utm_source=website&utm_medium=prijzen&utm_campaign=pricing&utm_content=coaching';
 
       const chk = (c = '#E85D04') => `<svg width="11" height="9" viewBox="0 0 11 9" fill="none"><path d="M1 4.5L3.8 7.5L10 1" stroke="${c}" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
 
@@ -26,12 +28,11 @@
         <li class="feat fa"><div class="chk ca">↗</div><div><strong>1 op 1 coaching <span class="ap">add-on</span></strong><span>Persoonlijke sessies via het platform${SHOW_LOSSE_SESSIE_PRIJS ? ' · €125 (1u) / €175 (1,5u)' : ''}</span></div></li>`;
 
       const coachingFeats = `
-        <li class="feat fc fh"><div class="chk cc">${chk('#FFD4A0')}</div><div><strong>3 coachingssessies inbegrepen</strong><span>1 uur per sessie, in te plannen via het platform</span></div></li>
         <li class="feat fc"><div class="chk cc">${chk('#fff')}</div><div><strong>20+ praktische trainingen</strong><span>Videolessen die je in je eigen tempo volgt</span></div></li>
         <li class="feat fc"><div class="chk cc">${chk('#fff')}</div><div><strong>Digitale werkplek</strong><span>Geef je businessplan stap voor stap vorm</span></div></li>
         <li class="feat fc"><div class="chk cc">${chk('#fff')}</div><div><strong>AI-coach Nova (24/7)</strong><span>Jouw persoonlijke AI-coach voor vragen en feedback</span></div></li>
         <li class="feat fca"><div class="chk cca">↗</div><div><strong>LIVE events <span class="apc">add-on</span></strong><span>Inspirerende events voor leden · voorrang in de pre-sale</span></div></li>
-        <li class="feat fca"><div class="chk cca">↗</div><div><strong>Extra coachingssessies <span class="apc">add-on</span></strong><span>Extra sessies boeken via het platform${SHOW_LOSSE_SESSIE_PRIJS ? ' · €125 (1u) / €175 (1,5u)' : ''}</span></div></li>`;
+        <li class="feat fc fh"><div class="chk cc">${chk('#FFD4A0')}</div><div><strong>3 coachingssessies <span class="pill-inc">inbegrepen</span></strong><span>1 uur per sessie · extra sessies beschikbaar als add-on${SHOW_LOSSE_SESSIE_PRIJS ? ' · €125 (1u) / €175 (1,5u)' : ''}</span></div></li>`;
 
       sr.innerHTML = `<style>
         *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
@@ -99,6 +100,7 @@
         .fca span{color:rgba(255,255,255,.2)}
         .ap{font-size:10px;font-weight:700;background:rgba(232,93,4,.12);color:#B84800;padding:2px 7px;border-radius:50px;vertical-align:middle;margin-left:4px}
         .apc{font-size:10px;font-weight:700;background:rgba(255,255,255,.08);color:rgba(255,255,255,.25);padding:2px 7px;border-radius:50px;vertical-align:middle;margin-left:4px}
+        .pill-inc{font-size:10px;font-weight:700;background:rgba(232,93,4,.25);color:#FFD4A0;padding:2px 7px;border-radius:50px;vertical-align:middle;margin-left:4px}
         .fn{font-size:12px;color:#9CA3AF;text-align:center;line-height:1.7;margin-top:16px;overflow:hidden}
         .fn-c{font-size:12px;color:rgba(255,255,255,.3);text-align:center;line-height:1.7;margin-top:16px}
         .sub{font-size:13px;font-weight:500;color:#6B7280;margin:-8px 0 20px}
@@ -138,8 +140,8 @@
               <p class="plan">Online</p>
               <p class="sub">Leer in jouw eigen tempo</p>
               <div class="toggle" role="radiogroup" aria-label="Betaalperiode">
-                <button class="tab active" id="tj" role="radio" aria-checked="true">Jaarlijks</button>
                 <button class="tab" id="tm" role="radio" aria-checked="false">Maandelijks</button>
+                <button class="tab active" id="tj" role="radio" aria-checked="true">Jaarlijks</button>
               </div>
 
               <!-- JAARLIJKS -->
@@ -176,6 +178,7 @@
             <div class="card-c">
               <p class="plan-c">Coaching</p>
               <p class="sub-c">Met persoonlijke begeleiding</p>
+              <div style="height:64px"></div>
               <div class="pr"><span class="eu-w">€</span><span class="am-w">990</span><span class="pe-w">/jaar</span></div>
               <p class="pd-w">= €2,71 per dag</p>
               <div class="sess">
@@ -183,7 +186,7 @@
                 3 coachingssessies inbegrepen
               </div>
               ${COMPLEET_LIVE
-                ? `<a class="btn" href="${STRIPE_JAAR}?utm_source=website&utm_medium=prijzen&utm_campaign=pricing&utm_content=coaching" target="_top">Coaching starten →</a>`
+                ? `<a class="btn" href="${STRIPE_COACHING}${UTM_COACHING}" target="_top">Coaching starten →</a>`
                 : `<div class="btn-dis" role="button" aria-disabled="true">Binnenkort beschikbaar</div>`}
               <div class="gu gu-c">
                 <span class="gu-ic">🛡</span>
