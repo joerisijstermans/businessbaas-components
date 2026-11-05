@@ -196,7 +196,7 @@
               <div class="dv-c"></div>
               <ul class="feats">${coachingFeats}</ul>
               <div class="dv-c" style="margin-bottom:0"></div>
-              <p class="fn-c">✓ Jaarcontract &nbsp;·&nbsp; ✓ Daarna Online Maand (€69/m)</p>
+              <p class="fn-c">✓ Jaarcontract &nbsp;·&nbsp; ✓ Daarna maandelijks opzegbaar</p>
             </div>
 
           </div>
