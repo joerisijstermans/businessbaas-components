@@ -107,6 +107,8 @@
         .gu-c{background:rgba(255,255,255,.06);border-color:rgba(255,255,255,.12)}
         .gu-tc{color:rgba(255,255,255,.85)}
         .gu-sc{color:rgba(255,255,255,.5)}
+        .klarna-c{display:flex;align-items:center;gap:8px;padding:8px 12px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);border-radius:10px;margin-bottom:10px}
+        .klarna-c span{font-size:12px;color:rgba(255,255,255,.45);line-height:1.3}
         .bn{text-align:center;font-size:13.5px;color:#6B7280;line-height:1.6;margin-bottom:32px}
         .bn strong{color:#0D2240}
         .pb{background:#0D2240;border-radius:20px;padding:32px 36px;display:flex;align-items:center;justify-content:space-between;gap:24px;margin-top:36px;flex-wrap:wrap}
@@ -187,8 +189,10 @@
                 <span class="gu-ic">🛡</span>
                 <div><p class="gu-t gu-tc">10 dagen niet-goed-geld-terug</p><p class="gu-s gu-sc">Max. 2 trainingen, max. 10 Nova-berichten &amp; geen sessie gepland? Dan krijg je je geld terug.</p></div>
               </div>
+              ${SHOW_KLARNA ? `<div class="klarna-c"><span class="kk">K</span><span>Achteraf betalen via <strong style="color:rgba(255,255,255,.65)">Klarna</strong> beschikbaar</span></div>` : ''}
               <div class="dv-c"></div>
               <ul class="feats">${coachingFeats}</ul>
+              <div class="dv-c" style="margin-bottom:0"></div>
               <p class="fn-c">✓ Jaarcontract &nbsp;·&nbsp; ✓ Daarna Online Maand (€69/m)</p>
             </div>
 
