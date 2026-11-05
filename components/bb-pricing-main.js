@@ -26,7 +26,7 @@
         <li class="feat fa"><div class="chk ca">↗</div><div><strong>1 op 1 coaching <span class="ap">add-on</span></strong><span>Persoonlijke sessies via het platform${SHOW_LOSSE_SESSIE_PRIJS ? ' · €125 (1u) / €175 (1,5u)' : ''}</span></div></li>`;
 
       const coachingFeats = `
-        <li class="feat fc fh"><div class="chk cc">${chk('#FFD4A0')}</div><div><strong>3 coachingssessies inbegrepen</strong><span>1 uur of 1,5 uur per sessie, in te plannen via het platform</span></div></li>
+        <li class="feat fc fh"><div class="chk cc">${chk('#FFD4A0')}</div><div><strong>3 coachingssessies inbegrepen</strong><span>1 uur per sessie, in te plannen via het platform</span></div></li>
         <li class="feat fc"><div class="chk cc">${chk('#fff')}</div><div><strong>20+ praktische trainingen</strong><span>Videolessen die je in je eigen tempo volgt</span></div></li>
         <li class="feat fc"><div class="chk cc">${chk('#fff')}</div><div><strong>Digitale werkplek</strong><span>Geef je businessplan stap voor stap vorm</span></div></li>
         <li class="feat fc"><div class="chk cc">${chk('#fff')}</div><div><strong>AI-coach Nova (24/7)</strong><span>Jouw persoonlijke AI-coach voor vragen en feedback</span></div></li>
@@ -101,6 +101,12 @@
         .apc{font-size:10px;font-weight:700;background:rgba(255,255,255,.08);color:rgba(255,255,255,.25);padding:2px 7px;border-radius:50px;vertical-align:middle;margin-left:4px}
         .fn{font-size:12px;color:#9CA3AF;text-align:center;line-height:1.7;margin-top:16px;overflow:hidden}
         .fn-c{font-size:12px;color:rgba(255,255,255,.3);text-align:center;line-height:1.7;margin-top:16px}
+        .sub{font-size:13px;font-weight:500;color:#6B7280;margin:-8px 0 20px}
+        .sub-c{font-size:13px;font-weight:500;color:rgba(255,255,255,.5);margin:-8px 0 20px}
+        .sp{font-size:12px;color:#6B7280;text-align:center;margin-bottom:12px}
+        .gu-c{background:rgba(255,255,255,.06);border-color:rgba(255,255,255,.12)}
+        .gu-tc{color:rgba(255,255,255,.85)}
+        .gu-sc{color:rgba(255,255,255,.5)}
         .bn{text-align:center;font-size:13.5px;color:#6B7280;line-height:1.6;margin-bottom:32px}
         .bn strong{color:#0D2240}
         .pb{background:#0D2240;border-radius:20px;padding:32px 36px;display:flex;align-items:center;justify-content:space-between;gap:24px;margin-top:36px;flex-wrap:wrap}
@@ -128,6 +134,7 @@
             <div class="card best" id="oc">
               <div class="bb" id="br">Meest gekozen</div>
               <p class="plan">Online</p>
+              <p class="sub">Leer in jouw eigen tempo</p>
               <div class="toggle" role="radiogroup" aria-label="Betaalperiode">
                 <button class="tab active" id="tj" role="radio" aria-checked="true">Jaarlijks</button>
                 <button class="tab" id="tm" role="radio" aria-checked="false">Maandelijks</button>
@@ -139,6 +146,7 @@
                 <p class="pd">= €1,90 per dag</p>
                 ${SHOW_VOORDEEL ? '<span class="save">2 maanden gratis t.o.v. maandelijks</span>' : '<div style="height:8px"></div>'}
                 <a class="btn" href="${STRIPE_JAAR}${UTM_JAAR}" target="_top" id="btn-jaar">Jaarlijks starten →</a>
+                <p class="sp">✓ Al meer dan 200 starters gingen je voor</p>
                 <div class="gu">
                   <span class="gu-ic">🛡</span>
                   <div><p class="gu-t">10 dagen niet-goed-geld-terug</p><p class="gu-s">Max. 2 trainingen gevolgd &amp; max. 10 Nova-berichten? Dan krijg je je geld terug.</p></div>
@@ -165,6 +173,7 @@
             <!-- COACHING CARD -->
             <div class="card-c">
               <p class="plan-c">Coaching</p>
+              <p class="sub-c">Met persoonlijke begeleiding</p>
               <div class="pr"><span class="eu-w">€</span><span class="am-w">990</span><span class="pe-w">/jaar</span></div>
               <p class="pd-w">= €2,71 per dag</p>
               <div class="sess">
@@ -174,6 +183,10 @@
               ${COMPLEET_LIVE
                 ? `<a class="btn" href="${STRIPE_JAAR}?utm_source=website&utm_medium=prijzen&utm_campaign=pricing&utm_content=coaching" target="_top">Coaching starten →</a>`
                 : `<div class="btn-dis" role="button" aria-disabled="true">Binnenkort beschikbaar</div>`}
+              <div class="gu gu-c">
+                <span class="gu-ic">🛡</span>
+                <div><p class="gu-t gu-tc">10 dagen niet-goed-geld-terug</p><p class="gu-s gu-sc">Max. 2 trainingen, max. 10 Nova-berichten &amp; geen sessie gepland? Dan krijg je je geld terug.</p></div>
+              </div>
               <div class="dv-c"></div>
               <ul class="feats">${coachingFeats}</ul>
               <p class="fn-c">✓ Jaarcontract &nbsp;·&nbsp; ✓ Daarna Online Maand (€69/m)</p>
