@@ -58,7 +58,7 @@
                   <p class="plan-price">€69<span>/maand</span></p>
                   <p class="plan-day">€2,30 per dag<br>Maandelijks opzegbaar</p>
                   <a href="https://buy.stripe.com/dRm5kE8F4cIO8B65DGeZ202?utm_source=website&utm_medium=gratis-training&utm_campaign=pricing&utm_content=online-maand" target="_top" class="plan-btn sec">Maandelijks starten</a>
-                  <p class="plan-save">✓ Geen minimale looptijd</p>
+                  <p class="plan-save">✓ Direct maandelijks opzegbaar</p>
                 </div>
                 <div class="plan best">
                   <div class="plan-badge">Meest gekozen</div>
