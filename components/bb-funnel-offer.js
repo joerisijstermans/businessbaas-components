@@ -58,6 +58,7 @@
                   <p class="plan-price">€69<span>/maand</span></p>
                   <p class="plan-day">€2,30 per dag<br>Geen jaarcontract</p>
                   <a href="https://buy.stripe.com/dRm5kE8F4cIO8B65DGeZ202?utm_source=website&utm_medium=gratis-training&utm_campaign=pricing&utm_content=online-maand" target="_top" class="plan-btn sec">Maandelijks starten</a>
+                  <p class="plan-save" style="visibility:hidden">-</p>
                 </div>
                 <div class="plan best">
                   <div class="plan-badge">Meest gekozen</div>
@@ -70,8 +71,9 @@
                 <div class="plan">
                   <p class="plan-label">Coaching</p>
                   <p class="plan-price">€990<span>/jaar</span></p>
-                  <p class="plan-day">€2,71 per dag<br>Incl. 3 coachingssessies</p>
+                  <p class="plan-day">€2,71 per dag<br>Na 1 jaar maandelijks opzegbaar</p>
                   <a href="https://buy.stripe.com/7sY7sMf3s5gm4kQ7LOeZ203?utm_source=website&utm_medium=gratis-training&utm_campaign=pricing&utm_content=coaching" target="_top" class="plan-btn sec">Coaching starten</a>
+                  <p class="plan-save">✓ Incl. 3 coachingssessies</p>
                 </div>
               </div>
               <ul class="feats">
