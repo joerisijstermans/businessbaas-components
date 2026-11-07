@@ -52,13 +52,12 @@
         <div class="video-wrap">
           <div class="video-frame ob">
             <iframe
-              src="https://www.youtube.com/embed/gQgM3-SN-4k?rel=0&modestbranding=1&color=white"
+              src="https://www.youtube.com/embed/-XNsnh2-hZA?rel=0&modestbranding=1&color=white"
               title="Jouw eerste betalende klant in 48 uur – BusinessBaas gratis training"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen>
             </iframe>
           </div>
-          <p class="caption ob">🔒 Gratis training · <strong>Jouw eerste betalende klant in 48 uur</strong></p>
           <div class="hot-cta ob">
             <p>Klaar om te beginnen? Word nu lid en zet de volgende stap.</p>
             <a href="https://www.businessbaas.com/nkrpepjicsedwdoligprmkntqoddzozecllpootrqtxggrtojl#volgende-stap">
